@@ -1,6 +1,6 @@
 {
   "wheel": {
-    "fontFamily": "DM Serif",
+    "fontFamily": "Nunito",
     "contentSize": 36,
     "borderAround": {
       "type": "standard",
@@ -85,7 +85,7 @@
       "backgroundImage": "",
       "mobileBackgroundImage": ""
     },
-    "fontFamily": "DM Serif",
+    "fontFamily": "Nunito",
     "title": {
       "text": "WIN AN EXCLUSIVE PRIZE!",
       "size": 36,
@@ -125,7 +125,7 @@
       "backgroundColor": "#1D305D",
       "attentionEffect": {
         "enabled": true,
-        "DM SerifvalTime": 10
+        "NunitovalTime": 10
       },
       "icon": "standard_default"
     },
@@ -136,7 +136,7 @@
         "backgroundImage": "",
         "mobileBackgroundImage": ""
       },
-      "fontFamily": "DM Serif",
+      "fontFamily": "Nunito",
       "title": {
         "text": "🎁 An Exclusive Offer Just for You 🎁",
         "size": 32,
@@ -171,7 +171,7 @@
         "backgroundImage": "",
         "mobileBackgroundImage": ""
       },
-      "fontFamily": "DM Serif",
+      "fontFamily": "Nunito",
       "title": {
         "text": "🚀 An Exclusive Offer Just for You 🚀",
         "size": 32,
@@ -202,10 +202,10 @@
     }
   },
   "announcement": {
-    "fontFamily": "DM Serif",
+    "fontFamily": "Nunito",
     "contentSize": 16,
-    "contentColor": "#000000",
-    "backgroundColor": "#E9C46A",
+    "contentColor": "#222222",
+    "backgroundColor": "#50C9A7",
     "upcomingEvent": {
       "enabled": true,
       "displayDays": 5,
