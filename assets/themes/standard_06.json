@@ -50,12 +50,12 @@
   "prizeMessages": {
     "none": {
       "title": {
-        "text": "You Lose!",
+        "text": "Oops! Maybe next time 🎯",
         "size": 36,
         "color": "#80C2C1"
       },
       "content": {
-        "text": "Maybe you're out of luck this time, see you next time.",
+        "text": "Thanks for playing! Let’s see what fortune brings next time.",
         "size": 24,
         "color": "#FAF9F5"
       }
