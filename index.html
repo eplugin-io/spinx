@@ -10,7 +10,7 @@
       margin: 0;
     }
   </style>
-  <script src="https://cdn.jsdelivr.net/gh/eplugin-io/spinx@stg-build-132/spinx.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/gh/eplugin-io/spinx@stg-build-135/spinx.min.js" defer></script>
   <script>
     const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
     function addDays(date, days) {
@@ -671,6 +671,7 @@
     }
 
     async function loadSpinXApp() {
+      window.SpinX.isDevelopment = true;
       setSpinXWidgetVersion();
       const campaign = await getSpinXCampaign();
       if (campaign) {
