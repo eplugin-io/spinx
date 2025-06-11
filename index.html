@@ -10,18 +10,690 @@
       margin: 0;
     }
   </style>
-  <script src="spinx-utils.js"></script>
-  <script src="spinx-config.js"></script>
-  <script src="spinx-announcement.js" async></script>
-  <script src="spinx-opener.js" async></script>
-  <script src="spinx-popup.js" async></script>
-  <script src="spinx-welcome-popup.js" async></script>
-  <script src="spinx-intent-popup.js" async></script>
-  <script src="spinx-form.js" async></script>
-  <script src="spinx-wheel.js" async></script>
-  <script src="assets/scripts/dayjs.min.js"></script>
-  <script src="app.js"></script>
-  <script src="app-demo.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/eplugin-io/spinx@v1.0.0-beta-4/spinx.min.js" defer></script>
+  <script>
+    const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+    function addDays(date, days) {
+      var result = new Date(date);
+      result.setDate(result.getDate() + days);
+      return result;
+    }
+
+    async function getSpinXCampaign() {
+      await sleep(1000);
+      return {
+        id: '1',
+        name: 'Merry Christmas',
+        shop: 'spinx-dev.myshopify.com',
+        status: 'launching',
+        totalPrizes: 10,
+        statistics: {
+          totalViews: 0,
+          totalSignUp: 0,
+          totalSpin: 0,
+          totalOrder: 0,
+        },
+        scheduledAt: new Date(),
+        launchedAt: new Date(),
+        closedAt: addDays(new Date(), 1),
+        createdAt: new Date().toISOString(),
+        updatedAt: new Date().toISOString(),
+        store: {
+          id: '032d4f90-b33f-4921-b7a8-36e451e110fb',
+          name: 'SpinX Dev',
+          domain: 'spinx-dev.myshopify.com',
+          platform: 'shopify',
+          plan: {
+            displayName: 'Developer Preview',
+            shopifyPlus: false,
+            partnerDevelopment: true
+          },
+          config: {
+            url: 'https://spinx-dev.myshopify.com',
+            logo: {
+                key: 'gid://shopify/MediaImage/40304409411868',
+                url: window.SpinX.spinxSharePath + '/assets/images/logo/spinx_512x512.png'
+            },
+            currency: {
+                code: 'USD',
+                currencies: [
+                    'AED',
+                    'AUD',
+                    'CAD',
+                    'CHF',
+                    'CZK',
+                    'DKK',
+                    'EUR',
+                    'GBP',
+                    'HKD',
+                    'ILS',
+                    'JPY',
+                    'KRW',
+                    'MYR',
+                    'NZD',
+                    'PLN',
+                    'SEK',
+                    'SGD',
+                    'USD',
+                    'VND'
+                ],
+                moneyFormat: '${{amount}} USD'
+            },
+            customDomain: 'spinx-dev.myshopify.com',
+            localization: {
+                locales: [
+                    'vi',
+                    'fr'
+                ],
+                countryCode: null,
+                defaultLocale: 'en'
+            },
+            ianaTimezone: 'Asia/Ho_Chi_Minh',
+            timezoneAbbreviation: '+07',
+            timezoneOffsetMinutes: 420
+          }
+        },
+        /**
+         * @type {import("../../spinx-app/web/types/campaign/CampaignConfig").CampaignConfig}
+         */
+        config: {
+          theme: 'standard_01',
+          popup: {
+            displayType: 'standard_screen',
+            showLogo: { enabled: true },
+            background: { customized: false, backgroundColor: '#5199ff' },
+            backgroundMusic: { enabled: false, value: 'background_exciting_show' },
+            fontFamily: { customized: false, value: 'Nunito' },
+            title: {
+              customized: false,
+              text: 'Win an exclusive prize!',
+              // size: 32,
+              color: '#ffffff',
+            },
+            content: {
+              customized: false,
+              text: 'Enter your information to spin the wheel for a chance to win.',
+              // size: 20,
+              color: '#ffffff',
+            },
+            contentForExistingAccount: {
+              customized: false,
+              text: 'Welcome to the lucky spin program, {{NAME}}. Chance to win attractive prizes!',
+              // size: 20,
+              color: '#ffffff',
+            },
+            formTemplate: 'name_email',
+            fields: [{
+              label: 'Name',
+              name: 'name',
+              type: 'text',
+              required: true,
+              max: 50,
+              messages: {
+                required: 'Please enter your name!'
+              }
+            }, {
+              label: 'Email',
+              name: 'email',
+              type: 'email',
+              required: true,
+              max: 100,
+              messages: {
+                required: 'Please enter your email!',
+                type: 'Please enter a valid email!'
+              }
+            }],
+            spinButton: {
+              customized: false,
+              text: 'Spin!',
+              // size: 20,
+              color: '#ffffff',
+              backgroundColor: '#2e2e2e',
+            },
+            styleContent: { customized: false },
+          },
+          wheel: {
+            fontFamily: { customized: false, value: 'Nunito' },
+            contentSize: { customized: false },
+            borderDisplay: {
+              customized: false,
+              value: {
+                type: 'standard',
+                color: '#FFA500',
+              }
+            },
+            prizeBorder: {
+              customized: false,
+              value: {
+                displayed: false,
+                color: '',
+              }
+            },
+            circleCenter: {
+              customized: false,
+              value: {
+                displayed: false,
+                borderType: 'standard',
+                borderColor: '',
+                backgroundColor: '',
+                icon: '',
+              }
+            },
+            sticker: {
+              customized: false,
+              value: {
+                borderType: 'standard',
+                borderColor: '',
+                backgroundColor: '',
+              }
+            },
+            playingMusic: { enabled: true, value: 'playing_turn' },
+          },
+          triggers: {
+            opener: {
+              enabled: true,
+              content: { enabled: true, value: 'Spin Now' },
+              position: 'right',
+              distance: {
+                left: { customized: false, value: 25 },
+                right: { customized: false, value: 25 },
+                bottom: { customized: false, value: 40 },
+                bottomFromAnnouncement: { customized: false, value: 20 },
+              },
+              contentColor: { customized: false },
+              backgroundColor: { customized: false },
+              primaryIconColor: { customized: false },
+              secondaryIconColor: { customized: false },
+              attentionEffect: {
+                enabled: true,
+                intervalTime: 15,
+              },
+              icon: 'standard_01'
+            },
+            delayedDisplay: {
+              enabled: true,
+              delay: { customized: false },
+              title: { customized: false },
+              content: { customized: false },
+              contentBottom: { customized: false },
+              primaryButton: { customized: false },
+              cancelButton: { customized: false },
+            },
+            exitIntent: {
+              enabled: true,
+              desktop: true,
+              mobile: true,
+              title: { customized: false },
+              content: { customized: false },
+              contentBottom: { customized: false },
+              primaryButton: { customized: false },
+              cancelButton: { customized: false },
+            },
+          },
+          announcement: {
+            position: 'bottom',
+            displayType: 'sticky',
+            fontFamily: { customized: false, value: 'Nunito' },
+            contentSize: { customized: false },
+            contentColor: { customized: false },
+            backgroundColor: { customized: false },
+            upcomingEvent: {
+              enabled: true,
+              content: 'The lucky wheel program with attractive prizes will launch at {{TIME}}',
+              displayDays: 7
+            },
+            readyToSpin: {
+              enabled: true,
+              content: 'Click {{SPIN}} to receive attractive prizes now!'
+            },
+            countDownToLaunch: {
+              enabled: true,
+              content: 'The countdown begins! Just {{TIME}} until the event starts!',
+              displayHours: 72
+            },
+            countDownToClose: {
+              enabled: true,
+              content: 'Event will end in {{TIME}}! Click {{SPIN}} to get attractive prizes now.',
+              displayHours: 24
+            },
+            // attentionEffect: {
+            //   enabled: true,
+            //   intervalTime: 4,
+            // },
+          },
+          targets: {
+            excludeUrls: { enabled: false },
+          },
+          langs: {
+            vi: {
+              popup: {
+                title: "Nhận giải thưởng hấp dẫn!",
+                content: "Nhập thông tin của bạn để quay vòng quay và có cơ hội chiến thắng.",
+                contentForExistingAccount: "Chào mừng đến với chương trình vòng quay may mắn, {{NAME}}. Cơ hội trúng thưởng những giải thưởng hấp dẫn!",
+                agreement: "Tôi đồng ý rằng dữ liệu cá nhân của tôi được lưu trữ và sử dụng để nhận bản tin.",
+                spinButton: "Quay!",
+                fields: [{
+                  name: 'name',
+                  label: 'Tên',
+                  messages: {
+                    required: 'Vui lòng nhập tên của bạn!'
+                  }
+                }, {
+                  name: 'email',
+                  label: 'Thư điện tử',
+                  messages: {
+                    required: 'Vui lòng nhập thư điện tử của bạn!',
+                    type: 'Vui lòng nhập thư điện tử hợp lệ!'
+                  }
+                }]
+              },
+              triggers: {
+                opener: {
+                  content: 'Quay Ngay'
+                },
+              },
+              announcement: {
+                upcomingEvent: {
+                  content: 'Chương trình vòng quay may mắn với những giải thưởng hấp dẫn sẽ được khởi động vào lúc {{TIME}}'
+                },
+                readyToSpin: {
+                  content: 'Nhấp vào {{SPIN}} để nhận ngay những giải thưởng hấp dẫn!'
+                },
+                // readyToSpinAgain: {
+                //   content: 'Bạn vừa nhận được một lượt quay mới! Nhấp vào {{SPIN}} để nhận ngay những giải thưởng hấp dẫn!'
+                // },
+                countDownToLaunch: {
+                  content: 'Đếm ngược bắt đầu! Chỉ còn {{TIME}} nữa là sự kiện sẽ bắt đầu!'
+                },
+                countDownToClose: {
+                  content: 'Thời gian giới hạn! Sự kiện sẽ kết thúc sau {{TIME}}'
+                }
+              },
+              prizes: [
+                {
+                  id: '1',
+                  name: "Không trúng",
+                  messageTitle: "Lêu lêu!",
+                  messageContent: "Có thể lần này bạn không may mắn, hẹn gặp lại lần sau."
+                },
+                {
+                  id: '2',
+                  name: "Giảm giá 10%",
+                  messageTitle: 'Bạn đã thắng "{{PRIZE}}"!',
+                  messageContent: "Sao chép mã phiếu giảm giá của bạn và sử dụng nó vào ô giảm giá ở trang thanh toán."
+                },
+                {
+                  id: '3',
+                  name: "Miễn phí vận chuyển",
+                  messageTitle: 'Bạn đã thắng "{{PRIZE}}"!',
+                  messageContent: "Sao chép mã phiếu giảm giá của bạn và sử dụng nó vào ô giảm giá ở trang thanh toán."
+                },
+                {
+                  id: '4',
+                  name: "Giảm giá $25",
+                  messageTitle: 'Bạn đã thắng "{{PRIZE}}"!',
+                  messageContent: "Sao chép mã phiếu giảm giá của bạn và sử dụng nó vào ô giảm giá ở trang thanh toán."
+                },
+                {
+                  id: '5',
+                  name: "Không trúng",
+                  messageTitle: "Lêu lêu!",
+                  messageContent: "Có thể lần này bạn không may mắn, hẹn gặp lại lần sau."
+                },
+                {
+                  id: '6',
+                  name: "Giảm giá 15%",
+                  messageTitle: 'Bạn đã thắng "{{PRIZE}}"!',
+                  messageContent: "Sao chép mã phiếu giảm giá của bạn và sử dụng nó vào ô giảm giá ở trang thanh toán."
+                },
+                {
+                  id: '7',
+                  name: "Miễn phí vận chuyển $50",
+                  messageTitle: 'Bạn đã thắng "{{PRIZE}}"!',
+                  messageContent: "Sao chép mã phiếu giảm giá của bạn và sử dụng nó vào ô giảm giá ở trang thanh toán."
+                },
+                {
+                  id: '8',
+                  name: "Giảm giá $15",
+                  messageTitle: 'Bạn đã thắng "{{PRIZE}}"!',
+                  messageContent: "Sao chép mã phiếu giảm giá của bạn và sử dụng nó vào ô giảm giá ở trang thanh toán."
+                }
+              ]
+            },
+            en: {
+              popup: {
+                title: "Get attractive prizes!",
+                content: "Enter your details to spin the wheel and get a chance to win.",
+                contentForExistingAccount: "Welcome to the lucky spin program, {{NAME}}. Chance to win attractive prizes!",
+                agreement: "I agree that my personal data is stored and used to receive newsletters.",
+                spinButton: "Spin!",
+                fields: [{
+                  name: 'name',
+                  label: 'Name',
+                  messages: {
+                    required: 'Please enter your name!'
+                  }
+                }, {
+                  name: 'email',
+                  label: 'Email',
+                  messages: {
+                    required: 'Please enter your email!',
+                    type: 'Please enter a valid email!'
+                  }
+                }]
+              },
+              triggers: {
+                opener: {
+                  content: 'Spin Now'
+                },
+              },
+              announcement: {
+                upcomingEvent: {
+                  content: 'Lucky draw program with attractive prizes will be launched at {{TIME}}'
+                },
+                readyToSpin: {
+                  content: 'Click {{SPIN}} to get attractive prizes now!'
+                },
+                // readyToSpinAgain: {
+                //   content: 'Bạn vừa nhận được một lượt quay mới! Nhấp vào {{SPIN}} để nhận ngay những giải thưởng hấp dẫn!'
+                // },
+                countDownToLaunch: {
+                  content: 'The countdown begins! Only {{TIME}} left until the event begins!'
+                },
+                countDownToClose: {
+                  content: 'Event will end in {{TIME}}! Click {{SPIN}} to get attractive prizes now.'
+                }
+              },
+              prizes: [
+                {
+                  id: '1',
+                  name: "Unucky",
+                  messageTitle: "Oops! Maybe next time 🎯",
+                  messageContent: "Thanks for playing! Let’s see what fortune brings next time."
+                },
+                {
+                  id: '2',
+                  name: "10% off",
+                  messageTitle: 'You Won {{PRIZE}}!',
+                  messageContent: "Copy your coupon code and use it into the discount input at checkout page."
+                },
+                {
+                  id: '3',
+                  name: "Free shipping",
+                  messageTitle: 'You Won {{PRIZE}}!',
+                  messageContent: "Copy your coupon code and use it into the discount input at checkout page."
+                },
+                {
+                  id: '4',
+                  name: "$25 off",
+                  messageTitle: 'You Won {{PRIZE}}!',
+                  messageContent: "Copy your coupon code and use it into the discount input at checkout page."
+                },
+                {
+                  id: '5',
+                  name: "Unucky",
+                  messageTitle: "Oops! Maybe next time 🎯",
+                  messageContent: "Thanks for playing! Let’s see what fortune brings next time."
+                },
+                {
+                  id: '6',
+                  name: "15% off",
+                  messageTitle: 'You Won {{PRIZE}}!',
+                  messageContent: "Copy your coupon code and use it into the discount input at checkout page."
+                },
+                {
+                  id: '7',
+                  name: "Free shipping $50",
+                  messageTitle: 'You Won {{PRIZE}}!',
+                  messageContent: "Copy your coupon code and use it into the discount input at checkout page."
+                },
+                {
+                  id: '8',
+                  name: "$15 off",
+                  messageTitle: 'You Won {{PRIZE}}!',
+                  messageContent: "Copy your coupon code and use it into the discount input at checkout page."
+                }
+              ]
+            },
+          }
+        },
+        prizes: [{
+          id: '1',
+          name: 'Unlucky',
+          type: 'none',
+          order: 1,
+          config: {
+            effectMusic: {
+              enabled: true,
+              value: 'not_winning_default',
+            }
+          }
+        }, {
+          id: '2',
+          name: 'Discount 10%',
+          type: 'discount_code',
+          order: 2,
+          config: {
+            discountCode: {
+              type: "percentage",
+              amount: null,
+              endTime: {
+                date: null,
+                isForever: true
+              },
+              startTime: {
+                date: null,
+                isImmediate: true
+              },
+              percentage: 10
+            },
+            effectMusic: {
+              enabled: true,
+              value: 'winning_firework',
+            }
+          }
+        }, {
+          id: '3',
+          name: 'Free shipping',
+          type: 'free_shipping',
+          order: 3,
+          config: {
+            freeShipping: {
+              endTime: {
+                date: null,
+                isForever: true
+              },
+              startTime: {
+                date: null,
+                isImmediate: true
+              },
+              shippingRates: {
+                enabled: false
+              }
+            },
+            effectMusic: {
+              enabled: true,
+              value: 'winning_introduction',
+            }
+          }
+        }, {
+          id: '4',
+          name: 'Discount $25',
+          type: 'discount_code',
+          order: 4,
+          config: {
+            discountCode: {
+              type: "fixed_amount",
+              amount: {
+                value: 25,
+                currency: "USD"
+              },
+              endTime: {
+                date: null,
+                isForever: true
+              },
+              startTime: {
+                date: null,
+                isImmediate: true
+              },
+              percentage: null
+            },
+            effectMusic: {
+              enabled: true,
+              value: 'winning_victory',
+            }
+          }
+        }, {
+          id: '5',
+          name: 'Unlucky',
+          type: 'none',
+          order: 5,
+          config: {
+            effectMusic: {
+              enabled: true,
+              value: 'not_winning_default',
+            }
+          }
+        }, {
+          id: '6',
+          name: 'Discount 15%',
+          type: 'discount_code',
+          order: 6,
+          config: {
+            discountCode: {
+              type: "percentage",
+              amount: null,
+              endTime: {
+                date: null,
+                isForever: true
+              },
+              startTime: {
+                date: null,
+                isImmediate: true
+              },
+              percentage: 15
+            },
+            effectMusic: {
+              enabled: true,
+              value: 'winning_firework',
+            }
+          }
+        }, {
+          id: '7',
+          name: 'Free shipping $50',
+          type: 'free_shipping',
+          order: 7,
+          config: {
+            freeShipping: {
+              endTime: {
+                date: null,
+                isForever: true
+              },
+              startTime: {
+                date: null,
+                isImmediate: true
+              },
+              shippingRates: {
+                amount: {
+                  value: 50,
+                  currency: "USD"
+                },
+                enabled: true
+              }
+            },
+            effectMusic: {
+              enabled: true,
+              value: 'winning_default',
+            }
+          }
+        }, {
+          id: '8',
+          name: 'Discount $15',
+          type: 'discount_code',
+          order: 8,
+          config: {
+            discountCode: {
+              type: "fixed_amount",
+              amount: {
+                value: 15,
+                currency: "USD"
+              },
+              endTime: {
+                date: null,
+                isForever: true
+              },
+              startTime: {
+                date: null,
+                isImmediate: true
+              },
+              percentage: null
+            },
+            effectMusic: {
+              enabled: true,
+              value: 'winning_default',
+            }
+          }
+        }],
+      };
+    }
+
+    async function viewSpinXWheel() {
+      console.log('View SpinX Wheel');
+    }
+
+    async function spinSpinXWheel() {
+      console.log('Spin Wheel');
+    }
+
+    function setSpinXWidgetVersion() {
+      const params = new URLSearchParams(location.search);
+
+      if (params.get('widget_version')) {
+        window.SpinX.version = params.get('widget_version');
+        window.SpinX.spinxSharePath = 'https://cdn.jsdelivr.net/gh/eplugin-io/spinx@' + window.SpinX.version;
+      }
+    }
+
+    function setSpinXParams() {
+      const params = new URLSearchParams(location.search);
+
+      window.SpinX.campaign.store.config.logo.url = window.SpinX.spinxSharePath + '/assets/images/logo/spinx_512x512.png'
+
+      if (params.get('locale')) {
+        window.SpinX.locale = params.get('locale');
+      }
+      if (params.get('theme')) {
+        window.SpinX.campaign.config.theme = params.get('theme');
+      }
+      if (params.get('display-type')) {
+        window.SpinX.campaign.config.popup.displayType = params.get('display-type');
+      }
+    }
+
+    async function loadSpinXApp() {
+      setSpinXWidgetVersion();
+      const campaign = await getSpinXCampaign();
+      if (campaign) {
+        window.SpinX.campaign = campaign;
+        window.SpinX.store = campaign.store;
+        setSpinXParams();
+
+        if (typeof initSpinXApp === "function") {
+          initSpinXApp(campaign, {
+            view: viewSpinXWheel,
+            spin: spinSpinXWheel,
+          });
+        }
+      }
+    }
+
+    document.addEventListener("DOMContentLoaded", async function() {
+      window.SpinX.locale = 'en';
+      window.SpinX.participant = null;
+
+      loadSpinXApp();
+    });
+  </script>
 </head>
 <body>
 </body>
