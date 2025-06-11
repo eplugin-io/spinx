@@ -14,47 +14,139 @@
       "displayed": true,
       "borderType": "none",
       "borderColor": "",
-      "backgroundColor": "#891642"
+      "backgroundColor": "#372E51"
     },
     "sticker": {
       "borderType": "none",
       "borderColor": "",
-      "backgroundColor": "#1C315D"
+      "backgroundColor": "#3A3845"
     },
     "prizes": [{
-      "contentColor": "#000000",
-      "backgroundColor": "#cf3b53"
+      "contentColor": "#182629",
+      "backgroundColor": "#FBA467"
     }, {
-      "contentColor": "#000000",
-      "backgroundColor": "#e86f51"
+      "contentColor": "#182629",
+      "backgroundColor": "#EC7366"
     }, {
-      "contentColor": "#000000",
-      "backgroundColor": "#f4a462"
+      "contentColor": "#182629",
+      "backgroundColor": "#F58FB2"
     }, {
-      "contentColor": "#000000",
-      "backgroundColor": "#e8c568"
+      "contentColor": "#182629",
+      "backgroundColor": "#E37EA3"
     }, {
-      "contentColor": "#000000",
-      "backgroundColor": "#2a9d90"
+      "contentColor": "#182629",
+      "backgroundColor": "#B26FDB"
     }, {
-      "contentColor": "#000000",
-      "backgroundColor": "#4e7d8f"
+      "contentColor": "#182629",
+      "backgroundColor": "#9175DB"
     }, {
-      "contentColor": "#000000",
-      "backgroundColor": "#a5d5b5"
+      "contentColor": "#182629",
+      "backgroundColor": "#CABFFA"
     }, {
-      "contentColor": "#000000",
-      "backgroundColor": "#88bc57"
+      "contentColor": "#182629",
+      "backgroundColor": "#8DBCE7"
     }]
+  },
+  "prizeMessages": {
+    "none": {
+      "title": {
+        "text": "Oops! Maybe next time 🎯",
+        "size": 36,
+        "color": "#ffffff"
+      },
+      "content": {
+        "text": "Thanks for playing! Let’s see what fortune brings next time.",
+        "size": 24,
+        "color": "#ffffff"
+      }
+    },
+    "discountCode": {
+      "title": {
+        "text": "You Won {{PRIZE}}!",
+        "size": 36,
+        "color": "#ffffff"
+      },
+      "content": {
+        "text": "Copy your coupon code and use it into the discount input at checkout page.",
+        "size": 24,
+        "color": "#ffffff"
+      }
+    },
+    "freeShipping": {
+      "title": {
+        "text": "You Won {{PRIZE}}!",
+        "size": 36,
+        "color": "#ffffff"
+      },
+      "content": {
+        "text": "Copy your coupon code and use it into the discount input at checkout page.",
+        "size": 24,
+        "color": "#ffffff"
+      }
+    },
+    "freeGift": {
+      "title": {
+        "text": "You Won {{PRIZE}}!",
+        "size": 36,
+        "color": "#ffffff"
+      },
+      "content": {
+        "text": "Copy your coupon code and use it into the discount input at checkout page.",
+        "size": 24,
+        "color": "#ffffff"
+      }
+    }
   },
   "popup": {
     "background": {
-      "backgroundColor": "#5199ff",
+      "backgroundColor": "#9780FF",
       "backgroundImage": "",
       "mobileBackgroundImage": ""
+    },
+    "fontFamily": "Arial",
+    "title": {
+      "text": "WIN AN EXCLUSIVE PRIZE!",
+      "size": 36,
+      "color": "#ffffff"
+    },
+    "content": {
+      "text": "Enter your information to spin the wheel for a chance to win.",
+      "size": 24,
+      "color": "#ffffff"
+    },
+    "contentForExistingAccount": {
+      "text": "Welcome to the lucky spin program, {{NAME}}. Chance to win attractive prizes!",
+      "size": 24,
+      "color": "#ffffff"
+    },
+    "agreement": "I agree to my personal data being stored and used to receive the newsletter.",
+    "spinButton": {
+      "text": "SPIN",
+      "size": 24,
+      "color": "#ffffff",
+      "backgroundColor": "#735DDE"
+    },
+    "messages": {
+      "maxSpinReachedMsg": "Your spins are all used up, thank you for participating!"
     }
   },
   "triggers": {
+    "opener": {
+      "distance": {
+        "left": 25,
+        "right": 25,
+        "bottom": 40,
+        "bottomFromAnnouncement": 20
+      },
+      "content": "Spin Now",
+      "contentColor": "#ffffff",
+      "backgroundColor": "#1D305D",
+      "attentionEffect": {
+        "enabled": true,
+        "intervalTime": 10
+      },
+      "icon": "standard_01"
+    },
     "delayedDisplay": {
       "delay": 8,
       "background": {
@@ -123,105 +215,11 @@
       }
     }
   },
-  "form": {
-    "fontFamily": "Arial",
-    "title": {
-      "text": "Win an exclusive prize!",
-      "size": 36,
-      "color": "#ffffff"
-    },
-    "content": {
-      "text": "Enter your information to spin the wheel for a chance to win.",
-      "size": 24,
-      "color": "#ffffff"
-    },
-    "contentForExistingAccount": {
-      "text": "Welcome to the lucky spin program, {{NAME}}. Chance to win attractive prizes!",
-      "size": 24,
-      "color": "#ffffff"
-    },
-    "agreement": "I agree to my personal data being stored and used to receive the newsletter.",
-    "spinButton": {
-      "text": "Spin!",
-      "size": 24,
-      "color": "#ffffff",
-      "backgroundColor": "#2e2e2e"
-    },
-    "messages": {
-      "maxSpinReachedMsg": "Your spins are all used up, thank you for participating!"
-    }
-  },
-  "prizeMessages": {
-    "none": {
-      "title": {
-        "text": "You Lose!",
-        "size": 36,
-        "color": "#ffffff"
-      },
-      "content": {
-        "text": "Maybe you're out of luck this time, see you next time.",
-        "size": 24,
-        "color": "#ffffff"
-      }
-    },
-    "discountCode": {
-      "title": {
-        "text": "You Won {{PRIZE}}!",
-        "size": 36,
-        "color": "#ffffff"
-      },
-      "content": {
-        "text": "Copy your coupon code and use it into the discount input at checkout page.",
-        "size": 24,
-        "color": "#ffffff"
-      }
-    },
-    "freeShipping": {
-      "title": {
-        "text": "You Won {{PRIZE}}!",
-        "size": 36,
-        "color": "#ffffff"
-      },
-      "content": {
-        "text": "Copy your coupon code and use it into the discount input at checkout page.",
-        "size": 24,
-        "color": "#ffffff"
-      }
-    },
-    "freeGift": {
-      "title": {
-        "text": "You Won {{PRIZE}}!",
-        "size": 36,
-        "color": "#ffffff"
-      },
-      "content": {
-        "text": "Copy your coupon code and use it into the discount input at checkout page.",
-        "size": 24,
-        "color": "#ffffff"
-      }
-    }
-  },
-  "opener": {
-    "distance": {
-      "left": 25,
-      "right": 25,
-      "bottom": 40,
-      "bottomFromAnnouncement": 20
-    },
-    "content": "Spin Now",
-    "contentColor": "#ffffff",
-    "backgroundColor": "#1D305D",
-    "attentionEffect": {
-      "enabled": true,
-      "intervalTime": 10
-    },
-    "icon": "standard_multiple_colors"
-  },
   "announcement": {
     "fontFamily": "Arial",
     "contentSize": 16,
     "contentColor": "#121212",
-    "backgroundColor": "#fdc73b",
+    "backgroundColor": "#C5A3FF",
     "upcomingEvent": {
       "enabled": true,
       "displayDays": 5,
