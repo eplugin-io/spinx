@@ -13,6 +13,7 @@
     .container {
       height: 100vh;
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
     }
@@ -20,9 +21,11 @@
     .container p {
       font-size: 8rem;
       font-family: Nunito;
+      color: #0B2D4F;
+      margin: 0px;
     }
   </style>
-  <script src="https://cdn.jsdelivr.net/gh/eplugin-io/spinx@stg-build-138/spinx.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/gh/eplugin-io/spinx@stg-build-142/spinx.min.js" defer></script>
   <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
   <script>
     const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
@@ -670,8 +673,6 @@
     function setSpinXParams() {
       const params = new URLSearchParams(location.search);
 
-      window.SpinX.campaign.store.config.logo.url = window.SpinX.spinxSharePath + '/assets/images/logo/spinx_512x512.png'
-
       if (params.get('locale')) {
         window.SpinX.locale = params.get('locale');
       }
@@ -711,6 +712,7 @@
 </head>
 <body>
   <div class="container">
+    <p><img src="https://cdn.jsdelivr.net/gh/eplugin-io/spinx@stg-build-142/assets/images/logo/eplugin_532×133.png" alt="ePlugin"></p>
     <p>Multi-platform Integration</p>
   </div>
 </body>
