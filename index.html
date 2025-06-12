@@ -9,8 +9,21 @@
       height: 100vh;
       margin: 0;
     }
+
+    .container {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container p {
+      font-size: 8rem;
+      font-family: Nunito;
+    }
   </style>
-  <script src="https://cdn.jsdelivr.net/gh/eplugin-io/spinx@stg-build-135/spinx.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/gh/eplugin-io/spinx@stg-build-138/spinx.min.js" defer></script>
+  <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
   <script>
     const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
     function addDays(date, days) {
@@ -20,7 +33,7 @@
     }
 
     async function getSpinXCampaign() {
-      await sleep(1000);
+      await sleep(1200);
       return {
         id: '1',
         name: 'Merry Christmas',
@@ -103,7 +116,7 @@
             showLogo: { enabled: true },
             background: { customized: false, backgroundColor: '#5199ff' },
             backgroundMusic: { enabled: false, value: 'background_exciting_show' },
-            fontFamily: { customized: false, value: 'Nunito' },
+            fontFamily: { customized: true, value: 'Nunito' },
             title: {
               customized: false,
               text: 'Win an exclusive prize!',
@@ -415,19 +428,19 @@
                   id: '2',
                   name: "10% off",
                   messageTitle: 'You Won {{PRIZE}}!',
-                  messageContent: "Copy your coupon code and use it into the discount input at checkout page."
+                  messageContent: "Use the code below at checkout to enjoy your reward."
                 },
                 {
                   id: '3',
                   name: "Free shipping",
                   messageTitle: 'You Won {{PRIZE}}!',
-                  messageContent: "Copy your coupon code and use it into the discount input at checkout page."
+                  messageContent: "Use the code below at checkout to enjoy your reward."
                 },
                 {
                   id: '4',
                   name: "$25 off",
                   messageTitle: 'You Won {{PRIZE}}!',
-                  messageContent: "Copy your coupon code and use it into the discount input at checkout page."
+                  messageContent: "Use the code below at checkout to enjoy your reward."
                 },
                 {
                   id: '5',
@@ -439,19 +452,19 @@
                   id: '6',
                   name: "15% off",
                   messageTitle: 'You Won {{PRIZE}}!',
-                  messageContent: "Copy your coupon code and use it into the discount input at checkout page."
+                  messageContent: "Use the code below at checkout to enjoy your reward."
                 },
                 {
                   id: '7',
                   name: "Free shipping $50",
                   messageTitle: 'You Won {{PRIZE}}!',
-                  messageContent: "Copy your coupon code and use it into the discount input at checkout page."
+                  messageContent: "Use the code below at checkout to enjoy your reward."
                 },
                 {
                   id: '8',
                   name: "$15 off",
                   messageTitle: 'You Won {{PRIZE}}!',
-                  messageContent: "Copy your coupon code and use it into the discount input at checkout page."
+                  messageContent: "Use the code below at checkout to enjoy your reward."
                 }
               ]
             },
@@ -697,5 +710,8 @@
   </script>
 </head>
 <body>
+  <div class="container">
+    <p>Multi-platform Integration</p>
+  </div>
 </body>
 </html>
