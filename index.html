@@ -13,16 +13,51 @@
     .container {
       height: 100vh;
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
     }
 
-    .container p {
+    .eplugin-wrapper-text {
       font-size: 8rem;
       font-family: Nunito;
+      color: #0B2D4F;
+      margin: 0px;
+      text-align: center;
+    }
+
+    .eplugin-wrapper-img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0px auto;
+    }
+
+    @media (max-width: 1200px) {
+      .eplugin-wrapper-img {
+        max-width: 90%;
+      }
+      .eplugin-wrapper-text {
+        font-size: 3rem;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .eplugin-wrapper-img {
+        max-width: 80%;
+      }
+      .eplugin-wrapper-text {
+        font-size: 2.2rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .eplugin-wrapper-text {
+        font-size: 1.8rem;
+      }
     }
   </style>
-  <script src="https://cdn.jsdelivr.net/gh/eplugin-io/spinx@v1.0.0-beta-6/spinx.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/gh/eplugin-io/spinx@v1.0.0-beta-7/spinx.min.js" defer></script>
   <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
   <script>
     const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
@@ -670,8 +705,6 @@
     function setSpinXParams() {
       const params = new URLSearchParams(location.search);
 
-      window.SpinX.campaign.store.config.logo.url = window.SpinX.spinxSharePath + '/assets/images/logo/spinx_512x512.png'
-
       if (params.get('locale')) {
         window.SpinX.locale = params.get('locale');
       }
@@ -710,8 +743,9 @@
   </script>
 </head>
 <body>
-  <div class="container">
-    <p>Multi-platform Integration</p>
+  <div class="container eplugin-wrapper">
+    <p><img class="eplugin-wrapper-img" src="https://cdn.jsdelivr.net/gh/eplugin-io/spinx@v1.0.0-beta-7/assets/images/logo/eplugin_532×133.png" alt="ePlugin"></p>
+    <p class="eplugin-wrapper-text">Multi-platform Integration</p>
   </div>
 </body>
 </html>
