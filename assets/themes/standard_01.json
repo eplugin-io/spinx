@@ -26,7 +26,7 @@
       "backgroundColor": "#cf3b53"
     }, {
       "contentColor": "#000000",
-      "backgroundColor": "#e86f51"
+      "backgroundColor": "#4e7d8f"
     }, {
       "contentColor": "#000000",
       "backgroundColor": "#f4a462"
@@ -99,7 +99,7 @@
   },
   "popup": {
     "background": {
-      "backgroundColor": "#5199ff",
+      "backgroundColor": "#3786f6",
       "backgroundImage": "",
       "mobileBackgroundImage": ""
     },
