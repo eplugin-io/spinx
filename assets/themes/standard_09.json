@@ -108,6 +108,11 @@
       "color": "#FCF0BC",
       "backgroundColor": "#9F453C"
     },
+    "footerContent": {
+      "text": "The fun starts with a spin!",
+      "size": 20,
+      "color": "#ffffff"
+    },
     "messages": {
       "maxSpinReachedMsg": "Your spins are all used up, thank you for participating!"
     }
