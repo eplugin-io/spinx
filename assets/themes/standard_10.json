@@ -120,10 +120,10 @@
   "triggers": {
     "opener": {
       "distance": {
-        "left": 25,
-        "right": 25,
-        "bottom": 40,
-        "bottomFromAnnouncement": 20
+        "left": 20,
+        "right": 20,
+        "bottom": 24,
+        "bottomFromAnnouncement": 10
       },
       "content": "Spin Now",
       "contentColor": "#ffffff",
