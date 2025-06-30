@@ -6,7 +6,7 @@
       "type": "auto_darken",
       "color": ""
     },
-    "prizeBorder": {
+    "rewardBorder": {
       "displayed": false,
       "color": ""
     },
@@ -21,7 +21,7 @@
       "borderColor": "",
       "backgroundColor": "#30353B"
     },
-    "prizes": [{
+    "rewards": [{
       "contentColor": "#000000",
       "backgroundColor": "#cf3b53"
     }, {
@@ -47,7 +47,7 @@
       "backgroundColor": "#88bc57"
     }]
   },
-  "prizeMessages": {
+  "rewardMessages": {
     "none": {
       "title": {
         "text": "Oops! Maybe next time 🎯",
@@ -62,7 +62,7 @@
     },
     "discountCode": {
       "title": {
-        "text": "You Won {{PRIZE}}!",
+        "text": "You Won {{REWARD}}!",
         "size": 36,
         "color": "#ffffff"
       },
@@ -74,7 +74,7 @@
     },
     "freeShipping": {
       "title": {
-        "text": "You Won {{PRIZE}}!",
+        "text": "You Won {{REWARD}}!",
         "size": 36,
         "color": "#ffffff"
       },
@@ -86,7 +86,7 @@
     },
     "freeGift": {
       "title": {
-        "text": "You Won {{PRIZE}}!",
+        "text": "You Won {{REWARD}}!",
         "size": 36,
         "color": "#ffffff"
       },
@@ -105,7 +105,7 @@
     },
     "fontFamily": "Arial",
     "title": {
-      "text": "WIN AN EXCLUSIVE PRIZE!",
+      "text": "WIN AN EXCLUSIVE REWARD!",
       "size": 36,
       "color": "#ffffff"
     },
@@ -115,7 +115,7 @@
       "color": "#ffffff"
     },
     "contentForExistingAccount": {
-      "text": "Welcome to the lucky spin program, {{NAME}}. Chance to win attractive prizes!",
+      "text": "Welcome to the lucky spin program, {{NAME}}. Chance to win attractive rewards!",
       "size": 24,
       "color": "#ffffff"
     },
@@ -228,11 +228,11 @@
     "upcomingEvent": {
       "enabled": true,
       "displayDays": 5,
-      "content": "The lucky wheel program with attractive prizes will launch at {{TIME}}."
+      "content": "The lucky wheel program with attractive rewards will launch at {{TIME}}."
     },
     "readyToSpin": {
       "enabled": true,
-      "content": "Click {{SPIN}} to receive attractive prizes now."
+      "content": "Click {{SPIN}} to receive attractive rewards now."
     },
     "countDownToLaunch": {
       "enabled": true,
@@ -242,7 +242,7 @@
     "countDownToClose": {
       "enabled": true,
       "displayHours": 24,
-      "content": "Event will end in {{TIME}}! Click {{SPIN}} to get attractive prizes now."
+      "content": "Event will end in {{TIME}}! Click {{SPIN}} to get attractive rewards now."
     }
   }
 }
