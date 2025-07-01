@@ -87,21 +87,21 @@
     },
     "fontFamily": "Nunito",
     "title": {
-      "text": "WIN AN EXCLUSIVE REWARD!",
+      "text": "Spin to win exciting rewards!",
       "size": 36,
       "color": "#163556"
     },
     "content": {
-      "text": "Enter your information to spin the wheel for a chance to win.",
+      "text": "Fill in your details and get your chance to spin.",
       "size": 24,
       "color": "#163556"
     },
     "contentForExistingAccount": {
-      "text": "Welcome to the lucky spin program, {{NAME}}. Chance to win attractive rewards!",
+      "text": "Welcome, {{NAME}}! Get ready to spin the wheel and unlock exciting rewards waiting just for you.",
       "size": 24,
       "color": "#163556"
     },
-    "agreement": "I agree to my personal data being stored and used to receive the newsletter.",
+    "agreement": "I agree to receive marketing emails and offers.",
     "spinButton": {
       "text": "SPIN",
       "size": 24,
@@ -111,10 +111,10 @@
     "footerContent": {
       "text": "The fun starts with a spin!",
       "size": 20,
-      "color": "#ffffff"
+      "color": "#163556"
     },
     "messages": {
-      "maxSpinReachedMsg": "Your spins are all used up, thank you for participating!"
+      "maxSpinReachedMsg": "Looks like you’ve used all your spins — thanks for joining!"
     }
   },
   "triggers": {
@@ -214,21 +214,21 @@
     "upcomingEvent": {
       "enabled": true,
       "displayDays": 5,
-      "content": "The lucky wheel program with attractive rewards will launch at {{TIME}}."
+      "content": "Get ready! The reward wheel launches at {{TIME}} with exciting prizes!"
     },
     "readyToSpin": {
       "enabled": true,
-      "content": "Click {{SPIN}} to receive attractive rewards now."
+      "content": "Ready to spin? Click {{SPIN}} and win something exciting!"
     },
     "countDownToLaunch": {
       "enabled": true,
       "displayHours": 72,
-      "content": "The countdown begins! Just {{TIME}} until the event starts!"
+      "content": "The countdown is on! Only {{TIME}} left until launch!"
     },
     "countDownToClose": {
       "enabled": true,
       "displayHours": 24,
-      "content": "Event will end in {{TIME}}! Click {{SPIN}} to get attractive rewards now."
+      "content": "Hurry! Only {{TIME}} left — click {{SPIN}} to spin and claim your reward!"
     }
   }
 }
