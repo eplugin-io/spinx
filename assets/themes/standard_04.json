@@ -132,7 +132,7 @@
       "color": "#254E4C"
     },
     "messages": {
-      "maxSpinReachedMsg": "Looks like you’ve used all your spins — thanks for joining!"
+      "maxSpinReachedMsg": "Looks like you’ve used all your spins!"
     }
   },
   "triggers": {
