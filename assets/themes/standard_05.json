@@ -6,7 +6,7 @@
       "type": "standard",
       "color": "#8C4F2A"
     },
-    "prizeBorder": {
+    "rewardBorder": {
       "displayed": true,
       "color": "#8C4F2A"
     },
@@ -21,7 +21,7 @@
       "borderColor": "",
       "backgroundColor": "#B25D45"
     },
-    "prizes": [{
+    "rewards": [{
       "contentColor": "#FCE8DD",
       "backgroundColor": "#ED8D85"
     }, {
@@ -47,7 +47,7 @@
       "backgroundColor": "#E96B72"
     }]
   },
-  "prizeMessages": {
+  "rewardMessages": {
     "none": {
       "title": {
         "text": "Oops! Maybe next time 🎯",
@@ -62,7 +62,7 @@
     },
     "discountCode": {
       "title": {
-        "text": "You Won {{PRIZE}}!",
+        "text": "You Won {{REWARD}}!",
         "size": 36,
         "color": "#FCE8DD"
       },
@@ -74,7 +74,7 @@
     },
     "freeShipping": {
       "title": {
-        "text": "You Won {{PRIZE}}!",
+        "text": "You Won {{REWARD}}!",
         "size": 36,
         "color": "#FCE8DD"
       },
@@ -86,7 +86,7 @@
     },
     "freeGift": {
       "title": {
-        "text": "You Won {{PRIZE}}!",
+        "text": "You Won {{REWARD}}!",
         "size": 36,
         "color": "#FCE8DD"
       },
@@ -105,21 +105,21 @@
     },
     "fontFamily": "Nunito",
     "title": {
-      "text": "WIN AN EXCLUSIVE PRIZE!",
+      "text": "Spin to win exciting rewards!",
       "size": 36,
       "color": "#FCE8DD"
     },
     "content": {
-      "text": "Enter your information to spin the wheel for a chance to win.",
+      "text": "Fill in your details and get your chance to spin.",
       "size": 24,
       "color": "#FCE8DD"
     },
     "contentForExistingAccount": {
-      "text": "Welcome to the lucky spin program, {{NAME}}. Chance to win attractive prizes!",
+      "text": "Welcome, {{NAME}}! Get ready to spin the wheel and unlock exciting rewards waiting just for you.",
       "size": 24,
       "color": "#FCE8DD"
     },
-    "agreement": "I agree to my personal data being stored and used to receive the newsletter.",
+    "agreement": "I agree to receive marketing emails and offers.",
     "spinButton": {
       "text": "SPIN",
       "size": 24,
@@ -132,7 +132,7 @@
       "color": "#ffffff"
     },
     "messages": {
-      "maxSpinReachedMsg": "Your spins are all used up, thank you for participating!"
+      "maxSpinReachedMsg": "Looks like you’ve used all your spins — thanks for joining!"
     }
   },
   "triggers": {
@@ -228,21 +228,21 @@
     "upcomingEvent": {
       "enabled": true,
       "displayDays": 5,
-      "content": "The lucky wheel program with attractive prizes will launch at {{TIME}}."
+      "content": "Get ready! The reward wheel launches at {{TIME}} with exciting prizes!"
     },
     "readyToSpin": {
       "enabled": true,
-      "content": "Click {{SPIN}} to receive attractive prizes now."
+      "content": "Ready to spin? Click {{SPIN}} and win something exciting!"
     },
     "countDownToLaunch": {
       "enabled": true,
       "displayHours": 72,
-      "content": "The countdown begins! Just {{TIME}} until the event starts!"
+      "content": "The countdown is on! Only {{TIME}} left until launch!"
     },
     "countDownToClose": {
       "enabled": true,
       "displayHours": 24,
-      "content": "Event will end in {{TIME}}! Click {{SPIN}} to get attractive prizes now."
+      "content": "Hurry! Only {{TIME}} left — click {{SPIN}} to spin and claim your reward!"
     }
   }
 }

@@ -57,7 +57,7 @@
       }
     }
   </style>
-  <script src="https://cdn.jsdelivr.net/gh/eplugin-io/spinx@stg-build-159/spinx.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/gh/eplugin-io/spinx@stg-build-164/spinx.min.js" defer></script>
   <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
   <script>
     const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
@@ -74,7 +74,7 @@
         name: 'Merry Christmas',
         shop: 'spinx-dev.myshopify.com',
         status: 'launching',
-        totalPrizes: 10,
+        totalRewards: 10,
         statistics: {
           totalViews: 0,
           totalSignUp: 0,
@@ -154,19 +154,19 @@
             fontFamily: { customized: true, value: 'Nunito' },
             title: {
               customized: false,
-              text: 'Win an exclusive prize!',
+              text: 'Spin to win exciting rewards!',
               // size: 32,
               color: '#ffffff',
             },
             content: {
               customized: false,
-              text: 'Enter your information to spin the wheel for a chance to win.',
+              text: 'Fill in your details and get your chance to spin.',
               // size: 20,
               color: '#ffffff',
             },
             contentForExistingAccount: {
               customized: false,
-              text: 'Welcome to the lucky spin program, {{NAME}}. Chance to win attractive prizes!',
+              text: 'Welcome, {{NAME}}! Get ready to spin the wheel and unlock exciting rewards waiting just for you.',
               // size: 20,
               color: '#ffffff',
             },
@@ -210,7 +210,7 @@
                 color: '#FFA500',
               }
             },
-            prizeBorder: {
+            rewardBorder: {
               customized: false,
               value: {
                 displayed: false,
@@ -287,21 +287,21 @@
             backgroundColor: { customized: false },
             upcomingEvent: {
               enabled: true,
-              content: 'The lucky wheel program with attractive prizes will launch at {{TIME}}',
+              content: 'The lucky wheel program with attractive rewards will launch at {{TIME}}',
               displayDays: 7
             },
             readyToSpin: {
               enabled: true,
-              content: 'Click {{SPIN}} to receive attractive prizes now!'
+              content: 'Click {{SPIN}} to receive attractive rewards now!'
             },
             countDownToLaunch: {
               enabled: true,
-              content: 'The countdown begins! Just {{TIME}} until the event starts!',
+              content: 'The countdown is on! Only {{TIME}} left until launch!',
               displayHours: 72
             },
             countDownToClose: {
               enabled: true,
-              content: 'Event will end in {{TIME}}! Click {{SPIN}} to get attractive prizes now.',
+              content: 'Hurry! Only {{TIME}} left — click {{SPIN}} to spin and claim your reward!',
               displayHours: 24
             },
             // attentionEffect: {
@@ -357,7 +357,7 @@
                   content: 'Thời gian giới hạn! Sự kiện sẽ kết thúc sau {{TIME}}'
                 }
               },
-              prizes: [
+              rewards: [
                 {
                   id: '1',
                   name: "Không trúng",
@@ -367,19 +367,19 @@
                 {
                   id: '2',
                   name: "Giảm giá 10%",
-                  messageTitle: 'Bạn đã thắng "{{PRIZE}}"!',
+                  messageTitle: 'Bạn đã thắng "{{REWARD}}"!',
                   messageContent: "Sao chép mã phiếu giảm giá của bạn và sử dụng nó vào ô giảm giá ở trang thanh toán."
                 },
                 {
                   id: '3',
                   name: "Miễn phí vận chuyển",
-                  messageTitle: 'Bạn đã thắng "{{PRIZE}}"!',
+                  messageTitle: 'Bạn đã thắng "{{REWARD}}"!',
                   messageContent: "Sao chép mã phiếu giảm giá của bạn và sử dụng nó vào ô giảm giá ở trang thanh toán."
                 },
                 {
                   id: '4',
                   name: "Giảm giá $25",
-                  messageTitle: 'Bạn đã thắng "{{PRIZE}}"!',
+                  messageTitle: 'Bạn đã thắng "{{REWARD}}"!',
                   messageContent: "Sao chép mã phiếu giảm giá của bạn và sử dụng nó vào ô giảm giá ở trang thanh toán."
                 },
                 {
@@ -391,29 +391,29 @@
                 {
                   id: '6',
                   name: "Giảm giá 15%",
-                  messageTitle: 'Bạn đã thắng "{{PRIZE}}"!',
+                  messageTitle: 'Bạn đã thắng "{{REWARD}}"!',
                   messageContent: "Sao chép mã phiếu giảm giá của bạn và sử dụng nó vào ô giảm giá ở trang thanh toán."
                 },
                 {
                   id: '7',
                   name: "Miễn phí vận chuyển $50",
-                  messageTitle: 'Bạn đã thắng "{{PRIZE}}"!',
+                  messageTitle: 'Bạn đã thắng "{{REWARD}}"!',
                   messageContent: "Sao chép mã phiếu giảm giá của bạn và sử dụng nó vào ô giảm giá ở trang thanh toán."
                 },
                 {
                   id: '8',
                   name: "Giảm giá $15",
-                  messageTitle: 'Bạn đã thắng "{{PRIZE}}"!',
+                  messageTitle: 'Bạn đã thắng "{{REWARD}}"!',
                   messageContent: "Sao chép mã phiếu giảm giá của bạn và sử dụng nó vào ô giảm giá ở trang thanh toán."
                 }
               ]
             },
             en: {
               popup: {
-                title: "Get attractive prizes!",
-                content: "Enter your details to spin the wheel and get a chance to win.",
-                contentForExistingAccount: "Welcome to the lucky spin program, {{NAME}}. Chance to win attractive prizes!",
-                agreement: "I agree that my personal data is stored and used to receive newsletters.",
+                title: "Spin to win exciting rewards!",
+                content: "Fill in your details and get your chance to spin.",
+                contentForExistingAccount: "Welcome, {{NAME}}! Get ready to spin the wheel and unlock exciting rewards waiting just for you.",
+                agreement: "I agree to receive marketing emails and offers.",
                 spinButton: "Spin!",
                 fields: [{
                   name: 'name',
@@ -437,10 +437,10 @@
               },
               announcement: {
                 upcomingEvent: {
-                  content: 'Lucky draw program with attractive prizes will be launched at {{TIME}}'
+                  content: 'Lucky draw program with attractive rewards will be launched at {{TIME}}'
                 },
                 readyToSpin: {
-                  content: 'Click {{SPIN}} to get attractive prizes now!'
+                  content: 'Click {{SPIN}} to get attractive rewards now!'
                 },
                 // readyToSpinAgain: {
                 //   content: 'Bạn vừa nhận được một lượt quay mới! Nhấp vào {{SPIN}} để nhận ngay những giải thưởng hấp dẫn!'
@@ -449,10 +449,10 @@
                   content: 'The countdown begins! Only {{TIME}} left until the event begins!'
                 },
                 countDownToClose: {
-                  content: 'Event will end in {{TIME}}! Click {{SPIN}} to get attractive prizes now.'
+                  content: 'Hurry! Only {{TIME}} left — click {{SPIN}} to spin and claim your reward!'
                 }
               },
-              prizes: [
+              rewards: [
                 {
                   id: '1',
                   name: "Unucky",
@@ -462,19 +462,19 @@
                 {
                   id: '2',
                   name: "10% off",
-                  messageTitle: 'You Won {{PRIZE}}!',
+                  messageTitle: 'You Won {{REWARD}}!',
                   messageContent: "Use the code below at checkout to enjoy your reward."
                 },
                 {
                   id: '3',
                   name: "Free shipping",
-                  messageTitle: 'You Won {{PRIZE}}!',
+                  messageTitle: 'You Won {{REWARD}}!',
                   messageContent: "Use the code below at checkout to enjoy your reward."
                 },
                 {
                   id: '4',
                   name: "$25 off",
-                  messageTitle: 'You Won {{PRIZE}}!',
+                  messageTitle: 'You Won {{REWARD}}!',
                   messageContent: "Use the code below at checkout to enjoy your reward."
                 },
                 {
@@ -486,26 +486,26 @@
                 {
                   id: '6',
                   name: "15% off",
-                  messageTitle: 'You Won {{PRIZE}}!',
+                  messageTitle: 'You Won {{REWARD}}!',
                   messageContent: "Use the code below at checkout to enjoy your reward."
                 },
                 {
                   id: '7',
                   name: "Free shipping $50",
-                  messageTitle: 'You Won {{PRIZE}}!',
+                  messageTitle: 'You Won {{REWARD}}!',
                   messageContent: "Use the code below at checkout to enjoy your reward."
                 },
                 {
                   id: '8',
                   name: "$15 off",
-                  messageTitle: 'You Won {{PRIZE}}!',
+                  messageTitle: 'You Won {{REWARD}}!',
                   messageContent: "Use the code below at checkout to enjoy your reward."
                 }
               ]
             },
           }
         },
-        prizes: [{
+        rewards: [{
           id: '1',
           name: 'Unlucky',
           type: 'none',
@@ -744,7 +744,7 @@
 </head>
 <body>
   <div class="container eplugin-wrapper">
-    <p><img class="eplugin-wrapper-img" src="https://cdn.jsdelivr.net/gh/eplugin-io/spinx@stg-build-159/assets/images/logo/eplugin_532×133.png" alt="ePlugin"></p>
+    <p><img class="eplugin-wrapper-img" src="https://cdn.jsdelivr.net/gh/eplugin-io/spinx@stg-build-164/assets/images/logo/eplugin_532×133.png" alt="ePlugin"></p>
     <p class="eplugin-wrapper-text">Multi-platform Integration</p>
   </div>
 </body>
