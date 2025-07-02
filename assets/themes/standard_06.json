@@ -47,54 +47,34 @@
       "backgroundColor": "#2A7387"
     }]
   },
-  "rewardMessages": {
+  "rewardTypes": {
     "none": {
-      "title": {
-        "text": "Oops! Maybe next time 🎯",
-        "size": 36,
-        "color": "#80C2C1"
+      "message": {
+        "title": "Oops! Maybe next time 🎯",
+        "content": "Thanks for playing! Let’s see what fortune brings next time."
       },
-      "content": {
-        "text": "Thanks for playing! Let’s see what fortune brings next time.",
-        "size": 24,
-        "color": "#FAF9F5"
-      }
+      "effectMusic": "not_winning_default"
     },
     "discountCode": {
-      "title": {
-        "text": "You Won {{REWARD}}!",
-        "size": 36,
-        "color": "#80C2C1"
+      "message": {
+        "title": "You Won {{REWARD}}!",
+        "content": "Use the code below at checkout to enjoy your reward."
       },
-      "content": {
-        "text": "Use the code below at checkout to enjoy your reward.",
-        "size": 24,
-        "color": "#FAF9F5"
-      }
+      "effectMusic": "winning_victory"
     },
     "freeShipping": {
-      "title": {
-        "text": "You Won {{REWARD}}!",
-        "size": 36,
-        "color": "#80C2C1"
+      "message": {
+        "title": "You Won {{REWARD}}!",
+        "content": "Use the code below at checkout to enjoy your reward."
       },
-      "content": {
-        "text": "Use the code below at checkout to enjoy your reward.",
-        "size": 24,
-        "color": "#FAF9F5"
-      }
+      "effectMusic": "winning_victory"
     },
     "freeGift": {
-      "title": {
-        "text": "You Won {{REWARD}}!",
-        "size": 36,
-        "color": "#80C2C1"
+      "message": {
+        "title": "You Won {{REWARD}}!",
+        "content": "Use the code below at checkout to enjoy your reward."
       },
-      "content": {
-        "text": "Use the code below at checkout to enjoy your reward.",
-        "size": 24,
-        "color": "#FAF9F5"
-      }
+      "effectMusic": "winning_victory"
     }
   },
   "popup": {
