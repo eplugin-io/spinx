@@ -1,6 +1,6 @@
 {
   "wheel": {
-    "fontFamily": "Open Sans",
+    "fontFamily": "Nunito",
     "contentSize": 36,
     "borderAround": {
       "type": "standard",
@@ -65,7 +65,7 @@
       "backgroundImage": "",
       "mobileBackgroundImage": ""
     },
-    "fontFamily": "Open Sans",
+    "fontFamily": "Nunito",
     "title": {
       "text": "Spin to win exciting rewards!",
       "size": 36,
@@ -117,7 +117,7 @@
         "backgroundImage": "",
         "mobileBackgroundImage": ""
       },
-      "fontFamily": "Open Sans",
+      "fontFamily": "Nunito",
       "title": {
         "text": "🎁 An Exclusive Offer Just for You 🎁",
         "size": 32,
@@ -152,7 +152,7 @@
         "backgroundImage": "",
         "mobileBackgroundImage": ""
       },
-      "fontFamily": "Open Sans",
+      "fontFamily": "Nunito",
       "title": {
         "text": "🚀 An Exclusive Offer Just for You 🚀",
         "size": 32,
@@ -183,7 +183,7 @@
     }
   },
   "announcement": {
-    "fontFamily": "Open Sans",
+    "fontFamily": "Nunito",
     "contentSize": 16,
     "contentColor": "#222222",
     "backgroundColor": "#5FA67A",
