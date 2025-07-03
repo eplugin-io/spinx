@@ -108,10 +108,6 @@
       "content": "Spin Now",
       "contentColor": "#ffffff",
       "backgroundColor": "#1D305D",
-      "attentionEffect": {
-        "enabled": true,
-        "intervalTime": 10
-      },
       "icon": "standard_01"
     },
     "delayedDisplay": {
@@ -192,22 +188,15 @@
     "contentColor": "#222222",
     "backgroundColor": "#5FA67A",
     "upcomingEvent": {
-      "enabled": true,
-      "displayDays": 5,
       "content": "Get ready! The reward wheel launches at {{TIME}} with exciting prizes!"
     },
     "readyToSpin": {
-      "enabled": true,
       "content": "Ready to spin? Click {{SPIN}} and win something exciting!"
     },
     "countDownToLaunch": {
-      "enabled": true,
-      "displayHours": 72,
       "content": "The countdown is on! Only {{TIME}} left until launch!"
     },
     "countDownToClose": {
-      "enabled": true,
-      "displayHours": 24,
       "content": "Hurry! Only {{TIME}} left — click {{SPIN}} to spin and claim your reward!"
     }
   }

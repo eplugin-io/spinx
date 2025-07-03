@@ -1,6 +1,6 @@
 {
   "wheel": {
-    "fontFamily": "DM Serif",
+    "fontFamily": "Nunito",
     "contentSize": 36,
     "borderAround": {
       "type": "standard",
@@ -65,7 +65,7 @@
       "backgroundImage": "",
       "mobileBackgroundImage": ""
     },
-    "fontFamily": "DM Serif",
+    "fontFamily": "Nunito",
     "title": {
       "text": "Spin to win exciting rewards!",
       "size": 36,
@@ -108,10 +108,6 @@
       "content": "Spin Now",
       "contentColor": "#ffffff",
       "backgroundColor": "#1D305D",
-      "attentionEffect": {
-        "enabled": true,
-        "DM SerifvalTime": 10
-      },
       "icon": "standard_01"
     },
     "delayedDisplay": {
@@ -121,7 +117,7 @@
         "backgroundImage": "",
         "mobileBackgroundImage": ""
       },
-      "fontFamily": "DM Serif",
+      "fontFamily": "Nunito",
       "title": {
         "text": "🎁 An Exclusive Offer Just for You 🎁",
         "size": 32,
@@ -156,7 +152,7 @@
         "backgroundImage": "",
         "mobileBackgroundImage": ""
       },
-      "fontFamily": "DM Serif",
+      "fontFamily": "Nunito",
       "title": {
         "text": "🚀 An Exclusive Offer Just for You 🚀",
         "size": 32,
@@ -187,27 +183,20 @@
     }
   },
   "announcement": {
-    "fontFamily": "DM Serif",
+    "fontFamily": "Nunito",
     "contentSize": 16,
     "contentColor": "#000000",
     "backgroundColor": "#E9C46A",
     "upcomingEvent": {
-      "enabled": true,
-      "displayDays": 5,
       "content": "Get ready! The reward wheel launches at {{TIME}} with exciting prizes!"
     },
     "readyToSpin": {
-      "enabled": true,
       "content": "Ready to spin? Click {{SPIN}} and win something exciting!"
     },
     "countDownToLaunch": {
-      "enabled": true,
-      "displayHours": 72,
       "content": "The countdown is on! Only {{TIME}} left until launch!"
     },
     "countDownToClose": {
-      "enabled": true,
-      "displayHours": 24,
       "content": "Hurry! Only {{TIME}} left — click {{SPIN}} to spin and claim your reward!"
     }
   }
