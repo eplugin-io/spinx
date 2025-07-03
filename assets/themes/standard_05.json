@@ -205,13 +205,13 @@
       "content": "Get ready! The reward wheel launches at {{TIME}} with exciting prizes!"
     },
     "readyToSpin": {
-      "content": "Ready to spin? Click {{SPIN}} and win something exciting!"
+      "content": "Ready to spin? Click {{OPENER}} and win something exciting!"
     },
     "countDownToLaunch": {
       "content": "The countdown is on! Only {{TIME}} left until launch!"
     },
     "countDownToClose": {
-      "content": "Hurry! Only {{TIME}} left — click {{SPIN}} to spin and claim your reward!"
+      "content": "Hurry! Only {{TIME}} left — click {{OPENER}} to spin and claim your reward!"
     }
   }
 }
