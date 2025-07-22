@@ -57,7 +57,7 @@
       }
     }
   </style>
-  <script src="https://cdn.jsdelivr.net/gh/eplugin-io/spinx@v1.0.0-beta-13/spinx.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/gh/eplugin-io/spinx@v1.0.0-beta-14/spinx.min.js" defer></script>
   <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
   <script>
     const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
@@ -86,7 +86,7 @@
         closedAt: addDays(new Date(), 1),
         createdAt: new Date().toISOString(),
         updatedAt: new Date().toISOString(),
-        store: {
+        site: {
           id: '032d4f90-b33f-4921-b7a8-36e451e110fb',
           name: 'SpinX Dev',
           domain: 'spinx-dev.myshopify.com',
@@ -722,7 +722,7 @@
       const campaign = await getSpinXCampaign();
       if (campaign) {
         window.SpinX.campaign = campaign;
-        window.SpinX.store = campaign.store;
+        window.SpinX.site = campaign.site;
         setSpinXParams();
 
         if (typeof initSpinXApp === "function") {
@@ -744,7 +744,7 @@
 </head>
 <body>
   <div class="container eplugin-wrapper">
-    <p><img class="eplugin-wrapper-img" src="https://cdn.jsdelivr.net/gh/eplugin-io/spinx@v1.0.0-beta-13/assets/images/logo/eplugin-full-532×133.png" alt="ePlugin"></p>
+    <p><img class="eplugin-wrapper-img" src="https://cdn.jsdelivr.net/gh/eplugin-io/spinx@v1.0.0-beta-14/assets/images/logo/eplugin-full-532×133.png" alt="ePlugin"></p>
     <p class="eplugin-wrapper-text">Multi-platform Integration</p>
   </div>
 </body>
