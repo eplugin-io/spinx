@@ -1,0 +1,343 @@
+{
+  "id": "classic",
+  "name": "Classic",
+  "themes": [
+    {
+      "id": "01",
+      "preview": {
+        "path": "/?theme-cate=classic&theme=01"
+      },
+      "thumbnail": {
+        "path": "/catalog/classic/themes/01/thumbnail/main.png"
+      },
+      "tags": ["classic", "modern", "luxury", "fashion", "dark", "blue", "yellow", "gold"]
+    },
+    {
+      "id": "02",
+      "thumbnail": {
+        "path": "/catalog/classic/themes/02/thumbnail/main.png"
+      },
+      "tags": ["classic", "modern", "luxury", "fashion", "dark", "neutral", "pink"]
+    },
+    {
+      "id": "03",
+      "thumbnail": {
+        "path": "/catalog/classic/themes/03/thumbnail/main.png"
+      },
+      "tags": ["classic", "luxury", "fashion", "green", "yellow", "gold"]
+    },
+    {
+      "id": "04",
+      "thumbnail": {
+        "path": "/catalog/classic/themes/04/thumbnail/main.png"
+      },
+      "tags": ["classic", "modern", "luxury", "fashion", "jewelry", "white", "silver"]
+    },
+    {
+      "id": "05",
+      "thumbnail": {
+        "path": "/catalog/classic/themes/05/thumbnail/main.png"
+      },
+      "tags": ["classic", "luxury", "fashion", "purple", "yellow", "gold"]
+    },
+    {
+      "id": "06",
+      "thumbnail": {
+        "path": "/catalog/classic/themes/06/thumbnail/main.png"
+      },
+      "tags": ["classic", "modern", "elegant", "fashion", "teal", "yellow", "gold"]
+    },
+    {
+      "id": "07",
+      "thumbnail": {
+        "path": "/catalog/classic/themes/07/thumbnail/main.png"
+      },
+      "tags": ["classic", "modern", "corporate", "fashion", "blue", "silver", "dark"]
+    },
+    {
+      "id": "08",
+      "thumbnail": {
+        "path": "/catalog/classic/themes/08/thumbnail/main.png"
+      },
+      "tags": ["classic", "modern", "luxury", "fashion", "black", "green"]
+    },
+    {
+      "id": "09",
+      "thumbnail": {
+        "path": "/catalog/classic/themes/09/thumbnail/main.png"
+      },
+      "tags": ["classic", "elegant", "luxury", "fashion", "green", "beige", "yellow", "gold"]
+    },
+    {
+      "id": "10",
+      "thumbnail": {
+        "path": "/catalog/classic/themes/10/thumbnail/main.png"
+      },
+      "tags": ["classic", "modern", "luxury", "fashion", "blue", "silver"]
+    },
+    {
+      "id": "11",
+      "thumbnail": {
+        "path": "/catalog/classic/themes/11/thumbnail/main.png"
+      },
+      "tags": ["classic", "modern", "food", "green", "orange", "dark"]
+    },
+    {
+      "id": "12",
+      "thumbnail": {
+        "path": "/catalog/classic/themes/12/thumbnail/main.png"
+      },
+      "tags": ["classic", "luxury", "fresh", "food", "green", "white", "yellow", "gold"]
+    },
+    {
+      "id": "13",
+      "thumbnail": {
+        "path": "/catalog/classic/themes/13/thumbnail/main.png"
+      },
+      "tags": ["classic", "modern", "playful", "food", "mint", "pink"]
+    },
+    {
+      "id": "14",
+      "thumbnail": {
+        "path": "/catalog/classic/themes/14/thumbnail/main.png"
+      },
+      "tags": ["classic", "elegant", "food", "green", "peach"]
+    },
+    {
+      "id": "15",
+      "thumbnail": {
+        "path": "/catalog/classic/themes/15/thumbnail/main.png"
+      },
+      "tags": ["classic", "modern", "food", "teal", "yellow", "gold"]
+    },
+    {
+      "id": "16",
+      "thumbnail": {
+        "path": "/catalog/classic/themes/16/thumbnail/main.png"
+      },
+      "tags": ["classic", "elegant", "luxury", "food", "terracotta", "cream", "yellow", "gold"]
+    },
+    {
+      "id": "17",
+      "thumbnail": {
+        "path": "/catalog/classic/themes/17/thumbnail/main.png"
+      },
+      "tags": ["classic", "modern", "food", "turquoise", "yellow", "gold"]
+    },
+    {
+      "id": "18",
+      "thumbnail": {
+        "path": "/catalog/classic/themes/18/thumbnail/main.png"
+      },
+      "tags": ["classic", "elegant", "luxury", "food", "fashion", "red", "cream"]
+    },
+    {
+      "id": "19",
+      "thumbnail": {
+        "path": "/catalog/classic/themes/19/thumbnail/main.png"
+      },
+      "tags": ["classic", "luxury", "food", "brown", "yellow", "gold"]
+    },
+    {
+      "id": "20",
+      "thumbnail": {
+        "path": "/catalog/classic/themes/20/thumbnail/main.png"
+      },
+      "tags": ["classic", "luxury", "playful", "fashion", "food", "pink", "yellow", "gold"]
+    },
+    {
+      "id": "21",
+      "thumbnail": {
+        "path": "/catalog/classic/themes/21/thumbnail/main.png"
+      },
+      "tags": ["classic", "luxury", "elegant", "jewelry", "silver", "green"]
+    },
+    {
+      "id": "22",
+      "thumbnail": {
+        "path": "/catalog/classic/themes/22/thumbnail/main.png"
+      },
+      "tags": ["classic", "luxury", "jewelry", "purple", "yellow", "gold"]
+    },
+    {
+      "id": "23",
+      "thumbnail": {
+        "path": "/catalog/classic/themes/23/thumbnail/main.png"
+      },
+      "tags": ["classic", "luxury", "jewelry", "blue", "yellow", "gold"]
+    },
+    {
+      "id": "24",
+      "thumbnail": {
+        "path": "/catalog/classic/themes/24/thumbnail/main.png"
+      },
+      "tags": ["classic", "luxury", "minimal", "jewelry", "silver", "white"]
+    },
+    {
+      "id": "25",
+      "thumbnail": {
+        "path": "/catalog/classic/themes/25/thumbnail/main.png"
+      },
+      "tags": ["classic", "luxury", "jewelry", "black", "yellow", "gold"]
+    },
+    {
+      "id": "26",
+      "thumbnail": {
+        "path": "/catalog/classic/themes/26/thumbnail/main.png"
+      },
+      "tags": ["classic", "luxury", "jewelry", "red", "yellow", "gold"]
+    },
+    {
+      "id": "27",
+      "thumbnail": {
+        "path": "/catalog/classic/themes/27/thumbnail/main.png"
+      },
+      "tags": ["classic", "kids", "playful", "multi-color", "multi"]
+    },
+    {
+      "id": "28",
+      "thumbnail": {
+        "path": "/catalog/classic/themes/28/thumbnail/main.png"
+      },
+      "tags": ["classic", "food", "beverage", "fresh", "multi-color", "multi"]
+    },
+    {
+      "id": "29",
+      "thumbnail": {
+        "path": "/catalog/classic/themes/29/thumbnail/main.png"
+      },
+      "tags": ["classic", "food", "beverage", "fresh", "multi-color", "multi"]
+    },
+    {
+      "id": "30",
+      "thumbnail": {
+        "path": "/catalog/classic/themes/30/thumbnail/main.png"
+      },
+      "tags": ["classic", "festival", "holiday", "multi-color", "multi"]
+    }
+  ],
+  "openers": [
+    {
+      "id": "01",
+      "contentColor": "#FFD700",
+      "backgroundColor": "#FF6600"
+    },
+    {
+      "id": "02",
+      "contentColor": "#FFD700",
+      "backgroundColor": "#FF6600"
+    },
+    {
+      "id": "03",
+      "contentColor": "#FFD700",
+      "backgroundColor": "#000000"
+    },
+    {
+      "id": "04",
+      "contentColor": "#FFD700",
+      "backgroundColor": "#2C003E"
+    },
+    {
+      "id": "05",
+      "contentColor": "#39FF14",
+      "backgroundColor": "#4B0082"
+    },
+    {
+      "id": "06",
+      "contentColor": "#FFD700",
+      "backgroundColor": "#2C003E"
+    },
+    {
+      "id": "07",
+      "contentColor": "#FFD700",
+      "backgroundColor": "#2C003E"
+    },
+    {
+      "id": "08",
+      "contentColor": "#FF7518",
+      "backgroundColor": "#000000"
+    },
+    {
+      "id": "09",
+      "contentColor": "#FFD700",
+      "backgroundColor": "#000000"
+    },
+    {
+      "id": "10",
+      "contentColor": "#FFD700",
+      "backgroundColor": "#000000"
+    },
+    {
+      "id": "11",
+      "contentColor": "#FFD700",
+      "backgroundColor": "#000000"
+    },
+    {
+      "id": "12",
+      "contentColor": "#FFD700",
+      "backgroundColor": "#000000"
+    }
+  ],
+  "sounds": [
+    {
+      "id": "background/exciting_show",
+      "name": "Exciting show"
+    },
+    {
+      "id": "background/game_organization",
+      "name": "Game organization"
+    },
+    {
+      "id": "playing/pursuit",
+      "name": "Pursuit"
+    },
+    {
+      "id": "playing/stress",
+      "name": "Stress"
+    },
+    {
+      "id": "playing/turn",
+      "name": "Turn"
+    },
+    {
+      "id": "winning/default",
+      "name": "Default"
+    },
+    {
+      "id": "winning/clapping",
+      "name": "Clapping"
+    },
+    {
+      "id": "winning/electronic",
+      "name": "Electronic"
+    },
+    {
+      "id": "winning/firework",
+      "name": "Firework"
+    },
+    {
+      "id": "winning/introduction",
+      "name": "Introduction"
+    },
+    {
+      "id": "winning/victory",
+      "name": "Victory"
+    },
+    {
+      "id": "losing/default",
+      "name": "Default"
+    },
+    {
+      "id": "losing/electronic",
+      "name": "Electronic"
+    },
+    {
+      "id": "losing/laughing",
+      "name": "Laughing"
+    },
+    {
+      "id": "losing/scene_transitions",
+      "name": "Scene Transitions"
+    }
+  ]
+}

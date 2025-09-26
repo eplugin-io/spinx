@@ -1,0 +1,187 @@
+{
+  "id": "halloween",
+  "name": "Halloween",
+  "themes": [
+    {
+      "id": "01",
+      "thumbnail": {
+        "path": "/catalog/halloween/themes/01/thumbnail/main.png"
+      },
+      "tags": ["halloween", "cartoon", "playful", "dark"]
+    },
+    {
+      "id": "02",
+      "thumbnail": {
+        "path": "/catalog/halloween/themes/02/thumbnail/main.png"
+      },
+      "tags": ["halloween", "cartoon", "playful", "dark"]
+    },
+    {
+      "id": "03",
+      "thumbnail": {
+        "path": "/catalog/halloween/themes/03/thumbnail/main.png"
+      },
+      "tags": ["halloween", "cartoon", "playful", "dark"]
+    },
+    {
+      "id": "04",
+      "thumbnail": {
+        "path": "/catalog/halloween/themes/04/thumbnail/main.png"
+      },
+      "tags": ["halloween", "cartoon", "playful", "dark"]
+    },
+    {
+      "id": "05",
+      "thumbnail": {
+        "path": "/catalog/halloween/themes/05/thumbnail/main.png"
+      },
+      "tags": ["halloween", "cartoon", "playful", "dark"]
+    }
+  ],
+  "openers": [
+    {
+      "id": "01",
+      "contentColor": "#FFD700",
+      "backgroundColor": "#FF6600"
+    },
+    {
+      "id": "02",
+      "contentColor": "#FFD700",
+      "backgroundColor": "#FF6600"
+    },
+    {
+      "id": "03",
+      "contentColor": "#FFD700",
+      "backgroundColor": "#000000"
+    },
+    {
+      "id": "04",
+      "contentColor": "#FFD700",
+      "backgroundColor": "#2C003E"
+    },
+    {
+      "id": "05",
+      "rid": "05r",
+      "contentColor": "#39FF14",
+      "backgroundColor": "#4B0082"
+    },
+    {
+      "id": "06",
+      "rid": "06r",
+      "contentColor": "#FFD700",
+      "backgroundColor": "#2C003E"
+    },
+    {
+      "id": "07",
+      "contentColor": "#FFD700",
+      "backgroundColor": "#2C003E"
+    },
+    {
+      "id": "08",
+      "contentColor": "#FF7518",
+      "backgroundColor": "#000000"
+    },
+    {
+      "id": "09",
+      "contentColor": "#FFD700",
+      "backgroundColor": "#000000"
+    },
+    {
+      "id": "10",
+      "contentColor": "#FFD700",
+      "backgroundColor": "#000000"
+    },
+    {
+      "id": "11",
+      "contentColor": "#FFD700",
+      "backgroundColor": "#145A32"
+    },
+    {
+      "id": "12",
+      "contentColor": "#FFD700",
+      "backgroundColor": "#000000"
+    },
+    {
+      "id": "13",
+      "contentColor": "#FFD700",
+      "backgroundColor": "#000000"
+    },
+    {
+      "id": "14",
+      "contentColor": "#FFD700",
+      "backgroundColor": "#000000"
+    },
+    {
+      "id": "15",
+      "contentColor": "#FFD700",
+      "backgroundColor": "#2C003E"
+    },
+    {
+      "id": "16",
+      "contentColor": "#FF0000",
+      "backgroundColor": "#000000"
+    }
+  ],
+  "sounds": [
+    {
+      "id": "background/creepy_party",
+      "name": "Creepy party"
+    },
+    {
+      "id": "background/halloween",
+      "name": "Halloween"
+    },
+    {
+      "id": "background/halloween_horror",
+      "name": "Halloween horror"
+    },
+    {
+      "id": "background/horror_playhouse",
+      "name": "Horror playhouse"
+    },
+    {
+      "id": "background/horror_music_box",
+      "name": "Horror music box"
+    },
+    {
+      "id": "background/scary_horror",
+      "name": "Scary horror"
+    },
+    {
+      "id": "background/spooky_soundscape",
+      "name": "Spooky soundscape"
+    },
+    {
+      "id": "background/suspenseful",
+      "name": "Suspenseful"
+    },
+    {
+      "id": "background/thunder_come_with_me",
+      "name": "Thunder - Come with me"
+    },
+    {
+      "id": "playing/creepy_party",
+      "name": "Creepy party"
+    },
+    {
+      "id": "playing/fast_suspenseful",
+      "name": "Fast suspenseful"
+    },
+    {
+      "id": "winning/yes_horror_man",
+      "name": "Yes - horror man"
+    },
+    {
+      "id": "winning/yes_horror_women",
+      "name": "Yes - horror women"
+    },
+    {
+      "id": "losing/creepy_laughter",
+      "name": "Creepy laughter"
+    },
+    {
+      "id": "losing/creepy_laughter_longer",
+      "name": "Creepy laughter longer"
+    }
+  ]
+}
