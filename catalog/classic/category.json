@@ -3,341 +3,334 @@
   "name": "Classic",
   "themes": [
     {
-      "id": "01",
-      "preview": {
-        "path": "/?theme-cate=classic&theme=01"
-      },
+      "id": "CLS_01",
       "thumbnail": {
-        "path": "/catalog/classic/themes/01/thumbnail/main.png"
+        "path": "/catalog/classic/themes/CLS_01/thumbnail/main.png"
       },
       "tags": ["classic", "modern", "luxury", "fashion", "dark", "blue", "yellow", "gold"]
     },
     {
-      "id": "02",
+      "id": "CLS_02",
       "thumbnail": {
-        "path": "/catalog/classic/themes/02/thumbnail/main.png"
+        "path": "/catalog/classic/themes/CLS_02/thumbnail/main.png"
       },
       "tags": ["classic", "modern", "luxury", "fashion", "dark", "neutral", "pink"]
     },
     {
-      "id": "03",
+      "id": "CLS_03",
       "thumbnail": {
-        "path": "/catalog/classic/themes/03/thumbnail/main.png"
+        "path": "/catalog/classic/themes/CLS_03/thumbnail/main.png"
       },
       "tags": ["classic", "luxury", "fashion", "green", "yellow", "gold"]
     },
     {
-      "id": "04",
+      "id": "CLS_04",
       "thumbnail": {
-        "path": "/catalog/classic/themes/04/thumbnail/main.png"
+        "path": "/catalog/classic/themes/CLS_04/thumbnail/main.png"
       },
       "tags": ["classic", "modern", "luxury", "fashion", "jewelry", "white", "silver"]
     },
     {
-      "id": "05",
+      "id": "CLS_05",
       "thumbnail": {
-        "path": "/catalog/classic/themes/05/thumbnail/main.png"
+        "path": "/catalog/classic/themes/CLS_05/thumbnail/main.png"
       },
       "tags": ["classic", "luxury", "fashion", "purple", "yellow", "gold"]
     },
     {
-      "id": "06",
+      "id": "CLS_06",
       "thumbnail": {
-        "path": "/catalog/classic/themes/06/thumbnail/main.png"
+        "path": "/catalog/classic/themes/CLS_06/thumbnail/main.png"
       },
       "tags": ["classic", "modern", "elegant", "fashion", "teal", "yellow", "gold"]
     },
     {
-      "id": "07",
+      "id": "CLS_07",
       "thumbnail": {
-        "path": "/catalog/classic/themes/07/thumbnail/main.png"
+        "path": "/catalog/classic/themes/CLS_07/thumbnail/main.png"
       },
       "tags": ["classic", "modern", "corporate", "fashion", "blue", "silver", "dark"]
     },
     {
-      "id": "08",
+      "id": "CLS_08",
       "thumbnail": {
-        "path": "/catalog/classic/themes/08/thumbnail/main.png"
+        "path": "/catalog/classic/themes/CLS_08/thumbnail/main.png"
       },
       "tags": ["classic", "modern", "luxury", "fashion", "black", "green"]
     },
     {
-      "id": "09",
+      "id": "CLS_09",
       "thumbnail": {
-        "path": "/catalog/classic/themes/09/thumbnail/main.png"
+        "path": "/catalog/classic/themes/CLS_09/thumbnail/main.png"
       },
       "tags": ["classic", "elegant", "luxury", "fashion", "green", "beige", "yellow", "gold"]
     },
     {
-      "id": "10",
+      "id": "CLS_10",
       "thumbnail": {
-        "path": "/catalog/classic/themes/10/thumbnail/main.png"
+        "path": "/catalog/classic/themes/CLS_10/thumbnail/main.png"
       },
       "tags": ["classic", "modern", "luxury", "fashion", "blue", "silver"]
     },
     {
-      "id": "11",
+      "id": "CLS_11",
       "thumbnail": {
-        "path": "/catalog/classic/themes/11/thumbnail/main.png"
+        "path": "/catalog/classic/themes/CLS_11/thumbnail/main.png"
       },
       "tags": ["classic", "modern", "food", "green", "orange", "dark"]
     },
     {
-      "id": "12",
+      "id": "CLS_12",
       "thumbnail": {
-        "path": "/catalog/classic/themes/12/thumbnail/main.png"
+        "path": "/catalog/classic/themes/CLS_12/thumbnail/main.png"
       },
       "tags": ["classic", "luxury", "fresh", "food", "green", "white", "yellow", "gold"]
     },
     {
-      "id": "13",
+      "id": "CLS_13",
       "thumbnail": {
-        "path": "/catalog/classic/themes/13/thumbnail/main.png"
+        "path": "/catalog/classic/themes/CLS_13/thumbnail/main.png"
       },
       "tags": ["classic", "modern", "playful", "food", "mint", "pink"]
     },
     {
-      "id": "14",
+      "id": "CLS_14",
       "thumbnail": {
-        "path": "/catalog/classic/themes/14/thumbnail/main.png"
+        "path": "/catalog/classic/themes/CLS_14/thumbnail/main.png"
       },
       "tags": ["classic", "elegant", "food", "green", "peach"]
     },
     {
-      "id": "15",
+      "id": "CLS_15",
       "thumbnail": {
-        "path": "/catalog/classic/themes/15/thumbnail/main.png"
+        "path": "/catalog/classic/themes/CLS_15/thumbnail/main.png"
       },
       "tags": ["classic", "modern", "food", "teal", "yellow", "gold"]
     },
     {
-      "id": "16",
+      "id": "CLS_16",
       "thumbnail": {
-        "path": "/catalog/classic/themes/16/thumbnail/main.png"
+        "path": "/catalog/classic/themes/CLS_16/thumbnail/main.png"
       },
       "tags": ["classic", "elegant", "luxury", "food", "terracotta", "cream", "yellow", "gold"]
     },
     {
-      "id": "17",
+      "id": "CLS_17",
       "thumbnail": {
-        "path": "/catalog/classic/themes/17/thumbnail/main.png"
+        "path": "/catalog/classic/themes/CLS_17/thumbnail/main.png"
       },
       "tags": ["classic", "modern", "food", "turquoise", "yellow", "gold"]
     },
     {
-      "id": "18",
+      "id": "CLS_18",
       "thumbnail": {
-        "path": "/catalog/classic/themes/18/thumbnail/main.png"
+        "path": "/catalog/classic/themes/CLS_18/thumbnail/main.png"
       },
       "tags": ["classic", "elegant", "luxury", "food", "fashion", "red", "cream"]
     },
     {
-      "id": "19",
+      "id": "CLS_19",
       "thumbnail": {
-        "path": "/catalog/classic/themes/19/thumbnail/main.png"
+        "path": "/catalog/classic/themes/CLS_19/thumbnail/main.png"
       },
       "tags": ["classic", "luxury", "food", "brown", "yellow", "gold"]
     },
     {
-      "id": "20",
+      "id": "CLS_20",
       "thumbnail": {
-        "path": "/catalog/classic/themes/20/thumbnail/main.png"
+        "path": "/catalog/classic/themes/CLS_20/thumbnail/main.png"
       },
       "tags": ["classic", "luxury", "playful", "fashion", "food", "pink", "yellow", "gold"]
     },
     {
-      "id": "21",
+      "id": "CLS_21",
       "thumbnail": {
-        "path": "/catalog/classic/themes/21/thumbnail/main.png"
+        "path": "/catalog/classic/themes/CLS_21/thumbnail/main.png"
       },
       "tags": ["classic", "luxury", "elegant", "jewelry", "silver", "green"]
     },
     {
-      "id": "22",
+      "id": "CLS_22",
       "thumbnail": {
-        "path": "/catalog/classic/themes/22/thumbnail/main.png"
+        "path": "/catalog/classic/themes/CLS_22/thumbnail/main.png"
       },
       "tags": ["classic", "luxury", "jewelry", "purple", "yellow", "gold"]
     },
     {
-      "id": "23",
+      "id": "CLS_23",
       "thumbnail": {
-        "path": "/catalog/classic/themes/23/thumbnail/main.png"
+        "path": "/catalog/classic/themes/CLS_23/thumbnail/main.png"
       },
       "tags": ["classic", "luxury", "jewelry", "blue", "yellow", "gold"]
     },
     {
-      "id": "24",
+      "id": "CLS_24",
       "thumbnail": {
-        "path": "/catalog/classic/themes/24/thumbnail/main.png"
+        "path": "/catalog/classic/themes/CLS_24/thumbnail/main.png"
       },
       "tags": ["classic", "luxury", "minimal", "jewelry", "silver", "white"]
     },
     {
-      "id": "25",
+      "id": "CLS_25",
       "thumbnail": {
-        "path": "/catalog/classic/themes/25/thumbnail/main.png"
+        "path": "/catalog/classic/themes/CLS_25/thumbnail/main.png"
       },
       "tags": ["classic", "luxury", "jewelry", "black", "yellow", "gold"]
     },
     {
-      "id": "26",
+      "id": "CLS_26",
       "thumbnail": {
-        "path": "/catalog/classic/themes/26/thumbnail/main.png"
+        "path": "/catalog/classic/themes/CLS_26/thumbnail/main.png"
       },
       "tags": ["classic", "luxury", "jewelry", "red", "yellow", "gold"]
     },
     {
-      "id": "27",
+      "id": "CLS_27",
       "thumbnail": {
-        "path": "/catalog/classic/themes/27/thumbnail/main.png"
+        "path": "/catalog/classic/themes/CLS_27/thumbnail/main.png"
       },
       "tags": ["classic", "kids", "playful", "multi-color", "multi"]
     },
     {
-      "id": "28",
+      "id": "CLS_28",
       "thumbnail": {
-        "path": "/catalog/classic/themes/28/thumbnail/main.png"
+        "path": "/catalog/classic/themes/CLS_28/thumbnail/main.png"
       },
       "tags": ["classic", "food", "beverage", "fresh", "multi-color", "multi"]
     },
     {
-      "id": "29",
+      "id": "CLS_29",
       "thumbnail": {
-        "path": "/catalog/classic/themes/29/thumbnail/main.png"
+        "path": "/catalog/classic/themes/CLS_29/thumbnail/main.png"
       },
       "tags": ["classic", "food", "beverage", "fresh", "multi-color", "multi"]
     },
     {
-      "id": "30",
+      "id": "CLS_30",
       "thumbnail": {
-        "path": "/catalog/classic/themes/30/thumbnail/main.png"
+        "path": "/catalog/classic/themes/CLS_30/thumbnail/main.png"
       },
       "tags": ["classic", "festival", "holiday", "multi-color", "multi"]
     }
   ],
   "openers": [
     {
-      "id": "01",
+      "id": "CLS_01",
       "contentColor": "#FFD700",
       "backgroundColor": "#FF6600"
     },
     {
-      "id": "02",
+      "id": "CLS_02",
       "contentColor": "#FFD700",
       "backgroundColor": "#FF6600"
     },
     {
-      "id": "03",
+      "id": "CLS_03",
       "contentColor": "#FFD700",
       "backgroundColor": "#000000"
     },
     {
-      "id": "04",
+      "id": "CLS_04",
       "contentColor": "#FFD700",
       "backgroundColor": "#2C003E"
     },
     {
-      "id": "05",
+      "id": "CLS_05",
       "contentColor": "#39FF14",
       "backgroundColor": "#4B0082"
     },
     {
-      "id": "06",
+      "id": "CLS_06",
       "contentColor": "#FFD700",
       "backgroundColor": "#2C003E"
     },
     {
-      "id": "07",
+      "id": "CLS_07",
       "contentColor": "#FFD700",
       "backgroundColor": "#2C003E"
     },
     {
-      "id": "08",
+      "id": "CLS_08",
       "contentColor": "#FF7518",
       "backgroundColor": "#000000"
     },
     {
-      "id": "09",
+      "id": "CLS_09",
       "contentColor": "#FFD700",
       "backgroundColor": "#000000"
     },
     {
-      "id": "10",
+      "id": "CLS_10",
       "contentColor": "#FFD700",
       "backgroundColor": "#000000"
     },
     {
-      "id": "11",
+      "id": "CLS_11",
       "contentColor": "#FFD700",
       "backgroundColor": "#000000"
     },
     {
-      "id": "12",
+      "id": "CLS_12",
       "contentColor": "#FFD700",
       "backgroundColor": "#000000"
     }
   ],
   "sounds": [
     {
-      "id": "background/exciting_show",
-      "name": "Exciting show"
+      "id": "CLS_BG_01",
+      "name": "CLS_BG_01"
     },
     {
-      "id": "background/game_organization",
-      "name": "Game organization"
+      "id": "CLS_BG_02",
+      "name": "CLS_BG_02"
     },
     {
-      "id": "playing/pursuit",
-      "name": "Pursuit"
+      "id": "CLS_PY_01",
+      "name": "CLS_PY_01"
     },
     {
-      "id": "playing/stress",
-      "name": "Stress"
+      "id": "CLS_PY_02",
+      "name": "CLS_PY_02"
     },
     {
-      "id": "playing/turn",
-      "name": "Turn"
+      "id": "CLS_PY_03",
+      "name": "CLS_PY_03"
     },
     {
-      "id": "winning/default",
-      "name": "Default"
+      "id": "CLS_WN_01",
+      "name": "CLS_WN_01"
     },
     {
-      "id": "winning/clapping",
-      "name": "Clapping"
+      "id": "CLS_WN_02",
+      "name": "CLS_WN_02"
     },
     {
-      "id": "winning/electronic",
-      "name": "Electronic"
+      "id": "CLS_WN_03",
+      "name": "CLS_WN_03"
     },
     {
-      "id": "winning/firework",
-      "name": "Firework"
+      "id": "CLS_WN_04",
+      "name": "CLS_WN_04"
     },
     {
-      "id": "winning/introduction",
-      "name": "Introduction"
+      "id": "CLS_WN_05",
+      "name": "CLS_WN_05"
     },
     {
-      "id": "winning/victory",
-      "name": "Victory"
+      "id": "CLS_LS_01",
+      "name": "CLS_LS_01"
     },
     {
-      "id": "losing/default",
-      "name": "Default"
+      "id": "CLS_LS_02",
+      "name": "CLS_LS_02"
     },
     {
-      "id": "losing/electronic",
-      "name": "Electronic"
+      "id": "CLS_LS_03",
+      "name": "CLS_LS_03"
     },
     {
-      "id": "losing/laughing",
-      "name": "Laughing"
-    },
-    {
-      "id": "losing/scene_transitions",
-      "name": "Scene Transitions"
+      "id": "CLS_LS_04",
+      "name": "CLS_LS_04"
     }
   ]
 }
