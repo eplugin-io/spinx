@@ -76,7 +76,7 @@
     }
   },
   "popup": {
-    "displayType": "standard_screen",
+    "displayType": "auto",
     "showLogo": { "enabled": true },
     "background": {
       "backgroundColor": "#091B2F",
@@ -112,7 +112,7 @@
     "spinButton": {
       "text": "Spin!",
       "size": 24,
-      "color": "#09182B",
+      "color": "#000000",
       "backgroundColor": "#D8B164"
     },
     "footerContent": {
@@ -168,7 +168,7 @@
       "spinButton": {
         "text": "Spin Now",
         "size": 16,
-        "color": "#09182B",
+        "color": "#000000",
         "backgroundColor": "#D8B164"
       },
       "cancelButton": {
@@ -201,7 +201,7 @@
       "spinButton": {
         "text": "Spin Now",
         "size": 16,
-        "color": "#09182B",
+        "color": "#000000",
         "backgroundColor": "#D8B164"
       },
       "cancelButton": {

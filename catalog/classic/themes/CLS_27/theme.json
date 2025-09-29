@@ -94,7 +94,7 @@
     }
   },
   "popup": {
-    "displayType": "standard_screen",
+    "displayType": "auto",
     "showLogo": { "enabled": true },
     "background": {
       "backgroundColor": "#FFFFFF",
