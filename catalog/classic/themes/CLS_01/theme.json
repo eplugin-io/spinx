@@ -137,7 +137,8 @@
       "contentColor": "#D8B164",
       "backgroundColor": "#091B2F",
       "icon": {
-        "value": "CLS_01"
+        "value": "CLS_01",
+        "backgroundColor": "#091B2F"
       },
       "attentionEffect": {
         "enabled": true,

@@ -5,35 +5,21 @@
     {
       "id": "HLW_01",
       "thumbnail": {
-        "path": "/catalog/halloween/themes/HLW_01/thumbnail/main.png"
+        "path": "/catalog/halloween/themes/HLW_01/thumbnail/main.webp"
       },
       "tags": ["halloween", "cartoon", "playful", "dark"]
     },
     {
       "id": "HLW_02",
       "thumbnail": {
-        "path": "/catalog/halloween/themes/HLW_02/thumbnail/main.png"
+        "path": "/catalog/halloween/themes/HLW_02/thumbnail/main.webp"
       },
       "tags": ["halloween", "cartoon", "playful", "dark"]
     },
     {
       "id": "HLW_03",
       "thumbnail": {
-        "path": "/catalog/halloween/themes/HLW_03/thumbnail/main.png"
-      },
-      "tags": ["halloween", "cartoon", "playful", "dark"]
-    },
-    {
-      "id": "HLW_04",
-      "thumbnail": {
-        "path": "/catalog/halloween/themes/HLW_04/thumbnail/main.png"
-      },
-      "tags": ["halloween", "cartoon", "playful", "dark"]
-    },
-    {
-      "id": "HLW_05",
-      "thumbnail": {
-        "path": "/catalog/halloween/themes/HLW_05/thumbnail/main.png"
+        "path": "/catalog/halloween/themes/HLW_03/thumbnail/main.webp"
       },
       "tags": ["halloween", "cartoon", "playful", "dark"]
     }
@@ -41,85 +27,126 @@
   "openers": [
     {
       "id": "HLW_01",
-      "contentColor": "#FFD700",
-      "backgroundColor": "#FF6600"
+      "popupColors": [{
+        "content": "#FFD700",
+        "background": "#FF6600"
+      }]
     },
     {
       "id": "HLW_02",
-      "contentColor": "#FFD700",
-      "backgroundColor": "#FF6600"
+      "popupColors": [{
+        "content": "#FFD700",
+        "background": "#FF6600"
+      }]
     },
     {
       "id": "HLW_03",
-      "contentColor": "#FFD700",
-      "backgroundColor": "#000000"
+      "popupColors": [{
+        "content": "#FFD700",
+        "background": "#000000"
+      }]
     },
     {
       "id": "HLW_04",
-      "contentColor": "#FFD700",
-      "backgroundColor": "#2C003E"
+      "popupColors": [{
+        "content": "#FFD700",
+        "background": "#2C003E"
+      }]
     },
     {
       "id": "HLW_05",
       "rid": "HLW_05R",
-      "contentColor": "#39FF14",
-      "backgroundColor": "#4B0082"
+      "transparentBackground": true,
+      "popupColors": [{
+        "content": "#39FF14",
+        "background": "#4B0082"
+      }]
     },
     {
       "id": "HLW_06",
       "rid": "HLW_06R",
-      "contentColor": "#FFD700",
-      "backgroundColor": "#2C003E"
+      "transparentBackground": true,
+      "popupColors": [{
+        "content": "#FFD700",
+        "background": "#2C003E"
+      }]
     },
     {
       "id": "HLW_07",
-      "contentColor": "#FFD700",
-      "backgroundColor": "#2C003E"
+      "popupColors": [{
+        "content": "#FFD700",
+        "background": "#2C003E"
+      }]
     },
     {
       "id": "HLW_08",
-      "contentColor": "#FF7518",
-      "backgroundColor": "#000000"
+      "popupColors": [{
+        "content": "#FF7518",
+        "background": "#000000"
+      }]
     },
     {
       "id": "HLW_09",
-      "contentColor": "#FFD700",
-      "backgroundColor": "#000000"
+      "popupColors": [{
+        "content": "#FFD700",
+        "background": "#000000"
+      }]
     },
     {
       "id": "HLW_10",
-      "contentColor": "#FFD700",
-      "backgroundColor": "#000000"
+      "popupColors": [{
+        "content": "#FFD700",
+        "background": "#000000"
+      }]
     },
     {
       "id": "HLW_11",
-      "contentColor": "#FFD700",
-      "backgroundColor": "#145A32"
+      "transparentBackground": true,
+      "popupColors": [{
+        "content": "#FFD700",
+        "background": "#145A32"
+      }]
     },
     {
       "id": "HLW_12",
-      "contentColor": "#FFD700",
-      "backgroundColor": "#000000"
+      "transparentBackground": true,
+      "popupColors": [{
+        "content": "#FFD700",
+        "background": "#000000"
+      }]
     },
     {
       "id": "HLW_13",
-      "contentColor": "#FFD700",
-      "backgroundColor": "#000000"
+      "transparentBackground": true,
+      "popupColors": [{
+        "content": "#FFD700",
+        "background": "#000000"
+      }]
     },
     {
       "id": "HLW_14",
-      "contentColor": "#FFD700",
-      "backgroundColor": "#000000"
+      "transparentBackground": true,
+      "popupColors": [{
+        "content": "#FFD700",
+        "background": "#000000"
+      }]
     },
     {
       "id": "HLW_15",
-      "contentColor": "#FFD700",
-      "backgroundColor": "#2C003E"
+      "transparentBackground": true,
+      "popupColors": [{
+        "content": "#FFD700",
+        "background": "#2C003E"
+      }]
     },
     {
       "id": "HLW_16",
-      "contentColor": "#FF0000",
-      "backgroundColor": "#000000"
+      "deltaY": -3,
+      "transparentBackground": true,
+      "popupColors": [{
+        "content": "#FF0000",
+        "background": "#000000"
+      }]
     }
   ],
   "sounds": [

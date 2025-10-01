@@ -3,22 +3,22 @@
     "fontFamily": "Special Elite",
     "contentSize": 36,
     "borderAround": {
-      "type": "auto_darken",
-      "color": ""
+      "type": "line",
+      "color": "#BF2B22"
     },
     "rewardBorder": {
-      "displayed": false,
-      "color": ""
+      "displayed": true,
+      "color": "#BF2B22"
     },
     "circleCenter": {
       "displayed": true,
-      "borderType": "none",
-      "borderColor": "",
+      "borderType": "line",
+      "borderColor": "#BF2B22",
       "backgroundColor": "#B64A1F"
     },
     "sticker": {
-      "borderType": "none",
-      "borderColor": "",
+      "borderType": "line",
+      "borderColor": "#BF2B22",
       "backgroundColor": "#B64A1F"
     },
     "playingMusic": {
@@ -26,17 +26,17 @@
       "value": "HLW_PY_02"
     },
     "rewards": [{
-      "contentColor": "#FFFFFFCC",
+      "contentColor": "#DDDDDD",
       "backgroundColor": "#BF2B22"
     }, {
-      "contentColor": "#FFFFFFCC",
+      "contentColor": "#DDDDDD",
       "backgroundColor": "#170B20"
     }]
   },
   "rewardTypes": {
     "none": {
       "message": {
-        "title": "Oops! Maybe next time 🎯",
+        "title": "Oops! Maybe next time ☠️",
         "content": "Thanks for playing! Let’s see what fortune brings next time."
       },
       "effectMusic": {
@@ -46,7 +46,7 @@
     },
     "discountCode": {
       "message": {
-        "title": "You Won {{REWARD}}!",
+        "title": "👻 You Won {{REWARD}}!",
         "content": "Use the code below at checkout to enjoy your reward."
       },
       "effectMusic": {
@@ -56,7 +56,7 @@
     },
     "freeShipping": {
       "message": {
-        "title": "You Won {{REWARD}}!",
+        "title": "👻 You Won {{REWARD}}!",
         "content": "Use the code below at checkout to enjoy your reward."
       },
       "effectMusic": {
@@ -66,7 +66,7 @@
     },
     "freeGift": {
       "message": {
-        "title": "You Won {{REWARD}}!",
+        "title": "👻 You Won {{REWARD}}!",
         "content": "Use the code below at checkout to enjoy your reward."
       },
       "effectMusic": {
@@ -95,34 +95,34 @@
     "title": {
       "text": "👻 Dare to Spin… If You’re Brave Enough!",
       "size": 36,
-      "color": "#FFD700"
+      "color": "#ff9c00"
     },
     "content": {
-      "text": "Summon your prize by entering your name & email… if the spirits allow!",
+      "text": "Summon your prize by entering your name & email… if the spirits will it...",
       "size": 24,
-      "color": "#FFFFFFCC"
+      "color": "#DDDDDD"
     },
     "contentForExistingAccount": {
-      "text": "Welcome, {{NAME}}! Get ready to spin the wheel and unlock exciting rewards waiting just for you.",
+      "text": "Hey {{NAME}}... Summon your prize by entering your name & email… if the spirits will it...",
       "size": 24,
-      "color": "#FFFFFFCC"
+      "color": "#DDDDDD"
     },
     "textInput": {
-      "color": "#eff77c",
-      "backgroundColor": "#a8565240",
-      "placeholderColor": "#757575"
+      "color": "#FFFFFF",
+      "backgroundColor": "#2B1B2D9e",
+      "placeholderColor": "#AAAAAA"
     },
     "agreement": "I agree to receive marketing emails and offers.",
     "spinButton": {
       "text": "Spin… if you dare!",
       "size": 24,
       "color": "#ffffff",
-      "backgroundColor": "#FF6600"
+      "backgroundColor": "#af3129"
     },
     "footerContent": {
       "text": "The fun starts with a spin!",
       "size": 20,
-      "color": "#FFFFFFCC"
+      "color": "#DDDDDD"
     },
     "messages": {
       "maxSpinReachedMsg": "Looks like you’ve used all your spins!"
@@ -138,10 +138,10 @@
       },
       "fontFamily": "Eater",
       "content": "Spin Now",
-      "contentColor": "#FFD700",
+      "contentColor": "#ea412b",
       "backgroundColor": "#000000",
       "icon": {
-        "value": "HLW_01"
+        "value": "HLW_02"
       },
       "attentionEffect": {
         "enabled": true,
@@ -161,14 +161,14 @@
       },
       "fontFamily": "Special Elite",
       "title": {
-        "text": "A Spooktacular Treat Awaits!",
+        "text": "👻 A Spooktacular Treat Awaits!",
         "size": 32,
-        "color": "#FFD700"
+        "color": "#ff9c00"
       },
       "content": {
-        "text": "Spin the haunted wheel to uncover chilling discounts, free shipping… and maybe a trick or two 👻",
+        "text": "Spin the haunted wheel to uncover chilling discounts, free shipping… and maybe a trick or two ☠️",
         "size": 20,
-        "color": "#FFFFFFCC"
+        "color": "#DDDDDD"
       },
       "contentBottom": {
         "text": "Spin the wheel and claim your special reward.",
@@ -176,10 +176,10 @@
         "color": "#DDDDDD"
       },
       "spinButton": {
-        "text": "👻 Trick or Treat Me",
+        "text": "Trick or Treat Me",
         "size": 16,
         "color": "#ffffff",
-        "backgroundColor": "#FF6600"
+        "backgroundColor": "#af3129"
       },
       "cancelButton": {
         "text": "No, Thanks",
@@ -200,14 +200,14 @@
       },
       "fontFamily": "Special Elite",
       "title": {
-        "text": "A Spooktacular Treat Awaits!",
+        "text": "👻 A Spooktacular Treat Awaits!",
         "size": 32,
-        "color": "#FFD700"
+        "color": "#ff9c00"
       },
       "content": {
-        "text": "Spin the haunted wheel to uncover chilling discounts, free shipping… and maybe a trick or two 👻",
+        "text": "Spin the haunted wheel to uncover chilling discounts, free shipping… and maybe a trick or two ☠️",
         "size": 20,
-        "color": "#FFFFFFCC"
+        "color": "#DDDDDD"
       },
       "contentBottom": {
         "text": "Spin the wheel and claim your special reward.",
@@ -215,10 +215,10 @@
         "color": "#DDDDDD"
       },
       "spinButton": {
-        "text": "👻 Trick or Treat Me",
+        "text": "Trick or Treat Me",
         "size": 16,
         "color": "#ffffff",
-        "backgroundColor": "#FF6600"
+        "backgroundColor": "#af3129"
       },
       "cancelButton": {
         "text": "No, Thanks",
@@ -231,13 +231,13 @@
   "announcement": {
     "fontFamily": "Nosifer",
     "contentSize": 16,
-    "contentColor": "#A9DB25",
-    "backgroundColor": "#2C003E",
+    "contentColor": "#ea412b",
+    "backgroundColor": "#300000",
     "upcomingEvent": {
       "content": "👻 Spirits whisper… The wheel will spin at {{TIME}}. Be prepared!"
     },
     "readyToSpin": {
-      "content": "👻 Trick or Treat? Click {{OPENER}} to Spin & Claim Your Reward 🦇"
+      "content": "👻 Trick or Treat? Click {{OPENER}} to Spin & Claim Your Reward!"
     },
     "countDownToLaunch": {
       "content": "👻 Get your courage ready… Wheel unlocks in {{TIME}}!"

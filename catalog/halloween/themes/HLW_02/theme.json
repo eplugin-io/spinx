@@ -3,36 +3,40 @@
     "fontFamily": "Special Elite",
     "contentSize": 36,
     "borderAround": {
-      "type": "auto_darken",
-      "color": ""
+      "type": "line",
+      "color": "#FF9933"
     },
     "rewardBorder": {
-      "displayed": false,
-      "color": ""
+      "displayed": true,
+      "color": "#FF9933"
     },
     "circleCenter": {
       "displayed": true,
-      "borderType": "none",
-      "borderColor": "",
-      "backgroundColor": "#0C0D08"
+      "borderType": "line",
+      "borderColor": "#FF9933",
+      "backgroundColor": "#FF7518"
     },
     "sticker": {
-      "borderType": "none",
-      "borderColor": "",
-      "backgroundColor": "#B64A1F"
+      "borderType": "line",
+      "borderColor": "#FF9933",
+      "backgroundColor": "#FF7518"
+    },
+    "playingMusic": {
+      "enabled": true,
+      "value": "HLW_PY_02"
     },
     "rewards": [{
-      "contentColor": "#FFFFFFCC",
-      "backgroundColor": "#BF2B22"
+      "contentColor": "#DDDDDD",
+      "backgroundColor": "#E67E22"
     }, {
-      "contentColor": "#FFFFFFCC",
+      "contentColor": "#DDDDDD",
       "backgroundColor": "#170B20"
     }]
   },
   "rewardTypes": {
     "none": {
       "message": {
-        "title": "Oops! Maybe next time 🎯",
+        "title": "Oops! Maybe next time ☠️",
         "content": "Thanks for playing! Let’s see what fortune brings next time."
       },
       "effectMusic": {
@@ -42,7 +46,7 @@
     },
     "discountCode": {
       "message": {
-        "title": "You Won {{REWARD}}!",
+        "title": "🎃 You Won {{REWARD}}!",
         "content": "Use the code below at checkout to enjoy your reward."
       },
       "effectMusic": {
@@ -52,7 +56,7 @@
     },
     "freeShipping": {
       "message": {
-        "title": "You Won {{REWARD}}!",
+        "title": "🎃 You Won {{REWARD}}!",
         "content": "Use the code below at checkout to enjoy your reward."
       },
       "effectMusic": {
@@ -62,7 +66,7 @@
     },
     "freeGift": {
       "message": {
-        "title": "You Won {{REWARD}}!",
+        "title": "🎃 You Won {{REWARD}}!",
         "content": "Use the code below at checkout to enjoy your reward."
       },
       "effectMusic": {
@@ -72,42 +76,53 @@
     }
   },
   "popup": {
+    "displayType": "full_screen",
+    "showLogo": { "enabled": false },
     "background": {
       "backgroundColor": "#3786f6",
       "backgroundImage": {
-        "url": "/assets/themes/halloween/images/background/01/main.webp"
+        "path": "/catalog/halloween/themes/HLW_02/background/main.webp"
       },
       "mobileBackgroundImage": {
-        "url": "/assets/themes/halloween/images/background/01/main-mobile.webp"
+        "path": "/catalog/halloween/themes/HLW_02/background/main-mobile.webp"
       }
+    },
+    "backgroundMusic": {
+      "enabled": true,
+      "value": "HLW_BG_03"
     },
     "fontFamily": "Special Elite",
     "title": {
-      "text": "👻 Dare to Spin… If You’re Brave Enough!",
+      "text": "🎃 Dare to Spin… If You’re Brave Enough!",
       "size": 36,
-      "color": "#FFD700"
+      "color": "#FFB84D"
     },
     "content": {
       "text": "Summon your prize by entering your name & email… if the spirits allow!",
       "size": 24,
-      "color": "#FFFFFFCC"
+      "color": "#E0E0E0"
     },
     "contentForExistingAccount": {
-      "text": "Welcome, {{NAME}}! Get ready to spin the wheel and unlock exciting rewards waiting just for you.",
+      "text": "Hey {{NAME}}... Summon your prize by entering your name & email… if the spirits will it...",
       "size": 24,
-      "color": "#FFFFFFCC"
+      "color": "#E0E0E0"
+    },
+    "textInput": {
+      "color": "#FFFFFF",
+      "backgroundColor": "#2B1B2D9e",
+      "placeholderColor": "#AAAAAA"
     },
     "agreement": "I agree to receive marketing emails and offers.",
     "spinButton": {
       "text": "Spin… if you dare!",
       "size": 24,
-      "color": "#ffffff",
-      "backgroundColor": "#FF6600"
+      "color": "#000000",
+      "backgroundColor": "#FF7518"
     },
     "footerContent": {
       "text": "The fun starts with a spin!",
       "size": 20,
-      "color": "#FFFFFFCC"
+      "color": "#E0E0E0"
     },
     "messages": {
       "maxSpinReachedMsg": "Looks like you’ve used all your spins!"
@@ -123,10 +138,16 @@
       },
       "fontFamily": "Eater",
       "content": "Spin Now",
-      "contentColor": "#FF7518",
-      "backgroundColor": "#000000",
+      "contentColor": "#FFB84D",
+      "backgroundColor": "#3A1F47",
       "icon": {
-        "url": "/assets/themes/halloween/images/opener/08.png"
+        "value": "HLW_15",
+        "deltaY": -3,
+        "transparentBackground": true
+      },
+      "attentionEffect": {
+        "enabled": true,
+        "intervalTime": 15
       }
     },
     "delayedDisplay": {
@@ -134,22 +155,22 @@
       "background": {
         "backgroundColor": "#170B20",
         "backgroundImage": {
-          "url": "/assets/themes/halloween/images/background/01/welcome.webp"
+          "path": "/catalog/halloween/themes/HLW_02/background/welcome.webp"
         },
         "mobileBackgroundImage": {
-          "url": "/assets/themes/halloween/images/background/01/welcome-mobile.webp"
+          "path": "/catalog/halloween/themes/HLW_02/background/welcome-mobile.webp"
         }
       },
       "fontFamily": "Special Elite",
       "title": {
-        "text": "A Spooktacular Treat Awaits!",
+        "text": "🎃 A Spooktacular Treat Awaits!",
         "size": 32,
-        "color": "#FFD700"
+        "color": "#FFB84D"
       },
       "content": {
-        "text": "Spin the haunted wheel to uncover chilling discounts, free shipping… and maybe a trick or two 👻",
+        "text": "Spin the haunted wheel to uncover chilling discounts, free shipping… and maybe a trick or two ☠️",
         "size": 20,
-        "color": "#FFFFFFCC"
+        "color": "#E0E0E0"
       },
       "contentBottom": {
         "text": "Spin the wheel and claim your special reward.",
@@ -157,7 +178,7 @@
         "color": "#DDDDDD"
       },
       "spinButton": {
-        "text": "👻 Trick or Treat Me",
+        "text": "Trick or Treat Me",
         "size": 16,
         "color": "#ffffff",
         "backgroundColor": "#FF6600"
@@ -173,22 +194,22 @@
       "background": {
         "backgroundColor": "#170B20",
         "backgroundImage": {
-          "url": "/assets/themes/halloween/images/background/01/welcome.webp"
+          "path": "/catalog/halloween/themes/HLW_02/background/welcome.webp"
         },
         "mobileBackgroundImage": {
-          "url": "/assets/themes/halloween/images/background/01/welcome-mobile.webp"
+          "path": "/catalog/halloween/themes/HLW_02/background/welcome-mobile.webp"
         }
       },
       "fontFamily": "Special Elite",
       "title": {
-        "text": "A Spooktacular Treat Awaits!",
+        "text": "🎃 A Spooktacular Treat Awaits!",
         "size": 32,
-        "color": "#FFD700"
+        "color": "#FFB84D"
       },
       "content": {
-        "text": "Spin the haunted wheel to uncover chilling discounts, free shipping… and maybe a trick or two 👻",
+        "text": "Spin the haunted wheel to uncover chilling discounts, free shipping… and maybe a trick or two ☠️",
         "size": 20,
-        "color": "#FFFFFFCC"
+        "color": "#E0E0E0"
       },
       "contentBottom": {
         "text": "Spin the wheel and claim your special reward.",
@@ -196,7 +217,7 @@
         "color": "#DDDDDD"
       },
       "spinButton": {
-        "text": "👻 Trick or Treat Me",
+        "text": "Trick or Treat Me",
         "size": 16,
         "color": "#ffffff",
         "backgroundColor": "#FF6600"
@@ -212,19 +233,19 @@
   "announcement": {
     "fontFamily": "Nosifer",
     "contentSize": 16,
-    "contentColor": "#FFD700",
-    "backgroundColor": "#FF6600",
+    "contentColor": "#FFB84D",
+    "backgroundColor": "#3A1F47",
     "upcomingEvent": {
-      "content": "🎃 Get ready, mortals! The haunted wheel awakens at {{TIME}} with spooky prizes!"
+      "content": "🎃 Spirits whisper… The wheel will spin at {{TIME}}. Be prepared!"
     },
     "readyToSpin": {
-      "content": "🎃 Feeling lucky? The haunted wheel awaits — tap {{OPENER}} to spin!"
+      "content": "🎃 Trick or Treat? Click {{OPENER}} to Spin & Claim Your Reward!"
     },
     "countDownToLaunch": {
-      "content": "🎃 Don’t blink… in {{TIME}} the wheel of frightful rewards will launch!"
+      "content": "🎃 Get your courage ready… Wheel unlocks in {{TIME}}!"
     },
     "countDownToClose": {
-      "content": "🎃 Time is slipping away… {{TIME}} left to spin before the spirits vanish!"
+      "content": "🎃 Last chance! {{TIME}} left to spin the haunted wheel — don’t miss it!"
     }
   }
 }
