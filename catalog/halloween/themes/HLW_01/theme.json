@@ -1,0 +1,249 @@
+{
+  "wheel": {
+    "fontFamily": "Special Elite",
+    "contentSize": 36,
+    "borderAround": {
+      "type": "line",
+      "color": "#BF2B22"
+    },
+    "rewardBorder": {
+      "displayed": true,
+      "color": "#BF2B22"
+    },
+    "circleCenter": {
+      "displayed": true,
+      "borderType": "line",
+      "borderColor": "#BF2B22",
+      "backgroundColor": "#B64A1F"
+    },
+    "sticker": {
+      "borderType": "line",
+      "borderColor": "#BF2B22",
+      "backgroundColor": "#B64A1F"
+    },
+    "playingMusic": {
+      "enabled": true,
+      "value": "HLW_PY_02"
+    },
+    "rewards": [{
+      "contentColor": "#DDDDDD",
+      "backgroundColor": "#BF2B22"
+    }, {
+      "contentColor": "#DDDDDD",
+      "backgroundColor": "#170B20"
+    }]
+  },
+  "rewardTypes": {
+    "none": {
+      "message": {
+        "title": "Oops! Maybe next time ☠️",
+        "content": "Thanks for playing! Let’s see what fortune brings next time."
+      },
+      "effectMusic": {
+        "enabled": true,
+        "value": "HLW_LS_01"
+      }
+    },
+    "discountCode": {
+      "message": {
+        "title": "👻 You Won {{REWARD}}!",
+        "content": "Use the code below at checkout to enjoy your reward."
+      },
+      "effectMusic": {
+        "enabled": true,
+        "value": "HLW_WN_01"
+      }
+    },
+    "freeShipping": {
+      "message": {
+        "title": "👻 You Won {{REWARD}}!",
+        "content": "Use the code below at checkout to enjoy your reward."
+      },
+      "effectMusic": {
+        "enabled": true,
+        "value": "HLW_WN_01"
+      }
+    },
+    "freeGift": {
+      "message": {
+        "title": "👻 You Won {{REWARD}}!",
+        "content": "Use the code below at checkout to enjoy your reward."
+      },
+      "effectMusic": {
+        "enabled": true,
+        "value": "HLW_WN_02"
+      }
+    }
+  },
+  "popup": {
+    "displayType": "full_screen",
+    "showLogo": { "enabled": false },
+    "background": {
+      "backgroundColor": "#3786f6",
+      "backgroundImage": {
+        "path": "/catalog/halloween/themes/HLW_01/background/main.webp"
+      },
+      "mobileBackgroundImage": {
+        "path": "/catalog/halloween/themes/HLW_01/background/main-mobile.webp"
+      }
+    },
+    "backgroundMusic": {
+      "enabled": true,
+      "value": "HLW_BG_02"
+    },
+    "fontFamily": "Special Elite",
+    "title": {
+      "text": "👻 Dare to Spin… If You’re Brave Enough!",
+      "size": 36,
+      "color": "#ff9c00"
+    },
+    "content": {
+      "text": "Summon your prize by entering your name & email… if the spirits will it...",
+      "size": 24,
+      "color": "#DDDDDD"
+    },
+    "contentForExistingAccount": {
+      "text": "Hey {{NAME}}... Summon your prize by entering your name & email… if the spirits will it...",
+      "size": 24,
+      "color": "#DDDDDD"
+    },
+    "textInput": {
+      "color": "#FFFFFF",
+      "backgroundColor": "#2B1B2D9e",
+      "placeholderColor": "#AAAAAA"
+    },
+    "agreement": "I agree to receive marketing emails and offers.",
+    "spinButton": {
+      "text": "Spin… if you dare!",
+      "size": 24,
+      "color": "#ffffff",
+      "backgroundColor": "#af3129"
+    },
+    "footerContent": {
+      "text": "The fun starts with a spin!",
+      "size": 20,
+      "color": "#DDDDDD"
+    },
+    "messages": {
+      "maxSpinReachedMsg": "Looks like you’ve used all your spins!"
+    }
+  },
+  "triggers": {
+    "opener": {
+      "distance": {
+        "left": 20,
+        "right": 20,
+        "bottom": 24,
+        "bottomFromAnnouncement": 10
+      },
+      "fontFamily": "Eater",
+      "content": "Spin Now",
+      "contentColor": "#ea412b",
+      "backgroundColor": "#000000",
+      "icon": {
+        "value": "HLW_02"
+      },
+      "attentionEffect": {
+        "enabled": true,
+        "intervalTime": 15
+      }
+    },
+    "delayedDisplay": {
+      "delay": 8,
+      "background": {
+        "backgroundColor": "#170B20",
+        "backgroundImage": {
+          "path": "/catalog/halloween/themes/HLW_01/background/welcome.webp"
+        },
+        "mobileBackgroundImage": {
+          "path": "/catalog/halloween/themes/HLW_01/background/welcome-mobile.webp"
+        }
+      },
+      "fontFamily": "Special Elite",
+      "title": {
+        "text": "👻 A Spooktacular Treat Awaits!",
+        "size": 32,
+        "color": "#ff9c00"
+      },
+      "content": {
+        "text": "Spin the haunted wheel to uncover chilling discounts, free shipping… and maybe a trick or two ☠️",
+        "size": 20,
+        "color": "#DDDDDD"
+      },
+      "contentBottom": {
+        "text": "Spin the wheel and claim your special reward.",
+        "size": 20,
+        "color": "#DDDDDD"
+      },
+      "spinButton": {
+        "text": "Trick or Treat Me",
+        "size": 16,
+        "color": "#ffffff",
+        "backgroundColor": "#af3129"
+      },
+      "cancelButton": {
+        "text": "No, Thanks",
+        "size": 16,
+        "color": "#666666",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "exitIntent": {
+      "background": {
+        "backgroundColor": "#170B20",
+        "backgroundImage": {
+          "path": "/catalog/halloween/themes/HLW_01/background/welcome.webp"
+        },
+        "mobileBackgroundImage": {
+          "path": "/catalog/halloween/themes/HLW_01/background/welcome-mobile.webp"
+        }
+      },
+      "fontFamily": "Special Elite",
+      "title": {
+        "text": "👻 A Spooktacular Treat Awaits!",
+        "size": 32,
+        "color": "#ff9c00"
+      },
+      "content": {
+        "text": "Spin the haunted wheel to uncover chilling discounts, free shipping… and maybe a trick or two ☠️",
+        "size": 20,
+        "color": "#DDDDDD"
+      },
+      "contentBottom": {
+        "text": "Spin the wheel and claim your special reward.",
+        "size": 20,
+        "color": "#DDDDDD"
+      },
+      "spinButton": {
+        "text": "Trick or Treat Me",
+        "size": 16,
+        "color": "#ffffff",
+        "backgroundColor": "#af3129"
+      },
+      "cancelButton": {
+        "text": "No, Thanks",
+        "size": 16,
+        "color": "#666666",
+        "backgroundColor": "#ffffff"
+      }
+    }
+  },
+  "announcement": {
+    "fontFamily": "Nosifer",
+    "contentSize": 16,
+    "contentColor": "#ea412b",
+    "backgroundColor": "#300000",
+    "upcomingEvent": {
+      "content": "👻 Spirits whisper… The wheel will spin at {{TIME}}. Be prepared!"
+    },
+    "readyToSpin": {
+      "content": "👻 Trick or Treat? Click {{OPENER}} to Spin & Claim Your Reward!"
+    },
+    "countDownToLaunch": {
+      "content": "👻 Get your courage ready… Wheel unlocks in {{TIME}}!"
+    },
+    "countDownToClose": {
+      "content": "👻 Last chance! {{TIME}} left to spin the haunted wheel — don’t miss it!"
+    }
+  }
+}
