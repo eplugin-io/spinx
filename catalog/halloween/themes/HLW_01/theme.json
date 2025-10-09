@@ -79,7 +79,7 @@
     "displayType": "full_screen",
     "showLogo": { "enabled": false },
     "background": {
-      "backgroundColor": "#3786f6",
+      "backgroundColor": "#ffffff",
       "backgroundImage": {
         "path": "/catalog/halloween/themes/HLW_01/background/main.webp"
       },
@@ -151,7 +151,7 @@
     "delayedDisplay": {
       "delay": 8,
       "background": {
-        "backgroundColor": "#170B20",
+        "backgroundColor": "#ffffff",
         "backgroundImage": {
           "path": "/catalog/halloween/themes/HLW_01/background/welcome.webp"
         },
@@ -190,7 +190,7 @@
     },
     "exitIntent": {
       "background": {
-        "backgroundColor": "#170B20",
+        "backgroundColor": "#ffffff",
         "backgroundImage": {
           "path": "/catalog/halloween/themes/HLW_01/background/welcome.webp"
         },
