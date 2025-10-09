@@ -106,10 +106,13 @@
       }
     }
   </style>
-  <script src="https://cdn.jsdelivr.net/gh/eplugin-io/spinx@dev-build-205/spinx.min.js" defer></script>
+
+  <script src="https://cdn.jsdelivr.net/gh/eplugin-io/spinx@dev-build-208/spinx.min.js" defer></script>
   <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
+
   <script>
     const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
     function addDays(date, days) {
       var result = new Date(date);
       result.setDate(result.getDate() + days);
@@ -190,9 +193,6 @@
             timezoneOffsetMinutes: 420
           }
         },
-        /**
-         * @type {import("../../spinx-app/web/types/campaign/CampaignConfig").CampaignConfig}
-         */
         config: {
           theme: {
             value: 'CLS_01'
@@ -372,202 +372,7 @@
             //   intervalTime: 4,
             // },
           },
-          langs: {
-          //   vi: {
-          //     popup: {
-          //       title: "Nhận giải thưởng hấp dẫn!",
-          //       content: "Nhập thông tin của bạn để quay vòng quay và có cơ hội chiến thắng.",
-          //       contentForExistingAccount: "Chào mừng đến với chương trình vòng quay may mắn, {{NAME}}. Cơ hội trúng thưởng những giải thưởng hấp dẫn!",
-          //       agreement: "Tôi đồng ý rằng dữ liệu cá nhân của tôi được lưu trữ và sử dụng để nhận bản tin.",
-          //       spinButton: "Quay!",
-          //       fields: [{
-          //         name: 'name',
-          //         label: 'Tên',
-          //         placeholder: 'Nhập tên của bạn',
-          //         messages: {
-          //           required: 'Vui lòng nhập tên của bạn!'
-          //         }
-          //       }, {
-          //         name: 'email',
-          //         label: 'Thư điện tử',
-          //         placeholder: 'Nhập email của bạn',
-          //         messages: {
-          //           required: 'Vui lòng nhập thư điện tử của bạn!',
-          //           type: 'Vui lòng nhập thư điện tử hợp lệ!'
-          //         }
-          //       }]
-          //     },
-          //     triggers: {
-          //       opener: {
-          //         content: 'Quay Ngay'
-          //       },
-          //     },
-          //     announcement: {
-          //       upcomingEvent: {
-          //         content: 'Chương trình vòng quay may mắn với những giải thưởng hấp dẫn sẽ được khởi động vào lúc {{TIME}}'
-          //       },
-          //       readyToSpin: {
-          //         content: 'Nhấp vào {{OPENER}} để nhận ngay những giải thưởng hấp dẫn!'
-          //       },
-          //       // readyToSpinAgain: {
-          //       //   content: 'Bạn vừa nhận được một lượt quay mới! Nhấp vào {{OPENER}} để nhận ngay những giải thưởng hấp dẫn!'
-          //       // },
-          //       countDownToLaunch: {
-          //         content: 'Đếm ngược bắt đầu! Chỉ còn {{TIME}} nữa là sự kiện sẽ bắt đầu!'
-          //       },
-          //       countDownToClose: {
-          //         content: 'Thời gian giới hạn! Sự kiện sẽ kết thúc sau {{TIME}}'
-          //       }
-          //     },
-          //     rewards: [
-          //       {
-          //         id: '1',
-          //         name: "Không trúng",
-          //         messageTitle: "Lêu lêu!",
-          //         messageContent: "Có thể lần này bạn không may mắn, hẹn gặp lại lần sau."
-          //       },
-          //       {
-          //         id: '2',
-          //         name: "Giảm giá 10%",
-          //         messageTitle: 'Bạn đã thắng "{{REWARD}}"!',
-          //         messageContent: "Sao chép mã phiếu giảm giá của bạn và sử dụng nó vào ô giảm giá ở trang thanh toán."
-          //       },
-          //       {
-          //         id: '3',
-          //         name: "Miễn phí vận chuyển",
-          //         messageTitle: 'Bạn đã thắng "{{REWARD}}"!',
-          //         messageContent: "Sao chép mã phiếu giảm giá của bạn và sử dụng nó vào ô giảm giá ở trang thanh toán."
-          //       },
-          //       {
-          //         id: '4',
-          //         name: "Giảm giá $25",
-          //         messageTitle: 'Bạn đã thắng "{{REWARD}}"!',
-          //         messageContent: "Sao chép mã phiếu giảm giá của bạn và sử dụng nó vào ô giảm giá ở trang thanh toán."
-          //       },
-          //       {
-          //         id: '5',
-          //         name: "Không trúng",
-          //         messageTitle: "Lêu lêu!",
-          //         messageContent: "Có thể lần này bạn không may mắn, hẹn gặp lại lần sau."
-          //       },
-          //       {
-          //         id: '6',
-          //         name: "Giảm giá 15%",
-          //         messageTitle: 'Bạn đã thắng "{{REWARD}}"!',
-          //         messageContent: "Sao chép mã phiếu giảm giá của bạn và sử dụng nó vào ô giảm giá ở trang thanh toán."
-          //       },
-          //       {
-          //         id: '7',
-          //         name: "Miễn phí vận chuyển $50",
-          //         messageTitle: 'Bạn đã thắng "{{REWARD}}"!',
-          //         messageContent: "Sao chép mã phiếu giảm giá của bạn và sử dụng nó vào ô giảm giá ở trang thanh toán."
-          //       },
-          //       {
-          //         id: '8',
-          //         name: "Giảm giá $15",
-          //         messageTitle: 'Bạn đã thắng "{{REWARD}}"!',
-          //         messageContent: "Sao chép mã phiếu giảm giá của bạn và sử dụng nó vào ô giảm giá ở trang thanh toán."
-          //       }
-          //     ]
-          //   },
-          //   en: {
-          //     popup: {
-          //       title: "Spin to win exciting rewards!",
-          //       content: "Fill in your details and get your chance to spin.",
-          //       contentForExistingAccount: "Welcome, {{NAME}}! Get ready to spin the wheel and unlock exciting rewards waiting just for you.",
-          //       agreement: "I agree to receive marketing emails and offers.",
-          //       spinButton: "Spin!",
-          //       fields: [{
-          //         name: 'name',
-          //         label: 'Name',
-          //         placeholder: 'Enter your name',
-          //         messages: {
-          //           required: 'Please enter your name!'
-          //         }
-          //       }, {
-          //         name: 'email',
-          //         label: 'Email',
-          //         placeholder: 'Enter your email',
-          //         messages: {
-          //           required: 'Please enter your email!',
-          //           type: 'Please enter a valid email!'
-          //         }
-          //       }]
-          //     },
-          //     triggers: {
-          //       opener: {
-          //         content: 'Spin Now'
-          //       },
-          //     },
-          //     announcement: {
-          //       upcomingEvent: {
-          //         content: 'Lucky draw program with attractive rewards will be launched at {{TIME}}'
-          //       },
-          //       readyToSpin: {
-          //         content: 'Click {{OPENER}} to get attractive rewards now!'
-          //       },
-          //       // readyToSpinAgain: {
-          //       //   content: 'Bạn vừa nhận được một lượt quay mới! Nhấp vào {{OPENER}} để nhận ngay những giải thưởng hấp dẫn!'
-          //       // },
-          //       countDownToLaunch: {
-          //         content: 'The countdown begins! Only {{TIME}} left until the event begins!'
-          //       },
-          //       countDownToClose: {
-          //         content: 'Hurry! Only {{TIME}} left — click {{OPENER}} to spin and claim your reward!'
-          //       }
-          //     },
-          //     rewards: [
-          //       {
-          //         id: '1',
-          //         name: "Unucky",
-          //         messageTitle: "Oops! Maybe next time 🎯",
-          //         messageContent: "Thanks for playing! Let’s see what fortune brings next time."
-          //       },
-          //       {
-          //         id: '2',
-          //         name: "10% off",
-          //         messageTitle: 'You Won {{REWARD}}!',
-          //         messageContent: "Use the code below at checkout to enjoy your reward."
-          //       },
-          //       {
-          //         id: '3',
-          //         name: "Free shipping",
-          //         messageTitle: 'You Won {{REWARD}}!',
-          //         messageContent: "Use the code below at checkout to enjoy your reward."
-          //       },
-          //       {
-          //         id: '4',
-          //         name: "$25 off",
-          //         messageTitle: 'You Won {{REWARD}}!',
-          //         messageContent: "Use the code below at checkout to enjoy your reward."
-          //       },
-          //       {
-          //         id: '5',
-          //         name: "Unucky",
-          //         messageTitle: "Oops! Maybe next time 🎯",
-          //         messageContent: "Thanks for playing! Let’s see what fortune brings next time."
-          //       },
-          //       {
-          //         id: '6',
-          //         name: "15% off",
-          //         messageTitle: 'You Won {{REWARD}}!',
-          //         messageContent: "Use the code below at checkout to enjoy your reward."
-          //       },
-          //       {
-          //         id: '7',
-          //         name: "Free shipping $50",
-          //         messageTitle: 'You Won {{REWARD}}!',
-          //         messageContent: "Use the code below at checkout to enjoy your reward."
-          //       },
-          //       {
-          //         id: '8',
-          //         name: "$15 off",
-          //         messageTitle: 'You Won {{REWARD}}!',
-          //         messageContent: "Use the code below at checkout to enjoy your reward."
-          //       }
-          //     ]
-          //   },
-          // }
+          langs: {}
         },
         rewards: [{
           id: '1',
@@ -810,7 +615,7 @@
 </head>
 <body>
   <div class="container eplugin-wrapper">
-    <p><img class="eplugin-wrapper-img" src="https://cdn.jsdelivr.net/gh/eplugin-io/spinx@dev-build-205/assets/images/logo/eplugin-full-532×133.png" alt="ePlugin"></p>
+    <p><img class="eplugin-wrapper-img" src="https://cdn.jsdelivr.net/gh/eplugin-io/spinx@dev-build-208/assets/images/logo/eplugin-full-532×133.png" alt="ePlugin"></p>
     <p class="eplugin-wrapper-text">Multi-platform Integration</p>
   </div>
 </body>
