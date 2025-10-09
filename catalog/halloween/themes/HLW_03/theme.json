@@ -234,7 +234,7 @@
     "fontFamily": "Nosifer",
     "contentSize": 16,
     "contentColor": "#39FF14",
-    "backgroundColor": "#003201",
+    "backgroundColor": "#001b01",
     "upcomingEvent": {
       "content": "🧙‍♀️ The witching hour is near… Wheel of Rewards unlocks at {{TIME}}!"
     },

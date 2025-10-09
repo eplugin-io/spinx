@@ -139,7 +139,7 @@
       "fontFamily": "Eater",
       "content": "Spin Now",
       "contentColor": "#FFB84D",
-      "backgroundColor": "#3A1F47",
+      "backgroundColor": "#0e0314",
       "icon": {
         "value": "HLW_15",
         "deltaY": -3,
@@ -234,7 +234,7 @@
     "fontFamily": "Nosifer",
     "contentSize": 16,
     "contentColor": "#FFB84D",
-    "backgroundColor": "#3A1F47",
+    "backgroundColor": "#20072d",
     "upcomingEvent": {
       "content": "🎃 Spirits whisper… The wheel will spin at {{TIME}}. Be prepared!"
     },

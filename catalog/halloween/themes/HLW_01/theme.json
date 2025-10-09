@@ -232,7 +232,7 @@
     "fontFamily": "Nosifer",
     "contentSize": 16,
     "contentColor": "#ea412b",
-    "backgroundColor": "#300000",
+    "backgroundColor": "#150000",
     "upcomingEvent": {
       "content": "👻 Spirits whisper… The wheel will spin at {{TIME}}. Be prepared!"
     },
