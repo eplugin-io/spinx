@@ -230,7 +230,7 @@
   },
   "announcement": {
     "fontFamily": "Nosifer",
-    "contentSize": 16,
+    "contentSize": 14,
     "contentColor": "#ea412b",
     "backgroundColor": "#150000",
     "upcomingEvent": {
