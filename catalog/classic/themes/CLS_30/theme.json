@@ -1,7 +1,7 @@
 {
   "wheel": {
     "fontFamily": "Montserrat",
-    "contentSize": 36,
+    "contentSize": 34,
     "borderAround": {
       "type": "line",
       "color": "#FFEA79"
