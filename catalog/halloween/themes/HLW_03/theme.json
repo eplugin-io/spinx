@@ -4,11 +4,11 @@
     "contentSize": 34,
     "borderAround": {
       "type": "line",
-      "color": "#00C321"
+      "color": "#00FF66"
     },
     "rewardBorder": {
       "displayed": true,
-      "color": "#00C321"
+      "color": "#00FF66"
     },
     "circleCenter": {
       "displayed": true,
@@ -26,11 +26,11 @@
       "value": "HLW_PY_02"
     },
     "rewards": [{
-      "contentColor": "#00C625",
+      "contentColor": "#00FF66",
       "backgroundColor": "#002808"
     }, {
       "contentColor": "#002808",
-      "backgroundColor": "#00C321"
+      "backgroundColor": "#00FF66"
     }]
   },
   "rewardTypes": {
