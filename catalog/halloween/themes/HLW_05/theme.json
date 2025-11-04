@@ -244,6 +244,16 @@
     },
     "countDownToClose": {
       "content": "☠️ Hurry! Only {{TIME}} left — click {{OPENER}} to spin and claim your spooky treat!"
+    },
+    "encourageUsePrize": {
+      "discountMessage": "🎃 Fang-tastic! You’ve unlocked {{VALUE}} off – use {{CODE}} before the magic fades!",
+      "discountMessageWithMinOrder": "🎃 You’ve unlocked {{VALUE}} off for orders over {{MIN_ORDER}} – use {{CODE}} while the Halloween magic lasts!",
+      "freeShipMessage": "🎃 Your Halloween treat is free shipping! Apply {{CODE}} while the spell lasts!",
+      "freeShipMessageWithMaxAmount": "🎃 Free shipping up to {{MAX_AMOUNT}} off – cast your code {{CODE}} before your treat disappears!",
+      "freeShipMessageWithMinOrder": "🎃 Free shipping for orders over {{MIN_ORDER}} – use {{CODE}} while the Halloween magic lasts!",
+      "freeShipMessageWithMaxAmountAndMinOrder": "🎃 Free shipping for orders over {{MIN_ORDER}}, up to {{MAX_AMOUNT}} off – use {{CODE}} before the spell fades!",
+      "freeGiftMessage": "🎃 A spooky surprise awaits! Use {{CODE}} to claim your Halloween gift before it disappears!",
+      "helperText": "🏷️ Apply {{CODE}} at checkout – your spooky deal won’t last forever!"
     }
   }
 }
