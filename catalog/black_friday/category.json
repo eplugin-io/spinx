@@ -1,0 +1,174 @@
+{
+  "id": "black_friday",
+  "name": "Black Friday",
+  "themes": [
+    {
+      "id": "BFD_01",
+      "thumbnail": {
+        "main": "/catalog/black_friday/themes/BFD_01/thumbnail/main.webp"
+      },
+      "demo": "/?theme=BFD_01",
+      "tags": ["black friday", "luxury", "gold", "red", "elegant"]
+    },
+    {
+      "id": "BFD_02",
+      "thumbnail": {
+        "main": "/catalog/black_friday/themes/BFD_02/thumbnail/main.webp"
+      },
+      "demo": "/?theme=BFD_02",
+      "tags": ["black friday", "luxury", "red", "playful", "modern"]
+    },
+    {
+      "id": "BFD_03",
+      "thumbnail": {
+        "main": "/catalog/black_friday/themes/BFD_03/thumbnail/main.webp"
+      },
+      "demo": "/?theme=BFD_03",
+      "tags": ["black friday", "luxury", "soft gold", "wine red", "playfair", "elegant"]
+    }
+  ],
+  "openers": [
+    {
+      "id": "CLS_01",
+      "popupColors": [{
+        "content": "#FFD700",
+        "background": "#FF6600"
+      }]
+    },
+    {
+      "id": "CLS_02",
+      "popupColors": [{
+        "content": "#FFD700",
+        "background": "#FF6600"
+      }]
+    },
+    {
+      "id": "CLS_03",
+      "popupColors": [{
+        "content": "#FFD700",
+        "background": "#000000"
+      }]
+    },
+    {
+      "id": "CLS_04",
+      "popupColors": [{
+        "content": "#FFD700",
+        "background": "#2C003E"
+      }]
+    },
+    {
+      "id": "CLS_05",
+      "popupColors": [{
+        "content": "#39FF14",
+        "background": "#4B0082"
+      }]
+    },
+    {
+      "id": "CLS_06",
+      "popupColors": [{
+        "content": "#FFD700",
+        "background": "#2C003E"
+      }]
+    },
+    {
+      "id": "CLS_07",
+      "popupColors": [{
+        "content": "#FFD700",
+        "background": "#2C003E"
+      }]
+    },
+    {
+      "id": "CLS_08",
+      "popupColors": [{
+        "content": "#FF7518",
+        "background": "#000000"
+      }]
+    },
+    {
+      "id": "CLS_09",
+      "popupColors": [{
+        "content": "#FFD700",
+        "background": "#000000"
+      }]
+    },
+    {
+      "id": "CLS_10",
+      "popupColors": [{
+        "content": "#FFD700",
+        "background": "#000000"
+      }]
+    },
+    {
+      "id": "CLS_11",
+      "popupColors": [{
+        "content": "#FFD700",
+        "background": "#000000"
+      }]
+    },
+    {
+      "id": "CLS_12",
+      "popupColors": [{
+        "content": "#FFD700",
+        "background": "#000000"
+      }]
+    }
+  ],
+  "sounds": [
+    {
+      "id": "CLS_BG_01",
+      "name": "CLS_BG_01"
+    },
+    {
+      "id": "CLS_BG_02",
+      "name": "CLS_BG_02"
+    },
+    {
+      "id": "CLS_PY_01",
+      "name": "CLS_PY_01"
+    },
+    {
+      "id": "CLS_PY_02",
+      "name": "CLS_PY_02"
+    },
+    {
+      "id": "CLS_PY_03",
+      "name": "CLS_PY_03"
+    },
+    {
+      "id": "CLS_WN_01",
+      "name": "CLS_WN_01"
+    },
+    {
+      "id": "CLS_WN_02",
+      "name": "CLS_WN_02"
+    },
+    {
+      "id": "CLS_WN_03",
+      "name": "CLS_WN_03"
+    },
+    {
+      "id": "CLS_WN_04",
+      "name": "CLS_WN_04"
+    },
+    {
+      "id": "CLS_WN_05",
+      "name": "CLS_WN_05"
+    },
+    {
+      "id": "CLS_LS_01",
+      "name": "CLS_LS_01"
+    },
+    {
+      "id": "CLS_LS_02",
+      "name": "CLS_LS_02"
+    },
+    {
+      "id": "CLS_LS_03",
+      "name": "CLS_LS_03"
+    },
+    {
+      "id": "CLS_LS_04",
+      "name": "CLS_LS_04"
+    }
+  ]
+}

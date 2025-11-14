@@ -19,9 +19,9 @@
       "published": true
     },
     {
-      "id": "black-friday",
+      "id": "black_friday",
       "label": "Black Friday",
-      "path": "/catalog/black-friday/category.json",
+      "path": "/catalog/black_friday/category.json",
       "count": 3,
       "tags": ["event", "black-friday", "november"],
       "published": false

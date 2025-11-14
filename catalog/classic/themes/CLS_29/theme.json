@@ -157,7 +157,7 @@
       }
     },
     "delayedDisplay": {
-      "delay": 8,
+      "delay": 4,
       "background": {
         "backgroundColor": "#1B191A"
       },
@@ -184,7 +184,7 @@
         "backgroundColor": "#FF10F0"
       },
       "cancelButton": {
-        "text": "No, Thanks",
+        "text": "Maybe Later",
         "size": 16,
         "color": "#333333",
         "backgroundColor": "#ffffff"
@@ -217,7 +217,7 @@
         "backgroundColor": "#FF10F0"
       },
       "cancelButton": {
-        "text": "No, Thanks",
+        "text": "Maybe Later",
         "size": 16,
         "color": "#333333",
         "backgroundColor": "#ffffff"
