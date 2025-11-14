@@ -8,7 +8,7 @@
         "main": "/catalog/black_friday/themes/BFD_01/thumbnail/main.webp"
       },
       "demo": "/?theme=BFD_01",
-      "tags": ["black friday", "luxury", "gold", "red", "elegant"]
+      "tags": ["black friday", "luxury", "yellow", "red", "elegant"]
     },
     {
       "id": "BFD_02",
@@ -16,7 +16,7 @@
         "main": "/catalog/black_friday/themes/BFD_02/thumbnail/main.webp"
       },
       "demo": "/?theme=BFD_02",
-      "tags": ["black friday", "luxury", "red", "playful", "modern"]
+      "tags": ["black friday", "luxury", "pink", "red", "playful", "modern"]
     },
     {
       "id": "BFD_03",
@@ -24,7 +24,7 @@
         "main": "/catalog/black_friday/themes/BFD_03/thumbnail/main.webp"
       },
       "demo": "/?theme=BFD_03",
-      "tags": ["black friday", "luxury", "soft gold", "wine red", "playfair", "elegant"]
+      "tags": ["black friday", "luxury", "yellow", "red", "playfair", "elegant"]
     }
   ],
   "openers": [
