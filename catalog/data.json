@@ -1,6 +1,6 @@
 {
-  "name": "Spinx Catalog",
-  "description": "A collection of themes for Spinx widgets.",
+  "name": "SpinX Catalog",
+  "description": "A collection of themes for SpinX widgets.",
   "categories": [
     {
       "id": "classic",
@@ -23,8 +23,8 @@
       "label": "Black Friday",
       "path": "/catalog/black_friday/category.json",
       "count": 3,
-      "tags": ["event", "black-friday", "november"],
-      "published": false
+      "tags": ["event", "black friday", "november"],
+      "published": true
     },
     {
       "id": "christmas",
