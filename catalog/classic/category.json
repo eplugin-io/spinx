@@ -243,7 +243,7 @@
         "hover": "/catalog/classic/themes/CLS_27/thumbnail/hover.webp"
       },
       "demo": "/?theme=CLS_27",
-      "tags": ["classic", "kids", "playful", "multi-color"]
+      "tags": ["classic", "kids", "playful", "multi color"]
     },
     {
       "id": "CLS_28",
@@ -252,7 +252,7 @@
         "hover": "/catalog/classic/themes/CLS_28/thumbnail/hover.webp"
       },
       "demo": "/?theme=CLS_28",
-      "tags": ["classic", "food", "beverage", "fresh", "multi-color"]
+      "tags": ["classic", "food", "beverage", "fresh", "multi color"]
     },
     {
       "id": "CLS_29",
@@ -261,7 +261,7 @@
         "hover": "/catalog/classic/themes/CLS_29/thumbnail/hover.webp"
       },
       "demo": "/?theme=CLS_29",
-      "tags": ["classic", "food", "beverage", "fresh", "multi-color"]
+      "tags": ["classic", "food", "beverage", "fresh", "multi color"]
     },
     {
       "id": "CLS_30",
@@ -270,7 +270,7 @@
         "hover": "/catalog/classic/themes/CLS_30/thumbnail/hover.webp"
       },
       "demo": "/?theme=CLS_30",
-      "tags": ["classic", "festival", "holiday", "multi-color"]
+      "tags": ["classic", "festival", "holiday", "multi color"]
     }
   ],
   "openers": [
