@@ -14,13 +14,13 @@
       "id": "halloween",
       "name": "Halloween",
       "path": "/catalog/halloween/category.json",
-      "count": 5,
+      "count": 3,
       "tags": ["event", "halloween", "october"],
       "published": true
     },
     {
       "id": "black_friday",
-      "label": "Black Friday",
+      "name": "Black Friday",
       "path": "/catalog/black_friday/category.json",
       "count": 3,
       "tags": ["event", "black friday", "november"],
