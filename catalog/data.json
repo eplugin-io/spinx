@@ -1,6 +1,6 @@
 {
-  "name": "Spinx Catalog",
-  "description": "A collection of themes for Spinx widgets.",
+  "name": "SpinX Catalog",
+  "description": "A collection of themes for SpinX widgets.",
   "categories": [
     {
       "id": "classic",
@@ -14,17 +14,17 @@
       "id": "halloween",
       "name": "Halloween",
       "path": "/catalog/halloween/category.json",
-      "count": 5,
+      "count": 3,
       "tags": ["event", "halloween", "october"],
       "published": true
     },
     {
-      "id": "black-friday",
-      "label": "Black Friday",
-      "path": "/catalog/black-friday/category.json",
+      "id": "black_friday",
+      "name": "Black Friday",
+      "path": "/catalog/black_friday/category.json",
       "count": 3,
-      "tags": ["event", "black-friday", "november"],
-      "published": false
+      "tags": ["event", "black friday", "november"],
+      "published": true
     },
     {
       "id": "christmas",

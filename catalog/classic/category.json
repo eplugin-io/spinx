@@ -9,7 +9,7 @@
         "hover": "/catalog/classic/themes/CLS_01/thumbnail/hover.webp"
       },
       "demo": "/?theme=CLS_01",
-      "tags": ["classic", "modern", "luxury", "fashion", "dark", "blue", "yellow", "gold"]
+      "tags": ["classic", "modern", "luxury", "fashion", "dark", "blue", "yellow"]
     },
     {
       "id": "CLS_02",
@@ -18,7 +18,7 @@
         "hover": "/catalog/classic/themes/CLS_02/thumbnail/hover.webp"
       },
       "demo": "/?theme=CLS_02",
-      "tags": ["classic", "modern", "luxury", "fashion", "dark", "neutral", "pink"]
+      "tags": ["classic", "modern", "luxury", "fashion", "dark", "pink"]
     },
     {
       "id": "CLS_03",
@@ -27,7 +27,7 @@
         "hover": "/catalog/classic/themes/CLS_03/thumbnail/hover.webp"
       },
       "demo": "/?theme=CLS_03",
-      "tags": ["classic", "luxury", "fashion", "green", "yellow", "gold"]
+      "tags": ["classic", "luxury", "fashion", "dark", "green", "yellow"]
     },
     {
       "id": "CLS_04",
@@ -36,7 +36,7 @@
         "hover": "/catalog/classic/themes/CLS_04/thumbnail/hover.webp"
       },
       "demo": "/?theme=CLS_04",
-      "tags": ["classic", "modern", "luxury", "fashion", "jewelry", "white", "silver"]
+      "tags": ["classic", "modern", "luxury", "fashion", "jewelry", "pink"]
     },
     {
       "id": "CLS_05",
@@ -45,7 +45,7 @@
         "hover": "/catalog/classic/themes/CLS_05/thumbnail/hover.webp"
       },
       "demo": "/?theme=CLS_05",
-      "tags": ["classic", "luxury", "fashion", "purple", "yellow", "gold"]
+      "tags": ["classic", "luxury", "fashion", "purple", "yellow"]
     },
     {
       "id": "CLS_06",
@@ -54,7 +54,7 @@
         "hover": "/catalog/classic/themes/CLS_06/thumbnail/hover.webp"
       },
       "demo": "/?theme=CLS_06",
-      "tags": ["classic", "modern", "elegant", "fashion", "teal", "yellow", "gold"]
+      "tags": ["classic", "modern", "elegant", "fashion", "teal"]
     },
     {
       "id": "CLS_07",
@@ -63,7 +63,7 @@
         "hover": "/catalog/classic/themes/CLS_07/thumbnail/hover.webp"
       },
       "demo": "/?theme=CLS_07",
-      "tags": ["classic", "modern", "corporate", "fashion", "blue", "silver", "dark"]
+      "tags": ["classic", "modern", "fashion", "blue", "silver", "dark"]
     },
     {
       "id": "CLS_08",
@@ -81,7 +81,7 @@
         "hover": "/catalog/classic/themes/CLS_09/thumbnail/hover.webp"
       },
       "demo": "/?theme=CLS_09",
-      "tags": ["classic", "elegant", "luxury", "fashion", "green", "beige", "yellow", "gold"]
+      "tags": ["classic", "elegant", "luxury", "moss green", "yellow"]
     },
     {
       "id": "CLS_10",
@@ -90,7 +90,7 @@
         "hover": "/catalog/classic/themes/CLS_10/thumbnail/hover.webp"
       },
       "demo": "/?theme=CLS_10",
-      "tags": ["classic", "modern", "luxury", "fashion", "blue", "silver"]
+      "tags": ["classic", "modern", "luxury", "blue", "silver"]
     },
     {
       "id": "CLS_11",
@@ -99,7 +99,7 @@
         "hover": "/catalog/classic/themes/CLS_11/thumbnail/hover.webp"
       },
       "demo": "/?theme=CLS_11",
-      "tags": ["classic", "modern", "food", "green", "orange", "dark"]
+      "tags": ["classic", "modern", "food", "green", "orange"]
     },
     {
       "id": "CLS_12",
@@ -108,7 +108,7 @@
         "hover": "/catalog/classic/themes/CLS_12/thumbnail/hover.webp"
       },
       "demo": "/?theme=CLS_12",
-      "tags": ["classic", "luxury", "fresh", "food", "green", "white", "yellow", "gold"]
+      "tags": ["classic", "luxury", "fresh", "food", "green", "yellow"]
     },
     {
       "id": "CLS_13",
@@ -135,7 +135,7 @@
         "hover": "/catalog/classic/themes/CLS_15/thumbnail/hover.webp"
       },
       "demo": "/?theme=CLS_15",
-      "tags": ["classic", "modern", "food", "teal", "yellow", "gold"]
+      "tags": ["classic", "modern", "food", "teal", "yellow"]
     },
     {
       "id": "CLS_16",
@@ -144,7 +144,7 @@
         "hover": "/catalog/classic/themes/CLS_16/thumbnail/hover.webp"
       },
       "demo": "/?theme=CLS_16",
-      "tags": ["classic", "elegant", "luxury", "food", "terracotta", "cream", "yellow", "gold"]
+      "tags": ["classic", "elegant", "luxury", "food", "cream", "yellow"]
     },
     {
       "id": "CLS_17",
@@ -153,7 +153,7 @@
         "hover": "/catalog/classic/themes/CLS_17/thumbnail/hover.webp"
       },
       "demo": "/?theme=CLS_17",
-      "tags": ["classic", "modern", "food", "turquoise", "yellow", "gold"]
+      "tags": ["classic", "modern", "food", "turquoise", "yellow"]
     },
     {
       "id": "CLS_18",
@@ -162,7 +162,7 @@
         "hover": "/catalog/classic/themes/CLS_18/thumbnail/hover.webp"
       },
       "demo": "/?theme=CLS_18",
-      "tags": ["classic", "elegant", "luxury", "food", "fashion", "red", "cream"]
+      "tags": ["classic", "elegant", "luxury", "food", "fashion", "brown"]
     },
     {
       "id": "CLS_19",
@@ -171,7 +171,7 @@
         "hover": "/catalog/classic/themes/CLS_19/thumbnail/hover.webp"
       },
       "demo": "/?theme=CLS_19",
-      "tags": ["classic", "luxury", "food", "brown", "yellow", "gold"]
+      "tags": ["classic", "luxury", "food", "brown", "yellow"]
     },
     {
       "id": "CLS_20",
@@ -180,7 +180,7 @@
         "hover": "/catalog/classic/themes/CLS_20/thumbnail/hover.webp"
       },
       "demo": "/?theme=CLS_20",
-      "tags": ["classic", "luxury", "playful", "fashion", "food", "pink", "yellow", "gold"]
+      "tags": ["classic", "luxury", "fashion", "pink", "yellow"]
     },
     {
       "id": "CLS_21",
@@ -198,7 +198,7 @@
         "hover": "/catalog/classic/themes/CLS_22/thumbnail/hover.webp"
       },
       "demo": "/?theme=CLS_22",
-      "tags": ["classic", "luxury", "jewelry", "purple", "yellow", "gold"]
+      "tags": ["classic", "luxury", "jewelry", "purple", "yellow"]
     },
     {
       "id": "CLS_23",
@@ -207,7 +207,7 @@
         "hover": "/catalog/classic/themes/CLS_23/thumbnail/hover.webp"
       },
       "demo": "/?theme=CLS_23",
-      "tags": ["classic", "luxury", "jewelry", "blue", "yellow", "gold"]
+      "tags": ["classic", "luxury", "jewelry", "blue", "yellow"]
     },
     {
       "id": "CLS_24",
@@ -225,7 +225,7 @@
         "hover": "/catalog/classic/themes/CLS_25/thumbnail/hover.webp"
       },
       "demo": "/?theme=CLS_25",
-      "tags": ["classic", "luxury", "jewelry", "black", "yellow", "gold"]
+      "tags": ["classic", "luxury", "jewelry", "black", "yellow"]
     },
     {
       "id": "CLS_26",
@@ -234,7 +234,7 @@
         "hover": "/catalog/classic/themes/CLS_26/thumbnail/hover.webp"
       },
       "demo": "/?theme=CLS_26",
-      "tags": ["classic", "luxury", "jewelry", "red", "yellow", "gold"]
+      "tags": ["classic", "luxury", "jewelry", "red", "yellow"]
     },
     {
       "id": "CLS_27",
@@ -243,7 +243,7 @@
         "hover": "/catalog/classic/themes/CLS_27/thumbnail/hover.webp"
       },
       "demo": "/?theme=CLS_27",
-      "tags": ["classic", "kids", "playful", "multi-color", "multi"]
+      "tags": ["classic", "kids", "playful", "multi color"]
     },
     {
       "id": "CLS_28",
@@ -252,7 +252,7 @@
         "hover": "/catalog/classic/themes/CLS_28/thumbnail/hover.webp"
       },
       "demo": "/?theme=CLS_28",
-      "tags": ["classic", "food", "beverage", "fresh", "multi-color", "multi"]
+      "tags": ["classic", "food", "beverage", "fresh", "multi color"]
     },
     {
       "id": "CLS_29",
@@ -261,7 +261,7 @@
         "hover": "/catalog/classic/themes/CLS_29/thumbnail/hover.webp"
       },
       "demo": "/?theme=CLS_29",
-      "tags": ["classic", "food", "beverage", "fresh", "multi-color", "multi"]
+      "tags": ["classic", "food", "beverage", "fresh", "multi color"]
     },
     {
       "id": "CLS_30",
@@ -270,7 +270,7 @@
         "hover": "/catalog/classic/themes/CLS_30/thumbnail/hover.webp"
       },
       "demo": "/?theme=CLS_30",
-      "tags": ["classic", "festival", "holiday", "multi-color", "multi"]
+      "tags": ["classic", "festival", "holiday", "multi color"]
     }
   ],
   "openers": [
