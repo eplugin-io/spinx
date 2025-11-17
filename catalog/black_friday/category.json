@@ -25,6 +25,14 @@
       },
       "demo": "/?theme=BFD_03",
       "tags": ["black friday", "luxury", "yellow", "red", "playfair", "elegant"]
+    },
+    {
+      "id": "BFD_04",
+      "thumbnail": {
+        "main": "/catalog/black_friday/themes/BFD_04/thumbnail/main.webp"
+      },
+      "demo": "/?theme=BFD_04",
+      "tags": ["black friday", "luxury", "yellow", "playfair", "elegant"]
     }
   ],
   "openers": [
