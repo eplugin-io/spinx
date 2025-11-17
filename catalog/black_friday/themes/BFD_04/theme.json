@@ -4,11 +4,11 @@
     "contentSize": 34,
     "borderAround": {
       "type": "line",
-      "color": "#FFD75A"
+      "color": "#D6A500"
     },
     "rewardBorder": {
       "displayed": true,
-      "color": "#E6C76E"
+      "color": "#FFD75A"
     },
     "circleCenter": {
       "displayed": true,
@@ -19,7 +19,7 @@
     "sticker": {
       "borderType": "line",
       "borderColor": "#FFD75A",
-      "backgroundColor": "#F2DA8A"
+      "backgroundColor": "#E5D48A"
     },
     "playingMusic": {
       "enabled": true,
@@ -30,7 +30,7 @@
       "backgroundColor": "#FFD75A"
     }, {
       "contentColor": "#FFFFFF",
-      "backgroundColor": "#111111"
+      "backgroundColor": "#1C1C1C"
     }]
   },
   "rewardTypes": {
@@ -81,10 +81,10 @@
     "background": {
       "backgroundColor": "#000000",
       "backgroundImage": {
-        "path": "/catalog/black_friday/themes/BFD_01/background/main.webp"
+        "path": "/catalog/black_friday/themes/BFD_04/background/main.webp"
       },
       "mobileBackgroundImage": {
-        "path": "/catalog/black_friday/themes/BFD_01/background/main-mobile.webp"
+        "path": "/catalog/black_friday/themes/BFD_04/background/main-mobile.webp"
       }
     },
     "backgroundMusic": {
@@ -153,10 +153,10 @@
       "background": {
         "backgroundColor": "#000000",
         "backgroundImage": {
-          "path": "/catalog/black_friday/themes/BFD_01/background/main-mobile.webp"
+          "path": "/catalog/black_friday/themes/BFD_04/background/welcome.webp"
         },
         "mobileBackgroundImage": {
-          "path": "/catalog/black_friday/themes/BFD_01/background/main-mobile.webp"
+          "path": "/catalog/black_friday/themes/BFD_04/background/main-mobile.webp"
         }
       },
       "fontFamily": "Playfair Display",
@@ -192,10 +192,10 @@
       "background": {
         "backgroundColor": "#000000",
         "backgroundImage": {
-          "path": "/catalog/black_friday/themes/BFD_01/background/main-mobile.webp"
+          "path": "/catalog/black_friday/themes/BFD_04/background/welcome.webp"
         },
         "mobileBackgroundImage": {
-          "path": "/catalog/black_friday/themes/BFD_01/background/main-mobile.webp"
+          "path": "/catalog/black_friday/themes/BFD_04/background/main-mobile.webp"
         }
       },
       "fontFamily": "Playfair Display",
@@ -237,7 +237,7 @@
       "content": "✨ Black Friday Starts at {{TIME}} — Get Ready to Spin & Shine!"
     },
     "readyToSpin": {
-      "content": "💥 Black Friday LIVE — Click {{OPENER}} to Spin Your Exclusive Reward!"
+      "content": "💥 Black Friday Live — Click {{OPENER}} to Spin Your Exclusive Reward!"
     },
     "countDownToLaunch": {
       "content": "⏳ The Wheel Unlocks in {{TIME}} — Don’t Miss Your Chance!"
