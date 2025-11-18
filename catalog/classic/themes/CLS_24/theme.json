@@ -125,8 +125,8 @@
   "triggers": {
     "opener": {
       "distance": {
-        "left": 20,
-        "right": 20,
+        "left": 16,
+        "right": 16,
         "bottom": 24,
         "bottomFromAnnouncement": 10
       },
