@@ -112,7 +112,7 @@
     "spinButton": {
       "text": "Spin!",
       "size": 24,
-      "color": "#541515",
+      "color": "#711c1c",
       "backgroundColor": "#D8B164"
     },
     "footerContent": {
@@ -127,8 +127,8 @@
   "triggers": {
     "opener": {
       "distance": {
-        "left": 20,
-        "right": 20,
+        "left": 16,
+        "right": 16,
         "bottom": 24,
         "bottomFromAnnouncement": 10
       },
@@ -169,7 +169,7 @@
       "spinButton": {
         "text": "Spin Now",
         "size": 16,
-        "color": "#541515",
+        "color": "#711c1c",
         "backgroundColor": "#D8B164"
       },
       "cancelButton": {
@@ -202,7 +202,7 @@
       "spinButton": {
         "text": "Spin Now",
         "size": 16,
-        "color": "#541515",
+        "color": "#711c1c",
         "backgroundColor": "#D8B164"
       },
       "cancelButton": {
