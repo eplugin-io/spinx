@@ -112,7 +112,7 @@
     "spinButton": {
       "text": "Spin!",
       "size": 24,
-      "color": "#541515",
+      "color": "#711c1c",
       "backgroundColor": "#D8B164"
     },
     "footerContent": {
@@ -169,7 +169,7 @@
       "spinButton": {
         "text": "Spin Now",
         "size": 16,
-        "color": "#541515",
+        "color": "#711c1c",
         "backgroundColor": "#D8B164"
       },
       "cancelButton": {
@@ -202,7 +202,7 @@
       "spinButton": {
         "text": "Spin Now",
         "size": 16,
-        "color": "#541515",
+        "color": "#711c1c",
         "backgroundColor": "#D8B164"
       },
       "cancelButton": {
