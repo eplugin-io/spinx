@@ -184,7 +184,7 @@
       "cancelButton": {
         "text": "Maybe Later",
         "size": 16,
-        "color": "#999999",
+        "color": "#c9c9c9",
         "backgroundColor": "#111111"
       }
     },
@@ -223,7 +223,7 @@
       "cancelButton": {
         "text": "Maybe Later",
         "size": 16,
-        "color": "#999999",
+        "color": "#c9c9c9",
         "backgroundColor": "#111111"
       }
     }
