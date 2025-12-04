@@ -5,7 +5,8 @@
     {
       "id": "HLW_01",
       "thumbnail": {
-        "main": "/catalog/halloween/themes/HLW_01/thumbnail/main.webp"
+        "main": "/catalog/halloween/themes/HLW_01/thumbnail/main.webp",
+        "hover": "/catalog/halloween/themes/HLW_01/thumbnail/hover.webp"
       },
       "demo": "/?theme=HLW_01",
       "tags": ["halloween", "cartoon", "playful", "dark"]
@@ -13,7 +14,8 @@
     {
       "id": "HLW_02",
       "thumbnail": {
-        "main": "/catalog/halloween/themes/HLW_02/thumbnail/main.webp"
+        "main": "/catalog/halloween/themes/HLW_02/thumbnail/main.webp",
+        "hover": "/catalog/halloween/themes/HLW_02/thumbnail/hover.webp"
       },
       "demo": "/?theme=HLW_02",
       "tags": ["halloween", "cartoon", "playful", "dark"]
@@ -21,7 +23,8 @@
     {
       "id": "HLW_03",
       "thumbnail": {
-        "main": "/catalog/halloween/themes/HLW_03/thumbnail/main.webp"
+        "main": "/catalog/halloween/themes/HLW_03/thumbnail/main.webp",
+        "hover": "/catalog/halloween/themes/HLW_03/thumbnail/hover.webp"
       },
       "demo": "/?theme=HLW_03",
       "tags": ["halloween", "cartoon", "playful", "dark"]
@@ -120,6 +123,7 @@
     },
     {
       "id": "HLW_13",
+      "deltaY": -3,
       "transparentBackground": true,
       "popupColors": [{
         "content": "#FFD700",
@@ -128,6 +132,7 @@
     },
     {
       "id": "HLW_14",
+      "deltaY": -3,
       "transparentBackground": true,
       "popupColors": [{
         "content": "#FFD700",
@@ -136,6 +141,7 @@
     },
     {
       "id": "HLW_15",
+      "deltaY": -3,
       "transparentBackground": true,
       "popupColors": [{
         "content": "#FFD700",
