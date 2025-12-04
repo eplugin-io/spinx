@@ -239,7 +239,7 @@
       "content": "🎃 Spirits whisper… The wheel will spin at {{TIME}}. Be prepared!"
     },
     "readyToSpin": {
-      "content": "🎃 Trick or Treat? Click {{OPENER}} to Spin & Claim Your Reward!"
+      "content": "Trick or Treat? Click {{OPENER}} to Spin & Claim Your Reward!"
     },
     "countDownToLaunch": {
       "content": "🎃 Get your courage ready… Wheel unlocks in {{TIME}}!"
