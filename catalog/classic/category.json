@@ -36,7 +36,7 @@
         "hover": "/catalog/classic/themes/CLS_04/thumbnail/hover.webp"
       },
       "demo": "/?theme=CLS_04",
-      "tags": ["classic", "modern", "luxury", "fashion", "jewelry", "pink"]
+      "tags": ["classic", "modern", "luxury", "fashion", "jewelry", "silver"]
     },
     {
       "id": "CLS_05",
@@ -63,7 +63,7 @@
         "hover": "/catalog/classic/themes/CLS_07/thumbnail/hover.webp"
       },
       "demo": "/?theme=CLS_07",
-      "tags": ["classic", "modern", "fashion", "blue", "silver", "dark"]
+      "tags": ["classic", "modern", "fashion", "blue", "dark"]
     },
     {
       "id": "CLS_08",
@@ -90,7 +90,7 @@
         "hover": "/catalog/classic/themes/CLS_10/thumbnail/hover.webp"
       },
       "demo": "/?theme=CLS_10",
-      "tags": ["classic", "modern", "luxury", "blue", "silver"]
+      "tags": ["classic", "modern", "luxury", "blue"]
     },
     {
       "id": "CLS_11",
@@ -99,7 +99,7 @@
         "hover": "/catalog/classic/themes/CLS_11/thumbnail/hover.webp"
       },
       "demo": "/?theme=CLS_11",
-      "tags": ["classic", "modern", "food", "green", "orange"]
+      "tags": ["classic", "modern", "food", "green"]
     },
     {
       "id": "CLS_12",
@@ -153,7 +153,7 @@
         "hover": "/catalog/classic/themes/CLS_17/thumbnail/hover.webp"
       },
       "demo": "/?theme=CLS_17",
-      "tags": ["classic", "modern", "food", "turquoise", "yellow"]
+      "tags": ["classic", "modern", "food", "green", "yellow"]
     },
     {
       "id": "CLS_18",
@@ -216,7 +216,7 @@
         "hover": "/catalog/classic/themes/CLS_24/thumbnail/hover.webp"
       },
       "demo": "/?theme=CLS_24",
-      "tags": ["classic", "luxury", "minimal", "jewelry", "silver", "white"]
+      "tags": ["classic", "luxury", "jewelry", "silver", "white"]
     },
     {
       "id": "CLS_25",
@@ -270,7 +270,7 @@
         "hover": "/catalog/classic/themes/CLS_30/thumbnail/hover.webp"
       },
       "demo": "/?theme=CLS_30",
-      "tags": ["classic", "festival", "holiday", "multi color"]
+      "tags": ["classic", "festival", "multi color"]
     }
   ],
   "openers": [
