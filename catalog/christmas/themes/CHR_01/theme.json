@@ -1,0 +1,259 @@
+{
+  "wheel": {
+    "fontFamily": "Special Elite",
+    "contentSize": 34,
+    "borderAround": {
+      "type": "line",
+      "color": "#FFF7EB"
+    },
+    "rewardBorder": {
+      "displayed": true,
+      "color": "#FFFFFF"
+    },
+    "circleCenter": {
+      "displayed": true,
+      "borderType": "line",
+      "borderColor": "#DDA441",
+      "backgroundColor": "#F6C667"
+    },
+    "sticker": {
+      "borderType": "line",
+      "borderColor": "#E53935",
+      "backgroundColor": "#F6C667"
+    },
+    "playingMusic": {
+      "enabled": true,
+      "value": "CHR_PY_01"
+    },
+    "rewards": [{
+      "contentColor": "#FFFFFF",
+      "backgroundColor": "#E53935"
+    }, {
+      "contentColor": "#FFFFFF",
+      "backgroundColor": "#0F6C4F"
+    }]
+  },
+  "rewardTypes": {
+    "none": {
+      "message": {
+        "title": "❄️ No Luck This Time!",
+        "content": "Thanks for playing! More Christmas magic awaits—try again soon!"
+      },
+      "effectMusic": {
+        "enabled": true,
+        "value": "CHR_LS_01"
+      }
+    },
+    "discountCode": {
+      "message": {
+        "title": "🎁 You Won {{REWARD}}!",
+        "content": "Use the code below at checkout and enjoy your festive reward."
+      },
+      "effectMusic": {
+        "enabled": true,
+        "value": "CHR_WN_01"
+      }
+    },
+    "freeShipping": {
+      "message": {
+        "title": "🎁 You Won {{REWARD}}!",
+        "content": "Apply the code below to receive free shipping on your order."
+      },
+      "effectMusic": {
+        "enabled": true,
+        "value": "CHR_WN_02"
+      }
+    },
+    "freeGift": {
+      "message": {
+        "title": "🎁 You've Earned a Christmas Gift!",
+        "content": "Use the code below to claim your surprise holiday gift."
+      },
+      "effectMusic": {
+        "enabled": true,
+        "value": "CHR_WN_03"
+      }
+    }
+  },
+  "popup": {
+    "displayType": "full_screen",
+    "showLogo": { "enabled": false },
+    "background": {
+      "backgroundColor": "#ffffff",
+      "backgroundImage": {
+        "path": "/catalog/christmas/themes/CHR_01/background/main.webp"
+      },
+      "mobileBackgroundImage": {
+        "path": "/catalog/christmas/themes/CHR_01/background/main-mobile.webp"
+      }
+    },
+    "backgroundMusic": {
+      "enabled": true,
+      "value": "CHR_BG_01"
+    },
+    "fontFamily": "Special Elite",
+    "title": {
+      "text": "🎄 Unwrap Your Christmas Surprise!",
+      "size": 36,
+      "color": "#ffffff"
+    },
+    "content": {
+      "text": "Enter your name & email to reveal your festive reward.",
+      "size": 24,
+      "color": "#FFFDF5"
+    },
+    "contentForExistingAccount": {
+      "text": "Welcome back {{NAME}}! Enter your info to reveal your Christmas reward.",
+      "size": 24,
+      "color": "#FFFDF5"
+    },
+    "textInput": {
+      "color": "#FFF9E8",
+      "backgroundColor": "rgba(0,0,0,0.35)",
+      "placeholderColor": "rgba(255,255,255,0.75)"
+    },
+    "agreement": "I agree to receive marketing emails and festive offers.",
+    "spinButton": {
+      "text": "🎁 Spin & Reveal Your Gift",
+      "size": 24,
+      "color": "#FFFFFF",
+      "backgroundColor": "#E53935"
+    },
+    "footerContent": {
+      "text": "The holiday magic begins with a spin ✨",
+      "size": 20,
+      "color": "#FFFDF5"
+    },
+    "messages": {
+      "maxSpinReachedMsg": "Looks like you’ve used all your spins!"
+    }
+  },
+  "triggers": {
+    "opener": {
+      "distance": {
+        "left": 16,
+        "right": 16,
+        "bottom": 24,
+        "bottomFromAnnouncement": 12
+      },
+      "fontFamily": "Alegreya",
+      "content": "Spin Now 🎄",
+      "contentColor": "#FFFFFF",
+      "backgroundColor": "#E53935",
+      "icon": {
+        "value": "CLS_04"
+      },
+      "attentionEffect": {
+        "enabled": true,
+        "intervalTime": 15
+      }
+    },
+    "delayedDisplay": {
+      "delay": 4,
+      "background": {
+        "backgroundColor": "#ffffff",
+        "backgroundImage": {
+          "path": "/catalog/christmas/themes/CHR_01/background/welcome.webp"
+        },
+        "mobileBackgroundImage": {
+          "path": "/catalog/christmas/themes/CHR_01/background/main-mobile.webp"
+        }
+      },
+      "fontFamily": "Special Elite",
+      "title": {
+        "text": "🎅 A Christmas Treat Awaits!",
+        "size": 32,
+        "color": "#ffffff"
+      },
+      "content": {
+        "text": "Spin the festive wheel to uncover holiday discounts, free shipping, and special surprises ✨",
+        "size": 20,
+        "color": "#ffffff"
+      },
+      "contentBottom": {
+        "text": "Spin now and claim your Christmas reward! 🎁",
+        "size": 20,
+        "color": "#ffffff"
+      },
+      "spinButton": {
+        "text": "Reveal My Gift",
+        "size": 16,
+        "color": "#FFFFFF",
+        "backgroundColor": "#E53935"
+      },
+      "cancelButton": {
+        "text": "Maybe Later",
+        "size": 16,
+        "color": "#666666",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "exitIntent": {
+      "background": {
+        "backgroundColor": "#ffffff",
+        "backgroundImage": {
+          "path": "/catalog/christmas/themes/CHR_01/background/welcome.webp"
+        },
+        "mobileBackgroundImage": {
+          "path": "/catalog/christmas/themes/CHR_01/background/main-mobile.webp"
+        }
+      },
+      "fontFamily": "Special Elite",
+      "title": {
+        "text": "🎅 Wait! A Holiday Surprise Awaits!",
+        "size": 32,
+        "color": "#ffffff"
+      },
+      "content": {
+        "text": "Before you go… spin the Christmas wheel to uncover a festive reward! Discounts, gifts, and more await.",
+        "size": 20,
+        "color": "#ffffff"
+      },
+      "contentBottom": {
+        "text": "Give it a spin and unlock your holiday cheer! 🎄",
+        "size": 20,
+        "color": "#ffffff"
+      },
+      "spinButton": {
+        "text": "Spin for a Holiday Treat",
+        "size": 16,
+        "color": "#FFFFFF",
+        "backgroundColor": "#E53935"
+      },
+      "cancelButton": {
+        "text": "Maybe Later",
+        "size": 16,
+        "color": "#666666",
+        "backgroundColor": "#ffffff"
+      }
+    }
+  },
+  "announcement": {
+    "fontFamily": "Special Elite",
+    "contentSize": 14,
+    "contentColor": "#FFFFFF",
+    "backgroundColor": "#0F6C4F",
+    "upcomingEvent": {
+      "content": "🎅 Christmas magic is coming… The wheel unlocks at {{TIME}}!"
+    },
+    "readyToSpin": {
+      "content": "🎁 Your festive surprise awaits! Tap {{OPENER}} to spin the Christmas wheel!"
+    },
+    "countDownToLaunch": {
+      "content": "⏳ Almost time! The Christmas wheel unlocks in {{TIME}} — get ready!"
+    },
+    "countDownToClose": {
+      "content": "🎄 Last chance! Only {{TIME}} left to spin and claim your holiday reward!"
+    },
+    "encourageUsePrize": {
+      "discountMessage": "🎁 You’ve unlocked {{VALUE}} off! Use {{CODE}} before the holidays end!",
+      "discountMessageWithMinOrder": "🎁 Enjoy {{VALUE}} off on orders over {{MIN_ORDER}} — apply {{CODE}} at checkout!",
+      "freeShipMessage": "🚚 Free shipping unlocked! Use {{CODE}} to enjoy your holiday treat.",
+      "freeShipMessageWithMaxAmount": "🚚 Free shipping up to {{MAX_AMOUNT}} — apply {{CODE}} before Christmas ends!",
+      "freeShipMessageWithMinOrder": "🚚 Free shipping for orders over {{MIN_ORDER}} — use {{CODE}} now!",
+      "freeShipMessageWithMaxAmountAndMinOrder": "🚚 Free shipping (up to {{MAX_AMOUNT}}) on orders over {{MIN_ORDER}} — use {{CODE}}!",
+      "freeGiftMessage": "🎁 A Christmas gift awaits! Redeem {{CODE}} before it expires!",
+      "helperText": "🎄 Apply {{CODE}} at checkout to enjoy your Christmas reward."
+    }
+  }
+}
