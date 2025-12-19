@@ -94,7 +94,7 @@
     "fontFamily": "DM Sans",
     "title": {
       "text": "🖤 Black Friday Just Got Better",
-      "size": 36,
+      "size": 32,
       "color": "#D8D8D8"
     },
     "content": {
@@ -115,7 +115,7 @@
     "agreement": "I agree to receive exclusive Black Friday offers and updates.",
     "spinButton": {
       "text": "SPIN TO SHINE",
-      "size": 24,
+      "size": 20,
       "color": "#000000",
       "backgroundColor": "#D8D8D8"
     },

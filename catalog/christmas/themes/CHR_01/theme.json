@@ -91,10 +91,15 @@
       "enabled": true,
       "value": "CHR_BG_01"
     },
+    "contentPanel": {
+      "enabled": true,
+      "backgroundColor": "rgba(255,255,255,0.12)",
+      "blur": "8px"
+    },
     "fontFamily": "Special Elite",
     "title": {
       "text": "🎄 Unwrap Your Christmas Surprise!",
-      "size": 36,
+      "size": 32,
       "color": "#ffffff"
     },
     "content": {
@@ -151,6 +156,11 @@
     "delayedDisplay": {
       "delay": 4,
       "background": {
+        "overlay": {
+          "enabled": true,
+          "color": "rgba(0, 0, 0, 0.3)",
+          "blur": "0px"
+        },
         "backgroundColor": "#ffffff",
         "backgroundImage": {
           "path": "/catalog/christmas/themes/CHR_01/background/welcome.webp"
@@ -190,6 +200,11 @@
     },
     "exitIntent": {
       "background": {
+        "overlay": {
+          "enabled": true,
+          "color": "rgba(0, 0, 0, 0.3)",
+          "blur": "0px"
+        },
         "backgroundColor": "#ffffff",
         "backgroundImage": {
           "path": "/catalog/christmas/themes/CHR_01/background/welcome.webp"

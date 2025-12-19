@@ -94,7 +94,7 @@
     "fontFamily": "Special Elite",
     "title": {
       "text": "🎃 Dare to Spin… If You’re Brave Enough!",
-      "size": 36,
+      "size": 32,
       "color": "#FFB84D"
     },
     "content": {
@@ -115,7 +115,7 @@
     "agreement": "I agree to receive marketing emails and offers.",
     "spinButton": {
       "text": "Spin… if you dare!",
-      "size": 24,
+      "size": 20,
       "color": "#000000",
       "backgroundColor": "#FF7518"
     },
