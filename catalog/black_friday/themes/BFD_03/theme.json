@@ -94,7 +94,7 @@
     "fontFamily": "Playfair Display",
     "title": {
       "text": "🎉 Let the Black Friday Fun Begin!",
-      "size": 36,
+      "size": 32,
       "color": "#9C1D1D"
     },
     "content": {
@@ -115,7 +115,7 @@
     "agreement": "I agree to receive exclusive Black Friday offers and updates.",
     "spinButton": {
       "text": "SPIN TO SHINE",
-      "size": 24,
+      "size": 20,
       "color": "#FFFFFF",
       "backgroundColor": "#9C1D1D"
     },
