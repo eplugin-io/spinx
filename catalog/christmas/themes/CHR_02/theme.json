@@ -247,7 +247,7 @@
     "fontFamily": "Special Elite",
     "contentSize": 14,
     "contentColor": "#FFD75A",
-    "backgroundColor": "linear-gradient(90deg, rgba(15,30,45,0.85), rgba(20,40,60,0.85))",
+    "backgroundColor": "linear-gradient(90deg, rgba(22,40,65,1), rgba(30,55,85,1))",
     "upcomingEvent": {
       "content": "🎅 Christmas magic is coming… The wheel unlocks at {{TIME}}!"
     },
