@@ -90,7 +90,7 @@
     "fontFamily": "Montserrat",
     "title": {
       "text": "Spin to win exciting rewards!",
-      "size": 36,
+      "size": 32,
       "color": "#004237"
     },
     "content": {
@@ -106,9 +106,14 @@
     "agreement": "I agree to receive marketing emails and offers.",
     "spinButton": {
       "text": "Spin!",
-      "size": 24,
+      "size": 20,
       "color": "#FFFFFF",
       "backgroundColor": "#008080"
+    },
+    "dismissButton": {
+      "text": "Continue shopping",
+      "size": 20,
+      "color": "#2C2C2C"
     },
     "footerContent": {
       "text": "The fun starts with a spin!",
@@ -152,7 +157,7 @@
       },
       "content": {
         "text": "💰 Get a chance to win discount codes, free shipping, and many exciting gifts.",
-        "size": 20,
+        "size": 24,
         "color": "#2C2C2C"
       },
       "contentBottom": {
@@ -185,7 +190,7 @@
       },
       "content": {
         "text": "🎉 Get a chance to win discount codes, free shipping, and many exciting gifts.",
-        "size": 20,
+        "size": 24,
         "color": "#2C2C2C"
       },
       "contentBottom": {

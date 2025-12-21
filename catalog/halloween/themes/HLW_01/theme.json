@@ -119,6 +119,11 @@
       "color": "#ffffff",
       "backgroundColor": "#af3129"
     },
+    "dismissButton": {
+      "text": "Continue shopping",
+      "size": 20,
+      "color": "#DDDDDD"
+    },
     "footerContent": {
       "text": "The fun starts with a spin!",
       "size": 20,
@@ -167,7 +172,7 @@
       },
       "content": {
         "text": "Spin the haunted wheel to uncover chilling discounts, free shipping… and maybe a trick or two ☠️",
-        "size": 20,
+        "size": 24,
         "color": "#DDDDDD"
       },
       "contentBottom": {
@@ -206,7 +211,7 @@
       },
       "content": {
         "text": "Spin the haunted wheel to uncover chilling discounts, free shipping… and maybe a trick or two ☠️",
-        "size": 20,
+        "size": 24,
         "color": "#DDDDDD"
       },
       "contentBottom": {
