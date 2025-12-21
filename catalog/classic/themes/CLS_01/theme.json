@@ -115,6 +115,12 @@
       "color": "#711c1c",
       "backgroundColor": "#D8B164"
     },
+    "dismissButton": {
+      "text": "No, thanks",
+      "size": 24,
+      "color": "#ffffff",
+      "backgroundColor": "transparent"
+    },
     "footerContent": {
       "text": "The fun starts with a spin!",
       "size": 20,
