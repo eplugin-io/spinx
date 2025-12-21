@@ -120,9 +120,14 @@
     "agreement": "I agree to receive marketing emails and festive offers.",
     "spinButton": {
       "text": "🎁 Spin & Reveal Your Gift",
-      "size": 24,
+      "size": 20,
       "color": "#FFFFFF",
       "backgroundColor": "#E53935"
+    },
+    "dismissButton": {
+      "text": "Continue shopping",
+      "size": 20,
+      "color": "#FFFDF5"
     },
     "footerContent": {
       "text": "The holiday magic begins with a spin ✨",
@@ -177,7 +182,7 @@
       },
       "content": {
         "text": "Spin the festive wheel to uncover holiday discounts, free shipping, and special surprises ✨",
-        "size": 20,
+        "size": 24,
         "color": "#ffffff"
       },
       "contentBottom": {
@@ -221,7 +226,7 @@
       },
       "content": {
         "text": "Before you go… spin the Christmas wheel to uncover a festive reward! Discounts, gifts, and more await.",
-        "size": 20,
+        "size": 24,
         "color": "#ffffff"
       },
       "contentBottom": {
@@ -230,7 +235,7 @@
         "color": "#ffffff"
       },
       "spinButton": {
-        "text": "Spin for a Holiday Treat",
+        "text": "Reveal My Gift",
         "size": 16,
         "color": "#FFFFFF",
         "backgroundColor": "#E53935"

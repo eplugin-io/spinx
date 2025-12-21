@@ -123,9 +123,14 @@
     "agreement": "I agree to receive marketing emails and offers.",
     "spinButton": {
       "text": "Spin!",
-      "size": 24,
+      "size": 20,
       "color": "#FFFFFF",
       "backgroundColor": "#FF10F0"
+    },
+    "dismissButton": {
+      "text": "Continue shopping",
+      "size": 20,
+      "color": "#FFFFFF"
     },
     "footerContent": {
       "text": "The fun starts with a spin!",
@@ -169,7 +174,7 @@
       },
       "content": {
         "text": "💰 Get a chance to win discount codes, free shipping, and many exciting gifts.",
-        "size": 20,
+        "size": 24,
         "color": "#FFFFFF"
       },
       "contentBottom": {
@@ -202,7 +207,7 @@
       },
       "content": {
         "text": "🎉 Get a chance to win discount codes, free shipping, and many exciting gifts.",
-        "size": 20,
+        "size": 24,
         "color": "#FFFFFF"
       },
       "contentBottom": {
