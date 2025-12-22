@@ -14,12 +14,12 @@
       "displayed": true,
       "borderType": "line",
       "borderColor": "#B8953D",
-      "backgroundColor": "#E6C77A"
+      "backgroundColor": "#F6C667"
     },
     "sticker": {
       "borderType": "line",
       "borderColor": "#B8953D",
-      "backgroundColor": "#E6C77A"
+      "backgroundColor": "#F6C667"
     },
     "playingMusic": {
       "enabled": true,
@@ -27,10 +27,10 @@
     },
     "rewards": [{
       "contentColor": "#FFFFFF",
-      "backgroundColor": "#1B5728"
+      "backgroundColor": "#E53935"
     }, {
       "contentColor": "#FFFFFF",
-      "backgroundColor": "#B23A3A"
+      "backgroundColor": "#0F6C4F"
     }]
   },
   "rewardTypes": {
