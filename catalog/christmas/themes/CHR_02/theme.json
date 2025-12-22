@@ -14,12 +14,12 @@
       "displayed": true,
       "borderType": "line",
       "borderColor": "#B8953D",
-      "backgroundColor": "#E6C77A"
+      "backgroundColor": "#F6C667"
     },
     "sticker": {
       "borderType": "line",
       "borderColor": "#B8953D",
-      "backgroundColor": "#E6C77A"
+      "backgroundColor": "#F6C667"
     },
     "playingMusic": {
       "enabled": true,
@@ -27,10 +27,10 @@
     },
     "rewards": [{
       "contentColor": "#FFFFFF",
-      "backgroundColor": "#1B5728"
+      "backgroundColor": "#E53935"
     }, {
       "contentColor": "#FFFFFF",
-      "backgroundColor": "#B23A3A"
+      "backgroundColor": "#0F6C4F"
     }]
   },
   "rewardTypes": {
@@ -124,6 +124,11 @@
       "color": "#FFFFFF",
       "backgroundColor": "#D64545"
     },
+    "dismissButton": {
+      "text": "Continue shopping",
+      "size": 20,
+      "color": "#F1F1F1"
+    },
     "footerContent": {
       "text": "The holiday magic begins with a spin ✨",
       "size": 20,
@@ -177,7 +182,7 @@
       },
       "content": {
         "text": "Spin the festive wheel to uncover holiday discounts, free shipping, and special surprises ✨",
-        "size": 20,
+        "size": 24,
         "color": "#F1F1F1"
       },
       "contentBottom": {
@@ -221,7 +226,7 @@
       },
       "content": {
         "text": "Before you go… spin the Christmas wheel to uncover a festive reward! Discounts, gifts, and more await.",
-        "size": 20,
+        "size": 24,
         "color": "#F1F1F1"
       },
       "contentBottom": {
@@ -230,7 +235,7 @@
         "color": "#F1F1F1"
       },
       "spinButton": {
-        "text": "Spin for a Holiday Treat",
+        "text": "Reveal My Gift",
         "size": 16,
         "color": "#FFFFFF",
         "backgroundColor": "#D64545"

@@ -119,9 +119,14 @@
       "color": "#FFE794",
       "backgroundColor": "#9C1D1D"
     },
+    "dismissButton": {
+      "text": "Continue shopping",
+      "size": 20,
+      "color": "#6E0E0E"
+    },
     "footerContent": {
       "text": "Every spin is a chance to shine.",
-      "size": 18,
+      "size": 20,
       "color": "#6E0E0E"
     },
     "messages": {
@@ -167,17 +172,17 @@
       },
       "content": {
         "text": "Spin the dazzling wheel to reveal your exclusive Black Friday reward.",
-        "size": 20,
+        "size": 24,
         "color": "#3A2E00"
       },
       "contentBottom": {
         "text": "Don’t miss your chance — spin now to claim your prize!",
-        "size": 18,
+        "size": 20,
         "color": "#6E0E0E"
       },
       "spinButton": {
         "text": "Unlock Reward",
-        "size": 18,
+        "size": 16,
         "color": "#FFE794",
         "backgroundColor": "#9C1D1D"
       },
@@ -201,22 +206,22 @@
       "fontFamily": "Poppins",
       "title": {
         "text": "⚡ Don’t Miss Your Black Friday Reward",
-        "size": 30,
+        "size": 32,
         "color": "#9C1D1D"
       },
       "content": {
         "text": "Spin the Black Friday wheel before you go — your exclusive offer might be waiting!",
-        "size": 20,
+        "size": 24,
         "color": "#3A2E00"
       },
       "contentBottom": {
         "text": "Only one spin could change your Black Friday.",
-        "size": 18,
+        "size": 20,
         "color": "#6E0E0E"
       },
       "spinButton": {
         "text": "Unlock Reward",
-        "size": 18,
+        "size": 16,
         "color": "#FFE794",
         "backgroundColor": "#9C1D1D"
       },

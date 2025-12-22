@@ -115,9 +115,14 @@
     "agreement": "I agree to receive marketing emails and offers.",
     "spinButton": {
       "text": "Spin… if you dare!",
-      "size": 24,
+      "size": 20,
       "color": "#ffffff",
       "backgroundColor": "#FF6600"
+    },
+    "dismissButton": {
+      "text": "Continue shopping",
+      "size": 20,
+      "color": "#DDDDDD"
     },
     "footerContent": {
       "text": "The fun starts with a spin!",
@@ -167,7 +172,7 @@
       },
       "content": {
         "text": "Spin the haunted wheel to uncover chilling discounts, free shipping… and maybe a trick or two 🕷️",
-        "size": 20,
+        "size": 24,
         "color": "#DDDDDD"
       },
       "contentBottom": {
@@ -206,7 +211,7 @@
       },
       "content": {
         "text": "Spin the haunted wheel to uncover chilling discounts, free shipping… and maybe a trick or two 🕷️",
-        "size": 20,
+        "size": 24,
         "color": "#DDDDDD"
       },
       "contentBottom": {
