@@ -241,9 +241,9 @@
       "discountMessage": "🎉 Congrats! You’ve unlocked {{VALUE}} off – use {{CODE}} now!",
       "discountMessageWithMinOrder": "🎉 You’ve unlocked {{VALUE}} off for orders over {{MIN_ORDER}} – use {{CODE}} now!",
       "freeShipMessage": "🚚 Enjoy free shipping with {{CODE}} – use it now!",
-      "freeShipMessageWithMaxAmount": "🚚 Enjoy free shipping up to {{MAX_AMOUNT}} off – use {{CODE}} now!",
+      "freeShipMessageWithMaxAmount": "🚚 Enjoy free shipping (≤ {{MAX_AMOUNT}}) – use {{CODE}} now!",
       "freeShipMessageWithMinOrder": "🚚 Enjoy free shipping for orders over {{MIN_ORDER}} – use {{CODE}} now!",
-      "freeShipMessageWithMaxAmountAndMinOrder": "🚚 Enjoy free shipping for orders over {{MIN_ORDER}}, up to {{MAX_AMOUNT}} off – use {{CODE}} now!",
+      "freeShipMessageWithMaxAmountAndMinOrder": "🚚 Free shipping (≤ {{MAX_AMOUNT}}) on orders over {{MIN_ORDER}} — use {{CODE}}!",
       "freeGiftMessage": "🎁 Awesome! You've earned a free gift – claim it with {{CODE}} now!",
       "helperText": "🏷️ Apply your code {{CODE}} at checkout."
     }

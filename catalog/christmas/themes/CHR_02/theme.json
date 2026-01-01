@@ -94,7 +94,7 @@
     "contentPanel": {
       "enabled": true,
       "backgroundColor": "rgba(255,255,255,0.12)",
-      "blur": "8px"
+      "blur": "12px"
     },
     "fontFamily": "Special Elite",
     "title": {
@@ -269,9 +269,9 @@
       "discountMessage": "🎁 You’ve unlocked {{VALUE}} off! Use {{CODE}} before the holidays end!",
       "discountMessageWithMinOrder": "🎁 Enjoy {{VALUE}} off on orders over {{MIN_ORDER}} — apply {{CODE}} at checkout!",
       "freeShipMessage": "🚚 Free shipping unlocked! Use {{CODE}} to enjoy your holiday treat.",
-      "freeShipMessageWithMaxAmount": "🚚 Free shipping up to {{MAX_AMOUNT}} — apply {{CODE}} before Christmas ends!",
+      "freeShipMessageWithMaxAmount": "🚚 Free shipping (≤ {{MAX_AMOUNT}}) — apply {{CODE}} before Christmas ends!",
       "freeShipMessageWithMinOrder": "🚚 Free shipping for orders over {{MIN_ORDER}} — use {{CODE}} now!",
-      "freeShipMessageWithMaxAmountAndMinOrder": "🚚 Free shipping (up to {{MAX_AMOUNT}}) on orders over {{MIN_ORDER}} — use {{CODE}}!",
+      "freeShipMessageWithMaxAmountAndMinOrder": "🚚 Free shipping (≤ {{MAX_AMOUNT}}) on orders over {{MIN_ORDER}} — use {{CODE}}!",
       "freeGiftMessage": "🎁 A Christmas gift awaits! Redeem {{CODE}} before it expires!",
       "helperText": "🎄 Apply {{CODE}} at checkout to enjoy your Christmas reward."
     }
