@@ -254,9 +254,9 @@
       "discountMessage": "🏷️ You’ve unlocked {{VALUE}} off — use {{CODE}} before the sale ends!",
       "discountMessageWithMinOrder": "🏷️ {{VALUE}} off for orders over {{MIN_ORDER}} — apply {{CODE}} now!",
       "freeShipMessage": "🚚 Free shipping unlocked — apply {{CODE}} now!",
-      "freeShipMessageWithMaxAmount": "🚚 Enjoy free shipping up to {{MAX_AMOUNT}} off — use {{CODE}} before it’s gone!",
+      "freeShipMessageWithMaxAmount": "🚚 Enjoy free shipping (≤ {{MAX_AMOUNT}}) — use {{CODE}} before it’s gone!",
       "freeShipMessageWithMinOrder": "🚚 Free shipping for orders over {{MIN_ORDER}} — use {{CODE}} now!",
-      "freeShipMessageWithMaxAmountAndMinOrder": "🚚 Free shipping for orders over {{MIN_ORDER}}, up to {{MAX_AMOUNT}} off — apply {{CODE}} now!",
+      "freeShipMessageWithMaxAmountAndMinOrder": "🚚 Free shipping (≤ {{MAX_AMOUNT}}) on orders over {{MIN_ORDER}} — use {{CODE}}!",
       "freeGiftMessage": "🎁 A Black Friday surprise awaits — use {{CODE}} to claim your gift!",
       "helperText": "⚡ Apply {{CODE}} at checkout — your Black Friday exclusive deal awaits!"
     }
