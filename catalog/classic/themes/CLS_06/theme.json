@@ -179,7 +179,7 @@
         "text": "Maybe Later",
         "size": 16,
         "color": "#333333",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#DDDDDD"
       }
     },
     "exitIntent": {
@@ -212,7 +212,7 @@
         "text": "Maybe Later",
         "size": 16,
         "color": "#333333",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#DDDDDD"
       }
     }
   },

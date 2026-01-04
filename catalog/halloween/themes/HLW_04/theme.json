@@ -192,8 +192,8 @@
       "cancelButton": {
         "text": "Maybe Later",
         "size": 16,
-        "color": "#666666",
-        "backgroundColor": "#ffffff"
+        "color": "#333333",
+        "backgroundColor": "#DDDDDD"
       }
     },
     "exitIntent": {
@@ -231,8 +231,8 @@
       "cancelButton": {
         "text": "Maybe Later",
         "size": 16,
-        "color": "#666666",
-        "backgroundColor": "#ffffff"
+        "color": "#333333",
+        "backgroundColor": "#DDDDDD"
       }
     }
   },
