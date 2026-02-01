@@ -16,7 +16,7 @@
       "borderColor": "#FFFFFF",
       "backgroundColor": "#FFF566"
     },
-    "sticker": {
+    "pointer": {
       "borderType": "line",
       "borderColor": "#EEEEEE",
       "backgroundColor": "#FFF44F"
