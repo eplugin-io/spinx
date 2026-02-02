@@ -1,5 +1,5 @@
 {
-  "id": "CLS_02",
+  "id": "",
   "wheel": {
     "border": {
       "type": "line",
@@ -25,13 +25,16 @@
         "displayed": true,
         "color": "#e48594"
       },
-      "items": [{
-        "color": "#FFFFFF",
-        "backgroundColor": "#000000"
-      }, {
-        "color": "#FFFFFF",
-        "backgroundColor": "#1A1A1A"
-      }]
+      "items": [
+        {
+          "color": "#FFFFFF",
+          "backgroundColor": "#000000"
+        },
+        {
+          "color": "#FFFFFF",
+          "backgroundColor": "#1A1A1A"
+        }
+      ]
     }
   },
   "opener": {
@@ -77,14 +80,8 @@
     },
     "wheelPopup": {
       "backgroundImage": {},
-      "backgroundMusic": {
-        "enabled": true,
-        "value": "CLS_BG_01"
-      },
-      "playingMusic": {
-        "enabled": true,
-        "value": "CLS_PY_01"
-      }
+      "backgroundMusic": {},
+      "playingMusic": {}
     },
     "introPopup": {
       "backgroundImage": {},
