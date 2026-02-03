@@ -56,13 +56,13 @@
         "color": "#FFFFFF"
       },
       "textInput": {
-        "color": "#dfd163"
+        "color": "#FFFFFF"
       },
       "helper": {
-        "color": "#dfd163"
+        "color": "#FFFFFF"
       },
       "footer": {
-        "color": "#dfd163"
+        "color": "#FFFFFF"
       },
       "primaryButton": {
         "color": "#01152D",
@@ -72,7 +72,7 @@
         "color": "#FFFFFF"
       },
       "linkButton": {
-        "color": "#dfd163"
+        "color": "#FFFFFF"
       }
     },
     "wheelPopup": {

@@ -80,9 +80,8 @@
         "color": "#000000"
       },
       "textInput": {
-        "color": "#6D1A0E",
-        "backgroundColor": "#fffe7547",
-        "placeholderColor": "#757575"
+        "color": "#000000",
+        "backgroundColor": "rgba(255, 255, 255, 0.3)"
       },
       "helper": {
         "color": "#000000"

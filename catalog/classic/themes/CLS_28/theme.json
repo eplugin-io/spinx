@@ -80,9 +80,7 @@
         "color": "#2C2C2C"
       },
       "textInput": {
-        "color": "#2C2C2C",
-        "backgroundColor": "#1b1f3b1a",
-        "placeholderColor": "#757575"
+        "color": "#2C2C2C"
       },
       "helper": {
         "color": "#2C2C2C"
@@ -95,7 +93,8 @@
         "backgroundColor": "#FF914D"
       },
       "secondaryButton": {
-        "color": "#2C2C2C"
+        "color": "#2C2C2C",
+        "backgroundColor": "rgba(0,0,0,0.10)"
       },
       "linkButton": {
         "color": "#2C2C2C"

@@ -73,8 +73,7 @@
       },
       "textInput": {
         "color": "#FFFFFF",
-        "backgroundColor": "#252525",
-        "placeholderColor": "#757575"
+        "backgroundColor": "rgba(0, 0, 0, 0.5)"
       },
       "helper": {
         "color": "#FFFFFF"

@@ -60,7 +60,8 @@
         "color": "#222425"
       },
       "textInput": {
-        "color": "#828080"
+        "color": "#222425",
+        "backgroundColor": "rgba(255, 255, 255, 0.5)"
       },
       "helper": {
         "color": "#222425"
@@ -73,7 +74,8 @@
         "backgroundColor": "#9E9E9D"
       },
       "secondaryButton": {
-        "color": "#222425"
+        "color": "#222425",
+        "backgroundColor": "rgba(0,0,0,0.10)"
       },
       "linkButton": {
         "color": "#222425"
