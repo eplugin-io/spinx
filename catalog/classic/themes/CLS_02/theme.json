@@ -56,9 +56,7 @@
         "color": "#ffffff"
       },
       "textInput": {
-        "color": "#ffc6ce",
-        "backgroundColor": "#2b2a2a",
-        "placeholderColor": "#757575"
+        "color": "#e8b6be"
       },
       "helper": {
         "color": "#ffffff"
@@ -71,8 +69,7 @@
         "backgroundColor": "#e48594"
       },
       "secondaryButton": {
-        "color": "#333333",
-        "backgroundColor": "#DDDDDD"
+        "color": "#ffffff"
       },
       "linkButton": {
         "color": "#ffffff"
