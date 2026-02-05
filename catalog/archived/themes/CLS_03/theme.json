@@ -1,264 +1,94 @@
 {
+  "id": "",
   "wheel": {
-    "fontFamily": "Cormorant Garamond",
-    "contentSize": 34,
-    "borderAround": {
+    "border": {
       "type": "line",
       "color": "#C9A46C"
     },
-    "rewardBorder": {
+    "center": {
       "displayed": true,
-      "color": "#EBD8B1"
-    },
-    "circleCenter": {
-      "displayed": true,
-      "borderType": "line",
-      "borderColor": "#C9A46C",
-      "backgroundColor": "#0B0B0B"
+      "border": {
+        "displayed": true,
+        "color": "#C9A46C"
+      },
+      "color": "#0B0B0B"
     },
     "pointer": {
-      "borderType": "line",
-      "borderColor": "#C9A46C",
-      "backgroundColor": "#EBD8B1"
-    },
-    "playingMusic": {
-      "enabled": true,
-      "value": "BFD_PY_02"
-    },
-    "rewards": [{
-      "contentColor": "#0B0B0B",
-      "backgroundColor": "#EBD8B1"
-    }, {
-      "contentColor": "#F5F5F5",
-      "backgroundColor": "#151515"
-    }]
-  },
-  "rewardTypes": {
-    "none": {
-      "message": {
-        "title": "Better luck next spin 💫",
-        "content": "Your next Black Friday reward might be right around the corner!"
-      },
-      "effectMusic": {
-        "enabled": true,
-        "value": "BFD_LS_01"
+      "color": "#EBD8B1",
+      "border": {
+        "displayed": true,
+        "color": "#C9A46C"
       }
     },
-    "discountCode": {
-      "message": {
-        "title": "🎉 You Won {{REWARD}}!",
-        "content": "Apply your code below and enjoy your Black Friday deal before it’s gone."
-      },
-      "effectMusic": {
-        "enabled": true,
-        "value": "BFD_WN_01"
-      }
-    },
-    "freeShipping": {
-      "message": {
-        "title": "🚚 Free Shipping Unlocked!",
-        "content": "Apply your code at checkout to enjoy your exclusive Black Friday treat."
-      },
-      "effectMusic": {
-        "enabled": true,
-        "value": "BFD_WN_01"
-      }
-    },
-    "freeGift": {
-      "message": {
-        "title": "🎁 Surprise! You Won a Gift!",
-        "content": "Redeem your Black Friday bonus gift using the code below."
-      },
-      "effectMusic": {
-        "enabled": true,
-        "value": "BFD_WN_02"
-      }
-    }
-  },
-  "popup": {
-    "displayType": "full_screen",
-    "showLogo": { "enabled": false },
-    "background": {
-      "backgroundColor": "#0B0B0B",
-      "backgroundImage": {
-        "path": "/catalog/black_friday/themes/BFD_03/background/main.webp"
-      },
-      "mobileBackgroundImage": {
-        "path": "/catalog/black_friday/themes/BFD_03/background/main-mobile.webp"
-      }
-    },
-    "backgroundMusic": {
-      "enabled": true,
-      "value": "BFD_BG_02"
-    },
-    "fontFamily": "Cormorant Garamond",
-    "title": {
-      "text": "💎 Spin the Marble Wheel of Fortune",
-      "size": 36,
-      "color": "#C9A46C"
-    },
-    "content": {
-      "text": "Spin the wheel and uncover your exclusive Black Friday reward — a touch of luxury awaits.",
-      "size": 22,
-      "color": "#EAEAEA"
-    },
-    "contentForExistingAccount": {
-      "text": "Welcome, {{NAME}}! Get ready to spin the wheel and unlock exciting rewards waiting just for you.",
-      "size": 22,
-      "color": "#EAEAEA"
-    },
-    "textInput": {
-      "color": "#FFFFFF",
-      "backgroundColor": "#1C1C1C9e",
-      "placeholderColor": "#AAAAAA"
-    },
-    "agreement": "I agree to receive exclusive Black Friday offers and updates.",
-    "spinButton": {
-      "text": "SPIN TO SHINE",
-      "size": 20,
-      "color": "#0B0B0B",
-      "backgroundColor": "#EBD8B1"
-    },
-    "dismissButton": {
-      "text": "Continue shopping",
-      "size": 20,
-      "color": "#C9A46C"
-    },
-    "footerContent": {
-      "text": "Luxury meets luck — your spin awaits.",
-      "size": 20,
-      "color": "#C9A46C"
-    },
-    "messages": {
-      "maxSpinReachedMsg": "Looks like you’ve used all your spins!"
-    }
-  },
-  "triggers": {
-    "opener": {
-      "distance": {
-        "left": 16,
-        "right": 16,
-        "bottom": 24,
-        "bottomFromAnnouncement": 12
-      },
-      "fontFamily": "Cormorant Garamond",
-      "content": "Spin Now",
-      "contentColor": "#EBD8B1",
-      "backgroundColor": "#0B0B0B",
-      "icon": {
-        "value": "BFD_03"
-      },
-      "attentionEffect": {
-        "enabled": true,
-        "intervalTime": 15
-      }
-    },
-    "delayedDisplay": {
-      "delay": 4,
-      "background": {
-        "backgroundColor": "#0B0B0B",
-        "backgroundImage": {
-          "path": "/catalog/black_friday/themes/BFD_03/background/welcome.webp"
-        },
-        "mobileBackgroundImage": {
-          "path": "/catalog/black_friday/themes/BFD_03/background/main-mobile.webp"
-        }
-      },
-      "fontFamily": "Cormorant Garamond",
-      "title": {
-        "text": "💰 Discover Your Black Friday Treasure",
-        "size": 32,
+    "slices": {
+      "border": {
+        "displayed": true,
         "color": "#EBD8B1"
       },
-      "content": {
-        "text": "Spin the dazzling wheel to reveal your exclusive Black Friday reward.",
-        "size": 24,
-        "color": "#DDDDDD"
+      "items": [
+        {
+          "color": "#0B0B0B",
+          "backgroundColor": "#EBD8B1"
+        },
+        {
+          "color": "#F5F5F5",
+          "backgroundColor": "#151515"
+        }
+      ]
+    }
+  },
+  "opener": {
+    "icon": {
+      "value": "BFD_03"
+    },
+    "label": {
+      "color": "#EBD8B1"
+    },
+    "backgroundColor": "#0B0B0B"
+  },
+  "popups": {
+    "base": {
+      "backgroundColor": "#0B0B0B",
+      "title": {
+        "color": "#C9A46C"
       },
-      "contentBottom": {
-        "text": "Each spin brings a touch of gold — don’t miss your chance!",
-        "size": 20,
-        "color": "#BBAE84"
+      "description": {
+        "color": "#EAEAEA"
       },
-      "spinButton": {
-        "text": "Unlock Reward",
-        "size": 16,
+      "textInput": {
+        "color": "#FFFFFF",
+        "backgroundColor": "#1C1C1C9e",
+        "placeholderColor": "#AAAAAA"
+      },
+      "helper": {
+        "color": "#C9A46C"
+      },
+      "footer": {
+        "color": "#C9A46C"
+      },
+      "primaryButton": {
         "color": "#0B0B0B",
         "backgroundColor": "#EBD8B1"
       },
-      "cancelButton": {
-        "text": "Maybe Later",
-        "size": 16,
-        "color": "#999999",
-        "backgroundColor": "#1B1B1B"
+      "secondaryButton": {
+        "color": "#EAEAEA"
+      },
+      "linkButton": {
+        "color": "#C9A46C"
       }
     },
-    "exitIntent": {
-      "background": {
-        "backgroundColor": "#0B0B0B",
-        "backgroundImage": {
-          "path": "/catalog/black_friday/themes/BFD_03/background/welcome.webp"
-        },
-        "mobileBackgroundImage": {
-          "path": "/catalog/black_friday/themes/BFD_03/background/main-mobile.webp"
-        }
-      },
-      "fontFamily": "Cormorant Garamond",
-      "title": {
-        "text": "⚡ Don’t Miss Your Black Friday Treasure!",
-        "size": 32,
-        "color": "#C9A46C"
-      },
-      "content": {
-        "text": "Before you go, spin the Black Friday wheel — your exclusive offer might be waiting!",
-        "size": 24,
-        "color": "#DDDDDD"
-      },
-      "contentBottom": {
-        "text": "Luxury rewards await the bold.",
-        "size": 20,
-        "color": "#C9A46C"
-      },
-      "spinButton": {
-        "text": "Unlock Reward",
-        "size": 16,
-        "color": "#0B0B0B",
-        "backgroundColor": "#EBD8B1"
-      },
-      "cancelButton": {
-        "text": "Maybe Later",
-        "size": 16,
-        "color": "#999999",
-        "backgroundColor": "#1B1B1B"
-      }
+    "wheelPopup": {
+      "backgroundImage": {},
+      "backgroundMusic": {},
+      "playingMusic": {}
+    },
+    "introPopup": {
+      "backgroundImage": {},
+      "backgroundOverlay": {}
     }
   },
   "announcement": {
-    "fontFamily": "Cormorant Garamond",
-    "contentSize": 14,
-    "contentColor": "#EBD8B1",
-    "backgroundColor": "#0B0B0B",
-    "upcomingEvent": {
-      "content": "⚡ Black Friday Starts at {{TIME}} — Get Ready to Spin the Golden Wheel!"
-    },
-    "readyToSpin": {
-      "content": "💎 Black Friday LIVE — Click {{OPENER}} to Spin & Claim Your Golden Reward!"
-    },
-    "countDownToLaunch": {
-      "content": "🕒 The Black Friday Golden Wheel Unlocks in {{TIME}} — Be Ready to Spin!"
-    },
-    "countDownToClose": {
-      "content": "⚡ Hurry! Only {{TIME}} left this Black Friday!"
-    },
-    "encourageUsePrize": {
-      "discountMessage": "🏷️ You’ve unlocked {{VALUE}} off — use {{CODE}} before the sale ends!",
-      "discountMessageWithMinOrder": "🏷️ {{VALUE}} off for orders over {{MIN_ORDER}} — apply {{CODE}} now!",
-      "freeShipMessage": "🚚 Free shipping unlocked — apply {{CODE}} now!",
-      "freeShipMessageWithMaxAmount": "🚚 Enjoy free shipping (≤ {{MAX_AMOUNT}}) — use {{CODE}} before it’s gone!",
-      "freeShipMessageWithMinOrder": "🚚 Free shipping for orders over {{MIN_ORDER}} — use {{CODE}} now!",
-      "freeShipMessageWithMaxAmountAndMinOrder": "🚚 Free shipping (≤ {{MAX_AMOUNT}}) on orders over {{MIN_ORDER}} — use {{CODE}}!",
-      "freeGiftMessage": "🎁 A golden surprise awaits — use {{CODE}} to claim your gift!",
-      "helperText": "⚡ Apply {{CODE}} at checkout — Black Friday rewards vanish soon!"
-    }
+    "color": "#EBD8B1",
+    "backgroundColor": "#0B0B0B"
   }
 }

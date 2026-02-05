@@ -1,0 +1,267 @@
+{
+  "wheel": {
+    "fontFamily": "Special Elite",
+    "contentSize": 34,
+    "borderAround": {
+      "type": "line",
+      "color": "#FF6600"
+    },
+    "rewardBorder": {
+      "displayed": true,
+      "color": "#FF6600"
+    },
+    "circleCenter": {
+      "displayed": true,
+      "borderType": "line",
+      "borderColor": "#FF6600",
+      "backgroundColor": "#B64A1F"
+    },
+    "pointer": {
+      "borderType": "line",
+      "borderColor": "#FF6600",
+      "backgroundColor": "#B64A1F"
+    },
+    "playingMusic": {
+      "enabled": true,
+      "value": "HLW_PY_02"
+    },
+    "rewards": [{
+      "contentColor": "#DDDDDD",
+      "backgroundColor": "#BF2B22"
+    }, {
+      "contentColor": "#DDDDDD",
+      "backgroundColor": "#170B20"
+    }]
+  },
+  "rewardTypes": {
+    "none": {
+      "message": {
+        "title": "Oops! Maybe next time 🎯",
+        "content": "Thanks for playing! Let’s see what fortune brings next time."
+      },
+      "effectMusic": {
+        "enabled": true,
+        "value": "HLW_LS_01"
+      }
+    },
+    "discountCode": {
+      "message": {
+        "title": "You Won {{REWARD}}!",
+        "content": "Use the code below at checkout to enjoy your reward.",
+        "rewardExpiry": "⏳ Use your reward within {{EXPIRE}}"
+      },
+      "effectMusic": {
+        "enabled": true,
+        "value": "HLW_WN_01"
+      }
+    },
+    "freeShipping": {
+      "message": {
+        "title": "You Won {{REWARD}}!",
+        "content": "Use the code below at checkout to enjoy your reward.",
+        "rewardExpiry": "⏳ Use your reward within {{EXPIRE}}"
+      },
+      "effectMusic": {
+        "enabled": true,
+        "value": "HLW_WN_01"
+      }
+    },
+    "freeGift": {
+      "message": {
+        "title": "You Won {{REWARD}}!",
+        "content": "Use the code below at checkout to enjoy your reward.",
+        "rewardExpiry": "⏳ Use your reward within {{EXPIRE}}"
+      },
+      "effectMusic": {
+        "enabled": true,
+        "value": "HLW_WN_02"
+      }
+    }
+  },
+  "popup": {
+    "displayType": "full_screen",
+    "showLogo": { "enabled": false },
+    "background": {
+      "backgroundColor": "#3786f6",
+      "backgroundImage": {
+        "path": "/catalog/halloween/themes/HLW_01/background/main.webp"
+      },
+      "mobileBackgroundImage": {
+        "path": "/catalog/halloween/themes/HLW_01/background/main-mobile.webp"
+      }
+    },
+    "backgroundMusic": {
+      "enabled": true,
+      "value": "HLW_BG_02"
+    },
+    "fontFamily": "Special Elite",
+    "title": {
+      "text": "🕷️ Dare to Spin… If You’re Brave Enough!",
+      "size": 36,
+      "color": "#FFD700"
+    },
+    "content": {
+      "text": "Summon your prize by entering your name & email… if the spirits allow!",
+      "size": 24,
+      "color": "#DDDDDD"
+    },
+    "contentForExistingAccount": {
+      "text": "Hey {{NAME}}... Summon your prize by entering your name & email… if the spirits will it...",
+      "size": 24,
+      "color": "#DDDDDD"
+    },
+    "textInput": {
+      "color": "#FFFFFF",
+      "backgroundColor": "#2B1B2D9e",
+      "placeholderColor": "#AAAAAA"
+    },
+    "agreement": "I agree to receive marketing emails and offers.",
+    "spinButton": {
+      "text": "Spin… if you dare!",
+      "size": 20,
+      "color": "#ffffff",
+      "backgroundColor": "#FF6600"
+    },
+    "dismissButton": {
+      "text": "Continue shopping",
+      "size": 20,
+      "color": "#DDDDDD"
+    },
+    "footerContent": {
+      "text": "The fun starts with a spin!",
+      "size": 20,
+      "color": "#DDDDDD"
+    },
+    "messages": {
+      "maxSpinReachedMsg": "Looks like you’ve used all your spins!"
+    }
+  },
+  "triggers": {
+    "opener": {
+      "distance": {
+        "left": 16,
+        "right": 16,
+        "bottom": 24,
+        "bottomFromAnnouncement": 12
+      },
+      "fontFamily": "Eater",
+      "content": "Spin Now",
+      "contentColor": "#FFD700",
+      "backgroundColor": "#000000",
+      "icon": {
+        "value": "HLW_02"
+      },
+      "attentionEffect": {
+        "enabled": true,
+        "intervalTime": 15
+      }
+    },
+    "delayedDisplay": {
+      "delay": 4,
+      "background": {
+        "backgroundColor": "#170B20",
+        "backgroundImage": {
+          "path": "/catalog/halloween/themes/HLW_01/background/welcome.webp"
+        },
+        "mobileBackgroundImage": {
+          "path": "/catalog/halloween/themes/HLW_01/background/welcome-mobile.webp"
+        }
+      },
+      "fontFamily": "Special Elite",
+      "title": {
+        "text": "A Spooktacular Treat Awaits!",
+        "size": 32,
+        "color": "#FFD700"
+      },
+      "content": {
+        "text": "Spin the haunted wheel to uncover chilling discounts, free shipping… and maybe a trick or two 🕷️",
+        "size": 24,
+        "color": "#DDDDDD"
+      },
+      "contentBottom": {
+        "text": "Spin the wheel and claim your special reward.",
+        "size": 20,
+        "color": "#DDDDDD"
+      },
+      "spinButton": {
+        "text": "🕷️ Trick or Treat Me",
+        "size": 16,
+        "color": "#ffffff",
+        "backgroundColor": "#FF6600"
+      },
+      "cancelButton": {
+        "text": "Maybe Later",
+        "size": 16,
+        "color": "#333333",
+        "backgroundColor": "#DDDDDD"
+      }
+    },
+    "exitIntent": {
+      "background": {
+        "backgroundColor": "#170B20",
+        "backgroundImage": {
+          "path": "/catalog/halloween/themes/HLW_01/background/welcome.webp"
+        },
+        "mobileBackgroundImage": {
+          "path": "/catalog/halloween/themes/HLW_01/background/welcome-mobile.webp"
+        }
+      },
+      "fontFamily": "Special Elite",
+      "title": {
+        "text": "A Spooktacular Treat Awaits!",
+        "size": 32,
+        "color": "#FFD700"
+      },
+      "content": {
+        "text": "Spin the haunted wheel to uncover chilling discounts, free shipping… and maybe a trick or two 🕷️",
+        "size": 24,
+        "color": "#DDDDDD"
+      },
+      "contentBottom": {
+        "text": "Spin the wheel and claim your special reward.",
+        "size": 20,
+        "color": "#DDDDDD"
+      },
+      "spinButton": {
+        "text": "🕷️ Trick or Treat Me",
+        "size": 16,
+        "color": "#ffffff",
+        "backgroundColor": "#FF6600"
+      },
+      "cancelButton": {
+        "text": "Maybe Later",
+        "size": 16,
+        "color": "#333333",
+        "backgroundColor": "#DDDDDD"
+      }
+    }
+  },
+  "announcement": {
+    "fontFamily": "Nosifer",
+    "contentSize": 14,
+    "contentColor": "#00FFCC",
+    "backgroundColor": "#000000",
+    "upcomingEvent": {
+      "content": "🕷️ Spirits whisper… The wheel will spin at {{TIME}}. Be prepared!"
+    },
+    "readyToSpin": {
+      "content": "Trick or Treat? Click {{OPENER}} to Spin & Claim Your Reward 🦇"
+    },
+    "countDownToLaunch": {
+      "content": "🕷️ Get your courage ready… Wheel unlocks in {{TIME}}!"
+    },
+    "countDownToClose": {
+      "content": "🕷️ Last chance! {{TIME}} left to spin the haunted wheel — don’t miss it!"
+    },
+    "encourageUsePrize": {
+      "discountMessage": "🎃 Fang-tastic! You’ve unlocked {{VALUE}} off – use {{CODE}} before the magic fades!",
+      "discountMessageWithMinOrder": "🎃 You’ve unlocked {{VALUE}} off for orders over {{MIN_ORDER}} – use {{CODE}} while the Halloween magic lasts!",
+      "freeShipMessage": "🎃 Your Halloween treat is free shipping! Apply {{CODE}} while the spell lasts!",
+      "freeShipMessageWithMaxAmount": "🎃 Free shipping (≤ {{MAX_AMOUNT}}) – cast your code {{CODE}} before your treat disappears!",
+      "freeShipMessageWithMinOrder": "🎃 Free shipping for orders over {{MIN_ORDER}} – use {{CODE}} while the Halloween magic lasts!",
+      "freeShipMessageWithMaxAmountAndMinOrder": "🎃 Free shipping (≤ {{MAX_AMOUNT}}) on orders over {{MIN_ORDER}} — use {{CODE}} before the spell fades!",
+      "freeGiftMessage": "🎃 A spooky surprise awaits! Use {{CODE}} to claim your Halloween gift before it disappears!",
+      "helperText": "🏷️ Apply {{CODE}} at checkout – your spooky deal won’t last forever!"
+    }
+  }
+}

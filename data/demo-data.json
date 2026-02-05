@@ -213,7 +213,7 @@
     },
     {
       "id": "06",
-      "name": "FREE Shipping (shipping ≤ $10)",
+      "name": "Free Shipping (shipping ≤ $10)",
       "type": "free_shipping",
       "order": 6,
       "settings": {

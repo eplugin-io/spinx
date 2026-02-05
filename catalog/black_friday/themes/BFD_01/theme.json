@@ -100,7 +100,8 @@
         "backgroundColor": "#9C1D1D"
       },
       "secondaryButton": {
-        "color": "#3A2E00"
+        "color": "#3A2E00",
+        "backgroundColor": "rgba(255,255,255,0.8)"
       },
       "linkButton": {
         "color": "#3A2E00"
@@ -160,7 +161,7 @@
     }
   },
   "announcement": {
-    "fontFamily": "Orbitron",
+    "fontFamily": "Poppins",
     "color": "#FFE794",
     "backgroundColor": "#B1261E",
     "messages": {
