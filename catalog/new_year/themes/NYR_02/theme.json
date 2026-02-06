@@ -1,4 +1,109 @@
 {
+  "rewardTypes": {
+    "none": {
+      "message": {
+        "title": "Not This Spin? Try Again",
+        "description": "Another spin could jump-start your 2026."
+      }
+    },
+    "discountCode": {
+      "message": {
+        "title": "New Year! You Won {{REWARD}}!",
+        "description": "Use the code to toast to 2026 savings."
+      }
+    },
+    "freeShipping": {
+      "message": {
+        "title": "Express Delivery for the New Year!",
+        "description": "Start the year with complimentary shipping."
+      }
+    },
+    "freeGift": {
+      "message": {
+        "title": "New Year Gift Drop!",
+        "description": "Claim your reward and ring in the celebration."
+      }
+    }
+  },
+  "opener": {
+    "label": {
+      "text": "Spin into 2026",
+      "color": "#FFD36A"
+    },
+    "icon": {
+      "value": "CLS_09"
+    },
+    "backgroundColor": "#9C1A1A"
+  },
+  "popups": {
+    "wheelPopup": {
+      "forms": {
+        "spinForm": {
+          "title": "Ring in the New Year with a spin!",
+          "description": "Start 2026 with exclusive rewards.",
+          "descriptionForExistingAccount": "Welcome back, {{NAME}}! Keep the celebration rolling with another spin.",
+          "agreement": "I agree to receive New Year offers and updates.",
+          "spinButton": "SPIN FOR 2026",
+          "dismissButton": "Later",
+          "footerText": "New beginnings start with a spin.",
+          "messages": {
+            "maxSpinReached": "You've reached tonight's spins. See you next year!"
+          }
+        },
+        "resultForm": {
+          "redeemButton": "Celebrate Now",
+          "dismissButton": "Later",
+          "messages": {
+            "rewardExpiry": "Use this New Year reward before {{EXPIRE}} to keep the momentum."
+          }
+        },
+        "confirmationForm": {
+          "title": "2026 Reward Ready!",
+          "description": "Your reward code {REWARD_CODE} is ready to power your New Year checkout.",
+          "confirmButton": "Checkout Now"
+        }
+      },
+      "displayType": "full_screen",
+      "showLogo": false,
+      "backgroundImage": {},
+      "backgroundMusic": {},
+      "playingMusic": {}
+    },
+    "base": {
+      "backgroundColor": "#9C1A1A",
+      "title": {
+        "color": "#FFD36A"
+      },
+      "description": {
+        "color": "#FFFFFF"
+      },
+      "textInput": {
+        "color": "#FFF7E1",
+        "backgroundColor": "rgba(0,0,0,0.45)",
+        "placeholderColor": "rgba(255,255,255,0.6)"
+      },
+      "helper": {
+        "color": "#FFFFFF"
+      },
+      "footer": {
+        "color": "#FFFFFF"
+      },
+      "primaryButton": {
+        "color": "#1E1A14",
+        "backgroundColor": "#FFD36A"
+      },
+      "secondaryButton": {
+        "color": "#FFFFFF"
+      },
+      "linkButton": {
+        "color": "#FFF7E1"
+      }
+    },
+    "introPopup": {
+      "backgroundImage": {},
+      "backgroundOverlay": {}
+    }
+  },
   "id": "",
   "wheel": {
     "border": {
@@ -35,56 +140,6 @@
           "backgroundColor": "#9C1A1A"
         }
       ]
-    }
-  },
-  "opener": {
-    "icon": {
-      "value": "CLS_09"
-    },
-    "label": {
-      "color": "#FFD36A"
-    },
-    "backgroundColor": "#9C1A1A"
-  },
-  "popups": {
-    "base": {
-      "backgroundColor": "#9C1A1A",
-      "title": {
-        "color": "#FFD36A"
-      },
-      "description": {
-        "color": "#FFFFFF"
-      },
-      "textInput": {
-        "color": "#FFF7E1",
-        "backgroundColor": "rgba(0,0,0,0.45)",
-        "placeholderColor": "rgba(255,255,255,0.6)"
-      },
-      "helper": {
-        "color": "#FFFFFF"
-      },
-      "footer": {
-        "color": "#FFFFFF"
-      },
-      "primaryButton": {
-        "color": "#1E1A14",
-        "backgroundColor": "#FFD36A"
-      },
-      "secondaryButton": {
-        "color": "#FFFFFF"
-      },
-      "linkButton": {
-        "color": "#FFF7E1"
-      }
-    },
-    "wheelPopup": {
-      "backgroundImage": {},
-      "backgroundMusic": {},
-      "playingMusic": {}
-    },
-    "introPopup": {
-      "backgroundImage": {},
-      "backgroundOverlay": {}
     }
   },
   "announcement": {

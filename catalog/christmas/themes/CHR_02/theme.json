@@ -1,4 +1,109 @@
 {
+  "rewardTypes": {
+    "none": {
+      "message": {
+        "title": "Snow Day! Try Again",
+        "description": "The deck is reshuffling - another spin may bring yuletide joy."
+      }
+    },
+    "discountCode": {
+      "message": {
+        "title": "Holiday Surprise! You Won {{REWARD}}!",
+        "description": "Use it to unwrap your festive discount."
+      }
+    },
+    "freeShipping": {
+      "message": {
+        "title": "Reindeer Express Shipping!",
+        "description": "Enjoy complimentary delivery during the holiday rush."
+      }
+    },
+    "freeGift": {
+      "message": {
+        "title": "Season of Giving!",
+        "description": "Claim your free gift and share the joy."
+      }
+    }
+  },
+  "opener": {
+    "label": {
+      "text": "Spin for Joy",
+      "color": "#FFD75A"
+    },
+    "icon": {
+      "value": "CLS_09"
+    },
+    "backgroundColor": "rgba(15,30,45,0.9)"
+  },
+  "popups": {
+    "wheelPopup": {
+      "forms": {
+        "spinForm": {
+          "title": "Unwrap holiday cheer!",
+          "description": "Spin the wheel to reveal festive rewards.",
+          "descriptionForExistingAccount": "Welcome back, {{NAME}}! Keep the cheer going with another spin.",
+          "agreement": "I agree to receive cheerful updates and offers.",
+          "spinButton": "SPIN TO GIFT",
+          "dismissButton": "Maybe Later",
+          "footerText": "Santa loves a generous spin.",
+          "messages": {
+            "maxSpinReached": "Looks like Santa's had enough spins for now."
+          }
+        },
+        "resultForm": {
+          "redeemButton": "Redeem Holiday Reward",
+          "dismissButton": "Maybe Later",
+          "messages": {
+            "rewardExpiry": "Use your holiday reward within {{EXPIRE}} to keep the cheer."
+          }
+        },
+        "confirmationForm": {
+          "title": "Holiday Cheer Unlocked!",
+          "description": "Your reward code {REWARD_CODE} is ready to make spirits bright.",
+          "confirmButton": "Checkout Now"
+        }
+      },
+      "displayType": "full_screen",
+      "showLogo": false,
+      "backgroundImage": {},
+      "backgroundMusic": {},
+      "playingMusic": {}
+    },
+    "base": {
+      "backgroundColor": "#000000",
+      "title": {
+        "color": "#FFD75A"
+      },
+      "description": {
+        "color": "#F1F1F1"
+      },
+      "textInput": {
+        "color": "#FFF9E8",
+        "backgroundColor": "rgba(0,0,0,0.35)",
+        "placeholderColor": "rgba(255,255,255,0.75)"
+      },
+      "helper": {
+        "color": "#F1F1F1"
+      },
+      "footer": {
+        "color": "#F1F1F1"
+      },
+      "primaryButton": {
+        "color": "#FFFFFF",
+        "backgroundColor": "#D64545"
+      },
+      "secondaryButton": {
+        "color": "#F1F1F1"
+      },
+      "linkButton": {
+        "color": "#F1F1F1"
+      }
+    },
+    "introPopup": {
+      "backgroundImage": {},
+      "backgroundOverlay": {}
+    }
+  },
   "id": "",
   "wheel": {
     "border": {
@@ -35,56 +140,6 @@
           "backgroundColor": "#0F6C4F"
         }
       ]
-    }
-  },
-  "opener": {
-    "icon": {
-      "value": "CLS_09"
-    },
-    "label": {
-      "color": "#FFD75A"
-    },
-    "backgroundColor": "rgba(15,30,45,0.9)"
-  },
-  "popups": {
-    "base": {
-      "backgroundColor": "#000000",
-      "title": {
-        "color": "#FFD75A"
-      },
-      "description": {
-        "color": "#F1F1F1"
-      },
-      "textInput": {
-        "color": "#FFF9E8",
-        "backgroundColor": "rgba(0,0,0,0.35)",
-        "placeholderColor": "rgba(255,255,255,0.75)"
-      },
-      "helper": {
-        "color": "#F1F1F1"
-      },
-      "footer": {
-        "color": "#F1F1F1"
-      },
-      "primaryButton": {
-        "color": "#FFFFFF",
-        "backgroundColor": "#D64545"
-      },
-      "secondaryButton": {
-        "color": "#F1F1F1"
-      },
-      "linkButton": {
-        "color": "#F1F1F1"
-      }
-    },
-    "wheelPopup": {
-      "backgroundImage": {},
-      "backgroundMusic": {},
-      "playingMusic": {}
-    },
-    "introPopup": {
-      "backgroundImage": {},
-      "backgroundOverlay": {}
     }
   },
   "announcement": {
