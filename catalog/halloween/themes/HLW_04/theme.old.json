@@ -96,17 +96,17 @@
     },
     "fontFamily": "Special Elite",
     "title": {
-      "text": "🕷️ Dare to Spin… If You’re Brave Enough!",
+      "text": "🕷️ Dare to Spin... If You’re Brave Enough!",
       "size": 36,
       "color": "#FFD700"
     },
     "content": {
-      "text": "Summon your prize by entering your name & email… if the spirits allow!",
+      "text": "Summon your prize by entering your name & email... if the spirits allow!",
       "size": 24,
       "color": "#DDDDDD"
     },
     "contentForExistingAccount": {
-      "text": "Hey {{NAME}}... Summon your prize by entering your name & email… if the spirits will it...",
+      "text": "Hey {{NAME}}... Summon your prize by entering your name & email... if the spirits will it...",
       "size": 24,
       "color": "#DDDDDD"
     },
@@ -117,7 +117,7 @@
     },
     "agreement": "I agree to receive marketing emails and offers.",
     "spinButton": {
-      "text": "Spin… if you dare!",
+      "text": "Spin... if you dare!",
       "size": 20,
       "color": "#ffffff",
       "backgroundColor": "#FF6600"
@@ -174,7 +174,7 @@
         "color": "#FFD700"
       },
       "content": {
-        "text": "Spin the haunted wheel to uncover chilling discounts, free shipping… and maybe a trick or two 🕷️",
+        "text": "Spin the haunted wheel to uncover chilling discounts, free shipping... and maybe a trick or two 🕷️",
         "size": 24,
         "color": "#DDDDDD"
       },
@@ -213,7 +213,7 @@
         "color": "#FFD700"
       },
       "content": {
-        "text": "Spin the haunted wheel to uncover chilling discounts, free shipping… and maybe a trick or two 🕷️",
+        "text": "Spin the haunted wheel to uncover chilling discounts, free shipping... and maybe a trick or two 🕷️",
         "size": 24,
         "color": "#DDDDDD"
       },
@@ -242,13 +242,13 @@
     "contentColor": "#00FFCC",
     "backgroundColor": "#000000",
     "upcomingEvent": {
-      "content": "🕷️ Spirits whisper… The wheel will spin at {{TIME}}. Be prepared!"
+      "content": "🕷️ Spirits whisper... The wheel will spin at {{TIME}}. Be prepared!"
     },
     "readyToSpin": {
       "content": "Trick or Treat? Click {{OPENER}} to Spin & Claim Your Reward 🦇"
     },
     "countDownToLaunch": {
-      "content": "🕷️ Get your courage ready… Wheel unlocks in {{TIME}}!"
+      "content": "🕷️ Get your courage ready... Wheel unlocks in {{TIME}}!"
     },
     "countDownToClose": {
       "content": "🕷️ Last chance! {{TIME}} left to spin the haunted wheel — don’t miss it!"

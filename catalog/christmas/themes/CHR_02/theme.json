@@ -2,32 +2,32 @@
   "rewardTypes": {
     "none": {
       "message": {
-        "title": "Snow Day! Try Again",
-        "description": "The deck is reshuffling - another spin may bring yuletide joy."
+        "title": "❄️ No Luck This Time!",
+        "description": "Thanks for playing! More Christmas magic awaits—try again soon!"
       }
     },
     "discountCode": {
       "message": {
-        "title": "Holiday Surprise! You Won {{REWARD}}!",
-        "description": "Use it to unwrap your festive discount."
+        "title": "🎁 Christmas Surprise! You Won {{REWARD}}!",
+        "description": "Use the code below at checkout and enjoy your festive reward."
       }
     },
     "freeShipping": {
       "message": {
-        "title": "Reindeer Express Shipping!",
-        "description": "Enjoy complimentary delivery during the holiday rush."
+        "title": "🎁 Christmas Surprise! You Won {{REWARD}}!",
+        "description": "Apply the code below to receive free shipping on your order."
       }
     },
     "freeGift": {
       "message": {
-        "title": "Season of Giving!",
-        "description": "Claim your free gift and share the joy."
+        "title": "🎁 Christmas Surprise! You Won {{REWARD}}!",
+        "description": "Use the code below to claim your surprise holiday gift."
       }
     }
   },
   "opener": {
     "label": {
-      "text": "Spin for Joy",
+      "text": "Spin Now 🎅",
       "color": "#FFD75A"
     },
     "icon": {
@@ -39,28 +39,29 @@
     "wheelPopup": {
       "forms": {
         "spinForm": {
-          "title": "Unwrap holiday cheer!",
+          "title": "🎄 Unwrap Your Christmas Surprise!",
           "description": "Spin the wheel to reveal festive rewards.",
-          "descriptionForExistingAccount": "Welcome back, {{NAME}}! Keep the cheer going with another spin.",
+          "descriptionForExistingAccount": "{{NAME}}, it's time for a Christmas treat — spin to reveal your reward.",
           "agreement": "I agree to receive cheerful updates and offers.",
-          "spinButton": "SPIN TO GIFT",
-          "dismissButton": "Maybe Later",
-          "footerText": "Santa loves a generous spin.",
+          "spinButton": "Spin & Reveal Your Gift",
+          "dismissButton": "Continue shopping",
+          "footerText": "The holiday magic begins with a spin ✨",
           "messages": {
-            "maxSpinReached": "Looks like Santa's had enough spins for now."
+            "maxSpinReached": "Looks like you've used all your spins!"
           }
         },
         "resultForm": {
-          "redeemButton": "Redeem Holiday Reward",
-          "dismissButton": "Maybe Later",
+          "redeemButton": "Use Reward Now",
+          "dismissButton": "Continue shopping",
           "messages": {
             "rewardExpiry": "Use your holiday reward within {{EXPIRE}} to keep the cheer."
           }
         },
         "confirmationForm": {
           "title": "Holiday Cheer Unlocked!",
-          "description": "Your reward code {REWARD_CODE} is ready to make spirits bright.",
-          "confirmButton": "Checkout Now"
+          "description": "Your reward code {{REWARD_CODE}} is ready to make spirits bright.",
+          "confirmButton": "Checkout Now",
+          "dismissButton": "Continue shopping"
         }
       },
       "displayType": "full_screen",
@@ -68,6 +69,26 @@
       "backgroundImage": {},
       "backgroundMusic": {},
       "playingMusic": {}
+    },
+    "introPopup": {
+      "forms": {
+        "welcomeForm": {
+          "title": "🎅 A Christmas Treat Awaits!",
+          "description": "Spin the festive wheel to uncover holiday discounts, free shipping, and special surprises ✨",
+          "footerText": "Spin now and claim your Christmas reward! 🎁",
+          "spinButton": "Reveal My Gift",
+          "dismissButton": "Maybe Later"
+        },
+        "exitIntentForm": {
+          "title": "🎅 Wait! A Holiday Surprise Awaits!",
+          "description": "Before you go... spin the Christmas wheel to uncover a festive reward! Discounts, gifts, and more await.",
+          "footerText": "Give it a spin and unlock your holiday cheer! 🎄",
+          "spinButton": "Reveal My Gift",
+          "dismissButton": "Maybe Later"
+        }
+      },
+      "backgroundImage": {},
+      "backgroundOverlay": {}
     },
     "base": {
       "backgroundColor": "#000000",
@@ -98,11 +119,17 @@
       "linkButton": {
         "color": "#F1F1F1"
       }
-    },
-    "introPopup": {
-      "backgroundImage": {},
-      "backgroundOverlay": {}
     }
+  },
+  "announcement": {
+    "messages": {
+      "upcomingEvent": "🎅 Christmas magic is coming... The wheel unlocks at {{TIME}}!",
+      "readyToSpin": "🎁 Your festive surprise awaits! Tap {{OPENER}} to spin the Christmas wheel!",
+      "countDownToLaunch": "⏳ Almost time! The Christmas wheel unlocks in {{TIME}} — get ready!",
+      "countDownToClose": "🎄 Last chance! Only {{TIME}} left to spin and claim your holiday reward!"
+    },
+    "color": "#FFD75A",
+    "backgroundColor": "linear-gradient(90deg, rgba(22,40,65,1), rgba(30,55,85,1))"
   },
   "id": "",
   "wheel": {
@@ -141,9 +168,5 @@
         }
       ]
     }
-  },
-  "announcement": {
-    "color": "#FFD75A",
-    "backgroundColor": "linear-gradient(90deg, rgba(22,40,65,1), rgba(30,55,85,1))"
   }
 }

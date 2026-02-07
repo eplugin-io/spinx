@@ -225,7 +225,7 @@
         "color": "#FFD75A"
       },
       "content": {
-        "text": "Before you go… spin the Christmas wheel to uncover a festive reward! Discounts, gifts, and more await.",
+        "text": "Before you go... spin the Christmas wheel to uncover a festive reward! Discounts, gifts, and more await.",
         "size": 24,
         "color": "#F1F1F1"
       },
@@ -254,7 +254,7 @@
     "contentColor": "#FFD75A",
     "backgroundColor": "linear-gradient(90deg, rgba(22,40,65,1), rgba(30,55,85,1))",
     "upcomingEvent": {
-      "content": "🎅 Christmas magic is coming… The wheel unlocks at {{TIME}}!"
+      "content": "🎅 Christmas magic is coming... The wheel unlocks at {{TIME}}!"
     },
     "readyToSpin": {
       "content": "🎁 Your festive surprise awaits! Tap {{OPENER}} to spin the Christmas wheel!"

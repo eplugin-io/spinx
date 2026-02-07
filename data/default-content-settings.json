@@ -37,7 +37,7 @@
           "spinForm": {
             "title": "Let the Black Friday fun begin!",
             "description": "Spin the wheel to uncover your exclusive Black Friday reward.",
-            "descriptionForExistingAccount": "Welcome, {{NAME}}! Get ready to spin the wheel and unlock exciting rewards waiting just for you.",
+            "descriptionForExistingAccount": "{{NAME}}, it's Black Friday—spin to reveal your reward.",
             "agreement": "I agree to receive exclusive Black Friday offers and updates.",
             "spinButton": "SPIN TO SHINE",
             "dismissButton": "Continue shopping",
@@ -50,12 +50,12 @@
             "redeemButton": "Use Reward Now",
             "dismissButton": "Continue shopping",
             "messages": {
-              "rewardExpiry": "Use your Black Friday reward within {{EXPIRE}} to keep the deals going."
+              "rewardExpiry": "⏳ Use your Black Friday reward within {{EXPIRE}} to keep the deals going."
             }
           },
           "confirmationForm": {
             "title": "Black Friday Triumph!",
-            "description": "Reward code {REWARD_CODE} applied to your cart. Checkout now to lock in the deal.",
+            "description": "Reward code {{REWARD_CODE}} applied to your cart. Checkout now to lock in the deal.",
             "confirmButton": "Checkout Now",
             "dismissButton": "Continue shopping"
           }
@@ -93,88 +93,89 @@
     "rewardTypes": {
       "none": {
         "message": {
-          "title": "Not Today? Try Again Later",
+          "title": "🎃 Not Today? Try Again Later",
           "description": "The spirits stayed quiet this time. Thanks for spinning, see you next time!"
         }
       },
       "discountCode": {
         "message": {
-          "title": "Boo! You Won {{REWARD}}!",
+          "title": "🎃 Boo! You Won {{REWARD}}!",
           "description": "Use the code to feed your haunted cart with spooky savings."
         }
       },
       "freeShipping": {
         "message": {
-          "title": "Phantom Freight Activated!",
+          "title": "🎃 Boo! You Won {{REWARD}}!",
           "description": "Free shipping is arriving straight from the other side."
         }
       },
       "freeGift": {
         "message": {
-          "title": "Cursed Treasure Unlocked!",
+          "title": "🎃 Boo! You Won {{REWARD}}!",
           "description": "The free gift is sealed in cobwebs—claim it before midnight."
         }
       }
     },
     "opener": {
       "label": {
-        "text": "Summon My Spin"
+        "text": "SUMMON REWARD"
       }
     },
     "popups": {
       "wheelPopup": {
         "forms": {
           "spinForm": {
-            "title": "The haunted wheel is waiting!",
-            "description": "Spin to reveal eerie rewards and chilling offers.",
-            "descriptionForExistingAccount": "Welcome back, {{NAME}}! Keep the ritual going and unlock spooky surprises.",
+            "title": "🎃 Dare to Spin... If You're Brave Enough!",
+            "description": "Summon your prize by entering your name & email... if the spirits will it...",
+            "descriptionForExistingAccount": "Hey {{NAME}}... One brave spin seals the ritual — spooky surprises await.",
             "agreement": "I agree to receive spooky updates and offers.",
-            "spinButton": "SPIN THE WHEEL",
-            "dismissButton": "Not Tonight",
+            "spinButton": "Spin...if you dare!",
+            "dismissButton": "Too Spooky, Keep Shopping",
             "footerText": "Only brave souls unlock the prize.",
             "messages": {
               "maxSpinReached": "The spirits say you've spun enough for now."
             }
           },
           "resultForm": {
-            "redeemButton": "Claim Your Prize",
-            "dismissButton": "No Thanks",
+            "redeemButton": "Use Reward Now",
+            "dismissButton": "Continue shopping",
             "messages": {
-              "rewardExpiry": "Use this eerie reward within {{EXPIRE}} before it fades."
+              "rewardExpiry": "⏳ Use this eerie reward within {{EXPIRE}} before it fades."
             }
           },
           "confirmationForm": {
             "title": "Spooky Win Locked In!",
-            "description": "Your reward code {REWARD_CODE} is sealed with cobwebs. Proceed to checkout to claim it.",
-            "confirmButton": "Claim It"
+            "description": "Your reward code {{REWARD_CODE}} is sealed with cobwebs. Proceed to checkout to claim it.",
+            "confirmButton": "Checkout Now",
+            "dismissButton": "Continue shopping"
           }
         }
       },
       "introPopup": {
         "forms": {
           "welcomeForm": {
-            "title": "👻 A Spooktacular Treat Awaits!",
-            "description": "Spin the haunted wheel to uncover chilling discounts, free shipping… and maybe a trick or two ☠️",
+            "title": "🎃 A Spooktacular Treat Awaits!",
+            "description": "Spin the haunted wheel to uncover chilling discounts, free shipping... and maybe a trick or two ☠️",
             "footerText": "Spin the wheel and claim your special reward.",
             "spinButton": "Trick or Treat Me",
-            "dismissButton": "Maybe Later"
+            "dismissButton": "Too Spooky, Skip"
           },
           "exitIntentForm": {
-            "title": "👻 A Spooktacular Treat Awaits!",
-            "description": "Spin the haunted wheel to uncover chilling discounts, free shipping… and maybe a trick or two ☠️",
+            "title": "🎃 A Spooktacular Treat Awaits!",
+            "description": "Spin the haunted wheel to uncover chilling discounts, free shipping... and maybe a trick or two ☠️",
             "footerText": "Spin the wheel and claim your special reward.",
             "spinButton": "Trick or Treat Me",
-            "dismissButton": "Maybe Later"
+            "dismissButton": "Too Spooky, Skip"
           }
         }
       }
     },
     "announcement": {
       "messages": {
-        "upcomingEvent": "👻 Spirits whisper… The wheel will spin at {{TIME}}. Be prepared!",
+        "upcomingEvent": "🎃 Spirits whisper... The wheel will spin at {{TIME}}. Be prepared!",
         "readyToSpin": "Trick or Treat? Click {{OPENER}} to Spin & Claim Your Reward!",
-        "countDownToLaunch": "👻 Get your courage ready… Wheel unlocks in {{TIME}}!",
-        "countDownToClose": "👻 Last chance! {{TIME}} left to spin the haunted wheel — don't miss it!"
+        "countDownToLaunch": "🎃 Get your courage ready... Wheel unlocks in {{TIME}}!",
+        "countDownToClose": "🎃 Last chance! {{TIME}} left to spin the haunted wheel — don't miss it!"
       }
     }
   },
@@ -182,62 +183,89 @@
     "rewardTypes": {
       "none": {
         "message": {
-          "title": "Snow Day! Try Again",
-          "description": "The deck is reshuffling - another spin may bring yuletide joy."
+          "title": "❄️ No Luck This Time!",
+          "description": "Thanks for playing! More Christmas magic awaits—try again soon!"
         }
       },
       "discountCode": {
         "message": {
-          "title": "Holiday Surprise! You Won {{REWARD}}!",
-          "description": "Use it to unwrap your festive discount."
+          "title": "🎁 Christmas Surprise! You Won {{REWARD}}!",
+          "description": "Use the code below at checkout and enjoy your festive reward."
         }
       },
       "freeShipping": {
         "message": {
-          "title": "Reindeer Express Shipping!",
-          "description": "Enjoy complimentary delivery during the holiday rush."
+          "title": "🎁 Christmas Surprise! You Won {{REWARD}}!",
+          "description": "Apply the code below to receive free shipping on your order."
         }
       },
       "freeGift": {
         "message": {
-          "title": "Season of Giving!",
-          "description": "Claim your free gift and share the joy."
+          "title": "🎁 Christmas Surprise! You Won {{REWARD}}!",
+          "description": "Use the code below to claim your surprise holiday gift."
         }
       }
     },
     "opener": {
       "label": {
-        "text": "Spin for Joy"
+        "text": "Spin Now 🎅"
       }
     },
     "popups": {
       "wheelPopup": {
         "forms": {
           "spinForm": {
-            "title": "Unwrap holiday cheer!",
+            "title": "🎄 Unwrap Your Christmas Surprise!",
             "description": "Spin the wheel to reveal festive rewards.",
-            "descriptionForExistingAccount": "Welcome back, {{NAME}}! Keep the cheer going with another spin.",
+            "descriptionForExistingAccount": "{{NAME}}, it's time for a Christmas treat — spin to reveal your reward.",
             "agreement": "I agree to receive cheerful updates and offers.",
-            "spinButton": "SPIN TO GIFT",
-            "dismissButton": "Maybe Later",
-            "footerText": "Santa loves a generous spin.",
+            "spinButton": "Spin & Reveal Your Gift",
+            "dismissButton": "Continue shopping",
+            "footerText": "The holiday magic begins with a spin ✨",
             "messages": {
-              "maxSpinReached": "Looks like Santa's had enough spins for now."
+              "maxSpinReached": "Looks like you've used all your spins!"
             }
           },
           "resultForm": {
-            "redeemButton": "Redeem Holiday Reward",
-            "dismissButton": "Maybe Later",
+            "redeemButton": "Use Reward Now",
+            "dismissButton": "Continue shopping",
             "messages": {
               "rewardExpiry": "Use your holiday reward within {{EXPIRE}} to keep the cheer."
             }
           },
           "confirmationForm": {
             "title": "Holiday Cheer Unlocked!",
-            "description": "Your reward code {REWARD_CODE} is ready to make spirits bright.",
-            "confirmButton": "Checkout Now"
+            "description": "Your reward code {{REWARD_CODE}} is ready to make spirits bright.",
+            "confirmButton": "Checkout Now",
+            "dismissButton": "Continue shopping"
           }
         }
+      },
+      "introPopup": {
+        "forms": {
+          "welcomeForm": {
+            "title": "🎅 A Christmas Treat Awaits!",
+            "description": "Spin the festive wheel to uncover holiday discounts, free shipping, and special surprises ✨",
+            "footerText": "Spin now and claim your Christmas reward! 🎁",
+            "spinButton": "Reveal My Gift",
+            "dismissButton": "Maybe Later"
+          },
+          "exitIntentForm": {
+            "title": "🎅 Wait! A Holiday Surprise Awaits!",
+            "description": "Before you go... spin the Christmas wheel to uncover a festive reward! Discounts, gifts, and more await.",
+            "footerText": "Give it a spin and unlock your holiday cheer! 🎄",
+            "spinButton": "Reveal My Gift",
+            "dismissButton": "Maybe Later"
+          }
+        }
+      }
+    },
+    "announcement": {
+      "messages": {
+        "upcomingEvent": "🎅 Christmas magic is coming... The wheel unlocks at {{TIME}}!",
+        "readyToSpin": "🎁 Your festive surprise awaits! Tap {{OPENER}} to spin the Christmas wheel!",
+        "countDownToLaunch": "⏳ Almost time! The Christmas wheel unlocks in {{TIME}} — get ready!",
+        "countDownToClose": "🎄 Last chance! Only {{TIME}} left to spin and claim your holiday reward!"
       }
     }
   },
@@ -245,62 +273,89 @@
     "rewardTypes": {
       "none": {
         "message": {
-          "title": "Not This Spin? Try Again",
-          "description": "Another spin could jump-start your 2026."
+          "title": "✨ No Luck This Time!",
+          "description": "The New Year has more surprises waiting — spin again soon!"
         }
       },
       "discountCode": {
         "message": {
-          "title": "New Year! You Won {{REWARD}}!",
-          "description": "Use the code to toast to 2026 savings."
+          "title": "✨ You Won {{REWARD}} for the New Year!",
+          "description": "Celebrate the New Year with this exclusive reward."
         }
       },
       "freeShipping": {
         "message": {
-          "title": "Express Delivery for the New Year!",
-          "description": "Start the year with complimentary shipping."
+          "title": "✨ You Won {{REWARD}} for the New Year!",
+          "description": "Start the year strong — enjoy free shipping on your order."
         }
       },
       "freeGift": {
         "message": {
-          "title": "New Year Gift Drop!",
-          "description": "Claim your reward and ring in the celebration."
+          "title": "✨ You Won {{REWARD}} for the New Year!",
+          "description": "Kick off the year with a surprise gift - redeem your code now."
         }
       }
     },
     "opener": {
       "label": {
-        "text": "Spin into 2026"
+        "text": "Spin Now"
       }
     },
     "popups": {
       "wheelPopup": {
         "forms": {
           "spinForm": {
-            "title": "Ring in the New Year with a spin!",
-            "description": "Start 2026 with exclusive rewards.",
-            "descriptionForExistingAccount": "Welcome back, {{NAME}}! Keep the celebration rolling with another spin.",
+            "title": "✨ Welcome the New Year with a Surprise!",
+            "description": "Enter your name & email to unlock your New Year reward.",
+            "descriptionForExistingAccount": "{{NAME}}, it's time for the year with a special reward.",
             "agreement": "I agree to receive New Year offers and updates.",
-            "spinButton": "SPIN FOR 2026",
-            "dismissButton": "Later",
-            "footerText": "New beginnings start with a spin.",
+            "spinButton": "Spin & Start the Year",
+            "dismissButton": "Continue shopping",
+            "footerText": "A bright year begins with one spin ✨",
             "messages": {
-              "maxSpinReached": "You've reached tonight's spins. See you next year!"
+              "maxSpinReached": "Looks like you've used all your spins!"
             }
           },
           "resultForm": {
-            "redeemButton": "Celebrate Now",
-            "dismissButton": "Later",
+            "redeemButton": "Use Reward Now",
+            "dismissButton": "Continue shopping",
             "messages": {
-              "rewardExpiry": "Use this New Year reward before {{EXPIRE}} to keep the momentum."
+              "rewardExpiry": "Use this New Year reward before {{EXPIRE}} to start the year strong."
             }
           },
           "confirmationForm": {
-            "title": "2026 Reward Ready!",
-            "description": "Your reward code {REWARD_CODE} is ready to power your New Year checkout.",
-            "confirmButton": "Checkout Now"
+            "title": "New Year's Cheer Unlocked!",
+            "description": "Your reward code {{REWARD_CODE}} is ready to power your New Year checkout.",
+            "confirmButton": "Checkout Now",
+            "dismissButton": "Continue shopping"
           }
         }
+      },
+      "introPopup": {
+        "forms": {
+          "welcomeForm": {
+            "title": "✨ New Year, New Rewards!",
+            "description": "Spin the wheel to welcome the New Year with exclusive offers and surprises.",
+            "footerText": "Let the countdown begin — spin now! ✨",
+            "spinButton": "Start the Year",
+            "dismissButton": "Maybe Later"
+          },
+          "exitIntentForm": {
+            "title": "✨ Wait! A Holiday Surprise Awaits!",
+            "description": "Before you go... spin the New Year wheel to unlock festive rewards! Discounts, gifts, and surprises await!",
+            "footerText": "Give it a spin and unlock your holiday cheer! ✨",
+            "spinButton": "Start the Year",
+            "dismissButton": "Maybe Later"
+          }
+        }
+      }
+    },
+    "announcement": {
+      "messages": {
+        "upcomingEvent": "✨ The New Year wheel unlocks at {{TIME}} — get ready!",
+        "readyToSpin": "✨ It's time! Tap {{OPENER}} to spin into the New Year!",
+        "countDownToLaunch": "⏳ Countdown begins! New Year rewards unlock in {{TIME}}.",
+        "countDownToClose": "✨ Final moments! Only {{TIME}} left to spin and celebrate!"
       }
     }
   }

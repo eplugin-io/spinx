@@ -42,7 +42,7 @@
         "spinForm": {
           "title": "Let the Black Friday fun begin!",
           "description": "Spin the wheel to uncover your exclusive Black Friday reward.",
-          "descriptionForExistingAccount": "Welcome, {{NAME}}! Get ready to spin the wheel and unlock exciting rewards waiting just for you.",
+          "descriptionForExistingAccount": "{{NAME}}, it's Black Friday—spin to reveal your reward.",
           "agreement": "I agree to receive exclusive Black Friday offers and updates.",
           "spinButton": "SPIN TO SHINE",
           "dismissButton": "Continue shopping",
@@ -55,12 +55,12 @@
           "redeemButton": "Use Reward Now",
           "dismissButton": "Continue shopping",
           "messages": {
-            "rewardExpiry": "Use your Black Friday reward within {{EXPIRE}} to keep the deals going."
+            "rewardExpiry": "⏳ Use your Black Friday reward within {{EXPIRE}} to keep the deals going."
           }
         },
         "confirmationForm": {
           "title": "Black Friday Triumph!",
-          "description": "Reward code {REWARD_CODE} applied to your cart. Checkout now to lock in the deal.",
+          "description": "Reward code {{REWARD_CODE}} applied to your cart. Checkout now to lock in the deal.",
           "confirmButton": "Checkout Now",
           "dismissButton": "Continue shopping"
         }
@@ -130,7 +130,8 @@
         "backgroundColor": "#9C1D1D"
       },
       "secondaryButton": {
-        "color": "#3C2E1A"
+        "color": "#3A2E00",
+        "backgroundColor": "rgba(255,255,255,0.10)"
       },
       "linkButton": {
         "color": "#6E0E0E"

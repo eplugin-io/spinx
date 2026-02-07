@@ -2,32 +2,32 @@
   "rewardTypes": {
     "none": {
       "message": {
-        "title": "Not Today? Try Again Later",
+        "title": "🎃 Not Today? Try Again Later",
         "description": "The spirits stayed quiet this time. Thanks for spinning, see you next time!"
       }
     },
     "discountCode": {
       "message": {
-        "title": "Boo! You Won {{REWARD}}!",
+        "title": "🎃 Boo! You Won {{REWARD}}!",
         "description": "Use the code to feed your haunted cart with spooky savings."
       }
     },
     "freeShipping": {
       "message": {
-        "title": "Phantom Freight Activated!",
+        "title": "🎃 Boo! You Won {{REWARD}}!",
         "description": "Free shipping is arriving straight from the other side."
       }
     },
     "freeGift": {
       "message": {
-        "title": "Cursed Treasure Unlocked!",
+        "title": "🎃 Boo! You Won {{REWARD}}!",
         "description": "The free gift is sealed in cobwebs—claim it before midnight."
       }
     }
   },
   "opener": {
     "label": {
-      "text": "Summon My Spin",
+      "text": "SUMMON REWARD",
       "color": "#FFD700"
     },
     "icon": {
@@ -39,28 +39,29 @@
     "wheelPopup": {
       "forms": {
         "spinForm": {
-          "title": "The haunted wheel is waiting!",
-          "description": "Spin to reveal eerie rewards and chilling offers.",
-          "descriptionForExistingAccount": "Welcome back, {{NAME}}! Keep the ritual going and unlock spooky surprises.",
+          "title": "🎃 Dare to Spin... If You're Brave Enough!",
+          "description": "Summon your prize by entering your name & email... if the spirits will it...",
+          "descriptionForExistingAccount": "Hey {{NAME}}... One brave spin seals the ritual — spooky surprises await.",
           "agreement": "I agree to receive spooky updates and offers.",
-          "spinButton": "SPIN THE WHEEL",
-          "dismissButton": "Not Tonight",
+          "spinButton": "Spin...if you dare!",
+          "dismissButton": "Too Spooky, Keep Shopping",
           "footerText": "Only brave souls unlock the prize.",
           "messages": {
             "maxSpinReached": "The spirits say you've spun enough for now."
           }
         },
         "resultForm": {
-          "redeemButton": "Claim Your Prize",
-          "dismissButton": "No Thanks",
+          "redeemButton": "Use Reward Now",
+          "dismissButton": "Continue shopping",
           "messages": {
-            "rewardExpiry": "Use this eerie reward within {{EXPIRE}} before it fades."
+            "rewardExpiry": "⏳ Use this eerie reward within {{EXPIRE}} before it fades."
           }
         },
         "confirmationForm": {
           "title": "Spooky Win Locked In!",
-          "description": "Your reward code {REWARD_CODE} is sealed with cobwebs. Proceed to checkout to claim it.",
-          "confirmButton": "Claim It"
+          "description": "Your reward code {{REWARD_CODE}} is sealed with cobwebs. Proceed to checkout to claim it.",
+          "confirmButton": "Checkout Now",
+          "dismissButton": "Continue shopping"
         }
       },
       "displayType": "full_screen",
@@ -72,18 +73,18 @@
     "introPopup": {
       "forms": {
         "welcomeForm": {
-          "title": "👻 A Spooktacular Treat Awaits!",
-          "description": "Spin the haunted wheel to uncover chilling discounts, free shipping… and maybe a trick or two ☠️",
+          "title": "🎃 A Spooktacular Treat Awaits!",
+          "description": "Spin the haunted wheel to uncover chilling discounts, free shipping... and maybe a trick or two ☠️",
           "footerText": "Spin the wheel and claim your special reward.",
           "spinButton": "Trick or Treat Me",
-          "dismissButton": "Maybe Later"
+          "dismissButton": "Too Spooky, Skip"
         },
         "exitIntentForm": {
-          "title": "👻 A Spooktacular Treat Awaits!",
-          "description": "Spin the haunted wheel to uncover chilling discounts, free shipping… and maybe a trick or two ☠️",
+          "title": "🎃 A Spooktacular Treat Awaits!",
+          "description": "Spin the haunted wheel to uncover chilling discounts, free shipping... and maybe a trick or two ☠️",
           "footerText": "Spin the wheel and claim your special reward.",
           "spinButton": "Trick or Treat Me",
-          "dismissButton": "Maybe Later"
+          "dismissButton": "Too Spooky, Skip"
         }
       },
       "backgroundImage": {},
@@ -122,10 +123,10 @@
   },
   "announcement": {
     "messages": {
-      "upcomingEvent": "👻 Spirits whisper… The wheel will spin at {{TIME}}. Be prepared!",
+      "upcomingEvent": "🎃 Spirits whisper... The wheel will spin at {{TIME}}. Be prepared!",
       "readyToSpin": "Trick or Treat? Click {{OPENER}} to Spin & Claim Your Reward!",
-      "countDownToLaunch": "👻 Get your courage ready… Wheel unlocks in {{TIME}}!",
-      "countDownToClose": "👻 Last chance! {{TIME}} left to spin the haunted wheel — don't miss it!"
+      "countDownToLaunch": "🎃 Get your courage ready... Wheel unlocks in {{TIME}}!",
+      "countDownToClose": "🎃 Last chance! {{TIME}} left to spin the haunted wheel — don't miss it!"
     },
     "color": "#00FFCC",
     "backgroundColor": "#000000"
