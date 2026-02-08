@@ -66,9 +66,7 @@
       },
       "displayType": "full_screen",
       "showLogo": false,
-      "backgroundImage": {},
-      "backgroundMusic": {},
-      "playingMusic": {}
+      "backgroundImage": {}
     },
     "introPopup": {
       "forms": {

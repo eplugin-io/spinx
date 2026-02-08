@@ -92,9 +92,11 @@
       "showLogo": false,
       "backgroundImage": {
         "main": {
+          "key": "",
           "url": "/catalog/christmas/themes/CHR_02/background/main.webp"
         },
         "mobile": {
+          "key": "",
           "url": "/catalog/christmas/themes/CHR_02/background/main-mobile.webp"
         }
       },
@@ -130,9 +132,11 @@
       },
       "backgroundImage": {
         "main": {
+          "key": "",
           "url": "/catalog/christmas/themes/CHR_02/background/intro.webp"
         },
         "mobile": {
+          "key": "",
           "url": "/catalog/christmas/themes/CHR_02/background/main-mobile.webp"
         }
       }

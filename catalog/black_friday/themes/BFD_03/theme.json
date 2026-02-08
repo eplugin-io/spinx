@@ -3,25 +3,25 @@
     "none": {
       "message": {
         "title": "Almost There! Black Friday Awaits",
-        "content": "Don't give up — every spin could reveal your exclusive Black Friday reward!"
+        "description": "Don't give up — every spin could reveal your exclusive Black Friday reward!"
       }
     },
     "discountCode": {
       "message": {
         "title": "💥 Black Friday Surprise! You Won {{REWARD}}!",
-        "content": "Use the code below at checkout to unlock your Black Friday discount."
+        "description": "Use the code below at checkout to unlock your Black Friday discount."
       }
     },
     "freeShipping": {
       "message": {
         "title": "🚚 Black Friday Surprise! You Won {{REWARD}}!",
-        "content": "Use the code below at checkout to unlock free shipping for Black Friday."
+        "description": "Use the code below at checkout to unlock free shipping for Black Friday."
       }
     },
     "freeGift": {
       "message": {
         "title": "🎁 Black Friday Surprise! You Won {{REWARD}}!",
-        "content": "Use the code below at checkout to claim your Black Friday free gift."
+        "description": "Use the code below at checkout to claim your Black Friday free gift."
       }
     }
   },
@@ -69,14 +69,14 @@
       "showLogo": false,
       "backgroundImage": {
         "main": {
+          "key": "",
           "url": "/catalog/black_friday/themes/BFD_03/background/main.webp"
         },
         "mobile": {
+          "key": "",
           "url": "/catalog/black_friday/themes/BFD_03/background/main-mobile.webp"
         }
-      },
-      "backgroundMusic": {},
-      "playingMusic": {}
+      }
     },
     "introPopup": {
       "forms": {
@@ -97,9 +97,11 @@
       },
       "backgroundImage": {
         "main": {
+          "key": "",
           "url": "/catalog/black_friday/themes/BFD_03/background/intro.webp"
         },
         "mobile": {
+          "key": "",
           "url": "/catalog/black_friday/themes/BFD_03/background/intro.webp"
         }
       },

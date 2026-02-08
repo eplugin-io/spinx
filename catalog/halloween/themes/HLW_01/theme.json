@@ -85,9 +85,11 @@
       "showLogo": false,
       "backgroundImage": {
         "main": {
+          "key": "",
           "url": "/catalog/halloween/themes/HLW_01/background/main.webp"
         },
         "mobile": {
+          "key": "",
           "url": "/catalog/halloween/themes/HLW_01/background/main-mobile.webp"
         }
       },
@@ -119,9 +121,11 @@
       },
       "backgroundImage": {
         "main": {
+          "key": "",
           "url": "/catalog/halloween/themes/HLW_01/background/intro.webp"
         },
         "mobile": {
+          "key": "",
           "url": "/catalog/halloween/themes/HLW_01/background/intro-mobile.webp"
         }
       },

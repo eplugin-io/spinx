@@ -93,9 +93,7 @@
       }
     },
     "wheelPopup": {
-      "backgroundImage": {},
-      "backgroundMusic": {},
-      "playingMusic": {}
+      "backgroundImage": {}
     },
     "introPopup": {
       "backgroundImage": {},
