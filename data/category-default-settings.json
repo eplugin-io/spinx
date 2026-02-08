@@ -300,24 +300,40 @@
   "new_year": {
     "rewardTypes": {
       "none": {
+        "effectMusic": {
+          "enabled": true,
+          "value": "CLS_LS_01"
+        },
         "message": {
           "title": "✨ No Luck This Time!",
           "description": "The New Year has more surprises waiting — spin again soon!"
         }
       },
       "discountCode": {
+        "effectMusic": {
+          "enabled": true,
+          "value": "CLS_WN_01"
+        },
         "message": {
           "title": "✨ You Won {{REWARD}} for the New Year!",
           "description": "Celebrate the New Year with this exclusive reward."
         }
       },
       "freeShipping": {
+        "effectMusic": {
+          "enabled": true,
+          "value": "CLS_WN_01"
+        },
         "message": {
           "title": "✨ You Won {{REWARD}} for the New Year!",
           "description": "Start the year strong — enjoy free shipping on your order."
         }
       },
       "freeGift": {
+        "effectMusic": {
+          "enabled": true,
+          "value": "CLS_WN_01"
+        },
         "message": {
           "title": "✨ You Won {{REWARD}} for the New Year!",
           "description": "Kick off the year with a surprise gift - redeem your code now."
@@ -326,12 +342,19 @@
     },
     "opener": {
       "label": {
-        "text": "Spin Now"
+        "text": "SPIN NOW 💥"
       }
     },
     "popups": {
       "wheelPopup": {
         "forms": {
+          "base": {
+            "contentPanel": {
+              "displayed": true,
+              "backgroundColor": "rgba(20,15,10,0.7)",
+              "blur": "12px"
+            }
+          },
           "spinForm": {
             "title": "✨ Welcome the New Year with a Surprise!",
             "description": "Enter your name & email to unlock your New Year reward.",
@@ -360,6 +383,10 @@
         }
       },
       "introPopup": {
+        "backgroundOverlay": {
+          "enabled": true,
+          "color": "rgba(0, 0, 0, 0.35)"
+        },
         "forms": {
           "welcomeForm": {
             "title": "✨ New Year, New Rewards!",

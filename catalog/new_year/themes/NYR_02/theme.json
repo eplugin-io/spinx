@@ -1,24 +1,40 @@
 {
   "rewardTypes": {
     "none": {
+      "effectMusic": {
+        "enabled": true,
+        "value": "CLS_LS_01"
+      },
       "message": {
         "title": "✨ No Luck This Time!",
         "description": "The New Year has more surprises waiting — spin again soon!"
       }
     },
     "discountCode": {
+      "effectMusic": {
+        "enabled": true,
+        "value": "CLS_WN_01"
+      },
       "message": {
         "title": "✨ You Won {{REWARD}} for the New Year!",
         "description": "Celebrate the New Year with this exclusive reward."
       }
     },
     "freeShipping": {
+      "effectMusic": {
+        "enabled": true,
+        "value": "CLS_WN_01"
+      },
       "message": {
         "title": "✨ You Won {{REWARD}} for the New Year!",
         "description": "Start the year strong — enjoy free shipping on your order."
       }
     },
     "freeGift": {
+      "effectMusic": {
+        "enabled": true,
+        "value": "CLS_WN_01"
+      },
       "message": {
         "title": "✨ You Won {{REWARD}} for the New Year!",
         "description": "Kick off the year with a surprise gift - redeem your code now."
@@ -27,17 +43,25 @@
   },
   "opener": {
     "label": {
-      "text": "Spin Now",
+      "text": "SPIN NOW 💥",
       "color": "#FFD36A"
     },
     "icon": {
       "value": "CLS_09"
     },
+    "fontFamily": "Playfair Display",
     "backgroundColor": "#9C1A1A"
   },
   "popups": {
     "wheelPopup": {
       "forms": {
+        "base": {
+          "contentPanel": {
+            "displayed": true,
+            "backgroundColor": "rgba(20,15,10,0.7)",
+            "blur": "12px"
+          }
+        },
         "spinForm": {
           "title": "✨ Welcome the New Year with a Surprise!",
           "description": "Enter your name & email to unlock your New Year reward.",
@@ -66,11 +90,28 @@
       },
       "displayType": "full_screen",
       "showLogo": false,
-      "backgroundImage": {},
-      "backgroundMusic": {},
-      "playingMusic": {}
+      "backgroundImage": {
+        "main": {
+          "url": "/catalog/new_year/themes/NYR_02/background/main.webp"
+        },
+        "mobile": {
+          "url": "/catalog/new_year/themes/NYR_02/background/main-mobile.webp"
+        }
+      },
+      "backgroundMusic": {
+        "enabled": true,
+        "value": "NYR_BG_01"
+      },
+      "playingMusic": {
+        "enabled": true,
+        "value": "CLS_PY_01"
+      }
     },
     "introPopup": {
+      "backgroundOverlay": {
+        "enabled": true,
+        "color": "rgba(0, 0, 0, 0.35)"
+      },
       "forms": {
         "welcomeForm": {
           "title": "✨ New Year, New Rewards!",
@@ -87,11 +128,18 @@
           "dismissButton": "Maybe Later"
         }
       },
-      "backgroundImage": {},
-      "backgroundOverlay": {}
+      "backgroundImage": {
+        "main": {
+          "url": "/catalog/new_year/themes/NYR_02/background/intro.webp"
+        },
+        "mobile": {
+          "url": "/catalog/new_year/themes/NYR_02/background/main-mobile.webp"
+        }
+      }
     },
     "base": {
       "backgroundColor": "#9C1A1A",
+      "fontFamily": "Playfair Display",
       "title": {
         "color": "#FFD36A"
       },
@@ -128,11 +176,13 @@
       "countDownToLaunch": "⏳ Countdown begins! New Year rewards unlock in {{TIME}}.",
       "countDownToClose": "✨ Final moments! Only {{TIME}} left to spin and celebrate!"
     },
+    "fontFamily": "Playfair Display",
     "color": "#FFD36A",
     "backgroundColor": "#9C1A1A"
   },
-  "id": "",
+  "id": "NYR_02",
   "wheel": {
+    "fontFamily": "Playfair Display",
     "border": {
       "type": "line",
       "color": "#FFD36A"
