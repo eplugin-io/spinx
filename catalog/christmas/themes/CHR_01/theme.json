@@ -53,7 +53,7 @@
     "backgroundColor": "#E53935"
   },
   "popups": {
-    "wheelPopup": {
+    "spinPopup": {
       "forms": {
         "base": {
           "contentPanel": {

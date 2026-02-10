@@ -53,7 +53,7 @@
     "backgroundColor": "#000000"
   },
   "popups": {
-    "wheelPopup": {
+    "spinPopup": {
       "forms": {
         "spinForm": {
           "title": "👻 Dare to Spin... If You're Brave Enough!",

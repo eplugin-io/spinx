@@ -37,7 +37,7 @@
     "backgroundColor": "#9C1D1D"
   },
   "popups": {
-    "wheelPopup": {
+    "spinPopup": {
       "forms": {
         "spinForm": {
           "title": "Let the Black Friday fun begin!",

@@ -172,6 +172,7 @@
       "type": "object"
     },
     "EnableValueObject": {
+      "additionalProperties": false,
       "properties": {
         "enabled": {
           "type": "boolean"
@@ -364,6 +365,27 @@
       },
       "type": "object"
     },
+    "SpinBaseForm": {
+      "additionalProperties": false,
+      "properties": {
+        "contentPanel": {
+          "additionalProperties": false,
+          "properties": {
+            "backgroundColor": {
+              "type": "string"
+            },
+            "blur": {
+              "type": "string"
+            },
+            "displayed": {
+              "type": "boolean"
+            }
+          },
+          "type": "object"
+        }
+      },
+      "type": "object"
+    },
     "SpinForm": {
       "additionalProperties": false,
       "properties": {
@@ -408,6 +430,60 @@
         }
       },
       "type": "object"
+    },
+    "SpinForms": {
+      "additionalProperties": false,
+      "properties": {
+        "base": {
+          "$ref": "#/definitions/SpinBaseForm"
+        },
+        "confirmationForm": {
+          "$ref": "#/definitions/ConfirmationForm"
+        },
+        "resultForm": {
+          "$ref": "#/definitions/ResultForm"
+        },
+        "spinForm": {
+          "$ref": "#/definitions/SpinForm"
+        }
+      },
+      "required": [
+        "spinForm",
+        "resultForm",
+        "confirmationForm"
+      ],
+      "type": "object"
+    },
+    "SpinPopup": {
+      "additionalProperties": false,
+      "properties": {
+        "backgroundImage": {
+          "$ref": "#/definitions/BackgroundImage"
+        },
+        "backgroundMusic": {
+          "$ref": "#/definitions/EnableValueObject"
+        },
+        "displayType": {
+          "$ref": "#/definitions/SpinPopupDisplayType"
+        },
+        "forms": {
+          "$ref": "#/definitions/SpinForms"
+        },
+        "playingMusic": {
+          "$ref": "#/definitions/EnableValueObject"
+        },
+        "showLogo": {
+          "type": "boolean"
+        }
+      },
+      "type": "object"
+    },
+    "SpinPopupDisplayType": {
+      "enum": [
+        "auto",
+        "full_screen"
+      ],
+      "type": "string"
     },
     "StorageObject": {
       "additionalProperties": false,
@@ -530,8 +606,8 @@
         "introPopup": {
           "$ref": "#/definitions/IntroPopup"
         },
-        "wheelPopup": {
-          "$ref": "#/definitions/WheelPopup"
+        "spinPopup": {
+          "$ref": "#/definitions/SpinPopup"
         }
       },
       "type": "object"
@@ -623,27 +699,6 @@
       },
       "type": "object"
     },
-    "WheelBaseForm": {
-      "additionalProperties": false,
-      "properties": {
-        "contentPanel": {
-          "additionalProperties": false,
-          "properties": {
-            "backgroundColor": {
-              "type": "string"
-            },
-            "blur": {
-              "type": "string"
-            },
-            "displayed": {
-              "type": "boolean"
-            }
-          },
-          "type": "object"
-        }
-      },
-      "type": "object"
-    },
     "WheelBorder": {
       "additionalProperties": false,
       "properties": {
@@ -694,29 +749,6 @@
       },
       "type": "object"
     },
-    "WheelForms": {
-      "additionalProperties": false,
-      "properties": {
-        "base": {
-          "$ref": "#/definitions/WheelBaseForm"
-        },
-        "confirmationForm": {
-          "$ref": "#/definitions/ConfirmationForm"
-        },
-        "resultForm": {
-          "$ref": "#/definitions/ResultForm"
-        },
-        "spinForm": {
-          "$ref": "#/definitions/SpinForm"
-        }
-      },
-      "required": [
-        "spinForm",
-        "resultForm",
-        "confirmationForm"
-      ],
-      "type": "object"
-    },
     "WheelPointer": {
       "additionalProperties": false,
       "properties": {
@@ -740,37 +772,6 @@
         }
       },
       "type": "object"
-    },
-    "WheelPopup": {
-      "additionalProperties": false,
-      "properties": {
-        "backgroundImage": {
-          "$ref": "#/definitions/BackgroundImage"
-        },
-        "backgroundMusic": {
-          "$ref": "#/definitions/EnableValueObject"
-        },
-        "displayType": {
-          "$ref": "#/definitions/WheelPopupDisplayType"
-        },
-        "forms": {
-          "$ref": "#/definitions/WheelForms"
-        },
-        "playingMusic": {
-          "$ref": "#/definitions/EnableValueObject"
-        },
-        "showLogo": {
-          "type": "boolean"
-        }
-      },
-      "type": "object"
-    },
-    "WheelPopupDisplayType": {
-      "enum": [
-        "auto",
-        "full_screen"
-      ],
-      "type": "string"
     },
     "WheelSlices": {
       "additionalProperties": false,
