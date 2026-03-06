@@ -141,7 +141,19 @@
         "dismissButton": {
           "type": "string"
         },
+        "messages": {
+          "$ref": "#/definitions/ConfirmationFormMessages"
+        },
         "title": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "ConfirmationFormMessages": {
+      "additionalProperties": false,
+      "properties": {
+        "noCartItems": {
           "type": "string"
         }
       },

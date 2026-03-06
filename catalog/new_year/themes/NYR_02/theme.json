@@ -189,13 +189,13 @@
     "fontFamily": "Playfair Display",
     "border": {
       "type": "line",
-      "color": "#FFD36A"
+      "color": "#ffed42"
     },
     "center": {
       "displayed": true,
       "border": {
         "displayed": true,
-        "color": "#FFD36A"
+        "color": "#ffed42"
       },
       "color": "#F6C667"
     },
@@ -209,7 +209,7 @@
     "slices": {
       "border": {
         "displayed": true,
-        "color": "#FFD36A"
+        "color": "#ffed42"
       },
       "items": [
         {
