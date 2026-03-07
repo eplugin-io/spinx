@@ -1,5 +1,5 @@
 {
-  "$ref": "#/definitions/PresetTheme",
+  "$ref": "#/definitions/PresetThemeValidation",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "definitions": {
     "AnnouncementEncourageMessages": {
@@ -352,6 +352,9 @@
         }
       },
       "type": "object"
+    },
+    "PresetThemeValidation": {
+      "$ref": "#/definitions/PresetTheme"
     },
     "ResultForm": {
       "additionalProperties": false,
