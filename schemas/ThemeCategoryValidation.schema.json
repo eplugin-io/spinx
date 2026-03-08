@@ -1,0 +1,137 @@
+{
+  "$ref": "#/definitions/ThemeCategoryValidation",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "definitions": {
+    "ThemeCategory": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "openers": {
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "colorPresets": {
+                "items": {
+                  "additionalProperties": false,
+                  "properties": {
+                    "background": {
+                      "type": "string"
+                    },
+                    "content": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "content",
+                    "background"
+                  ],
+                  "type": "object"
+                },
+                "type": "array"
+              },
+              "deltaX": {
+                "type": "number"
+              },
+              "deltaY": {
+                "type": "number"
+              },
+              "id": {
+                "type": "string"
+              },
+              "rid": {
+                "type": "string"
+              },
+              "transparentBackground": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "id"
+            ],
+            "type": "object"
+          },
+          "type": "array"
+        },
+        "sounds": {
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "id",
+              "name"
+            ],
+            "type": "object"
+          },
+          "type": "array"
+        },
+        "themes": {
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "demo": {
+                "type": "string"
+              },
+              "id": {
+                "type": "string"
+              },
+              "tags": {
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              "thumbnail": {
+                "additionalProperties": false,
+                "properties": {
+                  "hover": {
+                    "type": "string"
+                  },
+                  "main": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "main",
+                  "hover"
+                ],
+                "type": "object"
+              }
+            },
+            "required": [
+              "id",
+              "thumbnail",
+              "demo",
+              "tags"
+            ],
+            "type": "object"
+          },
+          "type": "array"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "themes",
+        "openers",
+        "sounds"
+      ],
+      "type": "object"
+    },
+    "ThemeCategoryValidation": {
+      "$ref": "#/definitions/ThemeCategory"
+    }
+  }
+}
+
