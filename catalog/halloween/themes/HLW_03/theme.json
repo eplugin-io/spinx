@@ -1,174 +1,46 @@
 {
   "rewardTypes": {
     "none": {
-      "message": {
-        "title": "Oops! Maybe next time ☠️",
-        "description": "The spirits stayed quiet this time. Thanks for spinning, see you next time!"
-      },
       "effectMusic": {
         "enabled": true,
         "value": "HLW_LS_02"
+      },
+      "message": {
+        "title": "🎃 No Luck This Time!",
+        "description": "The spirits were quiet this time — but your next spin could reveal a spooky surprise."
       }
     },
     "discountCode": {
-      "message": {
-        "title": "🧙‍♀️ Boo! You Won {{REWARD}}!",
-        "description": "Use the code to feed your haunted cart with spooky savings."
-      },
       "effectMusic": {
         "enabled": true,
         "value": "HLW_WN_02"
+      },
+      "message": {
+        "title": "🎃 Boo! You Won {{REWARD}}!",
+        "description": "Use the code below at checkout to unlock your spooky savings."
       }
     },
     "freeShipping": {
-      "message": {
-        "title": "🧙‍♀️ Boo! You Won {{REWARD}}!",
-        "description": "Free shipping is arriving straight from the other side."
-      },
       "effectMusic": {
         "enabled": true,
         "value": "HLW_WN_02"
+      },
+      "message": {
+        "title": "🎃 Boo! You Won {{REWARD}}!",
+        "description": "Use the code below at checkout to enjoy free shipping from the other side."
       }
     },
     "freeGift": {
-      "message": {
-        "title": "🧙‍♀️ Boo! You Won {{REWARD}}!",
-        "description": "The free gift is sealed in cobwebs—claim it before midnight."
-      },
       "effectMusic": {
         "enabled": true,
         "value": "HLW_WN_02"
+      },
+      "message": {
+        "title": "🎁 A Spooky Surprise! You Won {{REWARD}}!",
+        "description": "Use the code below at checkout to claim your hauntingly good gift."
       }
     }
   },
-  "opener": {
-    "label": {
-      "text": "SUMMON REWARD",
-      "color": "#39FF14"
-    },
-    "icon": {
-      "value": "HLW_16",
-      "deltaY": -3,
-      "transparentBackground": true
-    },
-    "fontFamily": "Eater",
-    "backgroundColor": "#000000"
-  },
-  "popups": {
-    "spinPopup": {
-      "forms": {
-        "spinForm": {
-          "title": "🧙‍♀️ Dare to Spin... If You're Brave Enough!",
-          "description": "Summon your prize by entering your name & email... if the spirits will it...",
-          "descriptionForExistingAccount": "Hey {{NAME}}... One brave spin seals the ritual — spooky surprises await.",
-          "agreement": "I agree to receive spooky updates and offers.",
-          "spinButton": "Spin...if you dare!",
-          "dismissButton": "Too Spooky, Keep Shopping",
-          "footerText": "Only brave souls unlock the prize.",
-          "messages": {
-            "maxSpinReached": "The spirits say you've spun enough for now."
-          }
-        },
-        "resultForm": {},
-        "confirmationForm": {
-          "title": "Spooky Win Locked In!"
-        }
-      },
-      "displayType": "full_screen",
-      "showLogo": false,
-      "backgroundImage": {
-        "main": {
-          "key": "",
-          "url": "/catalog/halloween/themes/HLW_03/background/main.webp"
-        },
-        "mobile": {
-          "key": "",
-          "url": "/catalog/halloween/themes/HLW_03/background/main-mobile.webp"
-        }
-      },
-      "backgroundMusic": {
-        "enabled": true,
-        "value": "HLW_BG_09"
-      },
-      "playingMusic": {
-        "enabled": true,
-        "value": "HLW_PY_02"
-      }
-    },
-    "introPopup": {
-      "forms": {
-        "welcomeForm": {
-          "title": "🧙‍♀️ A Spooktacular Treat Awaits!",
-          "description": "Spin the haunted wheel to uncover chilling discounts, free shipping... and maybe a trick or two ☠️",
-          "footerText": "Spin the wheel and claim your special reward.",
-          "spinButton": "Trick or Treat Me",
-          "dismissButton": "Too Spooky, Skip"
-        },
-        "exitIntentForm": {
-          "title": "🧙‍♀️ A Spooktacular Treat Awaits!",
-          "description": "Spin the haunted wheel to uncover chilling discounts, free shipping... and maybe a trick or two ☠️",
-          "footerText": "Spin the wheel and claim your special reward.",
-          "spinButton": "Trick or Treat Me",
-          "dismissButton": "Too Spooky, Skip"
-        }
-      },
-      "backgroundImage": {
-        "main": {
-          "key": "",
-          "url": "/catalog/halloween/themes/HLW_03/background/intro.webp"
-        },
-        "mobile": {
-          "key": "",
-          "url": "/catalog/halloween/themes/HLW_03/background/intro-mobile.webp"
-        }
-      },
-      "backgroundOverlay": {}
-    },
-    "base": {
-      "backgroundColor": "#ffffff",
-      "fontFamily": "Special Elite",
-      "title": {
-        "color": "#00FF66"
-      },
-      "description": {
-        "color": "#DDDDDD"
-      },
-      "textInput": {
-        "color": "#FFFFFF",
-        "backgroundColor": "#09f12a1f",
-        "placeholderColor": "#AAAAAA"
-      },
-      "helper": {
-        "color": "#DDDDDD"
-      },
-      "footer": {
-        "color": "#DDDDDD"
-      },
-      "primaryButton": {
-        "color": "#000000",
-        "backgroundColor": "#00FF66"
-      },
-      "secondaryButton": {
-        "color": "#DDDDDD",
-        "backgroundColor": "rgba(255,255,255,0.10)"
-      },
-      "linkButton": {
-        "color": "#DDDDDD"
-      }
-    }
-  },
-  "announcement": {
-    "messages": {
-      "upcomingEvent": "🧙‍♀️ Spirits whisper... The wheel will spin at {{TIME}}. Be prepared!",
-      "readyToSpin": "Trick or Treat? Click {{OPENER}} to Spin & Claim Your Reward!",
-      "countDownToLaunch": "🧙‍♀️ Get your courage ready... Wheel unlocks in {{TIME}}!",
-      "countDownToClose": "🧙‍♀️ Last chance! {{TIME}} left to spin the haunted wheel — don't miss it!"
-    },
-    "fontFamily": "Nosifer",
-    "color": "#39FF14",
-    "backgroundColor": "#001b01"
-  },
-  "id": "HLW_03",
   "wheel": {
     "fontFamily": "Special Elite",
     "border": {
@@ -206,5 +78,133 @@
         }
       ]
     }
-  }
+  },
+  "opener": {
+    "label": {
+      "text": "SUMMON REWARD",
+      "color": "#39FF14"
+    },
+    "fontFamily": "Special Elite",
+    "icon": {
+      "value": "HLW_16",
+      "deltaY": -3,
+      "transparentBackground": true
+    },
+    "backgroundColor": "#000000"
+  },
+  "popups": {
+    "base": {
+      "fontFamily": "Special Elite",
+      "backgroundColor": "#ffffff",
+      "title": {
+        "color": "#00FF66"
+      },
+      "description": {
+        "color": "#DDDDDD"
+      },
+      "textInput": {
+        "color": "#FFFFFF",
+        "backgroundColor": "#09f12a1f",
+        "placeholderColor": "#AAAAAA"
+      },
+      "helper": {
+        "color": "#DDDDDD"
+      },
+      "footer": {
+        "color": "#DDDDDD"
+      },
+      "primaryButton": {
+        "color": "#000000",
+        "backgroundColor": "#00FF66"
+      },
+      "secondaryButton": {
+        "color": "#DDDDDD",
+        "backgroundColor": "rgba(255,255,255,0.10)"
+      },
+      "linkButton": {
+        "color": "#DDDDDD"
+      }
+    },
+    "spinPopup": {
+      "displayType": "full_screen",
+      "showLogo": false,
+      "forms": {
+        "spinForm": {
+          "title": "🎃 Dare to Spin the Haunted Wheel?",
+          "description": "Enter your name and email to summon a spooky surprise.",
+          "descriptionForExistingAccount": "{{NAME}}, one brave spin could reveal your Halloween reward.",
+          "agreement": "I agree to receive spooky offers and updates.",
+          "spinButton": "SPIN IF YOU DARE",
+          "dismissButton": "Continue shopping",
+          "footerText": "Only brave souls unlock the best surprises.",
+          "messages": {
+            "maxSpinReached": "The spirits say you’ve used all your spins for now."
+          }
+        },
+        "resultForm": {},
+        "confirmationForm": {
+          "title": "Your Spooky Reward Is Ready!"
+        }
+      },
+      "backgroundImage": {
+        "main": {
+          "key": "",
+          "url": "/catalog/halloween/themes/HLW_03/background/main.webp"
+        },
+        "mobile": {
+          "key": "",
+          "url": "/catalog/halloween/themes/HLW_03/background/main-mobile.webp"
+        }
+      },
+      "backgroundMusic": {
+        "enabled": true,
+        "value": "HLW_BG_09"
+      },
+      "playingMusic": {
+        "enabled": true,
+        "value": "HLW_PY_02"
+      }
+    },
+    "introPopup": {
+      "forms": {
+        "welcomeForm": {
+          "title": "🎃 A Spooky Surprise Awaits!",
+          "description": "Spin the haunted wheel for a chance to win discounts, free shipping, and eerie little treats.",
+          "footerText": "One spin could unlock your Halloween reward.",
+          "spinButton": "Trick or Treat Me",
+          "dismissButton": "Maybe Later"
+        },
+        "exitIntentForm": {
+          "title": "🎃 Don’t Leave Your Halloween Reward Behind",
+          "description": "Before you go, spin the haunted wheel for a chance to unlock a spooky surprise.",
+          "footerText": "A chilling reward could be just one spin away.",
+          "spinButton": "Trick or Treat Me",
+          "dismissButton": "Maybe Later"
+        }
+      },
+      "backgroundImage": {
+        "main": {
+          "key": "",
+          "url": "/catalog/halloween/themes/HLW_03/background/intro.webp"
+        },
+        "mobile": {
+          "key": "",
+          "url": "/catalog/halloween/themes/HLW_03/background/intro-mobile.webp"
+        }
+      },
+      "backgroundOverlay": {}
+    }
+  },
+  "announcement": {
+    "fontFamily": "Nosifer",
+    "messages": {
+      "upcomingEvent": "🎃 The spirits are gathering... the wheel unlocks at {{TIME}}!",
+      "readyToSpin": "👻 Trick or treat? Click {{OPENER}} to spin for your Halloween reward!",
+      "countDownToLaunch": "⏳ The haunted wheel unlocks in {{TIME}} — get ready!",
+      "countDownToClose": "🎃 Last chance! Only {{TIME}} left to spin the haunted wheel!"
+    },
+    "color": "#39FF14",
+    "backgroundColor": "#001b01"
+  },
+  "id": "HLW_03"
 }
