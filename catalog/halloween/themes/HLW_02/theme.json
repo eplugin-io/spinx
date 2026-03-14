@@ -69,18 +69,9 @@
             "maxSpinReached": "The spirits say you've spun enough for now."
           }
         },
-        "resultForm": {
-          "redeemButton": "Use Reward Now",
-          "dismissButton": "Continue shopping",
-          "messages": {
-            "rewardExpiry": "⏳ Use this eerie reward within {{EXPIRE}} before it fades."
-          }
-        },
+        "resultForm": {},
         "confirmationForm": {
-          "title": "Spooky Win Locked In!",
-          "description": "Your reward code {{REWARD_CODE}} is sealed with cobwebs. Proceed to checkout to claim it.",
-          "confirmButton": "Checkout Now",
-          "dismissButton": "Continue shopping"
+          "title": "Spooky Win Locked In!"
         }
       },
       "displayType": "full_screen",

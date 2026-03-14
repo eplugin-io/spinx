@@ -51,18 +51,9 @@
             "maxSpinReached": "You have used all your Black Friday spins!"
           }
         },
-        "resultForm": {
-          "redeemButton": "Use Reward Now",
-          "dismissButton": "Continue shopping",
-          "messages": {
-            "rewardExpiry": "⏳ Use your Black Friday reward within {{EXPIRE}} to keep the deals going."
-          }
-        },
+        "resultForm": {},
         "confirmationForm": {
-          "title": "Black Friday Triumph!",
-          "description": "Reward code {{REWARD_CODE}} applied to your cart. Checkout now to lock in the deal.",
-          "confirmButton": "Checkout Now",
-          "dismissButton": "Continue shopping"
+          "title": "Black Friday Triumph!"
         }
       },
       "displayType": "full_screen",

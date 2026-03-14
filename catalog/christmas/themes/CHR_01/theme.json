@@ -74,18 +74,9 @@
             "maxSpinReached": "Looks like you've used all your spins!"
           }
         },
-        "resultForm": {
-          "redeemButton": "Use Reward Now",
-          "dismissButton": "Continue shopping",
-          "messages": {
-            "rewardExpiry": "Use your holiday reward within {{EXPIRE}} to keep the cheer."
-          }
-        },
+        "resultForm": {},
         "confirmationForm": {
-          "title": "Holiday Cheer Unlocked!",
-          "description": "Your reward code {{REWARD_CODE}} is ready to make spirits bright.",
-          "confirmButton": "Checkout Now",
-          "dismissButton": "Continue shopping"
+          "title": "Holiday Cheer Unlocked!"
         }
       },
       "displayType": "full_screen",

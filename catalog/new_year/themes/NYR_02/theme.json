@@ -74,18 +74,9 @@
             "maxSpinReached": "Looks like you've used all your spins!"
           }
         },
-        "resultForm": {
-          "redeemButton": "Use Reward Now",
-          "dismissButton": "Continue shopping",
-          "messages": {
-            "rewardExpiry": "Use this New Year reward before {{EXPIRE}} to start the year strong."
-          }
-        },
+        "resultForm": {},
         "confirmationForm": {
-          "title": "New Year's Cheer Unlocked!",
-          "description": "Your reward code {{REWARD_CODE}} is ready to power your New Year checkout.",
-          "confirmButton": "Checkout Now",
-          "dismissButton": "Continue shopping"
+          "title": "New Year's Cheer Unlocked!"
         }
       },
       "displayType": "full_screen",
