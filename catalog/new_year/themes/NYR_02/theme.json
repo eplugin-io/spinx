@@ -42,7 +42,6 @@
     }
   },
   "wheel": {
-    "fontFamily": "Playfair Display",
     "border": {
       "type": "line",
       "color": "#ffed42"
@@ -84,7 +83,7 @@
       "text": "SPIN NOW 💥",
       "color": "#FFD36A"
     },
-    "fontFamily": "Playfair Display",
+    "fontFamily": "Cinzel",
     "icon": {
       "value": "CLS_09"
     },
@@ -92,7 +91,9 @@
   },
   "popups": {
     "base": {
-      "fontFamily": "Playfair Display",
+      "fontFamily": {
+        "heading": "Cinzel"
+      },
       "backgroundColor": "#9C1A1A",
       "title": {
         "color": "#FFD36A"
@@ -203,7 +204,8 @@
     }
   },
   "announcement": {
-    "fontFamily": "Playfair Display",
+    "fontFamily": "Cinzel",
+    "weight": 700,
     "messages": {
       "upcomingEvent": "✨ The New Year wheel unlocks at {{TIME}} — get ready to spin!",
       "readyToSpin": "✨ It’s time! Tap {{OPENER}} to spin into the New Year!",

@@ -79,7 +79,7 @@
           "$ref": "#/definitions/ElementObject"
         },
         "fontFamily": {
-          "type": "string"
+          "$ref": "#/definitions/PopupFontFamily"
         },
         "footer": {
           "$ref": "#/definitions/ElementObject"
@@ -101,6 +101,9 @@
         },
         "title": {
           "$ref": "#/definitions/ElementObject"
+        },
+        "weight": {
+          "$ref": "#/definitions/PopupFontWeight"
         }
       },
       "type": "object"
@@ -168,7 +171,7 @@
       },
       "type": "object"
     },
-    "EnableObject<structure-1425356789-514-552-1425356789-500-553-1425356789-478-554-1425356789-311-556-1425356789-285-557-1425356789-0-558>": {
+    "EnableObject<structure-1425356789-535-573-1425356789-521-574-1425356789-499-575-1425356789-311-577-1425356789-285-578-1425356789-0-579>": {
       "additionalProperties": false,
       "properties": {
         "enabled": {
@@ -325,6 +328,36 @@
         "right"
       ],
       "type": "string"
+    },
+    "PopupFontFamily": {
+      "additionalProperties": false,
+      "properties": {
+        "body": {
+          "type": "string"
+        },
+        "heading": {
+          "type": "string"
+        },
+        "label": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "PopupFontWeight": {
+      "additionalProperties": false,
+      "properties": {
+        "body": {
+          "type": "number"
+        },
+        "heading": {
+          "type": "number"
+        },
+        "label": {
+          "type": "number"
+        }
+      },
+      "type": "object"
     },
     "PresetTheme": {
       "additionalProperties": false,
@@ -580,7 +613,7 @@
           "type": "number"
         },
         "weight": {
-          "type": "string"
+          "type": "number"
         }
       },
       "type": "object"
@@ -589,7 +622,7 @@
       "additionalProperties": false,
       "properties": {
         "attentionEffect": {
-          "$ref": "#/definitions/EnableObject%3Cstructure-1425356789-514-552-1425356789-500-553-1425356789-478-554-1425356789-311-556-1425356789-285-557-1425356789-0-558%3E"
+          "$ref": "#/definitions/EnableObject%3Cstructure-1425356789-535-573-1425356789-521-574-1425356789-499-575-1425356789-311-577-1425356789-285-578-1425356789-0-579%3E"
         },
         "backgroundColor": {
           "type": "string"
@@ -608,6 +641,9 @@
         },
         "position": {
           "$ref": "#/definitions/OpenerPosition"
+        },
+        "weight": {
+          "type": "number"
         }
       },
       "type": "object"
@@ -689,6 +725,9 @@
         },
         "slices": {
           "$ref": "#/definitions/WheelSlices"
+        },
+        "weight": {
+          "type": "number"
         }
       },
       "type": "object"

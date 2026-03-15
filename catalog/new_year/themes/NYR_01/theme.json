@@ -42,7 +42,6 @@
     }
   },
   "wheel": {
-    "fontFamily": "Playfair Display",
     "border": {
       "type": "line",
       "color": "#FFF7E1"
@@ -92,7 +91,9 @@
   },
   "popups": {
     "base": {
-      "fontFamily": "Playfair Display",
+      "fontFamily": {
+        "heading": "Playfair Display"
+      },
       "backgroundColor": "#1E1A14",
       "title": {
         "color": "#FFD36A"
@@ -204,6 +205,7 @@
   },
   "announcement": {
     "fontFamily": "Playfair Display",
+    "weight": 700,
     "messages": {
       "upcomingEvent": "✨ The New Year wheel unlocks at {{TIME}} — get ready to spin!",
       "readyToSpin": "✨ It’s time! Tap {{OPENER}} to spin into the New Year!",

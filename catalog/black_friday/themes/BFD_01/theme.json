@@ -25,50 +25,13 @@
       }
     }
   },
-  "wheel": {
-    "fontFamily": "Poppins",
-    "border": {
-      "type": "line",
-      "color": "#E5B933"
-    },
-    "center": {
-      "displayed": true,
-      "border": {
-        "displayed": true,
-        "color": "#EACB86"
-      },
-      "color": "#FFF4D4"
-    },
-    "pointer": {
-      "color": "#FFEDB3",
-      "border": {
-        "displayed": true,
-        "color": "#C79600"
-      }
-    },
-    "slices": {
-      "border": {
-        "displayed": true,
-        "color": "#D6A500"
-      },
-      "items": [
-        {
-          "color": "#000000",
-          "backgroundColor": "#FFF1C2"
-        },
-        {
-          "color": "#FFFFFF",
-          "backgroundColor": "#9C1D1D"
-        }
-      ]
-    }
-  },
   "opener": {
     "label": {
       "text": "SPIN FOR DEALS",
       "color": "#9C1D1D"
     },
     "fontFamily": "Oswald",
+    "weight": 700,
     "icon": {
       "value": "CLS_09"
     },
@@ -76,11 +39,14 @@
   },
   "popups": {
     "base": {
-      "fontFamily": "Poppins",
-      "backgroundColor": "#FFD75A",
+      "fontFamily": {
+        "heading": "Oswald"
+      },
       "title": {
+        "size": 36,
         "color": "#9C1D1D"
       },
+      "backgroundColor": "#FFD75A",
       "description": {
         "color": "#3A2E00"
       },
@@ -170,7 +136,6 @@
     }
   },
   "announcement": {
-    "fontFamily": "Poppins",
     "messages": {
       "upcomingEvent": "✨ Black Friday starts at {{TIME}} — get ready to spin for exclusive rewards!",
       "readyToSpin": "💥 Black Friday is live — click {{OPENER}} to spin and unlock your reward!",
@@ -180,5 +145,42 @@
     "color": "#FFE794",
     "backgroundColor": "#B1261E"
   },
-  "id": "BFD_01"
+  "id": "BFD_01",
+  "wheel": {
+    "border": {
+      "type": "line",
+      "color": "#E5B933"
+    },
+    "center": {
+      "displayed": true,
+      "border": {
+        "displayed": true,
+        "color": "#EACB86"
+      },
+      "color": "#FFF4D4"
+    },
+    "pointer": {
+      "color": "#FFEDB3",
+      "border": {
+        "displayed": true,
+        "color": "#C79600"
+      }
+    },
+    "slices": {
+      "border": {
+        "displayed": true,
+        "color": "#D6A500"
+      },
+      "items": [
+        {
+          "color": "#000000",
+          "backgroundColor": "#FFF1C2"
+        },
+        {
+          "color": "#FFFFFF",
+          "backgroundColor": "#9C1D1D"
+        }
+      ]
+    }
+  }
 }

@@ -42,7 +42,7 @@
     }
   },
   "wheel": {
-    "fontFamily": "Special Elite",
+    "fontFamily": "Poppins",
     "border": {
       "type": "line",
       "color": "#BF2B22"
@@ -84,7 +84,7 @@
       "text": "SUMMON REWARD",
       "color": "#ea412b"
     },
-    "fontFamily": "Special Elite",
+    "fontFamily": "Oswald",
     "icon": {
       "value": "HLW_02"
     },
@@ -92,11 +92,19 @@
   },
   "popups": {
     "base": {
-      "fontFamily": "Special Elite",
-      "backgroundColor": "#ffffff",
+      "fontFamily": {
+        "heading": "Creepster",
+        "body": "Poppins",
+        "label": "Poppins"
+      },
+      "weight": {
+        "heading": 400
+      },
       "title": {
+        "size": 36,
         "color": "#ff9c00"
       },
+      "backgroundColor": "#ffffff",
       "description": {
         "color": "#DDDDDD"
       },
@@ -195,6 +203,7 @@
   },
   "announcement": {
     "fontFamily": "Nosifer",
+    "weight": 400,
     "messages": {
       "upcomingEvent": "🎃 The spirits are gathering... the wheel unlocks at {{TIME}}!",
       "readyToSpin": "👻 Trick or treat? Click {{OPENER}} to spin for your Halloween reward!",

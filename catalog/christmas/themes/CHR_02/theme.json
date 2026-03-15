@@ -41,44 +41,6 @@
       }
     }
   },
-  "wheel": {
-    "fontFamily": "Special Elite",
-    "border": {
-      "type": "line",
-      "color": "rgba(255,255,255,0.6)"
-    },
-    "center": {
-      "displayed": true,
-      "border": {
-        "displayed": true,
-        "color": "#B8953D"
-      },
-      "color": "#F6C667"
-    },
-    "pointer": {
-      "color": "#F6C667",
-      "border": {
-        "displayed": true,
-        "color": "#B8953D"
-      }
-    },
-    "slices": {
-      "border": {
-        "displayed": true,
-        "color": "#FFFFFF"
-      },
-      "items": [
-        {
-          "color": "#FFFFFF",
-          "backgroundColor": "#E53935"
-        },
-        {
-          "color": "#FFFFFF",
-          "backgroundColor": "#0F6C4F"
-        }
-      ]
-    }
-  },
   "opener": {
     "label": {
       "text": "SPIN NOW 🎅",
@@ -92,7 +54,6 @@
   },
   "popups": {
     "base": {
-      "fontFamily": "Special Elite",
       "backgroundColor": "#000000",
       "title": {
         "color": "#FFD75A"
@@ -201,7 +162,8 @@
     }
   },
   "announcement": {
-    "fontFamily": "Special Elite",
+    "fontFamily": "Playfair Display",
+    "weight": 700,
     "messages": {
       "upcomingEvent": "🎅 Christmas magic is coming... The wheel unlocks at {{TIME}}!",
       "readyToSpin": "🎁 Your festive surprise awaits! Tap {{OPENER}} to spin the Christmas wheel!",
@@ -211,5 +173,42 @@
     "color": "#FFD75A",
     "backgroundColor": "linear-gradient(90deg, rgba(22,40,65,1), rgba(30,55,85,1))"
   },
-  "id": "CHR_02"
+  "id": "CHR_02",
+  "wheel": {
+    "border": {
+      "type": "line",
+      "color": "rgba(255,255,255,0.6)"
+    },
+    "center": {
+      "displayed": true,
+      "border": {
+        "displayed": true,
+        "color": "#B8953D"
+      },
+      "color": "#F6C667"
+    },
+    "pointer": {
+      "color": "#F6C667",
+      "border": {
+        "displayed": true,
+        "color": "#B8953D"
+      }
+    },
+    "slices": {
+      "border": {
+        "displayed": true,
+        "color": "#FFFFFF"
+      },
+      "items": [
+        {
+          "color": "#FFFFFF",
+          "backgroundColor": "#E53935"
+        },
+        {
+          "color": "#FFFFFF",
+          "backgroundColor": "#0F6C4F"
+        }
+      ]
+    }
+  }
 }

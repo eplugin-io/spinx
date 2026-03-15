@@ -41,44 +41,6 @@
       }
     }
   },
-  "wheel": {
-    "fontFamily": "Special Elite",
-    "border": {
-      "type": "line",
-      "color": "#FFF7EB"
-    },
-    "center": {
-      "displayed": true,
-      "border": {
-        "displayed": true,
-        "color": "#DDA441"
-      },
-      "color": "#F6C667"
-    },
-    "pointer": {
-      "color": "#F6C667",
-      "border": {
-        "displayed": true,
-        "color": "#E53935"
-      }
-    },
-    "slices": {
-      "border": {
-        "displayed": true,
-        "color": "#FFFFFF"
-      },
-      "items": [
-        {
-          "color": "#FFFFFF",
-          "backgroundColor": "#E53935"
-        },
-        {
-          "color": "#FFFFFF",
-          "backgroundColor": "#0F6C4F"
-        }
-      ]
-    }
-  },
   "opener": {
     "label": {
       "text": "SPIN NOW 🎄",
@@ -92,7 +54,6 @@
   },
   "popups": {
     "base": {
-      "fontFamily": "Special Elite",
       "backgroundColor": "#ffffff",
       "title": {
         "color": "#b4ffae"
@@ -200,7 +161,8 @@
     }
   },
   "announcement": {
-    "fontFamily": "Special Elite",
+    "fontFamily": "Playfair Display",
+    "weight": 700,
     "messages": {
       "upcomingEvent": "🎅 Christmas magic is coming... The wheel unlocks at {{TIME}}!",
       "readyToSpin": "🎁 Your festive surprise awaits! Tap {{OPENER}} to spin the Christmas wheel!",
@@ -210,5 +172,42 @@
     "color": "#FFFFFF",
     "backgroundColor": "#0F6C4F"
   },
-  "id": "CHR_01"
+  "id": "CHR_01",
+  "wheel": {
+    "border": {
+      "type": "line",
+      "color": "#FFF7EB"
+    },
+    "center": {
+      "displayed": true,
+      "border": {
+        "displayed": true,
+        "color": "#DDA441"
+      },
+      "color": "#F6C667"
+    },
+    "pointer": {
+      "color": "#F6C667",
+      "border": {
+        "displayed": true,
+        "color": "#E53935"
+      }
+    },
+    "slices": {
+      "border": {
+        "displayed": true,
+        "color": "#FFFFFF"
+      },
+      "items": [
+        {
+          "color": "#FFFFFF",
+          "backgroundColor": "#E53935"
+        },
+        {
+          "color": "#FFFFFF",
+          "backgroundColor": "#0F6C4F"
+        }
+      ]
+    }
+  }
 }
