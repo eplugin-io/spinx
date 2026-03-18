@@ -255,6 +255,9 @@
     "ConfirmationForm": {
       "additionalProperties": false,
       "properties": {
+        "checkoutButton": {
+          "type": "string"
+        },
         "description": {
           "type": "string"
         },
@@ -263,9 +266,6 @@
         },
         "messages": {
           "$ref": "#/definitions/ConfirmationFormMessages"
-        },
-        "processButton": {
-          "type": "string"
         },
         "title": {
           "type": "string"
