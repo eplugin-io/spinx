@@ -2,6 +2,24 @@
   "$ref": "#/definitions/Campaign",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "definitions": {
+    "AnnouncementEncourage": {
+      "additionalProperties": false,
+      "properties": {
+        "fontFamily": {
+          "type": "string"
+        },
+        "messages": {
+          "$ref": "#/definitions/AnnouncementEncourageMessages"
+        },
+        "size": {
+          "type": "number"
+        },
+        "weight": {
+          "type": "number"
+        }
+      },
+      "type": "object"
+    },
     "AnnouncementEncourageMessages": {
       "additionalProperties": false,
       "properties": {
@@ -26,7 +44,7 @@
         "freeShipWithMinOrder": {
           "type": "string"
         },
-        "helperText": {
+        "redeemCode": {
           "type": "string"
         }
       },
@@ -237,9 +255,6 @@
     "ConfirmationForm": {
       "additionalProperties": false,
       "properties": {
-        "confirmButton": {
-          "type": "string"
-        },
         "description": {
           "type": "string"
         },
@@ -248,6 +263,9 @@
         },
         "messages": {
           "$ref": "#/definitions/ConfirmationFormMessages"
+        },
+        "processButton": {
+          "type": "string"
         },
         "title": {
           "type": "string"
@@ -454,7 +472,7 @@
       ],
       "type": "object"
     },
-    "EnableObject<structure-1425356789-535-573-1425356789-521-574-1425356789-499-575-1425356789-311-577-1425356789-285-578-1425356789-0-579>": {
+    "EnableObject<structure-1425356789-575-613-1425356789-561-614-1425356789-539-615-1425356789-316-617-1425356789-290-618-1425356789-0-619>": {
       "additionalProperties": false,
       "properties": {
         "enabled": {
@@ -874,12 +892,24 @@
       },
       "type": "object"
     },
+    "OpenerLabel": {
+      "$ref": "#/definitions/TextElement"
+    },
     "OpenerPosition": {
       "enum": [
         "left",
         "right"
       ],
       "type": "string"
+    },
+    "OpenerReadyLabel": {
+      "additionalProperties": false,
+      "properties": {
+        "text": {
+          "type": "string"
+        }
+      },
+      "type": "object"
     },
     "PopupFontFamily": {
       "additionalProperties": false,
@@ -1338,8 +1368,8 @@
         "color": {
           "type": "string"
         },
-        "encourageMessages": {
-          "$ref": "#/definitions/AnnouncementEncourageMessages"
+        "encourage": {
+          "$ref": "#/definitions/AnnouncementEncourage"
         },
         "fontFamily": {
           "type": "string"
@@ -1363,7 +1393,7 @@
       "additionalProperties": false,
       "properties": {
         "attentionEffect": {
-          "$ref": "#/definitions/EnableObject%3Cstructure-1425356789-535-573-1425356789-521-574-1425356789-499-575-1425356789-311-577-1425356789-285-578-1425356789-0-579%3E"
+          "$ref": "#/definitions/EnableObject%3Cstructure-1425356789-575-613-1425356789-561-614-1425356789-539-615-1425356789-316-617-1425356789-290-618-1425356789-0-619%3E"
         },
         "backgroundColor": {
           "type": "string"
@@ -1378,10 +1408,13 @@
           "$ref": "#/definitions/OpenerIcon"
         },
         "label": {
-          "$ref": "#/definitions/TextElement"
+          "$ref": "#/definitions/OpenerLabel"
         },
         "position": {
           "$ref": "#/definitions/OpenerPosition"
+        },
+        "readyLabel": {
+          "$ref": "#/definitions/OpenerReadyLabel"
         },
         "weight": {
           "type": "number"
@@ -1623,8 +1656,8 @@
             "color": {
               "type": "string"
             },
-            "encourageMessages": {
-              "$ref": "#/definitions/AnnouncementEncourageMessages"
+            "encourage": {
+              "$ref": "#/definitions/AnnouncementEncourage"
             },
             "fontFamily": {
               "type": "string"
@@ -1669,7 +1702,7 @@
           "additionalProperties": false,
           "properties": {
             "attentionEffect": {
-              "$ref": "#/definitions/EnableObject%3Cstructure-1425356789-535-573-1425356789-521-574-1425356789-499-575-1425356789-311-577-1425356789-285-578-1425356789-0-579%3E"
+              "$ref": "#/definitions/EnableObject%3Cstructure-1425356789-575-613-1425356789-561-614-1425356789-539-615-1425356789-316-617-1425356789-290-618-1425356789-0-619%3E"
             },
             "backgroundColor": {
               "type": "string"
@@ -1684,10 +1717,13 @@
               "$ref": "#/definitions/OpenerIcon"
             },
             "label": {
-              "$ref": "#/definitions/TextElement"
+              "$ref": "#/definitions/OpenerLabel"
             },
             "position": {
               "$ref": "#/definitions/OpenerPosition"
+            },
+            "readyLabel": {
+              "$ref": "#/definitions/OpenerReadyLabel"
             },
             "weight": {
               "type": "number"

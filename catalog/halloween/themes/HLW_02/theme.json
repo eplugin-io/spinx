@@ -103,7 +103,7 @@
         "heading": 400
       },
       "title": {
-        "size": 36,
+        "size": 40,
         "color": "#FFB84D"
       },
       "backgroundColor": "#ffffff",
@@ -139,8 +139,8 @@
       "forms": {
         "spinForm": {
           "title": "🎃 Dare to Spin the Haunted Wheel?",
-          "description": "Enter your name and email to summon a spooky surprise.",
-          "descriptionForExistingAccount": "{{NAME}}, one brave spin could reveal your Halloween reward.",
+          "description": "Enter your details and spin the wheel to unlock a spooky Halloween reward.",
+          "descriptionForExistingAccount": "{{NAME}}, spin now to unlock your spooky Halloween reward!",
           "agreement": "I agree to receive spooky offers and updates.",
           "spinButton": "SPIN IF YOU DARE",
           "dismissButton": "Continue shopping",
