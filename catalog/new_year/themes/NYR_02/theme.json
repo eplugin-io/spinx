@@ -1,279 +1,219 @@
 {
-  "wheel": {
-    "fontFamily": "Playfair Display",
-    "contentSize": 34,
-    "borderAround": {
-      "type": "line",
-      "color": "#FFD36A"
-    },
-    "rewardBorder": {
-      "displayed": true,
-      "color": "#FFD36A"
-    },
-    "circleCenter": {
-      "displayed": true,
-      "borderType": "line",
-      "borderColor": "#FFD36A",
-      "backgroundColor": "#F6C667"
-    },
-    "sticker": {
-      "borderType": "line",
-      "borderColor": "#FFD36A",
-      "backgroundColor": "#9C1A1A"
-    },
-    "playingMusic": {
-      "enabled": true,
-      "value": "CLS_PY_01"
-    },
-    "rewards": [{
-      "contentColor": "#1E1A14",
-      "backgroundColor": "#FFD36A"
-    }, {
-      "contentColor": "#FFFFFF",
-      "backgroundColor": "#9C1A1A"
-    }]
-  },
   "rewardTypes": {
     "none": {
-      "message": {
-        "title": "✨ No Luck This Time!",
-        "content": "The New Year has more surprises waiting—spin again soon!"
-      },
       "effectMusic": {
         "enabled": true,
         "value": "CLS_LS_01"
+      },
+      "message": {
+        "title": "✨ No Luck This Time!",
+        "description": "The New Year still has surprises waiting — try another spin soon!"
       }
     },
     "discountCode": {
-      "message": {
-        "title": "✨ You Won {{REWARD}}!",
-        "content": "Celebrate the New Year with this exclusive reward."
-      },
       "effectMusic": {
         "enabled": true,
         "value": "CLS_WN_01"
+      },
+      "message": {
+        "title": "✨ New Year Win! You Got {{REWARD}}!",
+        "description": "Use the code below at checkout to claim your New Year reward."
       }
     },
     "freeShipping": {
-      "message": {
-        "title": "🚀 You Won {{REWARD}}!",
-        "content": "Start the year strong — enjoy free shipping on your order."
-      },
       "effectMusic": {
         "enabled": true,
         "value": "CLS_WN_01"
+      },
+      "message": {
+        "title": "✨ New Year Win! You Got {{REWARD}}!",
+        "description": "Use the code below at checkout to enjoy free shipping on your order."
       }
     },
     "freeGift": {
-      "message": {
-        "title": "🎁 A New Year Gift for You!",
-        "content": "Kick off the year with a surprise gift - redeem your code now."
-      },
       "effectMusic": {
         "enabled": true,
         "value": "CLS_WN_01"
+      },
+      "message": {
+        "title": "🎁 New Year Surprise! You Got {{REWARD}}!",
+        "description": "Use the code below at checkout to claim your New Year gift."
       }
     }
   },
-  "popup": {
-    "displayType": "full_screen",
-    "showLogo": { "enabled": false },
-    "background": {
-      "backgroundColor": "#9C1A1A",
-      "backgroundImage": {
-        "path": "/catalog/new_year/themes/NYR_02/background/main.webp"
+  "wheel": {
+    "border": {
+      "type": "line",
+      "color": "#ffed42"
+    },
+    "center": {
+      "displayed": true,
+      "border": {
+        "displayed": true,
+        "color": "#ffed42"
       },
-      "mobileBackgroundImage": {
-        "path": "/catalog/new_year/themes/NYR_02/background/main-mobile.webp"
+      "color": "#F6C667"
+    },
+    "pointer": {
+      "color": "#9C1A1A",
+      "border": {
+        "displayed": true,
+        "color": "#FFD36A"
       }
     },
-    "backgroundMusic": {
-      "enabled": true,
-      "value": "NYR_BG_01"
-    },
-    "contentPanel": {
-      "enabled": true,
-      "backgroundColor": "rgba(20,15,10,0.7)",
-      "blur": "12px"
-    },
-    "fontFamily": "Playfair Display",
-    "title": {
-      "text": "✨ Welcome the New Year with a Surprise!",
-      "size": 32,
+    "slices": {
+      "border": {
+        "displayed": true,
+        "color": "#ffed42"
+      },
+      "items": [
+        {
+          "color": "#1E1A14",
+          "backgroundColor": "#FFD36A"
+        },
+        {
+          "color": "#FFFFFF",
+          "backgroundColor": "#9C1A1A"
+        }
+      ]
+    }
+  },
+  "opener": {
+    "label": {
+      "text": "SPIN NOW 💥",
       "color": "#FFD36A"
     },
-    "content": {
-      "text": "Enter your name & email to unlock your New Year reward.",
-      "size": 24,
-      "color": "#FFFFFF"
+    "fontFamily": "Cinzel",
+    "icon": {
+      "value": "CLS_09"
     },
-    "contentForExistingAccount": {
-      "text": "Welcome back {{NAME}}! Let’s start the year with a special reward.",
-      "size": 24,
-      "color": "#FFFFFF"
-    },
-    "textInput": {
-      "color": "#FFF7E1",
-      "backgroundColor": "rgba(0,0,0,0.45)",
-      "placeholderColor": "rgba(255,255,255,0.6)"
-    },
-    "agreement": "I agree to receive marketing emails and festive offers.",
-    "spinButton": {
-      "text": "Spin & Start the Year",
-      "size": 20,
-      "color": "#1E1A14",
-      "backgroundColor": "#FFD36A"
-    },
-    "dismissButton": {
-      "text": "Continue shopping",
-      "size": 20,
-      "color": "#FFF7E1"
-    },
-    "footerContent": {
-      "text": "A bright year begins with one spin ✨",
-      "size": 20,
-      "color": "#FFFFFF"
-    },
-    "messages": {
-      "maxSpinReachedMsg": "Looks like you’ve used all your spins!"
-    }
+    "backgroundColor": "#9C1A1A"
   },
-  "triggers": {
-    "opener": {
-      "distance": {
-        "left": 16,
-        "right": 16,
-        "bottom": 24,
-        "bottomFromAnnouncement": 12
+  "popups": {
+    "base": {
+      "fontFamily": {
+        "heading": "Cinzel"
       },
-      "fontFamily": "Playfair Display",
-      "content": "Spin Now",
-      "contentColor": "#FFD36A",
       "backgroundColor": "#9C1A1A",
-      "icon": {
-        "value": "CLS_09"
+      "title": {
+        "color": "#FFD36A"
       },
-      "attentionEffect": {
+      "description": {
+        "color": "#FFFFFF"
+      },
+      "textInput": {
+        "color": "#FFF7E1",
+        "backgroundColor": "rgba(0,0,0,0.45)",
+        "placeholderColor": "rgba(255,255,255,0.6)"
+      },
+      "helper": {
+        "color": "#FFFFFF"
+      },
+      "footer": {
+        "color": "#FFFFFF"
+      },
+      "primaryButton": {
+        "color": "#1E1A14",
+        "backgroundColor": "#FFD36A"
+      },
+      "secondaryButton": {
+        "color": "#FFFFFF"
+      },
+      "linkButton": {
+        "color": "#FFF7E1"
+      }
+    },
+    "spinPopup": {
+      "displayType": "full_screen",
+      "showLogo": false,
+      "backgroundMusic": {
         "enabled": true,
-        "intervalTime": 15
-      }
-    },
-    "delayedDisplay": {
-      "delay": 4,
-      "background": {
-        "overlay": {
-          "enabled": true,
-          "color": "rgba(0, 0, 0, 0.35)",
-          "blur": "0px"
+        "value": "NYR_BG_01"
+      },
+      "playingMusic": {
+        "enabled": true,
+        "value": "CLS_PY_01"
+      },
+      "forms": {
+        "base": {
+          "contentPanel": {
+            "displayed": true,
+            "backgroundColor": "rgba(20,15,10,0.7)",
+            "blur": "12px"
+          }
         },
-        "backgroundColor": "#9C1A1A",
-        "backgroundImage": {
-          "path": "/catalog/new_year/themes/NYR_02/background/welcome.webp"
+        "spinForm": {
+          "title": "✨ Welcome the New Year with a Surprise!",
+          "description": "Enter your name and email to unlock your New Year reward.",
+          "descriptionForExistingAccount": "{{NAME}}, start the New Year with a spin and unlock your special reward.",
+          "agreement": "I agree to receive New Year offers and updates.",
+          "spinButton": "Spin & Start the Year",
+          "dismissButton": "Continue shopping",
+          "footerText": "A bright year begins with one spin ✨",
+          "messages": {
+            "maxSpinReached": "Looks like you’ve used all your spins!"
+          }
         },
-        "mobileBackgroundImage": {
-          "path": "/catalog/new_year/themes/NYR_02/background/main-mobile.webp"
+        "resultForm": {},
+        "confirmationForm": {
+          "title": "Your New Year Reward Is Ready!"
         }
       },
-      "fontFamily": "Playfair Display",
-      "title": {
-        "text": "✨ New Year, New Rewards!",
-        "size": 32,
-        "color": "#FFD75A"
-      },
-      "content": {
-        "text": "Spin the wheel to welcome the New Year with exclusive offers and surprises.",
-        "size": 24,
-        "color": "#FFFFFF"
-      },
-      "contentBottom": {
-        "text": "Let the countdown begin — spin now! ✨",
-        "size": 20,
-        "color": "#FFFFFF"
-      },
-      "spinButton": {
-        "text": "Start the Year",
-        "size": 16,
-        "color": "#1E1A14",
-        "backgroundColor": "#FFD36A"
-      },
-      "cancelButton": {
-        "text": "Maybe Later",
-        "size": 16,
-        "color": "#444444",
-        "backgroundColor": "#ffffff"
+      "backgroundImage": {
+        "main": {
+          "key": "",
+          "url": "/catalog/new_year/themes/NYR_02/background/main.webp"
+        },
+        "mobile": {
+          "key": "",
+          "url": "/catalog/new_year/themes/NYR_02/background/main-mobile.webp"
+        }
       }
     },
-    "exitIntent": {
-      "background": {
-        "overlay": {
-          "enabled": true,
-          "color": "rgba(0, 0, 0, 0.35)",
-          "blur": "0px"
+    "introPopup": {
+      "backgroundOverlay": {
+        "enabled": true,
+        "color": "rgba(0, 0, 0, 0.35)"
+      },
+      "forms": {
+        "welcomeForm": {
+          "title": "✨ New Year, New Rewards!",
+          "description": "Spin the wheel for a chance to start the year with exclusive offers and surprises.",
+          "footerText": "Start the year with a spin ✨",
+          "spinButton": "Start the Year",
+          "dismissButton": "Maybe Later"
         },
-        "backgroundColor": "#9C1A1A",
-        "backgroundImage": {
-          "path": "/catalog/new_year/themes/NYR_02/background/welcome.webp"
-        },
-        "mobileBackgroundImage": {
-          "path": "/catalog/new_year/themes/NYR_02/background/main-mobile.webp"
+        "exitIntentForm": {
+          "title": "✨ Wait! Your New Year Surprise Is Waiting",
+          "description": "Before you go, spin the New Year wheel for a chance to unlock an exclusive reward.",
+          "footerText": "One spin could be the perfect start to your year ✨",
+          "spinButton": "Start the Year",
+          "dismissButton": "Maybe Later"
         }
       },
-      "fontFamily": "Playfair Display",
-      "title": {
-        "text": "✨ Wait! A Holiday Surprise Awaits!",
-        "size": 32,
-        "color": "#FFD75A"
-      },
-      "content": {
-        "text": "Before you go… spin the New Year wheel to unlock festive rewards! Discounts, gifts, and surprises await!",
-        "size": 24,
-        "color": "#FFFFFF"
-      },
-      "contentBottom": {
-        "text": "Give it a spin and unlock your holiday cheer! ✨",
-        "size": 20,
-        "color": "#FFFFFF"
-      },
-      "spinButton": {
-        "text": "Start the Year",
-        "size": 16,
-        "color": "#1E1A14",
-        "backgroundColor": "#FFD36A"
-      },
-      "cancelButton": {
-        "text": "Maybe Later",
-        "size": 16,
-        "color": "#444444",
-        "backgroundColor": "#ffffff"
+      "backgroundImage": {
+        "main": {
+          "key": "",
+          "url": "/catalog/new_year/themes/NYR_02/background/intro.webp"
+        },
+        "mobile": {
+          "key": "",
+          "url": "/catalog/new_year/themes/NYR_02/background/main-mobile.webp"
+        }
       }
     }
   },
   "announcement": {
-    "fontFamily": "Playfair Display",
-    "contentSize": 14,
-    "contentColor": "#FFD36A",
-    "backgroundColor": "#9C1A1A",
-    "upcomingEvent": {
-      "content": "✨ The New Year wheel unlocks at {{TIME}} — get ready!"
+    "fontFamily": "Cinzel",
+    "weight": 700,
+    "messages": {
+      "upcomingEvent": "✨ The New Year wheel unlocks at {{TIME}} — get ready to spin!",
+      "readyToSpin": "✨ It’s time! Tap {{OPENER}} to spin into the New Year!",
+      "countDownToLaunch": "⏳ The countdown is on — New Year rewards unlock in {{TIME}}!",
+      "countDownToClose": "✨ Final moments! Only {{TIME}} left to spin and claim your New Year reward!"
     },
-    "readyToSpin": {
-      "content": "✨ It’s time! Tap {{OPENER}} to spin into the New Year!"
-    },
-    "countDownToLaunch": {
-      "content": "⏳ Countdown begins! New Year rewards unlock in {{TIME}}."
-    },
-    "countDownToClose": {
-      "content": "✨ Final moments! Only {{TIME}} left to spin and celebrate!"
-    },
-    "encourageUsePrize": {
-      "discountMessage": "✨ {{VALUE}} off to start the year right! Use {{CODE}} now!",
-      "discountMessageWithMinOrder": "✨ {{VALUE}} off orders over {{MIN_ORDER}} — apply {{CODE}}!",
-      "freeShipMessage": "🚚 Free shipping to kick off the year — use {{CODE}}!",
-      "freeShipMessageWithMaxAmount": "🚚 Free shipping ≤ {{MAX_AMOUNT}} — apply {{CODE}} before the New Year celebration ends!",
-      "freeShipMessageWithMinOrder": "🚚 Free shipping for orders over {{MIN_ORDER}} — use {{CODE}} now!",
-      "freeShipMessageWithMaxAmountAndMinOrder": "🚚 Free shipping (≤ {{MAX_AMOUNT}}) on orders over {{MIN_ORDER}} — use {{CODE}}!",
-      "freeGiftMessage": "🎁 A New Year gift awaits! Redeem {{CODE}} before it expires.",
-      "helperText": "✨ Apply {{CODE}} at checkout and welcome the New Year in style."
-    }
-  }
+    "color": "#FFD36A",
+    "backgroundColor": "#9C1A1A"
+  },
+  "id": "NYR_02"
 }

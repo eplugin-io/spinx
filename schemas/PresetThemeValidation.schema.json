@@ -1,0 +1,904 @@
+{
+  "$ref": "#/definitions/PresetThemeValidation",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "definitions": {
+    "AnnouncementEncourage": {
+      "additionalProperties": false,
+      "properties": {
+        "fontFamily": {
+          "type": "string"
+        },
+        "messages": {
+          "$ref": "#/definitions/AnnouncementEncourageMessages"
+        },
+        "size": {
+          "type": "number"
+        },
+        "weight": {
+          "type": "number"
+        }
+      },
+      "type": "object"
+    },
+    "AnnouncementEncourageMessages": {
+      "additionalProperties": false,
+      "properties": {
+        "discount": {
+          "type": "string"
+        },
+        "discountWithMinOrder": {
+          "type": "string"
+        },
+        "freeGift": {
+          "type": "string"
+        },
+        "freeShip": {
+          "type": "string"
+        },
+        "freeShipWithMaxAmount": {
+          "type": "string"
+        },
+        "freeShipWithMaxAmountAndMinOrder": {
+          "type": "string"
+        },
+        "freeShipWithMinOrder": {
+          "type": "string"
+        },
+        "redeemCode": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "AnnouncementMessages": {
+      "additionalProperties": false,
+      "properties": {
+        "countDownToClose": {
+          "type": "string"
+        },
+        "countDownToLaunch": {
+          "type": "string"
+        },
+        "readyToSpin": {
+          "type": "string"
+        },
+        "upcomingEvent": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "AnnouncementPosition": {
+      "enum": [
+        "top",
+        "bottom"
+      ],
+      "type": "string"
+    },
+    "BackgroundImage": {
+      "additionalProperties": false,
+      "properties": {
+        "main": {
+          "$ref": "#/definitions/StorageObject"
+        },
+        "mobile": {
+          "$ref": "#/definitions/StorageObject"
+        }
+      },
+      "type": "object"
+    },
+    "BasePopup": {
+      "additionalProperties": false,
+      "properties": {
+        "backgroundColor": {
+          "type": "string"
+        },
+        "description": {
+          "$ref": "#/definitions/ElementObject"
+        },
+        "fontFamily": {
+          "$ref": "#/definitions/PopupFontFamily"
+        },
+        "footer": {
+          "$ref": "#/definitions/ElementObject"
+        },
+        "helper": {
+          "$ref": "#/definitions/ElementObject"
+        },
+        "linkButton": {
+          "$ref": "#/definitions/ElementObject"
+        },
+        "primaryButton": {
+          "$ref": "#/definitions/ButtonElement"
+        },
+        "secondaryButton": {
+          "$ref": "#/definitions/ButtonElement"
+        },
+        "textInput": {
+          "$ref": "#/definitions/TextInputElement"
+        },
+        "title": {
+          "$ref": "#/definitions/ElementObject"
+        },
+        "weight": {
+          "$ref": "#/definitions/PopupFontWeight"
+        }
+      },
+      "type": "object"
+    },
+    "ButtonElement": {
+      "additionalProperties": false,
+      "properties": {
+        "backgroundColor": {
+          "type": "string"
+        },
+        "color": {
+          "type": "string"
+        },
+        "size": {
+          "type": "number"
+        },
+        "weight": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "ConfirmationForm": {
+      "additionalProperties": false,
+      "properties": {
+        "checkoutButton": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "dismissButton": {
+          "type": "string"
+        },
+        "messages": {
+          "$ref": "#/definitions/ConfirmationFormMessages"
+        },
+        "title": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "ConfirmationFormMessages": {
+      "additionalProperties": false,
+      "properties": {
+        "noCartItems": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "ElementObject": {
+      "additionalProperties": false,
+      "properties": {
+        "color": {
+          "type": "string"
+        },
+        "size": {
+          "type": "number"
+        },
+        "weight": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "EnableObject<structure-1425356789-575-613-1425356789-561-614-1425356789-539-615-1425356789-316-617-1425356789-290-618-1425356789-0-619>": {
+      "additionalProperties": false,
+      "properties": {
+        "enabled": {
+          "type": "boolean"
+        },
+        "intervalTime": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "enabled"
+      ],
+      "type": "object"
+    },
+    "EnableValueObject": {
+      "additionalProperties": false,
+      "properties": {
+        "enabled": {
+          "type": "boolean"
+        },
+        "value": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "enabled"
+      ],
+      "type": "object"
+    },
+    "ExitIntentForm": {
+      "additionalProperties": false,
+      "properties": {
+        "description": {
+          "type": "string"
+        },
+        "dismissButton": {
+          "type": "string"
+        },
+        "footerText": {
+          "type": "string"
+        },
+        "spinButton": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "InputField": {
+      "additionalProperties": false,
+      "properties": {
+        "messages": {
+          "additionalProperties": false,
+          "properties": {
+            "required": {
+              "type": "string"
+            },
+            "type": {
+              "type": "string"
+            }
+          },
+          "type": "object"
+        },
+        "placeholder": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "IntroBaseForm": {
+      "additionalProperties": false,
+      "type": "object"
+    },
+    "IntroForms": {
+      "additionalProperties": false,
+      "properties": {
+        "base": {
+          "$ref": "#/definitions/IntroBaseForm"
+        },
+        "exitIntentForm": {
+          "$ref": "#/definitions/ExitIntentForm"
+        },
+        "welcomeForm": {
+          "$ref": "#/definitions/WelcomeForm"
+        }
+      },
+      "type": "object"
+    },
+    "IntroPopup": {
+      "additionalProperties": false,
+      "properties": {
+        "backgroundImage": {
+          "$ref": "#/definitions/BackgroundImage"
+        },
+        "backgroundOverlay": {
+          "additionalProperties": false,
+          "properties": {
+            "color": {
+              "type": "string"
+            },
+            "enabled": {
+              "type": "boolean"
+            }
+          },
+          "type": "object"
+        },
+        "forms": {
+          "$ref": "#/definitions/IntroForms"
+        }
+      },
+      "type": "object"
+    },
+    "OpenerDistance": {
+      "additionalProperties": false,
+      "properties": {
+        "bottom": {
+          "type": "number"
+        },
+        "bottomFromAnnouncement": {
+          "type": "number"
+        },
+        "left": {
+          "type": "number"
+        },
+        "right": {
+          "type": "number"
+        }
+      },
+      "type": "object"
+    },
+    "OpenerIcon": {
+      "additionalProperties": false,
+      "properties": {
+        "deltaX": {
+          "type": "number"
+        },
+        "deltaY": {
+          "type": "number"
+        },
+        "transparentBackground": {
+          "type": "boolean"
+        },
+        "value": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "OpenerLabel": {
+      "$ref": "#/definitions/TextElement"
+    },
+    "OpenerPosition": {
+      "enum": [
+        "left",
+        "right"
+      ],
+      "type": "string"
+    },
+    "OpenerReadyLabel": {
+      "additionalProperties": false,
+      "properties": {
+        "text": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "PopupFontFamily": {
+      "additionalProperties": false,
+      "properties": {
+        "body": {
+          "type": "string"
+        },
+        "heading": {
+          "type": "string"
+        },
+        "label": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "PopupFontWeight": {
+      "additionalProperties": false,
+      "properties": {
+        "body": {
+          "type": "number"
+        },
+        "heading": {
+          "type": "number"
+        },
+        "label": {
+          "type": "number"
+        }
+      },
+      "type": "object"
+    },
+    "PresetTheme": {
+      "additionalProperties": false,
+      "properties": {
+        "announcement": {
+          "$ref": "#/definitions/ThemeAnnouncement"
+        },
+        "id": {
+          "type": "string"
+        },
+        "opener": {
+          "$ref": "#/definitions/ThemeOpener"
+        },
+        "popups": {
+          "$ref": "#/definitions/ThemePopups"
+        },
+        "revertedFrom": {
+          "type": "string"
+        },
+        "rewardTypes": {
+          "$ref": "#/definitions/ThemeRewardTypes"
+        },
+        "wheel": {
+          "$ref": "#/definitions/ThemeWheel"
+        }
+      },
+      "type": "object"
+    },
+    "PresetThemeValidation": {
+      "$ref": "#/definitions/PresetTheme"
+    },
+    "ResultForm": {
+      "additionalProperties": false,
+      "properties": {
+        "dismissButton": {
+          "type": "string"
+        },
+        "messages": {
+          "$ref": "#/definitions/ResultFormMessages"
+        },
+        "redeemButton": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "ResultFormMessages": {
+      "additionalProperties": false,
+      "properties": {
+        "rewardExpiry": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "SpinBaseForm": {
+      "additionalProperties": false,
+      "properties": {
+        "contentPanel": {
+          "additionalProperties": false,
+          "properties": {
+            "backgroundColor": {
+              "type": "string"
+            },
+            "blur": {
+              "type": "string"
+            },
+            "displayed": {
+              "type": "boolean"
+            }
+          },
+          "type": "object"
+        }
+      },
+      "type": "object"
+    },
+    "SpinForm": {
+      "additionalProperties": false,
+      "properties": {
+        "agreement": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "descriptionForExistingAccount": {
+          "type": "string"
+        },
+        "dismissButton": {
+          "type": "string"
+        },
+        "fields": {
+          "additionalProperties": {
+            "$ref": "#/definitions/InputField"
+          },
+          "type": "object"
+        },
+        "footerText": {
+          "type": "string"
+        },
+        "messages": {
+          "$ref": "#/definitions/SpinFormMessages"
+        },
+        "spinButton": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "SpinFormMessages": {
+      "additionalProperties": false,
+      "properties": {
+        "maxSpinReached": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "SpinForms": {
+      "additionalProperties": false,
+      "properties": {
+        "base": {
+          "$ref": "#/definitions/SpinBaseForm"
+        },
+        "confirmationForm": {
+          "$ref": "#/definitions/ConfirmationForm"
+        },
+        "resultForm": {
+          "$ref": "#/definitions/ResultForm"
+        },
+        "spinForm": {
+          "$ref": "#/definitions/SpinForm"
+        }
+      },
+      "required": [
+        "spinForm",
+        "resultForm",
+        "confirmationForm"
+      ],
+      "type": "object"
+    },
+    "SpinPopup": {
+      "additionalProperties": false,
+      "properties": {
+        "backgroundImage": {
+          "$ref": "#/definitions/BackgroundImage"
+        },
+        "backgroundMusic": {
+          "$ref": "#/definitions/EnableValueObject"
+        },
+        "displayType": {
+          "$ref": "#/definitions/SpinPopupDisplayType"
+        },
+        "forms": {
+          "$ref": "#/definitions/SpinForms"
+        },
+        "playingMusic": {
+          "$ref": "#/definitions/EnableValueObject"
+        },
+        "showLogo": {
+          "type": "boolean"
+        }
+      },
+      "type": "object"
+    },
+    "SpinPopupDisplayType": {
+      "enum": [
+        "auto",
+        "full_screen"
+      ],
+      "type": "string"
+    },
+    "StorageObject": {
+      "additionalProperties": false,
+      "properties": {
+        "key": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "key",
+        "url"
+      ],
+      "type": "object"
+    },
+    "TextElement": {
+      "additionalProperties": false,
+      "properties": {
+        "color": {
+          "type": "string"
+        },
+        "size": {
+          "type": "number"
+        },
+        "text": {
+          "type": "string"
+        },
+        "weight": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "TextInputElement": {
+      "additionalProperties": false,
+      "properties": {
+        "backgroundColor": {
+          "type": "string"
+        },
+        "color": {
+          "type": "string"
+        },
+        "placeholderColor": {
+          "type": "string"
+        },
+        "size": {
+          "type": "number"
+        },
+        "weight": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "ThemeAnnouncement": {
+      "additionalProperties": false,
+      "properties": {
+        "backgroundColor": {
+          "type": "string"
+        },
+        "color": {
+          "type": "string"
+        },
+        "encourage": {
+          "$ref": "#/definitions/AnnouncementEncourage"
+        },
+        "fontFamily": {
+          "type": "string"
+        },
+        "messages": {
+          "$ref": "#/definitions/AnnouncementMessages"
+        },
+        "position": {
+          "$ref": "#/definitions/AnnouncementPosition"
+        },
+        "size": {
+          "type": "number"
+        },
+        "weight": {
+          "type": "number"
+        }
+      },
+      "type": "object"
+    },
+    "ThemeOpener": {
+      "additionalProperties": false,
+      "properties": {
+        "attentionEffect": {
+          "$ref": "#/definitions/EnableObject%3Cstructure-1425356789-575-613-1425356789-561-614-1425356789-539-615-1425356789-316-617-1425356789-290-618-1425356789-0-619%3E"
+        },
+        "backgroundColor": {
+          "type": "string"
+        },
+        "distance": {
+          "$ref": "#/definitions/OpenerDistance"
+        },
+        "fontFamily": {
+          "type": "string"
+        },
+        "icon": {
+          "$ref": "#/definitions/OpenerIcon"
+        },
+        "label": {
+          "$ref": "#/definitions/OpenerLabel"
+        },
+        "position": {
+          "$ref": "#/definitions/OpenerPosition"
+        },
+        "readyLabel": {
+          "$ref": "#/definitions/OpenerReadyLabel"
+        },
+        "weight": {
+          "type": "number"
+        }
+      },
+      "type": "object"
+    },
+    "ThemePopups": {
+      "additionalProperties": false,
+      "properties": {
+        "base": {
+          "$ref": "#/definitions/BasePopup"
+        },
+        "introPopup": {
+          "$ref": "#/definitions/IntroPopup"
+        },
+        "spinPopup": {
+          "$ref": "#/definitions/SpinPopup"
+        }
+      },
+      "type": "object"
+    },
+    "ThemeRewardMessage": {
+      "additionalProperties": false,
+      "properties": {
+        "description": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "ThemeRewardTypeItem": {
+      "additionalProperties": false,
+      "properties": {
+        "effectMusic": {
+          "$ref": "#/definitions/EnableValueObject"
+        },
+        "message": {
+          "$ref": "#/definitions/ThemeRewardMessage"
+        }
+      },
+      "type": "object"
+    },
+    "ThemeRewardTypes": {
+      "additionalProperties": false,
+      "properties": {
+        "discountCode": {
+          "$ref": "#/definitions/ThemeRewardTypeItem"
+        },
+        "freeGift": {
+          "$ref": "#/definitions/ThemeRewardTypeItem"
+        },
+        "freeShipping": {
+          "$ref": "#/definitions/ThemeRewardTypeItem"
+        },
+        "none": {
+          "$ref": "#/definitions/ThemeRewardTypeItem"
+        }
+      },
+      "type": "object"
+    },
+    "ThemeWheel": {
+      "additionalProperties": false,
+      "properties": {
+        "border": {
+          "$ref": "#/definitions/WheelBorder"
+        },
+        "center": {
+          "$ref": "#/definitions/WheelCenter"
+        },
+        "fontFamily": {
+          "type": "string"
+        },
+        "pointer": {
+          "$ref": "#/definitions/WheelPointer"
+        },
+        "size": {
+          "type": "number"
+        },
+        "slices": {
+          "$ref": "#/definitions/WheelSlices"
+        },
+        "weight": {
+          "type": "number"
+        }
+      },
+      "type": "object"
+    },
+    "WelcomeForm": {
+      "additionalProperties": false,
+      "properties": {
+        "description": {
+          "type": "string"
+        },
+        "dismissButton": {
+          "type": "string"
+        },
+        "footerText": {
+          "type": "string"
+        },
+        "spinButton": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "WheelBorder": {
+      "additionalProperties": false,
+      "properties": {
+        "color": {
+          "type": "string"
+        },
+        "type": {
+          "$ref": "#/definitions/WheelBorderType"
+        }
+      },
+      "type": "object"
+    },
+    "WheelBorderType": {
+      "enum": [
+        "none",
+        "line",
+        "auto_darken"
+      ],
+      "type": "string"
+    },
+    "WheelCenter": {
+      "additionalProperties": false,
+      "properties": {
+        "border": {
+          "$ref": "#/definitions/WheelCenterBorder"
+        },
+        "color": {
+          "type": "string"
+        },
+        "displayed": {
+          "type": "boolean"
+        },
+        "icon": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "WheelCenterBorder": {
+      "additionalProperties": false,
+      "properties": {
+        "color": {
+          "type": "string"
+        },
+        "displayed": {
+          "type": "boolean"
+        }
+      },
+      "type": "object"
+    },
+    "WheelPointer": {
+      "additionalProperties": false,
+      "properties": {
+        "border": {
+          "$ref": "#/definitions/WheelPointerBorder"
+        },
+        "color": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "WheelPointerBorder": {
+      "additionalProperties": false,
+      "properties": {
+        "color": {
+          "type": "string"
+        },
+        "displayed": {
+          "type": "boolean"
+        }
+      },
+      "type": "object"
+    },
+    "WheelSlices": {
+      "additionalProperties": false,
+      "properties": {
+        "border": {
+          "$ref": "#/definitions/WheelSlicesBorder"
+        },
+        "items": {
+          "items": {
+            "$ref": "#/definitions/WheelSlicesItem"
+          },
+          "type": "array"
+        }
+      },
+      "type": "object"
+    },
+    "WheelSlicesBorder": {
+      "additionalProperties": false,
+      "properties": {
+        "color": {
+          "type": "string"
+        },
+        "displayed": {
+          "type": "boolean"
+        }
+      },
+      "type": "object"
+    },
+    "WheelSlicesItem": {
+      "additionalProperties": false,
+      "properties": {
+        "backgroundColor": {
+          "type": "string"
+        },
+        "color": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    }
+  }
+}
+
