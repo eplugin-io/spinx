@@ -139,7 +139,7 @@
           "contentPanel": {
             "displayed": true,
             "backgroundColor": "rgba(20,15,10,0.7)",
-            "blur": "12px"
+            "blur": 12
           }
         },
         "spinForm": {

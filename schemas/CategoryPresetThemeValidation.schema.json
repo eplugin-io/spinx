@@ -456,7 +456,7 @@
               "type": "string"
             },
             "blur": {
-              "type": "string"
+              "type": "number"
             },
             "displayed": {
               "type": "boolean"
