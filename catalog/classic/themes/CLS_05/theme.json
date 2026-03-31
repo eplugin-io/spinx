@@ -1,243 +1,90 @@
 {
+  "id": "CLS_05",
   "wheel": {
-    "fontFamily": "Montserrat",
-    "contentSize": 34,
-    "borderAround": {
+    "border": {
       "type": "line",
       "color": "#dcba02"
     },
-    "rewardBorder": {
+    "center": {
       "displayed": true,
-      "color": "#dcba02"
-    },
-    "circleCenter": {
-      "displayed": true,
-      "borderType": "line",
-      "borderColor": "#FFD700",
-      "backgroundColor": "#FFD700"
-    },
-    "sticker": {
-      "borderType": "none",
-      "borderColor": "",
-      "backgroundColor": "#FFD700"
-    },
-    "playingMusic": {
-      "enabled": true,
-      "value": "CLS_PY_01"
-    },
-    "rewards": [{
-      "contentColor": "#E5E4E2",
-      "backgroundColor": "#4B0082"
-    }, {
-      "contentColor": "#E5E4E2",
-      "backgroundColor": "#2E0854"
-    }]
-  },
-  "rewardTypes": {
-    "none": {
-      "message": {
-        "title": "Oops! Maybe next time 🎯",
-        "content": "Thanks for playing! Let’s see what fortune brings next time."
+      "border": {
+        "displayed": true,
+        "color": "#FFD700"
       },
-      "effectMusic": {
-        "enabled": true,
-        "value": "CLS_LS_01"
-      }
-    },
-    "discountCode": {
-      "message": {
-        "title": "You Won {{REWARD}}!",
-        "content": "Use the code below at checkout to enjoy your reward."
-      },
-      "effectMusic": {
-        "enabled": true,
-        "value": "CLS_WN_01"
-      }
-    },
-    "freeShipping": {
-      "message": {
-        "title": "You Won {{REWARD}}!",
-        "content": "Use the code below at checkout to enjoy your reward."
-      },
-      "effectMusic": {
-        "enabled": true,
-        "value": "CLS_WN_01"
-      }
-    },
-    "freeGift": {
-      "message": {
-        "title": "You Won {{REWARD}}!",
-        "content": "Use the code below at checkout to enjoy your reward."
-      },
-      "effectMusic": {
-        "enabled": true,
-        "value": "CLS_WN_01"
-      }
-    }
-  },
-  "popup": {
-    "displayType": "auto",
-    "showLogo": { "enabled": true },
-    "background": {
-      "backgroundColor": "#380062",
-      "backgroundImage": "",
-      "mobileBackgroundImage": ""
-    },
-    "backgroundMusic": {
-      "enabled": true,
-      "value": "CLS_BG_01"
-    },
-    "fontFamily": "Montserrat",
-    "title": {
-      "text": "Spin to win exciting rewards!",
-      "size": 32,
       "color": "#FFD700"
     },
-    "content": {
-      "text": "Fill in your details and get your chance to spin.",
-      "size": 24,
-      "color": "#ffffff"
+    "pointer": {
+      "color": "#FFD700",
+      "border": {
+        "displayed": false,
+        "color": ""
+      }
     },
-    "contentForExistingAccount": {
-      "text": "Welcome, {{NAME}}! Get ready to spin the wheel and unlock exciting rewards waiting just for you.",
-      "size": 24,
-      "color": "#ffffff"
-    },
-    "agreement": "I agree to receive marketing emails and offers.",
-    "spinButton": {
-      "text": "Spin!",
-      "size": 20,
-      "color": "#4B0082",
-      "backgroundColor": "#E6C200"
-    },
-    "dismissButton": {
-      "text": "Continue shopping",
-      "size": 20,
-      "color": "#ffffff"
-    },
-    "footerContent": {
-      "text": "The fun starts with a spin!",
-      "size": 20,
-      "color": "#ffffff"
-    },
-    "messages": {
-      "maxSpinReachedMsg": "Looks like you’ve used all your spins!"
+    "slices": {
+      "border": {
+        "displayed": true,
+        "color": "#dcba02"
+      },
+      "items": [
+        {
+          "color": "#E5E4E2",
+          "backgroundColor": "#4B0082"
+        },
+        {
+          "color": "#E5E4E2",
+          "backgroundColor": "#2E0854"
+        }
+      ]
     }
   },
-  "triggers": {
-    "opener": {
-      "distance": {
-        "left": 16,
-        "right": 16,
-        "bottom": 24,
-        "bottomFromAnnouncement": 12
-      },
-      "fontFamily": "Montserrat",
-      "content": "Spin Now",
-      "contentColor": "#FFD700",
-      "backgroundColor": "#2E0854",
-      "icon": {
-        "value": "CLS_11"
-      },
-      "attentionEffect": {
-        "enabled": true,
-        "intervalTime": 15
-      }
+  "opener": {
+    "icon": {
+      "value": "CLS_11"
     },
-    "delayedDisplay": {
-      "delay": 4,
-      "background": {
-        "backgroundColor": "#380062"
-      },
-      "fontFamily": "Montserrat",
+    "label": {
+      "color": "#FFD700"
+    },
+    "backgroundColor": "#2E0854"
+  },
+  "popups": {
+    "base": {
+      "backgroundColor": "#380062",
       "title": {
-        "text": "🎁 An Exclusive Offer Just for You 🎉",
-        "size": 32,
         "color": "#FFD700"
       },
-      "content": {
-        "text": "💰 Get a chance to win discount codes, free shipping, and many exciting gifts.",
-        "size": 24,
+      "description": {
         "color": "#ffffff"
       },
-      "contentBottom": {
-        "text": "Spin the wheel and claim your special reward.",
-        "size": 20,
+      "textInput": {
         "color": "#ffffff"
       },
-      "spinButton": {
-        "text": "Spin Now",
-        "size": 16,
+      "helper": {
+        "color": "#ffffff"
+      },
+      "footer": {
+        "color": "#ffffff"
+      },
+      "primaryButton": {
         "color": "#4B0082",
         "backgroundColor": "#E6C200"
       },
-      "cancelButton": {
-        "text": "Maybe Later",
-        "size": 16,
-        "color": "#333333",
-        "backgroundColor": "#ffffff"
+      "secondaryButton": {
+        "color": "#ffffff"
+      },
+      "linkButton": {
+        "color": "#ffffff"
       }
     },
-    "exitIntent": {
-      "background": {
-        "backgroundColor": "#380062"
-      },
-      "fontFamily": "Montserrat",
-      "title": {
-        "text": "🎁 Wait! Don’t Leave Your Gift Behind",
-        "size": 32,
-        "color": "#FFD700"
-      },
-      "content": {
-        "text": "🎉 Get a chance to win discount codes, free shipping, and many exciting gifts.",
-        "size": 24,
-        "color": "#ffffff"
-      },
-      "contentBottom": {
-        "text": "Spin the wheel and claim your special reward.",
-        "size": 20,
-        "color": "#ffffff"
-      },
-      "spinButton": {
-        "text": "Spin Now",
-        "size": 16,
-        "color": "#4B0082",
-        "backgroundColor": "#E6C200"
-      },
-      "cancelButton": {
-        "text": "Maybe Later",
-        "size": 16,
-        "color": "#333333",
-        "backgroundColor": "#ffffff"
-      }
+    "spinPopup": {
+      "backgroundImage": {}
+    },
+    "introPopup": {
+      "backgroundImage": {},
+      "backgroundOverlay": {}
     }
   },
   "announcement": {
-    "fontFamily": "Montserrat",
-    "contentSize": 16,
-    "contentColor": "#FFD700",
-    "backgroundColor": "#4B0082",
-    "upcomingEvent": {
-      "content": "Get ready! The reward wheel launches at {{TIME}} with exciting prizes!"
-    },
-    "readyToSpin": {
-      "content": "Ready to spin? Click {{OPENER}} and win something exciting!"
-    },
-    "countDownToLaunch": {
-      "content": "The countdown is on! Only {{TIME}} left until launch!"
-    },
-    "countDownToClose": {
-      "content": "Hurry! Only {{TIME}} left — click {{OPENER}} to spin and claim your reward!"
-    },
-    "encourageUsePrize": {
-      "discountMessage": "🎉 Congrats! You’ve unlocked {{VALUE}} off – use {{CODE}} now!",
-      "discountMessageWithMinOrder": "🎉 You’ve unlocked {{VALUE}} off for orders over {{MIN_ORDER}} – use {{CODE}} now!",
-      "freeShipMessage": "🚚 Enjoy free shipping with {{CODE}} – use it now!",
-      "freeShipMessageWithMaxAmount": "🚚 Enjoy free shipping up to {{MAX_AMOUNT}} off – use {{CODE}} now!",
-      "freeShipMessageWithMinOrder": "🚚 Enjoy free shipping for orders over {{MIN_ORDER}} – use {{CODE}} now!",
-      "freeShipMessageWithMaxAmountAndMinOrder": "🚚 Enjoy free shipping for orders over {{MIN_ORDER}}, up to {{MAX_AMOUNT}} off – use {{CODE}} now!",
-      "freeGiftMessage": "🎁 Awesome! You've earned a free gift – claim it with {{CODE}} now!",
-      "helperText": "🏷️ Apply your code {{CODE}} at checkout."
-    }
+    "color": "#FFD700",
+    "backgroundColor": "#4B0082"
   }
 }

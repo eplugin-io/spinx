@@ -33,28 +33,28 @@
   "openers": [
     {
       "id": "HLW_01",
-      "popupColors": [{
+      "colorPresets": [{
         "content": "#FFD700",
         "background": "#FF6600"
       }]
     },
     {
       "id": "HLW_02",
-      "popupColors": [{
+      "colorPresets": [{
         "content": "#FFD700",
         "background": "#FF6600"
       }]
     },
     {
       "id": "HLW_03",
-      "popupColors": [{
+      "colorPresets": [{
         "content": "#FFD700",
         "background": "#000000"
       }]
     },
     {
       "id": "HLW_04",
-      "popupColors": [{
+      "colorPresets": [{
         "content": "#FFD700",
         "background": "#2C003E"
       }]
@@ -63,7 +63,7 @@
       "id": "HLW_05",
       "rid": "HLW_05R",
       "transparentBackground": true,
-      "popupColors": [{
+      "colorPresets": [{
         "content": "#39FF14",
         "background": "#4B0082"
       }]
@@ -72,35 +72,35 @@
       "id": "HLW_06",
       "rid": "HLW_06R",
       "transparentBackground": true,
-      "popupColors": [{
+      "colorPresets": [{
         "content": "#FFD700",
         "background": "#2C003E"
       }]
     },
     {
       "id": "HLW_07",
-      "popupColors": [{
+      "colorPresets": [{
         "content": "#FFD700",
         "background": "#2C003E"
       }]
     },
     {
       "id": "HLW_08",
-      "popupColors": [{
+      "colorPresets": [{
         "content": "#FF7518",
         "background": "#000000"
       }]
     },
     {
       "id": "HLW_09",
-      "popupColors": [{
+      "colorPresets": [{
         "content": "#FFD700",
         "background": "#000000"
       }]
     },
     {
       "id": "HLW_10",
-      "popupColors": [{
+      "colorPresets": [{
         "content": "#FFD700",
         "background": "#000000"
       }]
@@ -108,7 +108,7 @@
     {
       "id": "HLW_11",
       "transparentBackground": true,
-      "popupColors": [{
+      "colorPresets": [{
         "content": "#FFD700",
         "background": "#145A32"
       }]
@@ -116,7 +116,7 @@
     {
       "id": "HLW_12",
       "transparentBackground": true,
-      "popupColors": [{
+      "colorPresets": [{
         "content": "#FFD700",
         "background": "#000000"
       }]
@@ -125,7 +125,7 @@
       "id": "HLW_13",
       "deltaY": -3,
       "transparentBackground": true,
-      "popupColors": [{
+      "colorPresets": [{
         "content": "#FFD700",
         "background": "#000000"
       }]
@@ -134,7 +134,7 @@
       "id": "HLW_14",
       "deltaY": -3,
       "transparentBackground": true,
-      "popupColors": [{
+      "colorPresets": [{
         "content": "#FFD700",
         "background": "#000000"
       }]
@@ -143,7 +143,7 @@
       "id": "HLW_15",
       "deltaY": -3,
       "transparentBackground": true,
-      "popupColors": [{
+      "colorPresets": [{
         "content": "#FFD700",
         "background": "#2C003E"
       }]
@@ -152,7 +152,7 @@
       "id": "HLW_16",
       "deltaY": -3,
       "transparentBackground": true,
-      "popupColors": [{
+      "colorPresets": [{
         "content": "#FF0000",
         "background": "#000000"
       }]
