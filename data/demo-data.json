@@ -64,14 +64,18 @@
       "openerPopup": {
         "enabled": true
       },
-      "welcomePopup": {
-        "enabled": true,
-        "delaySeconds": 4
-      },
-      "exitIntentPopup": {
-        "enabled": true,
-        "desktop": true,
-        "mobile": true
+      "spinPopup": {
+        "welcome": {
+          "enabled": true,
+          "delaySeconds": 4,
+          "displayType": "compact"
+        },
+        "exitIntent": {
+          "enabled": true,
+          "desktop": true,
+          "mobile": true,
+          "displayType": "compact"
+        }
       }
     },
     "engagements": {
@@ -88,15 +92,29 @@
       }
     },
     "announcements": {
-      "upcomingEvent": { "enabled": true, "displayHours": 72 },
-      "readyToSpin": { "enabled": true },
-      "encourageUsePrize": { "enabled": true },
-      "countDownToLaunch": { "enabled": true, "displayHours": 24 },
-      "countDownToClose": { "enabled": true, "displayHours": 24 }
+      "upcomingEvent": {
+        "enabled": true,
+        "displayHours": 72
+      },
+      "readyToSpin": {
+        "enabled": true
+      },
+      "encourageUsePrize": {
+        "enabled": true
+      },
+      "countDownToLaunch": {
+        "enabled": true,
+        "displayHours": 24
+      },
+      "countDownToClose": {
+        "enabled": true,
+        "displayHours": 24
+      }
     },
     "excludeUrls": [],
     "languages": {
-      "enabled": false
+      "enabled": false,
+      "defaultLanguage": "en"
     },
     "translations": {}
   },

@@ -1,0 +1,62 @@
+{
+  "rewardTypes": {
+    "none": {
+      "message": {
+        "title": "✨ No Luck This Time!",
+        "description": "The New Year still has surprises waiting — try another spin soon!"
+      }
+    },
+    "discountCode": {
+      "message": {
+        "title": "✨ New Year Win! You Got {{REWARD}}!",
+        "description": "Use the code below at checkout to claim your New Year reward."
+      }
+    },
+    "freeShipping": {
+      "message": {
+        "title": "✨ New Year Win! You Got {{REWARD}}!",
+        "description": "Use the code below at checkout to enjoy free shipping on your order."
+      }
+    },
+    "freeGift": {
+      "message": {
+        "title": "🎁 New Year Surprise! You Got {{REWARD}}!",
+        "description": "Use the code below at checkout to claim your New Year gift."
+      }
+    }
+  },
+  "opener": {
+    "label": {
+      "text": "SPIN NOW 💥"
+    }
+  },
+  "popups": {
+    "spinPopup": {
+      "forms": {
+        "spinForm": {
+          "title": "✨ Welcome the New Year with a Surprise!",
+          "description": "Enter your name and email to unlock your New Year reward.",
+          "descriptionForExistingAccount": "{{NAME}}, start the New Year with a spin and unlock your special reward.",
+          "agreement": "I agree to receive New Year offers and updates.",
+          "spinButton": "Spin & Start the Year",
+          "dismissButton": "Continue shopping",
+          "footerText": "A bright year begins with one spin ✨",
+          "messages": {
+            "maxSpinReached": "Looks like you’ve used all your spins!"
+          }
+        },
+        "redemptionForm": {
+          "title": "Your New Year Reward Is Ready!"
+        }
+      }
+    }
+  },
+  "announcement": {
+    "messages": {
+      "upcomingEvent": "✨ The New Year wheel unlocks at {{TIME}} — get ready to spin!",
+      "readyToSpin": "✨ It’s time! Tap {{OPENER}} to spin into the New Year!",
+      "countDownToLaunch": "⏳ The countdown is on — New Year rewards unlock in {{TIME}}!",
+      "countDownToClose": "✨ Final moments! Only {{TIME}} left to spin and claim your New Year reward!"
+    }
+  }
+}

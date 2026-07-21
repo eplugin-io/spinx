@@ -1,0 +1,62 @@
+{
+  "rewardTypes": {
+    "none": {
+      "message": {
+        "title": "🎃 No Luck This Time!",
+        "description": "The spirits were quiet this time — but your next spin could reveal a spooky surprise."
+      }
+    },
+    "discountCode": {
+      "message": {
+        "title": "🎃 Boo! You Won {{REWARD}}!",
+        "description": "Use the code below at checkout to unlock your spooky savings."
+      }
+    },
+    "freeShipping": {
+      "message": {
+        "title": "🎃 Boo! You Won {{REWARD}}!",
+        "description": "Use the code below at checkout to enjoy free shipping from the other side."
+      }
+    },
+    "freeGift": {
+      "message": {
+        "title": "🎁 A Spooky Surprise! You Won {{REWARD}}!",
+        "description": "Use the code below at checkout to claim your hauntingly good gift."
+      }
+    }
+  },
+  "opener": {
+    "label": {
+      "text": "SUMMON REWARD"
+    }
+  },
+  "popups": {
+    "spinPopup": {
+      "forms": {
+        "spinForm": {
+          "title": "🎃 Dare to Spin the Haunted Wheel?",
+          "description": "Enter your details and spin the wheel to unlock a spooky Halloween reward.",
+          "descriptionForExistingAccount": "{{NAME}}, spin now to unlock your spooky Halloween reward!",
+          "agreement": "I agree to receive spooky offers and updates.",
+          "spinButton": "SPIN IF YOU DARE",
+          "dismissButton": "Continue shopping",
+          "footerText": "Only brave souls unlock the best surprises.",
+          "messages": {
+            "maxSpinReached": "The spirits say you’ve used all your spins for now."
+          }
+        },
+        "redemptionForm": {
+          "title": "Your Spooky Reward Is Ready!"
+        }
+      }
+    }
+  },
+  "announcement": {
+    "messages": {
+      "upcomingEvent": "🎃 The spirits are gathering... the wheel unlocks at {{TIME}}!",
+      "readyToSpin": "👻 Trick or treat? Click {{OPENER}} to spin for your Halloween reward!",
+      "countDownToLaunch": "⏳ The haunted wheel unlocks in {{TIME}} — get ready!",
+      "countDownToClose": "🎃 Last chance! Only {{TIME}} left to spin the haunted wheel!"
+    }
+  }
+}

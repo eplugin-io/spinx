@@ -1,5 +1,5 @@
 {
-  "id": "CLS_02",
+  "id": "CLS_31",
   "wheel": {
     "border": {
       "type": "line",
@@ -28,11 +28,35 @@
       "items": [
         {
           "color": "#FFFFFF",
-          "backgroundColor": "#000000"
+          "backgroundColor": "#ff8c27"
         },
         {
           "color": "#FFFFFF",
-          "backgroundColor": "#1A1A1A"
+          "backgroundColor": "#6f1e9b"
+        },
+        {
+          "color": "#FFFFFF",
+          "backgroundColor": "#722ed14d"
+        },
+        {
+          "color": "#FFFFFF",
+          "backgroundColor": "#c925ff4d"
+        },
+        {
+          "color": "#FFFFFF",
+          "backgroundColor": "#8c08b4"
+        },
+        {
+          "color": "#FFFFFF",
+          "backgroundColor": "#ff8e51"
+        },
+        {
+          "color": "#FFFFFF",
+          "backgroundColor": "#d66a1d"
+        },
+        {
+          "color": "#FFFFFF",
+          "backgroundColor": "#d85f08"
         }
       ]
     }
