@@ -1,54 +1,12 @@
 {
-  "rewardTypes": {
-    "none": {
-      "effectMusic": {
-        "enabled": true,
-        "value": "CHR_LS_01"
-      },
-      "message": {
-        "title": "❄️ No Luck This Time!",
-        "description": "Thanks for spinning! More Christmas magic may be waiting on your next try."
-      }
-    },
-    "discountCode": {
-      "effectMusic": {
-        "enabled": true,
-        "value": "CHR_WN_01"
-      },
-      "message": {
-        "title": "🎁 Christmas Surprise! You Won {{REWARD}}!",
-        "description": "Use the code below at checkout to enjoy your festive reward."
-      }
-    },
-    "freeShipping": {
-      "effectMusic": {
-        "enabled": true,
-        "value": "CHR_WN_02"
-      },
-      "message": {
-        "title": "🎁 Christmas Surprise! You Won {{REWARD}}!",
-        "description": "Use the code below at checkout to enjoy free holiday shipping."
-      }
-    },
-    "freeGift": {
-      "effectMusic": {
-        "enabled": true,
-        "value": "CHR_WN_03"
-      },
-      "message": {
-        "title": "🎁 Christmas Surprise! You Won {{REWARD}}!",
-        "description": "Use the code below at checkout to claim your festive gift."
-      }
-    }
-  },
   "opener": {
-    "label": {
-      "text": "SPIN NOW 🎄",
-      "color": "#FFFFFF"
-    },
     "fontFamily": "Alegreya",
     "icon": {
       "value": "CLS_04"
+    },
+    "label": {
+      "text": "SPIN NOW 🎄",
+      "color": "#FFFFFF"
     },
     "backgroundColor": "#E53935"
   },
@@ -102,19 +60,7 @@
             "blur": 12
           }
         },
-        "spinForm": {
-          "title": "🎄 Unwrap Your Christmas Surprise!",
-          "description": "Enter your details and spin the wheel to unwrap your festive Christmas reward.",
-          "descriptionForExistingAccount": "{{NAME}}, it’s time for a Christmas surprise — spin to reveal your festive reward!",
-          "agreement": "I agree to receive holiday offers and updates.",
-          "spinButton": "Reveal My Gift",
-          "dismissButton": "Continue shopping",
-          "footerText": "The holiday magic begins with a spin ✨"
-        },
-        "resultForm": {},
-        "confirmationForm": {
-          "title": "Holiday Cheer Unlocked!"
-        }
+        "resultForm": {}
       },
       "backgroundImage": {
         "main": {
@@ -126,51 +72,23 @@
           "url": "/catalog/christmas/themes/CHR_01/background/main-mobile.webp"
         }
       }
-    },
-    "introPopup": {
-      "backgroundOverlay": {
-        "enabled": true,
-        "color": "rgba(0, 0, 0, 0.3)"
-      },
-      "forms": {
-        "welcomeForm": {
-          "title": "🎅 A Christmas Treat Awaits!",
-          "description": "Spin the festive wheel to uncover holiday discounts, free shipping, and special surprises ✨",
-          "footerText": "Spin now and claim your Christmas reward! 🎁",
-          "spinButton": "Reveal My Gift",
-          "dismissButton": "Maybe Later"
-        },
-        "exitIntentForm": {
-          "title": "🎅 Wait! Your Christmas Surprise Awaits",
-          "description": "Before you go, spin the Christmas wheel for a chance to unlock a festive reward.",
-          "footerText": "Give it a spin and discover your holiday surprise! 🎄",
-          "spinButton": "Reveal My Gift",
-          "dismissButton": "Maybe Later"
-        }
-      },
-      "backgroundImage": {
-        "main": {
-          "key": "",
-          "url": "/catalog/christmas/themes/CHR_01/background/intro.webp"
-        },
-        "mobile": {
-          "key": "",
-          "url": "/catalog/christmas/themes/CHR_01/background/main-mobile.webp"
-        }
-      }
     }
   },
   "announcement": {
     "fontFamily": "Playfair Display",
     "weight": 700,
-    "messages": {
-      "upcomingEvent": "🎅 Christmas magic is coming... The wheel unlocks at {{TIME}}!",
-      "readyToSpin": "🎁 Your festive surprise awaits! Tap {{OPENER}} to spin the Christmas wheel!",
-      "countDownToLaunch": "⏳ Almost time! The Christmas wheel unlocks in {{TIME}} — get ready!",
-      "countDownToClose": "🎄 Last chance! Only {{TIME}} left to spin and claim your holiday reward!"
-    },
     "color": "#FFFFFF",
     "backgroundColor": "#0F6C4F"
+  },
+  "rewardSounds": {
+    "win": {
+      "enabled": true,
+      "value": "CHR_WN_01"
+    },
+    "lose": {
+      "enabled": true,
+      "value": "CHR_LS_01"
+    }
   },
   "id": "CHR_01",
   "wheel": {

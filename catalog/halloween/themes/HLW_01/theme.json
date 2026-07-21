@@ -1,46 +1,4 @@
 {
-  "rewardTypes": {
-    "none": {
-      "effectMusic": {
-        "enabled": true,
-        "value": "HLW_LS_01"
-      },
-      "message": {
-        "title": "🎃 No Luck This Time!",
-        "description": "The spirits were quiet this time — but your next spin could reveal a spooky surprise."
-      }
-    },
-    "discountCode": {
-      "effectMusic": {
-        "enabled": true,
-        "value": "HLW_WN_01"
-      },
-      "message": {
-        "title": "🎃 Boo! You Won {{REWARD}}!",
-        "description": "Use the code below at checkout to unlock your spooky savings."
-      }
-    },
-    "freeShipping": {
-      "effectMusic": {
-        "enabled": true,
-        "value": "HLW_WN_01"
-      },
-      "message": {
-        "title": "🎃 Boo! You Won {{REWARD}}!",
-        "description": "Use the code below at checkout to enjoy free shipping from the other side."
-      }
-    },
-    "freeGift": {
-      "effectMusic": {
-        "enabled": true,
-        "value": "HLW_WN_02"
-      },
-      "message": {
-        "title": "🎁 A Spooky Surprise! You Won {{REWARD}}!",
-        "description": "Use the code below at checkout to claim your hauntingly good gift."
-      }
-    }
-  },
   "wheel": {
     "fontFamily": "Poppins",
     "border": {
@@ -80,13 +38,12 @@
     }
   },
   "opener": {
-    "label": {
-      "text": "SUMMON REWARD",
-      "color": "#ea412b"
-    },
     "fontFamily": "Oswald",
     "icon": {
       "value": "HLW_02"
+    },
+    "label": {
+      "color": "#ea412b"
     },
     "backgroundColor": "#000000"
   },
@@ -135,22 +92,7 @@
       "displayType": "full_screen",
       "showLogo": false,
       "forms": {
-        "spinForm": {
-          "title": "🎃 Dare to Spin the Haunted Wheel?",
-          "description": "Enter your details and spin the wheel to unlock a spooky Halloween reward.",
-          "descriptionForExistingAccount": "{{NAME}}, spin now to unlock your spooky Halloween reward!",
-          "agreement": "I agree to receive spooky offers and updates.",
-          "spinButton": "SPIN IF YOU DARE",
-          "dismissButton": "Continue shopping",
-          "footerText": "Only brave souls unlock the best surprises.",
-          "messages": {
-            "maxSpinReached": "The spirits say you’ve used all your spins for now."
-          }
-        },
-        "resultForm": {},
-        "confirmationForm": {
-          "title": "Your Spooky Reward Is Ready!"
-        }
+        "resultForm": {}
       },
       "backgroundImage": {
         "main": {
@@ -170,48 +112,23 @@
         "enabled": true,
         "value": "HLW_PY_02"
       }
-    },
-    "introPopup": {
-      "forms": {
-        "welcomeForm": {
-          "title": "🎃 A Spooky Surprise Awaits!",
-          "description": "Spin the haunted wheel for a chance to win discounts, free shipping, and eerie little treats.",
-          "footerText": "One spin could unlock your Halloween reward.",
-          "spinButton": "Trick or Treat Me",
-          "dismissButton": "Maybe Later"
-        },
-        "exitIntentForm": {
-          "title": "🎃 Don’t Leave Your Halloween Reward Behind",
-          "description": "Before you go, spin the haunted wheel for a chance to unlock a spooky surprise.",
-          "footerText": "A chilling reward could be just one spin away.",
-          "spinButton": "Trick or Treat Me",
-          "dismissButton": "Maybe Later"
-        }
-      },
-      "backgroundImage": {
-        "main": {
-          "key": "",
-          "url": "/catalog/halloween/themes/HLW_01/background/intro.webp"
-        },
-        "mobile": {
-          "key": "",
-          "url": "/catalog/halloween/themes/HLW_01/background/intro-mobile.webp"
-        }
-      },
-      "backgroundOverlay": {}
     }
   },
   "announcement": {
     "fontFamily": "Nosifer",
     "weight": 400,
-    "messages": {
-      "upcomingEvent": "🎃 The spirits are gathering... the wheel unlocks at {{TIME}}!",
-      "readyToSpin": "👻 Trick or treat? Click {{OPENER}} to spin for your Halloween reward!",
-      "countDownToLaunch": "⏳ The haunted wheel unlocks in {{TIME}} — get ready!",
-      "countDownToClose": "🎃 Last chance! Only {{TIME}} left to spin the haunted wheel!"
-    },
     "color": "#ea412b",
     "backgroundColor": "#150000"
+  },
+  "rewardSounds": {
+    "win": {
+      "enabled": true,
+      "value": "HLW_WN_01"
+    },
+    "lose": {
+      "enabled": true,
+      "value": "HLW_LS_01"
+    }
   },
   "id": "HLW_01"
 }

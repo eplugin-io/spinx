@@ -1,0 +1,98 @@
+{
+  "rewardTypes": {
+    "none": {
+      "message": {
+        "title": "Oops! Maybe Next Time",
+        "description": "Don't give up - every spin could reveal your exciting reward!"
+      }
+    },
+    "discountCode": {
+      "message": {
+        "title": "Congrats! You Won {{REWARD}}!",
+        "description": "Use the code below at checkout to enjoy your discount."
+      }
+    },
+    "freeShipping": {
+      "message": {
+        "title": "Congrats! You Won {{REWARD}}!",
+        "description": "Use the code below at checkout to get free shipping."
+      }
+    },
+    "freeGift": {
+      "message": {
+        "title": "Surprise! You Won {{REWARD}}!",
+        "description": "Use the code below at checkout to claim your free gift."
+      }
+    }
+  },
+  "opener": {
+    "label": {
+      "text": "SPIN NOW"
+    },
+    "readyLabel": {
+      "text": "REWARD READY"
+    }
+  },
+  "popups": {
+    "spinPopup": {
+      "forms": {
+        "spinForm": {
+          "title": "Spin to win exciting rewards!",
+          "description": "Fill in your details and get your chance to spin.",
+          "descriptionForExistingAccount": "Welcome, {{NAME}}! Get ready to spin the wheel and unlock exciting rewards waiting just for you.",
+          "fields": {
+            "name": {
+              "placeholder": "Name"
+            },
+            "email": {
+              "placeholder": "Email"
+            }
+          },
+          "agreement": "I agree to receive marketing emails and offers.",
+          "spinButton": "SPIN",
+          "dismissButton": "Continue shopping",
+          "footerText": "The fun starts with a spin!",
+          "messages": {
+            "maxSpinReached": "Looks like you've used all your spins!"
+          }
+        },
+        "resultForm": {
+          "redeemButton": "Apply reward now",
+          "dismissButton": "Continue shopping",
+          "messages": {
+            "rewardExpiry": "Use your reward within {{EXPIRE}}"
+          }
+        },
+        "redemptionForm": {
+          "title": "Your reward has been applied!",
+          "description": "Your reward is active - you can checkout now or continue shopping and use it anytime.",
+          "checkoutButton": "Checkout now",
+          "dismissButton": "Continue shopping",
+          "messages": {
+            "noCartItems": "Add items to your cart and redeem your reward at checkout."
+          }
+        }
+      }
+    }
+  },
+  "announcement": {
+    "messages": {
+      "upcomingEvent": "Get ready! The reward wheel launches at {{TIME}} with exciting prizes!",
+      "readyToSpin": "Ready to spin? Click {{OPENER}} and win something exciting!",
+      "countDownToLaunch": "The countdown is on! Only {{TIME}} left until launch!",
+      "countDownToClose": "Hurry! Only {{TIME}} left - click {{OPENER}} to spin and claim your reward!"
+    },
+    "encourage": {
+      "messages": {
+        "discount": "You unlocked {{VALUE}} off - use it at checkout!",
+        "discountWithMinOrder": "Get {{VALUE}} off orders over {{MIN_ORDER}}.",
+        "freeShip": "Free shipping unlocked - use it at checkout!",
+        "freeShipWithMinOrder": "Free shipping on orders over {{MIN_ORDER}}.",
+        "freeShipWithMaxAmount": "Enjoy free shipping up to {{MAX_AMOUNT}}.",
+        "freeShipWithMaxAmountAndMinOrder": "Free shipping up to {{MAX_AMOUNT}} on orders over {{MIN_ORDER}}.",
+        "freeGift": "Free gift unlocked - get it at checkout!",
+        "redeemCode": "Use code {{CODE}} at checkout to enjoy your reward."
+      }
+    }
+  }
+}

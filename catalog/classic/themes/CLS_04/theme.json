@@ -78,10 +78,6 @@
     },
     "spinPopup": {
       "backgroundImage": {}
-    },
-    "introPopup": {
-      "backgroundImage": {},
-      "backgroundOverlay": {}
     }
   },
   "announcement": {
