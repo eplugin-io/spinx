@@ -1,0 +1,66 @@
+{
+  "label": {
+    "expireTime": "{{TIME}} giờ",
+    "expireDay": "{{TIME}} ngày"
+  },
+  "rewardTypes": {
+    "none": {
+      "message": {
+        "title": "✨ Tiếc quá, lần này chưa may mắn!",
+        "description": "Năm mới vẫn còn nhiều bất ngờ đang chờ - hãy thử quay lại sớm nhé!"
+      }
+    },
+    "discountCode": {
+      "message": {
+        "title": "✨ Chiến thắng năm mới! Bạn đã nhận {{REWARD}}!",
+        "description": "Sử dụng mã bên dưới khi thanh toán để nhận phần thưởng năm mới của bạn."
+      }
+    },
+    "freeShipping": {
+      "message": {
+        "title": "✨ Chiến thắng năm mới! Bạn đã nhận {{REWARD}}!",
+        "description": "Sử dụng mã bên dưới khi thanh toán để được miễn phí vận chuyển cho đơn hàng."
+      }
+    },
+    "freeGift": {
+      "message": {
+        "title": "🎁 Bất ngờ năm mới! Bạn đã nhận {{REWARD}}!",
+        "description": "Sử dụng mã bên dưới khi thanh toán để nhận món quà năm mới của bạn."
+      }
+    }
+  },
+  "opener": {
+    "label": {
+      "text": "QUAY NGAY 💥"
+    }
+  },
+  "popups": {
+    "spinPopup": {
+      "forms": {
+        "spinForm": {
+          "title": "✨ Chào Năm Mới Với Một Bất Ngờ!",
+          "description": "Điền tên và email để mở khóa phần thưởng năm mới của bạn.",
+          "descriptionForExistingAccount": "{{NAME}}, hãy bắt đầu năm mới bằng một lượt quay và mở khóa phần thưởng đặc biệt của bạn.",
+          "agreement": "Tôi đồng ý nhận ưu đãi và cập nhật năm mới.",
+          "spinButton": "Quay & Bắt Đầu Năm Mới",
+          "dismissButton": "Tiếp tục mua sắm",
+          "footerText": "Một năm rực rỡ bắt đầu từ một lượt quay ✨",
+          "messages": {
+            "maxSpinReached": "Có vẻ như bạn đã sử dụng hết lượt quay!"
+          }
+        },
+        "redemptionForm": {
+          "title": "Phần Thưởng Năm Mới Của Bạn Đã Sẵn Sàng!"
+        }
+      }
+    }
+  },
+  "announcement": {
+    "messages": {
+      "upcomingEvent": "✨ Vòng quay năm mới sẽ mở khóa lúc {{TIME}} - sẵn sàng để quay nhé!",
+      "readyToSpin": "✨ Đến giờ rồi! Nhấn {{OPENER}} để quay vào năm mới!",
+      "countDownToLaunch": "⏳ Đếm ngược đã bắt đầu - phần thưởng năm mới mở khóa sau {{TIME}} nữa!",
+      "countDownToClose": "✨ Những phút cuối! Chỉ còn {{TIME}} để quay và nhận phần thưởng năm mới!"
+    }
+  }
+}

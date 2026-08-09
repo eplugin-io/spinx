@@ -1,0 +1,66 @@
+{
+  "label": {
+    "expireTime": "{{TIME}} giờ",
+    "expireDay": "{{TIME}} ngày"
+  },
+  "rewardTypes": {
+    "none": {
+      "message": {
+        "title": "Sắp Rồi! Phần Thưởng Black Friday Đang Chờ Bạn",
+        "description": "Đừng bỏ cuộc - lượt quay tiếp theo có thể mở khóa phần thưởng Black Friday độc quyền!"
+      }
+    },
+    "discountCode": {
+      "message": {
+        "title": "💥 Chiến thắng Black Friday! Bạn đã nhận {{REWARD}}!",
+        "description": "Sử dụng mã bên dưới khi thanh toán để nhận ưu đãi Black Friday của bạn."
+      }
+    },
+    "freeShipping": {
+      "message": {
+        "title": "🚚 Chiến thắng Black Friday! Bạn đã nhận {{REWARD}}!",
+        "description": "Sử dụng mã bên dưới khi thanh toán để được miễn phí vận chuyển cho đơn hàng Black Friday."
+      }
+    },
+    "freeGift": {
+      "message": {
+        "title": "🎁 Chiến thắng Black Friday! Bạn đã nhận {{REWARD}}!",
+        "description": "Sử dụng mã bên dưới khi thanh toán để nhận quà tặng Black Friday của bạn."
+      }
+    }
+  },
+  "opener": {
+    "label": {
+      "text": "QUAY NHẬN ƯU ĐÃI"
+    }
+  },
+  "popups": {
+    "spinPopup": {
+      "forms": {
+        "spinForm": {
+          "title": "Ưu Đãi Black Friday Đang Chờ Bạn!",
+          "description": "Điền thông tin và quay vòng quay để mở khóa phần thưởng Black Friday độc quyền.",
+          "descriptionForExistingAccount": "{{NAME}}, Black Friday đã đến - quay ngay để khám phá phần thưởng của bạn.",
+          "agreement": "Tôi đồng ý nhận ưu đãi và cập nhật Black Friday.",
+          "spinButton": "MỞ KHÓA ƯU ĐÃI",
+          "dismissButton": "Tiếp tục mua sắm",
+          "footerText": "Mỗi lượt quay đều có thể mở khóa ưu đãi tuyệt vời tiếp theo.",
+          "messages": {
+            "maxSpinReached": "Bạn đã sử dụng hết lượt quay Black Friday rồi!"
+          }
+        },
+        "redemptionForm": {
+          "title": "Phần Thưởng Black Friday Của Bạn Đã Sẵn Sàng!"
+        }
+      }
+    }
+  },
+  "announcement": {
+    "messages": {
+      "upcomingEvent": "✨ Black Friday bắt đầu lúc {{TIME}} - sẵn sàng quay nhận phần thưởng độc quyền!",
+      "readyToSpin": "💥 Black Friday đã bắt đầu - nhấn {{OPENER}} để quay và mở khóa phần thưởng!",
+      "countDownToLaunch": "⏳ Vòng quay mở khóa sau {{TIME}} nữa - đừng bỏ lỡ cơ hội Black Friday!",
+      "countDownToClose": "⚡ Nhanh tay! Chỉ còn {{TIME}} để quay và nhận phần thưởng Black Friday!"
+    }
+  }
+}

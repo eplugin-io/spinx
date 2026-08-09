@@ -129,3 +129,111 @@ body {
     font-size: 1.05rem;
   }
 }
+
+/* Editor live-preview backdrop — a neutral, storefront-shaped page (header/hero/product grid)
+   rather than the marketing hero above, so a merchant's own campaign preview isn't sitting on top
+   of SpinX's own sales copy. Kept deliberately quiet (grayscale placeholders, small header) so it
+   never competes with the widget being customized. */
+.preview-page {
+  background: #ffffff;
+  font-family: Nunito, sans-serif;
+  min-height: 100vh;
+}
+
+.preview-header {
+  align-items: center;
+  border-bottom: 1px solid #eef0f2;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 32px;
+}
+
+.preview-header-logo {
+  height: 26px;
+  opacity: 0.85;
+  width: auto;
+}
+
+.preview-header-nav a {
+  color: #6b7280;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.preview-hero {
+  margin: 0 auto;
+  max-width: 640px;
+  padding: 56px 24px 40px;
+  text-align: center;
+}
+
+.preview-hero h1 {
+  color: #1a2a3a;
+  font-size: 2.1rem;
+  margin: 0 0 12px;
+}
+
+.preview-hero p {
+  color: #6b7280;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.preview-products {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 0 32px 56px;
+}
+
+.preview-product-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.preview-product-image {
+  aspect-ratio: 1 / 1;
+  background-color: #f1f2f4;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.preview-product-image.placeholder {
+  background-color: #eef0f2;
+}
+
+.preview-product-name {
+  color: #1a2a3a;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.preview-product-name.placeholder {
+  background: #eef0f2;
+  border-radius: 4px;
+  height: 12px;
+  width: 70%;
+}
+
+.preview-product-price {
+  color: #6b7280;
+  font-size: 13px;
+}
+
+.preview-product-price.placeholder {
+  background: #f1f2f4;
+  border-radius: 4px;
+  height: 10px;
+  width: 40%;
+}
+
+@media (max-width: 768px) {
+  .preview-hero h1 {
+    font-size: 1.6rem;
+  }
+}

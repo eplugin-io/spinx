@@ -1,4 +1,8 @@
 {
+  "label": {
+    "expireTime": "{{TIME}} hours",
+    "expireDay": "{{TIME}} days"
+  },
   "rewardTypes": {
     "none": {
       "message": {

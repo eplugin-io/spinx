@@ -1,0 +1,66 @@
+{
+  "label": {
+    "expireTime": "{{TIME}} giờ",
+    "expireDay": "{{TIME}} ngày"
+  },
+  "rewardTypes": {
+    "none": {
+      "message": {
+        "title": "🎃 Tiếc quá, lần này chưa may mắn!",
+        "description": "Các hồn ma im lặng lần này - nhưng lượt quay tiếp theo có thể hé lộ điều bất ngờ ma mị."
+      }
+    },
+    "discountCode": {
+      "message": {
+        "title": "🎃 Hù! Bạn đã trúng {{REWARD}}!",
+        "description": "Sử dụng mã bên dưới khi thanh toán để nhận ưu đãi ma mị của bạn."
+      }
+    },
+    "freeShipping": {
+      "message": {
+        "title": "🎃 Hù! Bạn đã trúng {{REWARD}}!",
+        "description": "Sử dụng mã bên dưới khi thanh toán để được miễn phí vận chuyển từ thế giới bên kia."
+      }
+    },
+    "freeGift": {
+      "message": {
+        "title": "🎁 Bất ngờ ma mị! Bạn đã trúng {{REWARD}}!",
+        "description": "Sử dụng mã bên dưới khi thanh toán để nhận món quà ma mị hấp dẫn của bạn."
+      }
+    }
+  },
+  "opener": {
+    "label": {
+      "text": "TRIỆU HỒI PHẦN THƯỞNG"
+    }
+  },
+  "popups": {
+    "spinPopup": {
+      "forms": {
+        "spinForm": {
+          "title": "🎃 Dám thử vòng quay ma ám không?",
+          "description": "Điền thông tin và quay vòng quay để mở khóa phần thưởng Halloween ma mị.",
+          "descriptionForExistingAccount": "{{NAME}}, quay ngay để mở khóa phần thưởng Halloween ma mị của bạn!",
+          "agreement": "Tôi đồng ý nhận các ưu đãi và cập nhật ma mị.",
+          "spinButton": "QUAY NẾU DÁM",
+          "dismissButton": "Tiếp tục mua sắm",
+          "footerText": "Chỉ những linh hồn gan dạ mới mở khóa được bất ngờ tuyệt nhất.",
+          "messages": {
+            "maxSpinReached": "Các hồn ma bảo rằng bạn đã dùng hết lượt quay rồi."
+          }
+        },
+        "redemptionForm": {
+          "title": "Phần thưởng ma mị của bạn đã sẵn sàng!"
+        }
+      }
+    }
+  },
+  "announcement": {
+    "messages": {
+      "upcomingEvent": "🎃 Các hồn ma đang tụ họp... vòng quay sẽ mở khóa lúc {{TIME}}!",
+      "readyToSpin": "👻 Trick or treat? Nhấn {{OPENER}} để quay nhận phần thưởng Halloween!",
+      "countDownToLaunch": "⏳ Vòng quay ma ám mở khóa sau {{TIME}} nữa - sẵn sàng nhé!",
+      "countDownToClose": "🎃 Cơ hội cuối! Chỉ còn {{TIME}} để quay vòng quay ma ám!"
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "label": {
+    "expireTime": "{{TIME}} giờ",
+    "expireDay": "{{TIME}} ngày"
+  },
+  "rewardTypes": {
+    "none": {
+      "message": {
+        "title": "❄️ Tiếc quá, lần này chưa may mắn!",
+        "description": "Cảm ơn bạn đã quay! Phép màu Giáng sinh có thể đang chờ ở lượt sau."
+      }
+    },
+    "discountCode": {
+      "message": {
+        "title": "🎁 Bất ngờ Giáng sinh! Bạn đã trúng {{REWARD}}!",
+        "description": "Sử dụng mã bên dưới khi thanh toán để nhận phần thưởng lễ hội của bạn."
+      }
+    },
+    "freeShipping": {
+      "message": {
+        "title": "🎁 Bất ngờ Giáng sinh! Bạn đã trúng {{REWARD}}!",
+        "description": "Sử dụng mã bên dưới khi thanh toán để được miễn phí vận chuyển dịp lễ."
+      }
+    },
+    "freeGift": {
+      "message": {
+        "title": "🎁 Bất ngờ Giáng sinh! Bạn đã trúng {{REWARD}}!",
+        "description": "Sử dụng mã bên dưới khi thanh toán để nhận món quà lễ hội của bạn."
+      }
+    }
+  },
+  "opener": {
+    "label": {
+      "text": "QUAY NGAY 🎄"
+    }
+  },
+  "popups": {
+    "spinPopup": {
+      "forms": {
+        "spinForm": {
+          "title": "🎄 Mở Bất Ngờ Giáng Sinh Của Bạn!",
+          "description": "Điền thông tin và quay vòng quay để mở phần thưởng Giáng sinh đầy lễ hội.",
+          "descriptionForExistingAccount": "{{NAME}}, đã đến lúc nhận bất ngờ Giáng sinh - quay ngay để khám phá phần thưởng lễ hội của bạn!",
+          "agreement": "Tôi đồng ý nhận ưu đãi và cập nhật dịp lễ.",
+          "spinButton": "Mở Quà Của Tôi",
+          "dismissButton": "Tiếp tục mua sắm",
+          "footerText": "Phép màu mùa lễ bắt đầu từ một lượt quay ✨"
+        },
+        "redemptionForm": {
+          "title": "Niềm Vui Giáng Sinh Đã Được Mở Khóa!"
+        }
+      }
+    }
+  },
+  "announcement": {
+    "messages": {
+      "upcomingEvent": "🎅 Phép màu Giáng sinh đang đến... Vòng quay sẽ mở khóa lúc {{TIME}}!",
+      "readyToSpin": "🎁 Bất ngờ lễ hội đang chờ bạn! Nhấn {{OPENER}} để quay vòng quay Giáng sinh!",
+      "countDownToLaunch": "⏳ Sắp đến giờ rồi! Vòng quay Giáng sinh mở khóa sau {{TIME}} nữa - chuẩn bị nào!",
+      "countDownToClose": "🎄 Cơ hội cuối! Chỉ còn {{TIME}} để quay và nhận phần thưởng lễ hội!"
+    }
+  }
+}
