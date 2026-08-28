@@ -25,13 +25,16 @@
     "freeGift": {
       "message": {
         "title": "🎁 Bất ngờ ma mị! Bạn đã trúng {{REWARD}}!",
-        "description": "Sử dụng mã bên dưới khi thanh toán để nhận món quà ma mị hấp dẫn của bạn."
+        "description": "Thêm quà tặng vào giỏ hàng và dùng mã này khi thanh toán."
       }
     }
   },
   "opener": {
     "label": {
       "text": "TRIỆU HỒI PHẦN THƯỞNG"
+    },
+    "readyLabel": {
+      "text": "ĐÃ SẴN SÀNG"
     }
   },
   "popups": {
@@ -41,7 +44,7 @@
           "title": "🎃 Dám thử vòng quay ma ám không?",
           "description": "Điền thông tin và quay vòng quay để mở khóa phần thưởng Halloween ma mị.",
           "descriptionForExistingAccount": "{{NAME}}, quay ngay để mở khóa phần thưởng Halloween ma mị của bạn!",
-          "agreement": "Tôi đồng ý nhận các ưu đãi và cập nhật ma mị.",
+          "agreement": "Tôi đồng ý nhận email ưu đãi",
           "spinButton": "QUAY NẾU DÁM",
           "dismissButton": "Tiếp tục mua sắm",
           "footerText": "Chỉ những linh hồn gan dạ mới mở khóa được bất ngờ tuyệt nhất.",

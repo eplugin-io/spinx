@@ -25,7 +25,7 @@
     "freeGift": {
       "message": {
         "title": "Överraskning! Du vann {{REWARD}}!",
-        "description": "Använd koden nedan i kassan för att lösa in din gratispresent."
+        "description": "Lägg din gåva i varukorgen och använd den här koden i kassan."
       }
     }
   },
@@ -43,7 +43,7 @@
         "spinForm": {
           "title": "Snurra och vinn spännande belöningar!",
           "description": "Fyll i dina uppgifter och få chansen att snurra.",
-          "descriptionForExistingAccount": "Välkommen, {{NAME}}! Gör dig redo att snurra hjulet och låsa upp spännande belöningar som väntar just dig.",
+          "descriptionForExistingAccount": "{{NAME}}, snurra nu och lås upp din belöning!",
           "fields": {
             "name": {
               "placeholder": "Namn"
@@ -52,7 +52,7 @@
               "placeholder": "E-post"
             }
           },
-          "agreement": "Jag samtycker till att ta emot marknadsföringsmejl och erbjudanden.",
+          "agreement": "Jag samtycker till att ta emot kampanjmejl",
           "spinButton": "SNURRA",
           "dismissButton": "Fortsätt handla",
           "footerText": "Det roliga börjar med ett snurr!",
@@ -61,15 +61,15 @@
           }
         },
         "resultForm": {
-          "redeemButton": "Använd belöning nu",
+          "redeemButton": "Använd kod nu",
           "dismissButton": "Fortsätt handla",
           "messages": {
-            "rewardExpiry": "Använd din belöning inom {{EXPIRE}}"
+            "rewardExpiry": "Går ut inom {{EXPIRE}}"
           }
         },
         "redemptionForm": {
           "title": "Din belöning har aktiverats!",
-          "description": "Din belöning är aktiv - du kan gå till kassan nu eller fortsätta handla och använda den när som helst.",
+          "description": "Din belöning är aktiv - du kan gå till kassan nu eller använda den när som helst.",
           "checkoutButton": "Gå till kassan nu",
           "dismissButton": "Fortsätt handla",
           "messages": {

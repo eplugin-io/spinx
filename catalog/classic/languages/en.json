@@ -25,7 +25,7 @@
     "freeGift": {
       "message": {
         "title": "Surprise! You Won {{REWARD}}!",
-        "description": "Use the code below at checkout to claim your free gift."
+        "description": "Add your gift to cart and use this code at checkout."
       }
     }
   },
@@ -43,7 +43,7 @@
         "spinForm": {
           "title": "Spin to win exciting rewards!",
           "description": "Fill in your details and get your chance to spin.",
-          "descriptionForExistingAccount": "Welcome, {{NAME}}! Get ready to spin the wheel and unlock exciting rewards waiting just for you.",
+          "descriptionForExistingAccount": "{{NAME}}, spin now to unlock your reward!",
           "fields": {
             "name": {
               "placeholder": "Name"
@@ -52,7 +52,7 @@
               "placeholder": "Email"
             }
           },
-          "agreement": "I agree to receive marketing emails and offers.",
+          "agreement": "I agree to receive promotional emails",
           "spinButton": "SPIN",
           "dismissButton": "Continue shopping",
           "footerText": "The fun starts with a spin!",
@@ -64,12 +64,12 @@
           "redeemButton": "Apply reward now",
           "dismissButton": "Continue shopping",
           "messages": {
-            "rewardExpiry": "Use your reward within {{EXPIRE}}"
+            "rewardExpiry": "Expires within {{EXPIRE}}"
           }
         },
         "redemptionForm": {
           "title": "Your reward has been applied!",
-          "description": "Your reward is active - you can checkout now or continue shopping and use it anytime.",
+          "description": "Your reward is active - you can checkout now or use it anytime.",
           "checkoutButton": "Checkout now",
           "dismissButton": "Continue shopping",
           "messages": {

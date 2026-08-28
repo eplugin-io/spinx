@@ -25,7 +25,7 @@
     "freeGift": {
       "message": {
         "title": "驚喜！你抽中了 {{REWARD}}！",
-        "description": "結帳時輸入以下代碼即可領取贈品。"
+        "description": "將禮品加入購物車，並在結帳時使用此代碼。"
       }
     }
   },
@@ -43,7 +43,7 @@
         "spinForm": {
           "title": "轉動幸運輪盤，贏取超值好禮！",
           "description": "填寫資料，即可獲得轉動機會。",
-          "descriptionForExistingAccount": "歡迎回來，{{NAME}}！準備好轉動輪盤，解鎖專屬於你的精彩好禮吧。",
+          "descriptionForExistingAccount": "{{NAME}}，馬上轉動輪盤，領取你的獎品！",
           "fields": {
             "name": {
               "placeholder": "姓名"
@@ -52,7 +52,7 @@
               "placeholder": "電子郵件"
             }
           },
-          "agreement": "我同意接收行銷郵件與優惠資訊。",
+          "agreement": "我同意接收促銷郵件",
           "spinButton": "開始轉動",
           "dismissButton": "繼續購物",
           "footerText": "精彩就從這一轉開始！",
@@ -61,15 +61,15 @@
           }
         },
         "resultForm": {
-          "redeemButton": "立即使用獎勵",
+          "redeemButton": "立即使用代碼",
           "dismissButton": "繼續購物",
           "messages": {
-            "rewardExpiry": "請在 {{EXPIRE}} 內使用你的獎勵"
+            "rewardExpiry": "{{EXPIRE}} 內到期"
           }
         },
         "redemptionForm": {
           "title": "你的獎勵已套用成功！",
-          "description": "獎勵已生效——你可以立即結帳，或繼續購物，隨時使用。",
+          "description": "獎勵已生效——你可以立即結帳，或隨時使用。",
           "checkoutButton": "立即結帳",
           "dismissButton": "繼續購物",
           "messages": {

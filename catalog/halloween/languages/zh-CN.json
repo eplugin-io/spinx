@@ -25,13 +25,16 @@
     "freeGift": {
       "message": {
         "title": "🎁 诡秘惊喜！您赢得了 {{REWARD}}！",
-        "description": "结账时使用下方优惠码，领取您的诡异好礼。"
+        "description": "将礼品加入购物车，并在结账时使用此代码。"
       }
     }
   },
   "opener": {
     "label": {
       "text": "召唤奖励"
+    },
+    "readyLabel": {
+      "text": "奖励已就绪"
     }
   },
   "popups": {
@@ -41,7 +44,7 @@
           "title": "🎃 敢来挑战幽灵转盘吗？",
           "description": "填写您的信息，转动转盘解锁万圣节诡异好礼。",
           "descriptionForExistingAccount": "{{NAME}}，快来转动转盘，解锁您的万圣节诡异好礼！",
-          "agreement": "我同意接收万圣节专属优惠和最新消息。",
+          "agreement": "我同意接收促销邮件",
           "spinButton": "有胆就转",
           "dismissButton": "继续购物",
           "footerText": "唯有勇敢的灵魂才能解锁最棒的惊喜。",

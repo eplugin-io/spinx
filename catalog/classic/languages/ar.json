@@ -25,7 +25,7 @@
     "freeGift": {
       "message": {
         "title": "مفاجأة! ربحت {{REWARD}}!",
-        "description": "استخدم الرمز أدناه عند الدفع للحصول على هديتك المجانية."
+        "description": "أضف هديتك إلى السلة واستخدم هذا الرمز عند الدفع."
       }
     }
   },
@@ -43,7 +43,7 @@
         "spinForm": {
           "title": "لف العجلة واربح مكافآت رائعة!",
           "description": "أدخل بياناتك لتحصل على فرصة اللف.",
-          "descriptionForExistingAccount": "مرحباً {{NAME}}! استعد للف العجلة وفتح مكافآت رائعة بانتظارك.",
+          "descriptionForExistingAccount": "{{NAME}}، لف العجلة الآن واربح جائزتك!",
           "fields": {
             "name": {
               "placeholder": "الاسم"
@@ -52,7 +52,7 @@
               "placeholder": "البريد الإلكتروني"
             }
           },
-          "agreement": "أوافق على تلقي رسائل وعروض تسويقية عبر البريد الإلكتروني.",
+          "agreement": "أوافق على تلقي رسائل ترويجية عبر البريد الإلكتروني",
           "spinButton": "لف",
           "dismissButton": "متابعة التسوق",
           "footerText": "تبدأ المتعة بلفة واحدة!",
@@ -61,15 +61,15 @@
           }
         },
         "resultForm": {
-          "redeemButton": "استخدم المكافأة الآن",
+          "redeemButton": "استخدم الرمز الآن",
           "dismissButton": "متابعة التسوق",
           "messages": {
-            "rewardExpiry": "استخدم مكافأتك خلال {{EXPIRE}}"
+            "rewardExpiry": "تنتهي خلال {{EXPIRE}}"
           }
         },
         "redemptionForm": {
           "title": "تم تطبيق مكافأتك!",
-          "description": "مكافأتك مفعلة - يمكنك الدفع الآن أو متابعة التسوق واستخدامها لاحقاً.",
+          "description": "مكافأتك مفعلة - يمكنك الدفع الآن أو استخدامها لاحقاً.",
           "checkoutButton": "الدفع الآن",
           "dismissButton": "متابعة التسوق",
           "messages": {

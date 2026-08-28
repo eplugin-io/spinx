@@ -25,13 +25,16 @@
     "freeGift": {
       "message": {
         "title": "🎁 Upiorna niespodzianka! Wygrałeś {{REWARD}}!",
-        "description": "Użyj poniższego kodu przy kasie, aby odebrać swój upiornie dobry prezent."
+        "description": "Dodaj prezent do koszyka i użyj tego kodu przy kasie."
       }
     }
   },
   "opener": {
     "label": {
       "text": "PRZYWOŁAJ NAGRODĘ"
+    },
+    "readyLabel": {
+      "text": "NAGRODA GOTOWA"
     }
   },
   "popups": {
@@ -41,7 +44,7 @@
           "title": "🎃 Odważysz się zakręcić nawiedzonym kołem?",
           "description": "Podaj swoje dane i zakręć kołem, aby odblokować upiorną nagrodę na Halloween.",
           "descriptionForExistingAccount": "{{NAME}}, zakręć teraz, aby odblokować swoją upiorną nagrodę na Halloween!",
-          "agreement": "Wyrażam zgodę na otrzymywanie upiornych ofert i aktualizacji.",
+          "agreement": "Wyrażam zgodę na otrzymywanie e-maili promocyjnych",
           "spinButton": "ZAKRĘĆ, JEŚLI SIĘ ODWAŻYSZ",
           "dismissButton": "Kontynuuj zakupy",
           "footerText": "Tylko odważni odblokowują najlepsze niespodzianki.",

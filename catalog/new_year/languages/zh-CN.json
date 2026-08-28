@@ -25,13 +25,16 @@
     "freeGift": {
       "message": {
         "title": "🎁 新年惊喜！您获得了 {{REWARD}}！",
-        "description": "结账时使用下方优惠码，领取您的新年礼品。"
+        "description": "将礼品加入购物车，并在结账时使用此代码。"
       }
     }
   },
   "opener": {
     "label": {
       "text": "立即抽奖 💥"
+    },
+    "readyLabel": {
+      "text": "奖励已就绪"
     }
   },
   "popups": {
@@ -41,7 +44,7 @@
           "title": "✨ 用惊喜迎接新年！",
           "description": "填写您的姓名和邮箱，解锁您的新年好礼。",
           "descriptionForExistingAccount": "{{NAME}}，转动转盘开启新年，解锁您的专属好礼。",
-          "agreement": "我同意接收新年专属优惠和最新消息。",
+          "agreement": "我同意接收促销邮件",
           "spinButton": "转动，开启新年",
           "dismissButton": "继续购物",
           "footerText": "美好一年从一次转动开始 ✨",

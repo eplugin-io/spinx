@@ -25,13 +25,16 @@
     "freeGift": {
       "message": {
         "title": "🎁 Black Friday Kazancı! {{REWARD}} Kazandın!",
-        "description": "Black Friday hediyeni almak için ödeme sırasında aşağıdaki kodu gir."
+        "description": "Hediyenizi sepete ekleyin ve ödeme sırasında bu kodu kullanın."
       }
     }
   },
   "opener": {
     "label": {
       "text": "FIRSATLAR İÇİN ÇEVİR"
+    },
+    "readyLabel": {
+      "text": "ÖDÜL HAZIR"
     }
   },
   "popups": {
@@ -41,7 +44,7 @@
           "title": "Black Friday Fırsatları Seni Bekliyor!",
           "description": "Bilgilerini gir ve özel bir Black Friday ödülünün kilidini açmak için çarkı çevir.",
           "descriptionForExistingAccount": "{{NAME}}, Black Friday geldi - ödülünü ortaya çıkarmak için hemen çevir.",
-          "agreement": "Black Friday teklifleri ve güncellemeleri almayı kabul ediyorum.",
+          "agreement": "Promosyon e-postaları almayı kabul ediyorum",
           "spinButton": "FIRSATLARI AÇ",
           "dismissButton": "Alışverişe devam et",
           "footerText": "Her çeviriş bir sonraki harika fırsatının kilidini açabilir.",

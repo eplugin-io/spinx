@@ -25,13 +25,16 @@
     "freeGift": {
       "message": {
         "title": "🎁 Naujųjų metų staigmena! Gavai {{REWARD}}!",
-        "description": "Naudok žemiau esantį kodą atsiskaitydamas, kad atsiimtum savo Naujųjų metų dovaną."
+        "description": "Įdėkite dovaną į krepšelį ir atsiskaitydami naudokite šį kodą."
       }
     }
   },
   "opener": {
     "label": {
       "text": "SUKTI DABAR 💥"
+    },
+    "readyLabel": {
+      "text": "PRIZAS PARUOŠTAS"
     }
   },
   "popups": {
@@ -41,7 +44,7 @@
           "title": "✨ Pasitik Naujuosius metus su staigmena!",
           "description": "Įvesk savo vardą ir el. paštą, kad atrakintum savo Naujųjų metų prizą.",
           "descriptionForExistingAccount": "{{NAME}}, pradėk Naujuosius metus sukimu ir atrakink savo ypatingą prizą.",
-          "agreement": "Sutinku gauti Naujųjų metų pasiūlymus ir naujienas.",
+          "agreement": "Sutinku gauti reklaminius el. laiškus",
           "spinButton": "Sukti ir pradėti metus",
           "dismissButton": "Tęsti apsipirkimą",
           "footerText": "Šviesūs metai prasideda vienu sukimu ✨",

@@ -25,7 +25,7 @@
     "freeGift": {
       "message": {
         "title": "Kejutan! Anda Menang {{REWARD}}!",
-        "description": "Gunakan kod di bawah semasa checkout untuk dapatkan hadiah percuma anda."
+        "description": "Tambah hadiah anda ke troli dan gunakan kod ini semasa checkout."
       }
     }
   },
@@ -43,7 +43,7 @@
         "spinForm": {
           "title": "Pusing untuk menangi hadiah menarik!",
           "description": "Isikan maklumat anda untuk dapatkan peluang memusing.",
-          "descriptionForExistingAccount": "Selamat kembali, {{NAME}}! Bersedia untuk memusing roda dan buka kunci hadiah menarik yang menanti anda.",
+          "descriptionForExistingAccount": "{{NAME}}, pusing sekarang untuk dapatkan hadiah anda!",
           "fields": {
             "name": {
               "placeholder": "Nama"
@@ -52,7 +52,7 @@
               "placeholder": "Emel"
             }
           },
-          "agreement": "Saya bersetuju untuk menerima emel pemasaran dan tawaran.",
+          "agreement": "Saya bersetuju menerima e-mel promosi",
           "spinButton": "PUSING",
           "dismissButton": "Teruskan membeli-belah",
           "footerText": "Keseronokan bermula dengan satu pusingan!",
@@ -61,15 +61,15 @@
           }
         },
         "resultForm": {
-          "redeemButton": "Guna hadiah sekarang",
+          "redeemButton": "Guna kod sekarang",
           "dismissButton": "Teruskan membeli-belah",
           "messages": {
-            "rewardExpiry": "Gunakan hadiah anda dalam masa {{EXPIRE}}"
+            "rewardExpiry": "Tamat dalam {{EXPIRE}}"
           }
         },
         "redemptionForm": {
           "title": "Hadiah anda telah digunakan!",
-          "description": "Hadiah anda kini aktif - anda boleh checkout sekarang atau teruskan membeli-belah dan gunakannya bila-bila masa.",
+          "description": "Hadiah anda kini aktif - anda boleh checkout sekarang atau gunakannya bila-bila masa.",
           "checkoutButton": "Checkout sekarang",
           "dismissButton": "Teruskan membeli-belah",
           "messages": {

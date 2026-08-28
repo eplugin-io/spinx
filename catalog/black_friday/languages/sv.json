@@ -25,13 +25,16 @@
     "freeGift": {
       "message": {
         "title": "🎁 Black Friday-vinst! Du fick {{REWARD}}!",
-        "description": "Använd koden nedan i kassan för att lösa in din Black Friday-present."
+        "description": "Lägg din gåva i varukorgen och använd den här koden i kassan."
       }
     }
   },
   "opener": {
     "label": {
       "text": "SNURRA FÖR ERBJUDANDEN"
+    },
+    "readyLabel": {
+      "text": "BELÖNING KLAR"
     }
   },
   "popups": {
@@ -41,7 +44,7 @@
           "title": "Black Friday-erbjudanden väntar!",
           "description": "Ange dina uppgifter och snurra hjulet för att låsa upp en exklusiv Black Friday-belöning.",
           "descriptionForExistingAccount": "{{NAME}}, Black Friday är här - snurra nu för att avslöja din belöning.",
-          "agreement": "Jag samtycker till att ta emot Black Friday-erbjudanden och uppdateringar.",
+          "agreement": "Jag samtycker till att ta emot kampanjmejl",
           "spinButton": "LÅS UPP ERBJUDANDEN",
           "dismissButton": "Fortsätt handla",
           "footerText": "Varje snurr kan låsa upp ditt nästa fantastiska erbjudande.",

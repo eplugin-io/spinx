@@ -25,13 +25,16 @@
     "freeGift": {
       "message": {
         "title": "🎁 ¡Una sorpresa escalofriante! ¡Has ganado {{REWARD}}!",
-        "description": "Usa el código de abajo al finalizar la compra para reclamar tu regalo terroríficamente bueno."
+        "description": "Añade tu regalo al carrito y usa este código al pagar."
       }
     }
   },
   "opener": {
     "label": {
       "text": "INVOCA TU PREMIO"
+    },
+    "readyLabel": {
+      "text": "PREMIO LISTO"
     }
   },
   "popups": {
@@ -41,7 +44,7 @@
           "title": "🎃 ¿Te atreves a girar la ruleta embrujada?",
           "description": "Indica tus datos y gira la ruleta para desbloquear un premio escalofriante de Halloween.",
           "descriptionForExistingAccount": "{{NAME}}, ¡gira ahora para desbloquear tu premio escalofriante de Halloween!",
-          "agreement": "Acepto recibir ofertas y novedades escalofriantes.",
+          "agreement": "Acepto recibir correos promocionales",
           "spinButton": "GIRA SI TE ATREVES",
           "dismissButton": "Seguir comprando",
           "footerText": "Solo las almas valientes desbloquean las mejores sorpresas.",

@@ -25,13 +25,16 @@
     "freeGift": {
       "message": {
         "title": "🎁 Strašidelné překvapení! Vyhráli jste {{REWARD}}!",
-        "description": "Použijte kód níže při placení a vyzvedněte si svůj strašidelně dobrý dárek."
+        "description": "Přidejte dárek do košíku a použijte tento kód u pokladny."
       }
     }
   },
   "opener": {
     "label": {
       "text": "PŘIVOLAT ODMĚNU"
+    },
+    "readyLabel": {
+      "text": "ODMĚNA PŘIPRAVENA"
     }
   },
   "popups": {
@@ -41,7 +44,7 @@
           "title": "🎃 Odvážíte se roztočit strašidelné kolo?",
           "description": "Zadejte své údaje a roztočte kolo, abyste odemkli strašidelnou halloweenskou odměnu.",
           "descriptionForExistingAccount": "{{NAME}}, roztočte kolo nyní a odemkněte si svou strašidelnou halloweenskou odměnu!",
-          "agreement": "Souhlasím se zasíláním strašidelných nabídek a novinek.",
+          "agreement": "Souhlasím se zasíláním propagačních e-mailů",
           "spinButton": "ROZTOČIT, POKUD SE ODVÁŽÍTE",
           "dismissButton": "Pokračovat v nákupu",
           "footerText": "Jen odvážné duše odemknou ta nejlepší překvapení.",

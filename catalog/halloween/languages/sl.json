@@ -25,13 +25,16 @@
     "freeGift": {
       "message": {
         "title": "🎁 Grozljivo presenečenje! Osvojil si {{REWARD}}!",
-        "description": "Uporabi spodnjo kodo ob zaključku nakupa in unovči svoje grozljivo dobro darilo."
+        "description": "Dodajte darilo v košarico in uporabite to kodo ob zaključku nakupa."
       }
     }
   },
   "opener": {
     "label": {
       "text": "PRIKLIČI NAGRADO"
+    },
+    "readyLabel": {
+      "text": "NAGRADA PRIPRAVLJENA"
     }
   },
   "popups": {
@@ -41,7 +44,7 @@
           "title": "🎃 Si upaš zavrteti začarano kolo?",
           "description": "Vnesi svoje podatke in zavrti kolo, da odkleneš grozljivo noč čarovnic nagrado.",
           "descriptionForExistingAccount": "{{NAME}}, zavrti zdaj in odkleni svojo grozljivo nagrado za noč čarovnic!",
-          "agreement": "Strinjam se s prejemanjem grozljivih ponudb in novosti.",
+          "agreement": "Strinjam se s prejemanjem promocijskih e-sporočil",
           "spinButton": "ZAVRTI, ČE SI UPAŠ",
           "dismissButton": "Nadaljuj z nakupovanjem",
           "footerText": "Le pogumne duše odklenejo najboljša presenečenja.",

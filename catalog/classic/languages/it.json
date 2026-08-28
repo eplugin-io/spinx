@@ -25,7 +25,7 @@
     "freeGift": {
       "message": {
         "title": "Sorpresa! Hai vinto {{REWARD}}!",
-        "description": "Usa il codice qui sotto al checkout per riscattare il tuo regalo gratuito."
+        "description": "Aggiungi il tuo regalo al carrello e usa questo codice al checkout."
       }
     }
   },
@@ -43,7 +43,7 @@
         "spinForm": {
           "title": "Gira la ruota e vinci premi entusiasmanti!",
           "description": "Inserisci i tuoi dati e ottieni la tua possibilità di girare.",
-          "descriptionForExistingAccount": "Benvenuto/a, {{NAME}}! Preparati a girare la ruota e sbloccare premi entusiasmanti che ti aspettano.",
+          "descriptionForExistingAccount": "{{NAME}}, gira ora e sblocca il tuo premio!",
           "fields": {
             "name": {
               "placeholder": "Nome"
@@ -52,7 +52,7 @@
               "placeholder": "Email"
             }
           },
-          "agreement": "Accetto di ricevere email di marketing e offerte.",
+          "agreement": "Accetto di ricevere email promozionali",
           "spinButton": "GIRA",
           "dismissButton": "Continua lo shopping",
           "footerText": "Il divertimento inizia con un giro!",
@@ -61,15 +61,15 @@
           }
         },
         "resultForm": {
-          "redeemButton": "Applica il premio ora",
+          "redeemButton": "Usa codice ora",
           "dismissButton": "Continua lo shopping",
           "messages": {
-            "rewardExpiry": "Usa il tuo premio entro {{EXPIRE}}"
+            "rewardExpiry": "Scade entro {{EXPIRE}}"
           }
         },
         "redemptionForm": {
           "title": "Il tuo premio è stato applicato!",
-          "description": "Il tuo premio è attivo - puoi procedere al checkout ora oppure continuare lo shopping e usarlo quando vuoi.",
+          "description": "Il tuo premio è attivo - puoi procedere al checkout ora o usarlo quando vuoi.",
           "checkoutButton": "Vai al checkout ora",
           "dismissButton": "Continua lo shopping",
           "messages": {

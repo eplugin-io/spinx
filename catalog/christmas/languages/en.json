@@ -25,13 +25,16 @@
     "freeGift": {
       "message": {
         "title": "🎁 Christmas Surprise! You Won {{REWARD}}!",
-        "description": "Use the code below at checkout to claim your festive gift."
+        "description": "Add your gift to cart and use this code at checkout."
       }
     }
   },
   "opener": {
     "label": {
       "text": "SPIN NOW 🎄"
+    },
+    "readyLabel": {
+      "text": "GIFT READY 🎄"
     }
   },
   "popups": {
@@ -41,7 +44,7 @@
           "title": "🎄 Unwrap Your Christmas Surprise!",
           "description": "Enter your details and spin the wheel to unwrap your festive Christmas reward.",
           "descriptionForExistingAccount": "{{NAME}}, it’s time for a Christmas surprise — spin to reveal your festive reward!",
-          "agreement": "I agree to receive holiday offers and updates.",
+          "agreement": "I agree to receive promotional emails",
           "spinButton": "Reveal My Gift",
           "dismissButton": "Continue shopping",
           "footerText": "The holiday magic begins with a spin ✨"

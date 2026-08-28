@@ -25,13 +25,16 @@
     "freeGift": {
       "message": {
         "title": "🎁 Black Friday-gevinst! Du fik {{REWARD}}!",
-        "description": "Brug koden nedenfor ved kassen for at hente din Black Friday-gave."
+        "description": "Læg din gave i kurven, og brug denne kode ved betaling."
       }
     }
   },
   "opener": {
     "label": {
       "text": "SPIN EFTER TILBUD"
+    },
+    "readyLabel": {
+      "text": "GEVINST KLAR"
     }
   },
   "popups": {
@@ -41,7 +44,7 @@
           "title": "Black Friday-tilbud venter!",
           "description": "Indtast dine oplysninger, og spin hjulet for at låse op for en eksklusiv Black Friday-gevinst.",
           "descriptionForExistingAccount": "{{NAME}}, Black Friday er her — spin nu for at afsløre din gevinst.",
-          "agreement": "Jeg accepterer at modtage Black Friday-tilbud og opdateringer.",
+          "agreement": "Jeg accepterer at modtage kampagnemails",
           "spinButton": "LÅS OP FOR TILBUD",
           "dismissButton": "Fortsæt med at handle",
           "footerText": "Hvert spin kan låse op for dit næste gode tilbud.",

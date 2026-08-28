@@ -25,13 +25,16 @@
     "freeGift": {
       "message": {
         "title": "🎁 新年のサプライズ!{{REWARD}}をゲット!",
-        "description": "レジで下記のコードを使って新年のプレゼントを受け取りましょう。"
+        "description": "ギフトをカートに追加し、チェックアウト時にこのコードを使用してください。"
       }
     }
   },
   "opener": {
     "label": {
       "text": "今すぐスピン 💥"
+    },
+    "readyLabel": {
+      "text": "景品の準備完了"
     }
   },
   "popups": {
@@ -41,7 +44,7 @@
           "title": "✨ サプライズで新年を迎えよう!",
           "description": "お名前とメールアドレスを入力して新年の景品をゲットしましょう。",
           "descriptionForExistingAccount": "{{NAME}}さん、スピンして新年をスタートし、特別な景品をゲットしましょう。",
-          "agreement": "新年の特典と最新情報の受信に同意します。",
+          "agreement": "プロモーションメールの受信に同意します",
           "spinButton": "スピンして新年をスタート",
           "dismissButton": "買い物を続ける",
           "footerText": "輝かしい一年は一回のスピンから始まります ✨",

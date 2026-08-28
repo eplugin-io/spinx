@@ -25,7 +25,7 @@
     "freeGift": {
       "message": {
         "title": "Presenečenje! Osvojil si {{REWARD}}!",
-        "description": "Uporabi spodnjo kodo ob zaključku nakupa in unovči svoje brezplačno darilo."
+        "description": "Dodajte darilo v košarico in uporabite to kodo ob zaključku nakupa."
       }
     }
   },
@@ -43,7 +43,7 @@
         "spinForm": {
           "title": "Zavrti in osvoji razburljive nagrade!",
           "description": "Izpolni svoje podatke in pridobi priložnost za vrtenje.",
-          "descriptionForExistingAccount": "Dobrodošel, {{NAME}}! Pripravi se na vrtenje kolesa in odklepanje razburljivih nagrad, ki čakajo prav nate.",
+          "descriptionForExistingAccount": "{{NAME}}, zavrti zdaj in prevzemi svojo nagrado!",
           "fields": {
             "name": {
               "placeholder": "Ime"
@@ -52,7 +52,7 @@
               "placeholder": "E-pošta"
             }
           },
-          "agreement": "Strinjam se s prejemanjem trženjskih e-sporočil in ponudb.",
+          "agreement": "Strinjam se s prejemanjem promocijskih e-sporočil",
           "spinButton": "ZAVRTI",
           "dismissButton": "Nadaljuj z nakupovanjem",
           "footerText": "Zabava se začne z enim vrtljajem!",
@@ -61,15 +61,15 @@
           }
         },
         "resultForm": {
-          "redeemButton": "Uveljavi nagrado zdaj",
+          "redeemButton": "Uporabi kodo zdaj",
           "dismissButton": "Nadaljuj z nakupovanjem",
           "messages": {
-            "rewardExpiry": "Nagrado uporabi v {{EXPIRE}}"
+            "rewardExpiry": "Poteče v {{EXPIRE}}"
           }
         },
         "redemptionForm": {
           "title": "Tvoja nagrada je bila uveljavljena!",
-          "description": "Tvoja nagrada je aktivna - lahko zaključiš nakup zdaj ali nadaljuješ z nakupovanjem in jo uporabiš kadar koli.",
+          "description": "Tvoja nagrada je aktivna - lahko zaključiš nakup zdaj ali jo uporabiš kadar koli.",
           "checkoutButton": "Zaključi nakup zdaj",
           "dismissButton": "Nadaljuj z nakupovanjem",
           "messages": {

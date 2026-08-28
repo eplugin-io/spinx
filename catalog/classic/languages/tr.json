@@ -25,7 +25,7 @@
     "freeGift": {
       "message": {
         "title": "Sürpriz! {{REWARD}} Kazandın!",
-        "description": "Ücretsiz hediyeni almak için ödeme sırasında aşağıdaki kodu gir."
+        "description": "Hediyenizi sepete ekleyin ve ödeme sırasında bu kodu kullanın."
       }
     }
   },
@@ -43,7 +43,7 @@
         "spinForm": {
           "title": "Çevir ve heyecan verici ödüller kazan!",
           "description": "Bilgilerini gir ve çevirme şansını yakala.",
-          "descriptionForExistingAccount": "Hoş geldin, {{NAME}}! Çarkı çevirmeye ve seni bekleyen heyecan verici ödülleri açmaya hazır ol.",
+          "descriptionForExistingAccount": "{{NAME}}, şimdi çevir ve ödülünü kazan!",
           "fields": {
             "name": {
               "placeholder": "Ad"
@@ -52,7 +52,7 @@
               "placeholder": "E-posta"
             }
           },
-          "agreement": "Pazarlama e-postaları ve tekliflerini almayı kabul ediyorum.",
+          "agreement": "Promosyon e-postaları almayı kabul ediyorum",
           "spinButton": "ÇEVİR",
           "dismissButton": "Alışverişe devam et",
           "footerText": "Eğlence bir çevirişle başlar!",
@@ -61,15 +61,15 @@
           }
         },
         "resultForm": {
-          "redeemButton": "Ödülü şimdi kullan",
+          "redeemButton": "Kodu şimdi kullan",
           "dismissButton": "Alışverişe devam et",
           "messages": {
-            "rewardExpiry": "Ödülünü {{EXPIRE}} içinde kullan"
+            "rewardExpiry": "{{EXPIRE}} içinde sona erer"
           }
         },
         "redemptionForm": {
           "title": "Ödülün uygulandı!",
-          "description": "Ödülün aktif - şimdi ödemeye geçebilir ya da alışverişe devam edip istediğin zaman kullanabilirsin.",
+          "description": "Ödülün aktif - şimdi ödemeye geçebilir ya da istediğin zaman kullanabilirsin.",
           "checkoutButton": "Şimdi öde",
           "dismissButton": "Alışverişe devam et",
           "messages": {

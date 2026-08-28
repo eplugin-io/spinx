@@ -25,13 +25,16 @@
     "freeGift": {
       "message": {
         "title": "🎁 黑色星期五好運！你抽中了 {{REWARD}}！",
-        "description": "結帳時輸入以下代碼，領取你的黑色星期五贈禮。"
+        "description": "將禮品加入購物車，並在結帳時使用此代碼。"
       }
     }
   },
   "opener": {
     "label": {
       "text": "轉動搶優惠"
+    },
+    "readyLabel": {
+      "text": "獎勵已就緒"
     }
   },
   "popups": {
@@ -41,7 +44,7 @@
           "title": "黑色星期五好禮等你來搶！",
           "description": "填寫資料並轉動輪盤，解鎖獨家黑色星期五好禮。",
           "descriptionForExistingAccount": "{{NAME}}，黑色星期五來了——立即轉動，揭曉你的好禮。",
-          "agreement": "我同意接收黑色星期五優惠與最新資訊。",
+          "agreement": "我同意接收促銷郵件",
           "spinButton": "解鎖優惠",
           "dismissButton": "繼續購物",
           "footerText": "每一次轉動都可能解鎖你的下一個超值優惠。",

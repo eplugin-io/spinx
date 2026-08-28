@@ -25,13 +25,16 @@
     "freeGift": {
       "message": {
         "title": "🎁 Bất ngờ năm mới! Bạn đã nhận {{REWARD}}!",
-        "description": "Sử dụng mã bên dưới khi thanh toán để nhận món quà năm mới của bạn."
+        "description": "Thêm quà tặng vào giỏ hàng và dùng mã này khi thanh toán."
       }
     }
   },
   "opener": {
     "label": {
       "text": "QUAY NGAY 💥"
+    },
+    "readyLabel": {
+      "text": "ĐÃ SẴN SÀNG"
     }
   },
   "popups": {
@@ -41,7 +44,7 @@
           "title": "✨ Chào Năm Mới Với Một Bất Ngờ!",
           "description": "Điền tên và email để mở khóa phần thưởng năm mới của bạn.",
           "descriptionForExistingAccount": "{{NAME}}, hãy bắt đầu năm mới bằng một lượt quay và mở khóa phần thưởng đặc biệt của bạn.",
-          "agreement": "Tôi đồng ý nhận ưu đãi và cập nhật năm mới.",
+          "agreement": "Tôi đồng ý nhận email ưu đãi",
           "spinButton": "Quay & Bắt Đầu Năm Mới",
           "dismissButton": "Tiếp tục mua sắm",
           "footerText": "Một năm rực rỡ bắt đầu từ một lượt quay ✨",

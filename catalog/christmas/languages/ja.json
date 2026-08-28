@@ -25,13 +25,16 @@
     "freeGift": {
       "message": {
         "title": "🎁 クリスマスサプライズ!{{REWARD}}が当たりました!",
-        "description": "レジで下記のコードを使って、心温まるプレゼントを受け取ってください。"
+        "description": "ギフトをカートに追加し、チェックアウト時にこのコードを使用してください。"
       }
     }
   },
   "opener": {
     "label": {
       "text": "今すぐスピン 🎄"
+    },
+    "readyLabel": {
+      "text": "景品の準備完了"
     }
   },
   "popups": {
@@ -41,7 +44,7 @@
           "title": "🎄 クリスマスサプライズを開封しよう!",
           "description": "情報を入力してホイールを回し、心温まるクリスマスの景品を開封しましょう。",
           "descriptionForExistingAccount": "{{NAME}}さん、クリスマスサプライズの時間です - スピンして素敵な景品を見つけましょう!",
-          "agreement": "ホリデー特典と最新情報の受信に同意します。",
+          "agreement": "プロモーションメールの受信に同意します",
           "spinButton": "プレゼントを開ける",
           "dismissButton": "買い物を続ける",
           "footerText": "ホリデーマジックはスピンから始まります ✨"

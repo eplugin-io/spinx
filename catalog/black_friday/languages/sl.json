@@ -25,13 +25,16 @@
     "freeGift": {
       "message": {
         "title": "🎁 Zmaga na črni petek! Prejel si {{REWARD}}!",
-        "description": "Uporabi spodnjo kodo ob zaključku nakupa in unovči svoje darilo za črni petek."
+        "description": "Dodajte darilo v košarico in uporabite to kodo ob zaključku nakupa."
       }
     }
   },
   "opener": {
     "label": {
       "text": "ZAVRTI ZA PONUDBE"
+    },
+    "readyLabel": {
+      "text": "NAGRADA PRIPRAVLJENA"
     }
   },
   "popups": {
@@ -41,7 +44,7 @@
           "title": "Ponudbe za črni petek te čakajo!",
           "description": "Vnesi svoje podatke in zavrti kolo, da odkleneš ekskluzivno nagrado za črni petek.",
           "descriptionForExistingAccount": "{{NAME}}, črni petek je tu - zavrti zdaj in razkrij svojo nagrado.",
-          "agreement": "Strinjam se s prejemanjem ponudb in novosti za črni petek.",
+          "agreement": "Strinjam se s prejemanjem promocijskih e-sporočil",
           "spinButton": "ODKLENI PONUDBE",
           "dismissButton": "Nadaljuj z nakupovanjem",
           "footerText": "Vsak vrtljaj lahko odklene tvojo naslednjo odlično ponudbo.",

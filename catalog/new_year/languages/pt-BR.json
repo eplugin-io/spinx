@@ -25,13 +25,16 @@
     "freeGift": {
       "message": {
         "title": "🎁 Surpresa de Ano Novo! Você Ganhou {{REWARD}}!",
-        "description": "Use o código abaixo no checkout para resgatar seu presente de Ano Novo."
+        "description": "Adicione seu brinde ao carrinho e use este código no checkout."
       }
     }
   },
   "opener": {
     "label": {
       "text": "GIRE AGORA 💥"
+    },
+    "readyLabel": {
+      "text": "RECOMPENSA PRONTA"
     }
   },
   "popups": {
@@ -41,7 +44,7 @@
           "title": "✨ Receba o Ano Novo com uma Surpresa!",
           "description": "Informe seu nome e e-mail para desbloquear sua recompensa de Ano Novo.",
           "descriptionForExistingAccount": "{{NAME}}, comece o Ano Novo com um giro e desbloqueie sua recompensa especial.",
-          "agreement": "Concordo em receber ofertas e novidades de Ano Novo.",
+          "agreement": "Concordo em receber e-mails promocionais",
           "spinButton": "Gire & Comece o Ano",
           "dismissButton": "Continuar comprando",
           "footerText": "Um ano brilhante começa com um giro ✨",

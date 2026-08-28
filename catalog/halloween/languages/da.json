@@ -25,13 +25,16 @@
     "freeGift": {
       "message": {
         "title": "🎁 En uhyggelig overraskelse! Du vandt {{REWARD}}!",
-        "description": "Brug koden nedenfor ved kassen for at hente din uhyggeligt gode gave."
+        "description": "Læg din gave i kurven, og brug denne kode ved betaling."
       }
     }
   },
   "opener": {
     "label": {
       "text": "TILKALD GEVINST"
+    },
+    "readyLabel": {
+      "text": "GEVINST KLAR"
     }
   },
   "popups": {
@@ -41,7 +44,7 @@
           "title": "🎃 Tør du spinne det forhekset hjul?",
           "description": "Indtast dine oplysninger, og spin hjulet for at låse op for en uhyggelig Halloween-gevinst.",
           "descriptionForExistingAccount": "{{NAME}}, spin nu for at låse op for din uhyggelige Halloween-gevinst!",
-          "agreement": "Jeg accepterer at modtage uhyggelige tilbud og opdateringer.",
+          "agreement": "Jeg accepterer at modtage kampagnemails",
           "spinButton": "SPIN, HVIS DU TØR",
           "dismissButton": "Fortsæt med at handle",
           "footerText": "Kun modige sjæle låser op for de bedste overraskelser.",

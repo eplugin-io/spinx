@@ -25,13 +25,16 @@
     "freeGift": {
       "message": {
         "title": "🎁 Weihnachtsüberraschung! Du hast {{REWARD}} gewonnen!",
-        "description": "Verwende den Code unten an der Kasse, um dein festliches Geschenk einzulösen."
+        "description": "Lege dein Geschenk in den Warenkorb und verwende diesen Code an der Kasse."
       }
     }
   },
   "opener": {
     "label": {
       "text": "JETZT DREHEN 🎄"
+    },
+    "readyLabel": {
+      "text": "BELOHNUNG BEREIT"
     }
   },
   "popups": {
@@ -41,7 +44,7 @@
           "title": "🎄 Enthülle deine Weihnachtsüberraschung!",
           "description": "Gib deine Daten ein und dreh das Rad, um deine festliche Weihnachtsbelohnung zu enthüllen.",
           "descriptionForExistingAccount": "{{NAME}}, es ist Zeit für eine Weihnachtsüberraschung — dreh das Rad, um deine festliche Belohnung zu enthüllen!",
-          "agreement": "Ich stimme zu, festliche Angebote und Neuigkeiten zu erhalten.",
+          "agreement": "Ich stimme zu, Werbe-E-Mails zu erhalten",
           "spinButton": "Mein Geschenk enthüllen",
           "dismissButton": "Weiter einkaufen",
           "footerText": "Der Weihnachtszauber beginnt mit einer Drehung ✨"

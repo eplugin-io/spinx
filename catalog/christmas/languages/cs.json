@@ -25,13 +25,16 @@
     "freeGift": {
       "message": {
         "title": "🎁 Vánoční překvapení! Vyhráli jste {{REWARD}}!",
-        "description": "Použijte kód níže při placení a vyzvedněte si svůj vánoční dárek."
+        "description": "Přidejte dárek do košíku a použijte tento kód u pokladny."
       }
     }
   },
   "opener": {
     "label": {
       "text": "ROZTOČIT 🎄"
+    },
+    "readyLabel": {
+      "text": "ODMĚNA PŘIPRAVENA"
     }
   },
   "popups": {
@@ -41,7 +44,7 @@
           "title": "🎄 Rozbalte své vánoční překvapení!",
           "description": "Zadejte své údaje a roztočte kolo, abyste rozbalili svou vánoční odměnu.",
           "descriptionForExistingAccount": "{{NAME}}, je čas na vánoční překvapení — roztočte kolo a odhalte svou vánoční odměnu!",
-          "agreement": "Souhlasím se zasíláním sváteční nabídek a novinek.",
+          "agreement": "Souhlasím se zasíláním propagačních e-mailů",
           "spinButton": "Odhalit můj dárek",
           "dismissButton": "Pokračovat v nákupu",
           "footerText": "Vánoční kouzlo začíná jedním roztočením ✨"

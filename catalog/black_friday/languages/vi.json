@@ -25,13 +25,16 @@
     "freeGift": {
       "message": {
         "title": "🎁 Chiến thắng Black Friday! Bạn đã nhận {{REWARD}}!",
-        "description": "Sử dụng mã bên dưới khi thanh toán để nhận quà tặng Black Friday của bạn."
+        "description": "Thêm quà tặng vào giỏ hàng và dùng mã này khi thanh toán."
       }
     }
   },
   "opener": {
     "label": {
       "text": "QUAY NHẬN ƯU ĐÃI"
+    },
+    "readyLabel": {
+      "text": "ĐÃ SẴN SÀNG"
     }
   },
   "popups": {
@@ -41,7 +44,7 @@
           "title": "Ưu Đãi Black Friday Đang Chờ Bạn!",
           "description": "Điền thông tin và quay vòng quay để mở khóa phần thưởng Black Friday độc quyền.",
           "descriptionForExistingAccount": "{{NAME}}, Black Friday đã đến - quay ngay để khám phá phần thưởng của bạn.",
-          "agreement": "Tôi đồng ý nhận ưu đãi và cập nhật Black Friday.",
+          "agreement": "Tôi đồng ý nhận email ưu đãi",
           "spinButton": "MỞ KHÓA ƯU ĐÃI",
           "dismissButton": "Tiếp tục mua sắm",
           "footerText": "Mỗi lượt quay đều có thể mở khóa ưu đãi tuyệt vời tiếp theo.",

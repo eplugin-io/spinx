@@ -25,13 +25,16 @@
     "freeGift": {
       "message": {
         "title": "🎁 Božično presenečenje! Osvojil si {{REWARD}}!",
-        "description": "Uporabi spodnjo kodo ob zaključku nakupa in unovči svoje praznično darilo."
+        "description": "Dodajte darilo v košarico in uporabite to kodo ob zaključku nakupa."
       }
     }
   },
   "opener": {
     "label": {
       "text": "ZAVRTI ZDAJ 🎄"
+    },
+    "readyLabel": {
+      "text": "NAGRADA PRIPRAVLJENA"
     }
   },
   "popups": {
@@ -41,7 +44,7 @@
           "title": "🎄 Odvij svoje božično presenečenje!",
           "description": "Vnesi svoje podatke in zavrti kolo, da odviješ svojo praznično božično nagrado.",
           "descriptionForExistingAccount": "{{NAME}}, čas je za božično presenečenje - zavrti in razkrij svojo praznično nagrado!",
-          "agreement": "Strinjam se s prejemanjem praznih ponudb in novosti.",
+          "agreement": "Strinjam se s prejemanjem promocijskih e-sporočil",
           "spinButton": "Razkrij moje darilo",
           "dismissButton": "Nadaljuj z nakupovanjem",
           "footerText": "Praznična čarobnost se začne z enim vrtljajem ✨"

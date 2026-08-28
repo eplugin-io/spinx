@@ -25,7 +25,7 @@
     "freeGift": {
       "message": {
         "title": "Prekvapenie! Vyhral si {{REWARD}}!",
-        "description": "Použi kód nižšie pri platbe a vyzdvihni si svoj darček zadarmo."
+        "description": "Pridajte darček do košíka a použite tento kód pri pokladni."
       }
     }
   },
@@ -43,7 +43,7 @@
         "spinForm": {
           "title": "Zatoč a vyhraj skvelé odmeny!",
           "description": "Vyplň svoje údaje a získaj šancu zatočiť.",
-          "descriptionForExistingAccount": "Vitaj, {{NAME}}! Priprav sa zatočiť kolesom a odomknúť skvelé odmeny, ktoré čakajú práve na teba.",
+          "descriptionForExistingAccount": "{{NAME}}, zatoč teraz a získaj svoju odmenu!",
           "fields": {
             "name": {
               "placeholder": "Meno"
@@ -52,7 +52,7 @@
               "placeholder": "E-mail"
             }
           },
-          "agreement": "Súhlasím s prijímaním marketingových e-mailov a ponúk.",
+          "agreement": "Súhlasím s prijímaním propagačných e-mailov",
           "spinButton": "ZATOČ",
           "dismissButton": "Pokračovať v nákupe",
           "footerText": "Zábava sa začína jedným zatočením!",
@@ -61,15 +61,15 @@
           }
         },
         "resultForm": {
-          "redeemButton": "Uplatniť odmenu teraz",
+          "redeemButton": "Použiť kód teraz",
           "dismissButton": "Pokračovať v nákupe",
           "messages": {
-            "rewardExpiry": "Využi svoju odmenu do {{EXPIRE}}"
+            "rewardExpiry": "Vyprší do {{EXPIRE}}"
           }
         },
         "redemptionForm": {
           "title": "Tvoja odmena bola uplatnená!",
-          "description": "Tvoja odmena je aktívna - môžeš teraz dokončiť nákup alebo pokračovať v nakupovaní a využiť ju kedykoľvek.",
+          "description": "Tvoja odmena je aktívna - môžeš teraz dokončiť nákup alebo ju využiť kedykoľvek.",
           "checkoutButton": "Dokončiť nákup",
           "dismissButton": "Pokračovať v nákupe",
           "messages": {

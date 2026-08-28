@@ -25,13 +25,16 @@
     "freeGift": {
       "message": {
         "title": "🎁 Juodojo penktadienio laimėjimas! Gavai {{REWARD}}!",
-        "description": "Naudok žemiau esantį kodą atsiskaitydamas, kad atsiimtum savo Juodojo penktadienio dovaną."
+        "description": "Įdėkite dovaną į krepšelį ir atsiskaitydami naudokite šį kodą."
       }
     }
   },
   "opener": {
     "label": {
       "text": "SUKTI DĖL PASIŪLYMŲ"
+    },
+    "readyLabel": {
+      "text": "PRIZAS PARUOŠTAS"
     }
   },
   "popups": {
@@ -41,7 +44,7 @@
           "title": "Juodojo penktadienio pasiūlymai laukia!",
           "description": "Įvesk savo duomenis ir pasuk ratą, kad atrakintum išskirtinį Juodojo penktadienio prizą.",
           "descriptionForExistingAccount": "{{NAME}}, Juodasis penktadienis jau čia - suk dabar ir atskleisk savo prizą.",
-          "agreement": "Sutinku gauti Juodojo penktadienio pasiūlymus ir naujienas.",
+          "agreement": "Sutinku gauti reklaminius el. laiškus",
           "spinButton": "ATRAKINTI PASIŪLYMUS",
           "dismissButton": "Tęsti apsipirkimą",
           "footerText": "Kiekvienas sukimas gali atrakinti kitą puikų pasiūlymą.",

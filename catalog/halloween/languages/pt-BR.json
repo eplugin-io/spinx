@@ -25,13 +25,16 @@
     "freeGift": {
       "message": {
         "title": "🎁 Uma Surpresa Assustadora! Você Ganhou {{REWARD}}!",
-        "description": "Use o código abaixo no checkout para resgatar seu brinde assombrosamente bom."
+        "description": "Adicione seu brinde ao carrinho e use este código no checkout."
       }
     }
   },
   "opener": {
     "label": {
       "text": "INVOCAR RECOMPENSA"
+    },
+    "readyLabel": {
+      "text": "RECOMPENSA PRONTA"
     }
   },
   "popups": {
@@ -41,7 +44,7 @@
           "title": "🎃 Ousa Girar a Roleta Assombrada?",
           "description": "Informe seus dados e gire a roleta para desbloquear uma recompensa assustadora de Halloween.",
           "descriptionForExistingAccount": "{{NAME}}, gire agora para desbloquear sua recompensa assustadora de Halloween!",
-          "agreement": "Concordo em receber ofertas e novidades assustadoras.",
+          "agreement": "Concordo em receber e-mails promocionais",
           "spinButton": "GIRE SE FOR CORAJOSO",
           "dismissButton": "Continuar comprando",
           "footerText": "Só as almas corajosas desbloqueiam as melhores surpresas.",

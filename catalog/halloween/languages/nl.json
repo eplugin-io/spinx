@@ -25,13 +25,16 @@
     "freeGift": {
       "message": {
         "title": "🎁 Een griezelige verrassing! Je hebt {{REWARD}} gewonnen!",
-        "description": "Gebruik onderstaande code bij het afrekenen om je angstaanjagend leuke cadeau te claimen."
+        "description": "Voeg je cadeau toe aan je winkelwagen en gebruik deze code bij het afrekenen."
       }
     }
   },
   "opener": {
     "label": {
       "text": "ROEP BELONING OP"
+    },
+    "readyLabel": {
+      "text": "BELONING KLAAR"
     }
   },
   "popups": {
@@ -41,7 +44,7 @@
           "title": "🎃 Durf jij het spookrad te draaien?",
           "description": "Vul je gegevens in en draai het rad om een griezelige Halloween-beloning te ontgrendelen.",
           "descriptionForExistingAccount": "{{NAME}}, draai nu om je griezelige Halloween-beloning te ontgrendelen!",
-          "agreement": "Ik ga akkoord met het ontvangen van griezelige aanbiedingen en updates.",
+          "agreement": "Ik ga akkoord met het ontvangen van promotionele e-mails",
           "spinButton": "DRAAI ALS JE DURFT",
           "dismissButton": "Verder winkelen",
           "footerText": "Alleen dapperen ontgrendelen de beste verrassingen.",

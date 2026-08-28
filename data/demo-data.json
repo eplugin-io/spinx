@@ -12,7 +12,7 @@
     "config": {
       "url": "https://spinx-dev.myshopify.com",
       "logo": {
-        "url": "/assets/images/logo/spinx-wheel-logo.png"
+        "url": "/assets/images/logo/spinx-wheel.png"
       },
       "customDomain": "spinx-dev.myshopify.com",
       "ianaTimezone": "Asia/Ho_Chi_Minh",
@@ -42,11 +42,6 @@
         "moneyFormat": "${{amount}} USD"
       },
       "localization": {
-        "locales": [
-          "vi",
-          "fr"
-        ],
-        "countryCode": null,
         "defaultLocale": "en"
       }
     }
@@ -65,16 +60,14 @@
         "enabled": true
       },
       "spinPopup": {
-        "welcome": {
+        "delayedOpen": {
           "enabled": true,
-          "delaySeconds": 4,
-          "displayType": "compact"
+          "delaySeconds": 4
         },
         "exitIntent": {
           "enabled": true,
           "desktop": true,
-          "mobile": true,
-          "displayType": "compact"
+          "mobile": true
         }
       }
     },
@@ -114,7 +107,7 @@
     "excludeUrls": [],
     "localization": {
       "language": "en",
-      "autoDetect": false
+      "multiLang": false
     },
     "translations": {},
     "emailContent": {
@@ -191,7 +184,8 @@
           "intro": "Thanks for joining {{siteName}}!",
           "win": "Use the gift code below to claim your reward.",
           "rewardTitle": "Free Gift",
-          "redeemInstruction": "Use this code at checkout to receive your free gift.",
+          "giftCodeLabel": "Gift code",
+          "redeemInstruction": "Add your gift to cart and use this code at checkout.",
           "ctaInstruction": "Click the button below to claim your gift",
           "cta": "Claim My Gift"
         }

@@ -25,13 +25,16 @@
     "freeGift": {
       "message": {
         "title": "🎁 驚悚驚喜！你抽中了 {{REWARD}}！",
-        "description": "結帳時輸入以下代碼，領取你的詭魅贈品。"
+        "description": "將禮品加入購物車，並在結帳時使用此代碼。"
       }
     }
   },
   "opener": {
     "label": {
       "text": "召喚獎勵"
+    },
+    "readyLabel": {
+      "text": "獎勵已就緒"
     }
   },
   "popups": {
@@ -41,7 +44,7 @@
           "title": "🎃 敢挑戰鬼魅輪盤嗎？",
           "description": "填寫資料並轉動輪盤，解鎖詭譎萬聖節好禮。",
           "descriptionForExistingAccount": "{{NAME}}，現在就轉動，解鎖你的萬聖節神秘好禮！",
-          "agreement": "我同意接收詭魅優惠與最新資訊。",
+          "agreement": "我同意接收促銷郵件",
           "spinButton": "有膽就轉",
           "dismissButton": "繼續購物",
           "footerText": "只有勇敢的靈魂才能解鎖最棒的驚喜。",

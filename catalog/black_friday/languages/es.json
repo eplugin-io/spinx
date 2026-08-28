@@ -25,13 +25,16 @@
     "freeGift": {
       "message": {
         "title": "🎁 ¡Victoria de Black Friday! ¡Has conseguido {{REWARD}}!",
-        "description": "Usa el código de abajo al finalizar la compra para reclamar tu regalo de Black Friday."
+        "description": "Añade tu regalo al carrito y usa este código al pagar."
       }
     }
   },
   "opener": {
     "label": {
       "text": "GIRA POR OFERTAS"
+    },
+    "readyLabel": {
+      "text": "PREMIO LISTO"
     }
   },
   "popups": {
@@ -41,7 +44,7 @@
           "title": "¡Las ofertas de Black Friday te esperan!",
           "description": "Indica tus datos y gira la ruleta para desbloquear un premio exclusivo de Black Friday.",
           "descriptionForExistingAccount": "{{NAME}}, Black Friday ya está aquí - gira ahora para revelar tu premio.",
-          "agreement": "Acepto recibir ofertas y novedades de Black Friday.",
+          "agreement": "Acepto recibir correos promocionales",
           "spinButton": "DESBLOQUEAR OFERTAS",
           "dismissButton": "Seguir comprando",
           "footerText": "Cada giro puede desbloquear tu próxima gran oferta.",

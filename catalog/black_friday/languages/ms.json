@@ -25,13 +25,16 @@
     "freeGift": {
       "message": {
         "title": "🎁 Kemenangan Black Friday! Anda Dapat {{REWARD}}!",
-        "description": "Gunakan kod di bawah semasa checkout untuk dapatkan hadiah Black Friday anda."
+        "description": "Tambah hadiah anda ke troli dan gunakan kod ini semasa checkout."
       }
     }
   },
   "opener": {
     "label": {
       "text": "PUSING UNTUK TAWARAN"
+    },
+    "readyLabel": {
+      "text": "HADIAH SEDIA"
     }
   },
   "popups": {
@@ -41,7 +44,7 @@
           "title": "Tawaran Black Friday Sedang Menanti!",
           "description": "Masukkan maklumat anda dan pusing roda untuk buka kunci hadiah eksklusif Black Friday.",
           "descriptionForExistingAccount": "{{NAME}}, Black Friday sudah tiba - pusing sekarang untuk dedahkan hadiah anda.",
-          "agreement": "Saya bersetuju untuk menerima tawaran dan kemas kini Black Friday.",
+          "agreement": "Saya bersetuju menerima e-mel promosi",
           "spinButton": "BUKA TAWARAN",
           "dismissButton": "Teruskan membeli-belah",
           "footerText": "Setiap pusingan boleh membuka tawaran hebat seterusnya.",

@@ -25,13 +25,16 @@
     "freeGift": {
       "message": {
         "title": "🎁 Surpresa de Ano Novo! Recebeste {{REWARD}}!",
-        "description": "Usa o código abaixo no checkout para reclamares a tua prenda de Ano Novo."
+        "description": "Adicione o seu presente ao carrinho e use este código no checkout."
       }
     }
   },
   "opener": {
     "label": {
       "text": "RODA JÁ 💥"
+    },
+    "readyLabel": {
+      "text": "PRÉMIO PRONTO"
     }
   },
   "popups": {
@@ -41,7 +44,7 @@
           "title": "✨ Dá as boas-vindas ao Ano Novo com uma surpresa!",
           "description": "Indica o teu nome e e-mail para desbloqueares o teu prémio de Ano Novo.",
           "descriptionForExistingAccount": "{{NAME}}, começa o Ano Novo com uma rodada e desbloqueia o teu prémio especial.",
-          "agreement": "Concordo em receber ofertas e novidades de Ano Novo.",
+          "agreement": "Concordo em receber e-mails promocionais",
           "spinButton": "Rodar & começar o ano",
           "dismissButton": "Continuar a comprar",
           "footerText": "Um ano brilhante começa com uma rodada ✨",

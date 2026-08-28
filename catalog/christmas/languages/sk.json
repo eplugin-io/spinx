@@ -25,13 +25,16 @@
     "freeGift": {
       "message": {
         "title": "🎁 Vianočné prekvapenie! Vyhral si {{REWARD}}!",
-        "description": "Použi kód nižšie pri platbe a vyzdvihni si svoj sviatočný darček."
+        "description": "Pridajte darček do košíka a použite tento kód pri pokladni."
       }
     }
   },
   "opener": {
     "label": {
       "text": "ZATOČ TERAZ 🎄"
+    },
+    "readyLabel": {
+      "text": "ODMENA PRIPRAVENÁ"
     }
   },
   "popups": {
@@ -41,7 +44,7 @@
           "title": "🎄 Rozbaľ svoje vianočné prekvapenie!",
           "description": "Zadaj svoje údaje a zatoč kolesom, aby si rozbalil svoju sviatočnú vianočnú odmenu.",
           "descriptionForExistingAccount": "{{NAME}}, je čas na vianočné prekvapenie - zatoč a odhaľ svoju sviatočnú odmenu!",
-          "agreement": "Súhlasím s prijímaním sviatočných ponúk a noviniek.",
+          "agreement": "Súhlasím s prijímaním propagačných e-mailov",
           "spinButton": "Odhaliť môj darček",
           "dismissButton": "Pokračovať v nákupe",
           "footerText": "Sviatočná mágia sa začína jedným zatočením ✨"

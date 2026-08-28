@@ -25,13 +25,16 @@
     "freeGift": {
       "message": {
         "title": "🎁 Hátborzongató meglepetés! Nyertél {{REWARD}}!",
-        "description": "Használd az alábbi kódot a fizetésnél, hogy beváltsd kísértetiesen jó ajándékodat."
+        "description": "Tedd az ajándékot a kosárba, és használd ezt a kódot fizetéskor."
       }
     }
   },
   "opener": {
     "label": {
       "text": "IDÉZD MEG A JUTALMAT"
+    },
+    "readyLabel": {
+      "text": "JUTALOM KÉSZ"
     }
   },
   "popups": {
@@ -41,7 +44,7 @@
           "title": "🎃 Van bátorságod megpörgetni a kísértetkereket?",
           "description": "Add meg adataidat, és pörgesd meg a kereket, hogy feloldj egy hátborzongató Halloween-jutalmat.",
           "descriptionForExistingAccount": "{{NAME}}, pörgess most, hogy feloldd hátborzongató Halloween-jutalmadat!",
-          "agreement": "Hozzájárulok, hogy hátborzongató ajánlatokat és frissítéseket kapjak.",
+          "agreement": "Hozzájárulok promóciós e-mailek fogadásához",
           "spinButton": "PÖRGESS, HA MERED",
           "dismissButton": "Vásárlás folytatása",
           "footerText": "Csak a bátor lelkek oldják fel a legjobb meglepetéseket.",

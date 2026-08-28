@@ -25,13 +25,16 @@
     "freeGift": {
       "message": {
         "title": "🎁 Surpriză de Anul Nou! Ai Primit {{REWARD}}!",
-        "description": "Folosește codul de mai jos la finalizarea comenzii pentru a-ți revendica cadoul de Anul Nou."
+        "description": "Adaugă cadoul în coș și folosește acest cod la finalizarea comenzii."
       }
     }
   },
   "opener": {
     "label": {
       "text": "ROTEȘTE ACUM 💥"
+    },
+    "readyLabel": {
+      "text": "PREMIU PREGĂTIT"
     }
   },
   "popups": {
@@ -41,7 +44,7 @@
           "title": "✨ Întâmpină Anul Nou cu o Surpriză!",
           "description": "Introdu-ți numele și e-mailul pentru a-ți debloca premiul de Anul Nou.",
           "descriptionForExistingAccount": "{{NAME}}, începe Anul Nou cu o rotire și deblochează-ți premiul special.",
-          "agreement": "Sunt de acord să primesc oferte și noutăți de Anul Nou.",
+          "agreement": "Sunt de acord să primesc e-mailuri promoționale",
           "spinButton": "Rotește & Începe Anul",
           "dismissButton": "Continuă cumpărăturile",
           "footerText": "Un an luminos începe cu o rotire ✨",

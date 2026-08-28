@@ -25,13 +25,16 @@
     "freeGift": {
       "message": {
         "title": "🎁 Black Friday -voitto! Sait {{REWARD}}!",
-        "description": "Käytä alla olevaa koodia kassalla lunastaaksesi Black Friday -lahjasi."
+        "description": "Lisää lahjasi ostoskoriin ja käytä tätä koodia kassalla."
       }
     }
   },
   "opener": {
     "label": {
       "text": "PYÖRÄYTÄ TARJOUKSIA"
+    },
+    "readyLabel": {
+      "text": "PALKINTO VALMIS"
     }
   },
   "popups": {
@@ -41,7 +44,7 @@
           "title": "Black Friday -tarjoukset odottavat!",
           "description": "Anna tietosi ja pyöräytä pyörää avataksesi eksklusiivisen Black Friday -palkinnon.",
           "descriptionForExistingAccount": "{{NAME}}, Black Friday on täällä - pyöräytä nyt paljastaaksesi palkintosi.",
-          "agreement": "Suostun vastaanottamaan Black Friday -tarjouksia ja päivityksiä.",
+          "agreement": "Suostun vastaanottamaan kampanjasähköposteja",
           "spinButton": "AVAA TARJOUKSET",
           "dismissButton": "Jatka ostoksia",
           "footerText": "Jokainen pyöräytys voi avata seuraavan huipputarjouksesi.",

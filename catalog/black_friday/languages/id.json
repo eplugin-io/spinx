@@ -25,13 +25,16 @@
     "freeGift": {
       "message": {
         "title": "🎁 Menang Black Friday! Kamu Dapat {{REWARD}}!",
-        "description": "Gunakan kode di bawah ini saat checkout untuk mengklaim hadiah Black Friday-mu."
+        "description": "Tambahkan hadiah Anda ke keranjang dan gunakan kode ini saat checkout."
       }
     }
   },
   "opener": {
     "label": {
       "text": "PUTAR UNTUK DISKON"
+    },
+    "readyLabel": {
+      "text": "HADIAH SIAP DIAMBIL"
     }
   },
   "popups": {
@@ -41,7 +44,7 @@
           "title": "Diskon Black Friday Sudah Menunggu!",
           "description": "Masukkan datamu dan putar rodanya untuk membuka hadiah eksklusif Black Friday.",
           "descriptionForExistingAccount": "{{NAME}}, Black Friday sudah tiba - putar sekarang untuk mengungkap hadiahmu.",
-          "agreement": "Saya setuju menerima penawaran dan info Black Friday.",
+          "agreement": "Saya setuju menerima email promosi",
           "spinButton": "BUKA DISKON",
           "dismissButton": "Lanjutkan belanja",
           "footerText": "Setiap putaran bisa membuka diskon terbaik berikutnya.",

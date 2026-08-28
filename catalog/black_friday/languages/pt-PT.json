@@ -25,13 +25,16 @@
     "freeGift": {
       "message": {
         "title": "🎁 Vitória de Black Friday! Recebeste {{REWARD}}!",
-        "description": "Usa o código abaixo no checkout para reclamares a tua prenda de Black Friday."
+        "description": "Adicione o seu presente ao carrinho e use este código no checkout."
       }
     }
   },
   "opener": {
     "label": {
       "text": "RODA POR OFERTAS"
+    },
+    "readyLabel": {
+      "text": "PRÉMIO PRONTO"
     }
   },
   "popups": {
@@ -41,7 +44,7 @@
           "title": "As ofertas da Black Friday esperam por ti!",
           "description": "Indica os teus dados e roda a roda para desbloqueares um prémio exclusivo da Black Friday.",
           "descriptionForExistingAccount": "{{NAME}}, a Black Friday chegou - roda agora para revelares o teu prémio.",
-          "agreement": "Concordo em receber ofertas e novidades da Black Friday.",
+          "agreement": "Concordo em receber e-mails promocionais",
           "spinButton": "DESBLOQUEAR OFERTAS",
           "dismissButton": "Continuar a comprar",
           "footerText": "Cada rodada pode desbloquear a tua próxima grande oferta.",

@@ -25,13 +25,16 @@
     "freeGift": {
       "message": {
         "title": "🎁 A Spooky Surprise! You Won {{REWARD}}!",
-        "description": "Use the code below at checkout to claim your hauntingly good gift."
+        "description": "Add your gift to cart and use this code at checkout."
       }
     }
   },
   "opener": {
     "label": {
       "text": "SUMMON REWARD"
+    },
+    "readyLabel": {
+      "text": "TREAT READY"
     }
   },
   "popups": {
@@ -41,7 +44,7 @@
           "title": "🎃 Dare to Spin the Haunted Wheel?",
           "description": "Enter your details and spin the wheel to unlock a spooky Halloween reward.",
           "descriptionForExistingAccount": "{{NAME}}, spin now to unlock your spooky Halloween reward!",
-          "agreement": "I agree to receive spooky offers and updates.",
+          "agreement": "I agree to receive promotional emails",
           "spinButton": "SPIN IF YOU DARE",
           "dismissButton": "Continue shopping",
           "footerText": "Only brave souls unlock the best surprises.",

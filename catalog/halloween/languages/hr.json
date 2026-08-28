@@ -25,13 +25,16 @@
     "freeGift": {
       "message": {
         "title": "🎁 Jezivo iznenađenje! Osvojili ste {{REWARD}}!",
-        "description": "Upotrijebite kod ispod prilikom plaćanja kako biste preuzeli svoj jezivo dobar poklon."
+        "description": "Dodajte poklon u košaricu i upotrijebite ovaj kod pri plaćanju."
       }
     }
   },
   "opener": {
     "label": {
       "text": "PRIZOVI NAGRADU"
+    },
+    "readyLabel": {
+      "text": "NAGRADA SPREMNA"
     }
   },
   "popups": {
@@ -41,7 +44,7 @@
           "title": "🎃 Usudite li se zavrtjeti ukleto kolo?",
           "description": "Unesite svoje podatke i zavrtite kolo kako biste otključali jezivu Noć vještica nagradu.",
           "descriptionForExistingAccount": "{{NAME}}, zavrtite sada kako biste otključali svoju jezivu Noć vještica nagradu!",
-          "agreement": "Slažem se s primanjem jezivih ponuda i novosti.",
+          "agreement": "Slažem se s primanjem promotivnih e-poruka",
           "spinButton": "ZAVRTI AKO SE USUĐUJEŠ",
           "dismissButton": "Nastavi kupnju",
           "footerText": "Samo hrabre duše otključavaju najbolja iznenađenja.",
